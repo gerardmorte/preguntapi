@@ -1,100 +1,16 @@
-{
-    "quiz": [
-        {
-            "id": 1,
-            "question": "How can you add a comment in a JavaScript?",
-            "description": null,
-            "answers": {
-                "answer_a": "//This is a comment",
-                "answer_b": "'This is a comment",
-                "answer_c": "<!--This is a comment-->",
-                "answer_d": null,
-                "answer_e": null,
-                "answer_f": null
-            },
-            "multiple_correct_answers": "false",
-            "correct_answers": {
-                "answer_a_correct": "true",
-                "answer_b_correct": "false",
-                "answer_c_correct": "false",
-                "answer_d_correct": "false",
-                "answer_e_correct": "false",
-                "answer_f_correct": "false"
-            },
-            "correct_answer": "answer_a",
-            "explanation": null,
-            "tip": null,
-            "tags": [
-                {
-                    "name": "JavaScript"
-                }
-            ],
-            "category": "Code",
-            "difficulty": "Easy"
-        },
-        {
-            "id": 2,
-            "question": "How can you add a comment in a JavaScript?",
-            "description": null,
-            "answers": {
-                "answer_a": "//This is a comment",
-                "answer_b": "'This is a comment",
-                "answer_c": "<!--This is a comment-->",
-                "answer_d": null,
-                "answer_e": null,
-                "answer_f": null
-            },
-            "multiple_correct_answers": "false",
-            "correct_answers": {
-                "answer_a_correct": "true",
-                "answer_b_correct": "false",
-                "answer_c_correct": "false",
-                "answer_d_correct": "false",
-                "answer_e_correct": "false",
-                "answer_f_correct": "false"
-            },
-            "correct_answer": "answer_a",
-            "explanation": null,
-            "tip": null,
-            "tags": [
-                {
-                    "name": "JavaScript"
-                }
-            ],
-            "category": "Code",
-            "difficulty": "Easy"
-        },
-        {
-            "id": 3,
-            "question": "How can you add a comment in a JavaScript?",
-            "description": null,
-            "answers": {
-                "answer_a": "//This is a comment",
-                "answer_b": "'This is a comment",
-                "answer_c": "<!--This is a comment-->",
-                "answer_d": null,
-                "answer_e": null,
-                "answer_f": null
-            },
-            "multiple_correct_answers": "false",
-            "correct_answers": {
-                "answer_a_correct": "true",
-                "answer_b_correct": "false",
-                "answer_c_correct": "false",
-                "answer_d_correct": "false",
-                "answer_e_correct": "false",
-                "answer_f_correct": "false"
-            },
-            "correct_answer": "answer_a",
-            "explanation": null,
-            "tip": null,
-            "tags": [
-                {
-                    "name": "JavaScript"
-                }
-            ],
-            "category": "Code",
-            "difficulty": "Easy"
-        }
-    ]
-}
+[
+    {
+        "id": "1",
+        "title": "Aliens",
+        "director": "James Cameron",
+        "year": "1986",
+        "rating": "8.5"
+    },
+    {
+        "id": "2",
+        "title": "The Dark Knigth",
+        "director": "Christopher Nolan",
+        "year": "2008",
+        "rating": "10"
+    }
+]
