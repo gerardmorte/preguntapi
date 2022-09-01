@@ -92,6 +92,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "start": "cd ./server && npm run server\" \"cd ./client && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
