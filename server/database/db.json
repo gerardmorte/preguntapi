@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "category": "html",
+        "question": "How to insert a comment that has more than one line?",
+        "answers": {
+            "answer_a": "/*This comment has more than one line*/",
+            "answer_b": "<!--This comment has more than one line-->",
+            "answer_c": "//This comment has more than one line//",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    }
+]

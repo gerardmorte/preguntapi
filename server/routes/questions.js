@@ -1,6 +1,6 @@
 const { Router } = require("express");
 const router = Router();
-const questions = require("../db.json");
+const questions = require("../database/db.json");
 
 router.get("/", (req, res) => {
     const category = req.query.category;
