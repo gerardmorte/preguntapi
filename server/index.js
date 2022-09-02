@@ -13,7 +13,8 @@ const buildPath = path.join(__dirname, "..", "dist");
 app.use(express.static(buildPath));
 
 app.use(require("./routes/index"));
-app.use(require("./routes/movies"));
+app.use("/api/movies", require("./routes/movies"));
+//app.use("/api/v1", require("./routes/quizzes"))
 
 app.get("*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "../dist", "index.html"));
