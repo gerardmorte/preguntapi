@@ -2,11 +2,1257 @@
     {
         "id": "1",
         "category": "html",
-        "question": "How to insert a comment that has more than one line?",
+        "question": "¿Cuál de estos es un elemento de bloque?",
         "answers": {
-            "answer_a": "/*This comment has more than one line*/",
-            "answer_b": "<!--This comment has more than one line-->",
-            "answer_c": "//This comment has more than one line//",
+            "answer_a": "<span>",
+            "answer_b": "<table>",
+            "answer_c": "<em>",
+            "answer_d": "<img>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "2",
+        "category": "html",
+        "question": "¿Cuál es la sintaxis correcta para añadir un \"checkbox\"?",
+        "answers": {
+            "answer_a": "<checkbox>",
+            "answer_b": "<check>",
+            "answer_c": "<input tpye='checkbox'>",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "3",
+        "category": "html",
+        "question": "¿Qué define el atributo \"action\" en el elemento <form>?",
+        "answers": {
+            "answer_a": "El método http para enviar los datos del formulario.",
+            "answer_b": "Dónde enviar los datos del formulario cuando se envían",
+            "answer_c": "El tipo mime utilizado para codificar el contenido.",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "4",
+        "category": "html",
+        "question": "¿Cuál es la sinstaxis válida de los comentarios en html?",
+        "answers": {
+            "answer_a": "<!-- Comentario -->",
+            "answer_b": "/* Comentario */",
+            "answer_c": "// Comentario",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "5",
+        "category": "html",
+        "question": "¿Qué significa html?",
+        "answers": {
+            "answer_a": "Hypertext Markdown Language",
+            "answer_b": "Hypertext Machine Language",
+            "answer_c": "Hypertext Markup Language",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "6",
+        "category": "html",
+        "question": "¿Cuál de estos \"meta-tags\" está \"deprecated\"",
+        "answers": {
+            "answer_a": "description",
+            "answer_b": "keywords",
+            "answer_c": "author",
+            "answer_d": "copyright",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "7",
+        "category": "html",
+        "question": "¿Cuál es la forma correcta de declarar un documento HTML5?",
+        "answers": {
+            "answer_a": "<!DOCTYPE html5>",
+            "answer_b": "<!DOCTYPE html>",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "8",
+        "category": "html",
+        "question": "¿Cuál es la forma correcta de crear un enlace de correo electrónico?",
+        "answers": {
+            "answer_a": "<a href=\"mailto:email@email.com\">Email</a>",
+            "answer_b": "<a href=\"email:email@email.com\">Email</a>",
+            "answer_c": "<a href=\"send:email@email.com\">Email</a>",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "9",
+        "category": "html",
+        "question": "¿Tanto '.html' como '.htm' son extensiones html válidas?",
+        "answers": {
+            "answer_a": "Verdadero",
+            "answer_b": "Falso",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "10",
+        "category": "html",
+        "question": "Qué fuente de imagen está un nivel por encima de la carpeta actual",
+        "answers": {
+            "answer_a": "<img src=\"picture.jpg\">",
+            "answer_b": "<img src=\"../picture.jpg\">",
+            "answer_c": "<img src=\"/images/picture.jpg\">",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "11",
+        "category": "html",
+        "question": "¿Cuál de los siguientes elementos no corresponde a la sección <head>?",
+        "answers": {
+            "answer_a": "<title>",
+            "answer_b": "<header>",
+            "answer_c": "<meta>",
+            "answer_d": "<link>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "12",
+        "category": "html",
+        "question": "¿Cuántas etiquetas <heading> hay en html?",
+        "answers": {
+            "answer_a": "2",
+            "answer_b": "4",
+            "answer_c": "6",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "13",
+        "category": "html",
+        "question": "¿Para qué se utiliza la etiqueta <iframe>?",
+        "answers": {
+            "answer_a": "Para incrustar contenido",
+            "answer_b": "Para dibujar gráficos",
+            "answer_c": "Para enmarcar un grupo de elementos.",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "14",
+        "category": "html",
+        "question": "¿Qué define el atributo 'alt' dentro de la etiqueta <img/>",
+        "answers": {
+            "answer_a": "La descripción de una imagen para cuando esta no se pueda mostrar.",
+            "answer_b": "Una imagen alternativa a la imagen principal.",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "15",
+        "category": "html",
+        "question": "¿Qué etiqueta html se usa para definir texto importante?",
+        "answers": {
+            "answer_a": "<i>",
+            "answer_b": "<b>",
+            "answer_c": "<strong>",
+            "answer_d": "<important>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "16",
+        "category": "html",
+        "question": "¿Cuál de estos es un elemento en línea?",
+        "answers": {
+            "answer_a": "<form>",
+            "answer_b": "<hr>",
+            "answer_c": "<a>",
+            "answer_d": "<canvas>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_d"
+    },
+    {
+        "id": "17",
+        "category": "html",
+        "question": "¿Cuál es la sintaxis correcta para los estilos en línea?",
+        "answers": {
+            "answer_a": "<p color=\"red\">Text</p>",
+            "answer_b": "<p color:\"red\">Text</p>",
+            "answer_c": "<p style=\"color:red\">Text</p>",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "18",
+        "category": "html",
+        "question": "¿Cuál de estos elementos no es un 'input type'?",
+        "answers": {
+            "answer_a": "file",
+            "answer_b": "radio",
+            "answer_c": "list",
+            "answer_d": "submit",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "19",
+        "category": "html",
+        "question": "¿Cuál es la forma correcta de definir un enlace?",
+        "answers": {
+            "answer_a": "<a url=\"path/to/file\">Link</a>",
+            "answer_b": "<a link=\"path/to/file\">Link</a>",
+            "answer_c": "<a href=\"path/to/file\">Link</a>",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "20",
+        "category": "html",
+        "question": "¿Qué atributo se usa para especificar que un 'input' debe completarse?",
+        "answers": {
+            "answer_a": "placeholder",
+            "answer_b": "mandatory",
+            "answer_c": "validate",
+            "answer_d": "required",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_d"
+    },
+    {
+        "id": "21",
+        "category": "html",
+        "question": "¿Qué etiqueta se utiliza para producir un salto de línea?",
+        "answers": {
+            "answer_a": "<break>",
+            "answer_b": "<br>",
+            "answer_c": "<b>",
+            "answer_d": "<new>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "22",
+        "category": "html",
+        "question": "¿Cómo puedes hacer una lista numerada?",
+        "answers": {
+            "answer_a": "<list>",
+            "answer_b": "<ol>",
+            "answer_c": "<ul>",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "23",
+        "category": "html",
+        "question": "¿Cuál de estos es un campo de contraseña válido?",
+        "answers": {
+            "answer_a": "<text type=\"password\">",
+            "answer_b": "<password>",
+            "answer_c": "<input type=\"password\">",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "24",
+        "category": "html",
+        "question": "¿Qué hace la etiqueta <pre>?",
+        "answers": {
+            "answer_a": "Resalta el texto",
+            "answer_b": "Define texto preformateado",
+            "answer_c": "Muestra el texto como una cita",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "25",
+        "category": "html",
+        "question": "¿Cuál no se considera una etiqueta de cita?",
+        "answers": {
+            "answer_a": "<cite>",
+            "answer_b": "<q>",
+            "answer_c": "<blockquote>",
+            "answer_d": "<em>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_d"
+    },
+    {
+        "id": "26",
+        "category": "html",
+        "question": "¿Cuál es el elemento raíz de html?",
+        "answers": {
+            "answer_a": "<body>",
+            "answer_b": "<html>",
+            "answer_c": "<head>",
+            "answer_d": "<doctype>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "27",
+        "category": "html",
+        "question": "¿Cuál de estas es una etiqueta de cierre automático?",
+        "answers": {
+            "answer_a": "<h1>",
+            "answer_b": "<nav>",
+            "answer_c": "<input>",
+            "answer_d": "<code>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "28",
+        "category": "html",
+        "question": "¿Cuál es la forma correcta de abrir un enlace en una nueva pestaña/ventana del navegador?",
+        "answers": {
+            "answer_a": "<a href=\"url\" target=\"_new\">",
+            "answer_b": "<a href=\"url\" target=\"_blank\">",
+            "answer_c": "<a href=\"url\" target=\"_window\">",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "29",
+        "category": "html",
+        "question": "¿Cuál es la sintaxis correcta para 'textarea'?",
+        "answers": {
+            "answer_a": "<textarea>",
+            "answer_b": "<input type=\"textarea\">",
+            "answer_c": "<input type=\"textbox\">",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "30",
+        "category": "html",
+        "question": "Qué etiqueta se utiliza para definir el título del documento",
+        "answers": {
+            "answer_a": "<head>",
+            "answer_b": "<meta>",
+            "answer_c": "<title>",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "31",
+        "category": "css",
+        "question": "¿Qué se puede seleccionar con un asterisco (*)?",
+        "answers": {
+            "answer_a": "Una \"clase\"",
+            "answer_b": "Un \"id\"",
+            "answer_c": "Todos los elementos",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "32",
+        "category": "css",
+        "question": "¿Cuál es la secuencia correcta del modelo de caja de adentro hacia afuera?",
+        "answers": {
+            "answer_a": "Content -> padding -> border -> margin",
+            "answer_b": "Content -> border -> padding -> margin",
+            "answer_c": "Content -> margin -> border -> padding",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "33",
+        "category": "css",
+        "question": "¿Qué hace box-sizing: border-box?",
+        "answers": {
+            "answer_a": "Crear un \"margin\" adicional igual al tamaño del \"padding\" y el \"border\"",
+            "answer_b": "Incluir el \"padding\" y el \"border\" en el ancho y alto total de un elemento",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "34",
+        "category": "css",
+        "question": "¿Qué selector se utiliza para acceder a las clases?",
+        "answers": {
+            "answer_a": "*",
+            "answer_b": "#",
+            "answer_c": ".",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "35",
+        "category": "css",
+        "question": "¿Cuál de estos no es un nombre de color predefinido?",
+        "answers": {
+            "answer_a": "DodgerBlue",
+            "answer_b": "MediumSeaGreen",
+            "answer_c": "VioletBlue",
+            "answer_d": "Tomato",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "36",
+        "category": "css",
+        "question": "¿Cuál de estos no es un sistema de color válido?",
+        "answers": {
+            "answer_a": "HEX",
+            "answer_b": "DOTA",
+            "answer_c": "RGB",
+            "answer_d": "HSL",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "37",
+        "category": "css",
+        "question": "¿Qué selector combinador no se usa en css?",
+        "answers": {
+            "answer_a": ">",
+            "answer_b": "+",
+            "answer_c": "/",
+            "answer_d": "~",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "38",
+        "category": "css",
+        "question": "¿Cuál es la sintaxis correcta para los comentarios CSS?",
+        "answers": {
+            "answer_a": "<!-- Comentario -->",
+            "answer_b": "/* Comentario */",
+            "answer_c": "// Comentario",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "39",
+        "category": "css",
+        "question": "¿Cuál es la propiedad de posición predeterminada para los elementos html?",
+        "answers": {
+            "answer_a": "Fixed",
+            "answer_b": "Relative",
+            "answer_c": "Absolute",
+            "answer_d": "Static",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_d"
+    },
+    {
+        "id": "40",
+        "category": "css",
+        "question": "Un elemento con \"positions:fixed\" se coloca en relación al \"viewport\"",
+        "answers": {
+            "answer_a": "Verdadero",
+            "answer_b": "Falso",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "41",
+        "category": "css",
+        "question": "¿Qué hace el selector :focus?",
+        "answers": {
+            "answer_a": "Establece el elemento para que se enfoque de forma predeterminada",
+            "answer_b": "Selecciona el elemento cuando tiene foco",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "42",
+        "category": "css",
+        "question": "¿Cuál es la forma correcta de establecer el color de una fuente?",
+        "answers": {
+            "answer_a": "font-color: red",
+            "answer_b": "text-color: red",
+            "answer_c": "color: red",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "43",
+        "category": "css",
+        "question": "¿Qué selector se usa para acceder al ID?",
+        "answers": {
+            "answer_a": "#",
+            "answer_b": ".",
+            "answer_c": "*",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "44",
+        "category": "css",
+        "question": "La regla '!important!' se usa para dar mas importancia a una propiedad/valor",
+        "answers": {
+            "answer_a": "Verdadero",
+            "answer_b": "Falso",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "45",
+        "category": "css",
+        "question": "¿Qué es cierto sobre display:inline-block?",
+        "answers": {
+            "answer_a": "Agrega un salto de línea después del elemento",
+            "answer_b": "Permite establecer un ancho y alto en el elemento",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "46",
+        "category": "css",
+        "question": "¿Cuál de estas propiedades se utiliza para controlar la secuencia de capas CSS?",
+        "answers": {
+            "answer_a": "Z-index",
+            "answer_b": "X-index",
+            "answer_c": "Y-index",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "47",
+        "category": "css",
+        "question": "¿Qué propiedad se puede usar para eliminar los marcadores de una lista?",
+        "answers": {
+            "answer_a": "text-decoration: none",
+            "answer_b": "list-style-type: none",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "48",
+        "category": "css",
+        "question": "¿Los media queries se pueden utilizar para comprobar qué?",
+        "answers": {
+            "answer_a": "Orientación",
+            "answer_b": "Resolución",
+            "answer_c": "Ancho y alto de la ventana del navegador",
+            "answer_d": "Todo lo anterior",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_d"
+    },
+    {
+        "id": "49",
+        "category": "css",
+        "question": "¿Qué significa CSS?",
+        "answers": {
+            "answer_a": "Cascading Style Sheets",
+            "answer_b": "Cascading Style System",
+            "answer_c": "Color Style Sheets",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "50",
+        "category": "css",
+        "question": "¿Cuál de estas declaraciones da más transparencia al elemento?",
+        "answers": {
+            "answer_a": "opacity:.1",
+            "answer_b": "opacity:.5",
+            "answer_c": "opacity:0.9",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "51",
+        "category": "css",
+        "question": "El valor por defecto de 'overflow' es 'visible'",
+        "answers": {
+            "answer_a": "Verdadero",
+            "answer_b": "Falso",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "52",
+        "category": "css",
+        "question": "Los elementos con 'position:absolute' se eliminan del flujo normal y pueden superponerse a los elementos",
+        "answers": {
+            "answer_a": "Verdadero",
+            "answer_b": "Falso",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "53",
+        "category": "css",
+        "question": "¿Cuál de estas es una pseudo-clase?",
+        "answers": {
+            "answer_a": ".wrappe > a",
+            "answer_b": "div + p",
+            "answer_c": "p:first-child",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "54",
+        "category": "css",
+        "question": "¿Cuál de estos no es un selector de pseudoelemento válido?",
+        "answers": {
+            "answer_a": "::first-line",
+            "answer_b": "::before",
+            "answer_c": "::paragraph",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "55",
+        "category": "css",
+        "question": "¿Cuál es el propósito de CSS?",
+        "answers": {
+            "answer_a": "Agregar funcionalidad a elementos html",
+            "answer_b": "Describir cómo se mostrarán los elementos html",
+            "answer_c": "Crear el marcado de un sitio web",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "56",
+        "category": "css",
+        "question": "¿Qué separador se usa para declaraciones múltiples en el mismo bloque de reglas?",
+        "answers": {
+            "answer_a": ";",
+            "answer_b": ",",
+            "answer_c": "/",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "57",
+        "category": "css",
+        "question": "'position:sticky' establece que el elemento permanezca siempre en el mismo lugar si se desplaza la página",
+        "answers": {
+            "answer_a": "True",
+            "answer_b": "False",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "58",
+        "category": "css",
+        "question": "¿En qué consiste el bloque de reglas CSS?",
+        "answers": {
+            "answer_a": "Etiqueta y valor",
+            "answer_b": "Selector y declaración",
+            "answer_c": "Clase y propiedad",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "59",
+        "category": "css",
+        "question": "¿Qué selector se usa para crear una variable CSS con un alcance global?",
+        "answers": {
+            "answer_a": ":global",
+            "answer_b": ":all",
+            "answer_c": ":root",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "60",
+        "category": "css",
+        "question": "¿Cuál es la diferencia entre 'display:none' y 'visibilty:hidden'?",
+        "answers": {
+            "answer_a": "'visibilty:hidden' ocupará el mismo espacio que antes",
+            "answer_b": "display:none ocupará el mismo espacio que antes",
+            "answer_c": "No hay diferencia entre los dos",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "61",
+        "category": "javascript",
+        "question": "¿Javascript distingue entre mayúsculas y minúsculas?",
+        "answers": {
+            "answer_a": "Verdadero",
+            "answer_b": "Falso",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "62",
+        "category": "javascript",
+        "question": "¿Qué palabra está relacionada con la herencia de clase?",
+        "answers": {
+            "answer_a": "expands",
+            "answer_b": "exports",
+            "answer_c": "extends",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "63",
+        "category": "javascript",
+        "question": "¿Qué controlador de eventos se utiliza para procesar el evento de clic?",
+        "answers": {
+            "answer_a": "onmouseclick",
+            "answer_b": "onclick",
+            "answer_c": "onkeydown",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "64",
+        "category": "javascript",
+        "question": "¿Cuál de estos métodos combina dos cadenas?",
+        "answers": {
+            "answer_a": "attach()",
+            "answer_b": "append()",
+            "answer_c": "concat()",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "65",
+        "category": "javascript",
+        "question": "Cómo insertar un comentario que tiene más de una línea?",
+        "answers": {
+            "answer_a": "/*Este comentario tiene más de una línea.*/",
+            "answer_b": "<!--Este comentario tiene más de una línea.-->",
+            "answer_c": "//Este comentario tiene más de una línea.//",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "66",
+        "category": "javascript",
+        "question": "¿Cuál es el método para agregar elementos al comienzo de un array?",
+        "answers": {
+            "answer_a": "push()",
+            "answer_b": "unshift()",
+            "answer_c": "pop()",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "67",
+        "category": "javascript",
+        "question": "¿Quién creó el lenguaje de programación Javascript?",
+        "answers": {
+            "answer_a": "Tim Berners-Lee",
+            "answer_b": "Brendan Eich",
+            "answer_c": "James Gosling",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "68",
+        "category": "javascript",
+        "question": "Si proporciona solo un parámetro como un valor entero para el objeto Fecha, ¿se tratará como milisegundos?",
+        "answers": {
+            "answer_a": "Verdadero",
+            "answer_b": "False",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "69",
+        "category": "javascript",
+        "question": "¿Cuál es el equivalente para el operador **?",
+        "answers": {
+            "answer_a": "Math.sqrt",
+            "answer_b": "Math.pow",
+            "answer_c": "Math.trunc",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "70",
+        "category": "javascript",
+        "question": "console.log(3 > 2 > 1 === false) ... ¿Cuál es la salida de la consola? ",
+        "answers": {
+            "answer_a": "True",
+            "answer_b": "False",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "71",
+        "category": "javascript",
+        "question": "¿Cuáles de estos pares de declaraciones se usan comúnmente para el manejo de errores?",
+        "answers": {
+            "answer_a": "err/res",
+            "answer_b": "try/catch",
+            "answer_c": "check/return",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "72",
+        "category": "javascript",
+        "question": "¿Cuál de estos métodos modificadores de eventos se proporciona de forma predeterminada?",
+        "answers": {
+            "answer_a": "event.preventDefault()",
+            "answer_b": "event.stopPropagation()",
+            "answer_c": "Los dos",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "73",
+        "category": "javascript",
+        "question": "¿Qué método se usa para devolver la posición de la primera aparición de un texto específico en un 'string'?",
+        "answers": {
+            "answer_a": "pos()",
+            "answer_b": "position()",
+            "answer_c": "indexOf()",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "74",
+        "category": "javascript",
+        "question": "console.log(0.2 + 0.1); ... ¿Cuál es la salida de la consola?",
+        "answers": {
+            "answer_a": "0.3",
+            "answer_b": "0.31",
+            "answer_c": "0.30000000000000004",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "75",
+        "category": "javascript",
+        "question": "¿Cómo llamas a una función ya creada llamada 'ejemplo'?",
+        "answers": {
+            "answer_a": "ejemplo()",
+            "answer_b": "function ejemplo()",
+            "answer_c": "execute function ejemplo()",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "76",
+        "category": "javascript",
+        "question": "El método getMonth() en el objeto Date devuelve el mes como...?",
+        "answers": {
+            "answer_a": "Un string",
+            "answer_b": "Un integer",
+            "answer_c": "Un objeto",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "77",
+        "category": "javascript",
+        "question": "¿Que es el 'hoisting'?",
+        "answers": {
+            "answer_a": "Comportamiento predeterminado de mover declaraciones a la parte superior",
+            "answer_b": "Eliminación automática de variables no utilizadas en todo el código.",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "78",
+        "category": "javascript",
+        "question": "¿Cuál es la forma correcta de incluir un archivo JS externo en HTML?",
+        "answers": {
+            "answer_a": "<script src=\"main.js\">",
+            "answer_b": "<script href=\"main.js\">",
+            "answer_c": "<script name=\"main.js\">",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "79",
+        "category": "javascript",
+        "question": "<p id=\"demo\">My awesome text</p> ... ¿Cuál es la sintaxis JS correcta para cambiar el contenido?",
+        "answers": {
+            "answer_a": "#demo.innerHTML = \"Edited!\"",
+            "answer_b": "document.getElementById(\"demo\").innerHTML = \"Edited!\".",
+            "answer_c": "document.getElementByName(\"p\").innerHTML = \"Edited!\"",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "80",
+        "category": "javascript",
+        "question": "¿Cuál de las siguientes opciones no es un tipo de bucle?",
+        "answers": {
+            "answer_a": "do/while",
+            "answer_b": "for/in",
+            "answer_c": "if/then",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "81",
+        "category": "javascript",
+        "question": "¿Cuál es el método correcto para transformar un texto a minúsculas?",
+        "answers": {
+            "answer_a": "lowerCase()",
+            "answer_b": "toLowerCase()",
+            "answer_c": "toLocaleLowerCase()",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "82",
+        "category": "javascript",
+        "question": "¿Cuál es el método correcto para obtener el valor mínimo de los valores?",
+        "answers": {
+            "answer_a": "Math.min(xy)",
+            "answer_b": "Math.min(x, y)",
+            "answer_c": "Math(min(xy))",
+            "answer_d": "Math(min(x, y))",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "83",
+        "category": "javascript",
+        "question": "¿Cuál es un carácter no válido para iniciar un nombre de variable?",
+        "answers": {
+            "answer_a": "$",
+            "answer_b": "_",
+            "answer_c": "Cualquier número",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "84",
+        "category": "javascript",
+        "question": "¿Cuál es una forma válida de crear un 'array'?",
+        "answers": {
+            "answer_a": "let arr = {a,b,c}",
+            "answer_b": "let arr = a,b,c",
+            "answer_c": "let arr = [a,b,c]",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "85",
+        "category": "javascript",
+        "question": "¿Cuál es una forma válida de crear un objeto?",
+        "answers": {
+            "answer_a": "let obj = {a:1, b:2, c:3}",
+            "answer_b": "let obj = a:1, b:2, c:3",
+            "answer_c": "let obj = [a:1, b:2, c:3]",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "86",
+        "category": "javascript",
+        "question": "¿Cuál es el valor de una variable declarada sin valor?",
+        "answers": {
+            "answer_a": "null",
+            "answer_b": "undefined",
+            "answer_c": "NaN",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "87",
+        "category": "javascript",
+        "question": "¿Cuál es la sintaxis correcta para no igual?",
+        "answers": {
+            "answer_a": "!==",
+            "answer_b": "==!",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "88",
+        "category": "javascript",
+        "question": "console.log(10 + \"5\") ... ¿Cuál es la salida de la consola?",
+        "answers": {
+            "answer_a": "105",
+            "answer_b": "'105'",
+            "answer_c": "SyntaxError",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "89",
+        "category": "javascript",
+        "question": "const person = {name:\"John\", age:31, city:\"New York\"};... ¿cuál es la forma correcta de acceder a los valores?",
+        "answers": {
+            "answer_a": "person.name",
+            "answer_b": "person[\"name\"]",
+            "answer_c": "Ambas son correctas",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "90",
+        "category": "javascript",
+        "question": "Los scripts se pueden colocar en la sección <body>, o en la <head> de una página HTML, o en ambas",
+        "answers": {
+            "answer_a": "Verdadero",
+            "answer_b": "Falso",
+            "answer_c": null,
             "answer_d": null,
             "answer_e": null,
             "answer_f": null
