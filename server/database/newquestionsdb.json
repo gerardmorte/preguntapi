@@ -420,35 +420,7 @@
         "correct_answer": "answer_c"
     },
     {
-        "id": "4",
-        "category": "javascript",
-        "question": "Cómo insertar un comentario que tiene más de una línea?",
-        "answers": {
-            "answer_a": "/*Este comentario tiene más de una línea.*/",
-            "answer_b": "<!--Este comentario tiene más de una línea.-->",
-            "answer_c": "//Este comentario tiene más de una línea.//",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
-        },
-        "correct_answer": "answer_a"
-    },
-    {
-        "id": "5",
-        "category": "javascript",
-        "question": "¿Cuál es el método para agregar elementos al comienzo de un array?",
-        "answers": {
-            "answer_a": "push()",
-            "answer_b": "unshift()",
-            "answer_c": "pop()",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
-        },
-        "correct_answer": "answer_b"
-    },
-    {
-        "id": "6",
+        "id": "31",
         "category": "css",
         "question": "¿Qué se puede seleccionar con un asterisco (*)?",
         "answers": {
@@ -462,7 +434,7 @@
         "correct_answer": "answer_c"
     },
     {
-        "id": "5",
+        "id": "32",
         "category": "css",
         "question": "¿Cuál es la secuencia correcta del modelo de caja de adentro hacia afuera?",
         "answers": {
@@ -474,6 +446,1112 @@
             "answer_f": null
         },
         "correct_answer": "answer_a"
+    },
+    {
+        "id": "33",
+        "category": "css",
+        "question": "¿Qué hace box-sizing: border-box?",
+        "answers": {
+            "answer_a": "Crear un \"margin\" adicional igual al tamaño del \"padding\" y el \"border\"",
+            "answer_b": "Incluir el \"padding\" y el \"border\" en el ancho y alto total de un elemento",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "34",
+        "category": "css",
+        "question": "¿Qué selector se utiliza para acceder a las clases?",
+        "answers": {
+            "answer_a": "*",
+            "answer_b": "#",
+            "answer_c": ".",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "35",
+        "category": "css",
+        "question": "¿Cuál de estos no es un nombre de color predefinido?",
+        "answers": {
+            "answer_a": "DodgerBlue",
+            "answer_b": "MediumSeaGreen",
+            "answer_c": "VioletBlue",
+            "answer_d": "Tomato",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "36",
+        "category": "css",
+        "question": "¿Cuál de estos no es un sistema de color válido?",
+        "answers": {
+            "answer_a": "HEX",
+            "answer_b": "DOTA",
+            "answer_c": "RGB",
+            "answer_d": "HSL",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "37",
+        "category": "css",
+        "question": "¿Qué selector combinador no se usa en css?",
+        "answers": {
+            "answer_a": ">",
+            "answer_b": "+",
+            "answer_c": "/",
+            "answer_d": "~",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "38",
+        "category": "css",
+        "question": "¿Cuál es la sintaxis correcta para los comentarios CSS?",
+        "answers": {
+            "answer_a": "<!-- Comentario -->",
+            "answer_b": "/* Comentario */",
+            "answer_c": "// Comentario",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "39",
+        "category": "css",
+        "question": "¿Cuál es la propiedad de posición predeterminada para los elementos html?",
+        "answers": {
+            "answer_a": "Fixed",
+            "answer_b": "Relative",
+            "answer_c": "Absolute",
+            "answer_d": "Static",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_d"
+    },
+    {
+        "id": "40",
+        "category": "css",
+        "question": "Un elemento con \"positions:fixed\" se coloca en relación al \"viewport\"",
+        "answers": {
+            "answer_a": "Verdadero",
+            "answer_b": "Falso",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "41",
+        "category": "css",
+        "question": "¿Qué hace el selector :focus?",
+        "answers": {
+            "answer_a": "Establece el elemento para que se enfoque de forma predeterminada",
+            "answer_b": "Selecciona el elemento cuando tiene foco",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "42",
+        "category": "css",
+        "question": "¿Cuál es la forma correcta de establecer el color de una fuente?",
+        "answers": {
+            "answer_a": "font-color: red",
+            "answer_b": "text-color: red",
+            "answer_c": "color: red",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "43",
+        "category": "css",
+        "question": "¿Qué selector se usa para acceder al ID?",
+        "answers": {
+            "answer_a": "#",
+            "answer_b": ".",
+            "answer_c": "*",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "44",
+        "category": "css",
+        "question": "La regla '!important!' se usa para dar mas importancia a una propiedad/valor",
+        "answers": {
+            "answer_a": "Verdadero",
+            "answer_b": "Falso",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "45",
+        "category": "css",
+        "question": "¿Qué es cierto sobre display:inline-block?",
+        "answers": {
+            "answer_a": "Agrega un salto de línea después del elemento",
+            "answer_b": "Permite establecer un ancho y alto en el elemento",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "46",
+        "category": "css",
+        "question": "¿Cuál de estas propiedades se utiliza para controlar la secuencia de capas CSS?",
+        "answers": {
+            "answer_a": "Z-index",
+            "answer_b": "X-index",
+            "answer_c": "Y-index",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "47",
+        "category": "css",
+        "question": "¿Qué propiedad se puede usar para eliminar los marcadores de una lista?",
+        "answers": {
+            "answer_a": "text-decoration: none",
+            "answer_b": "list-style-type: none",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "48",
+        "category": "css",
+        "question": "¿Los media queries se pueden utilizar para comprobar qué?",
+        "answers": {
+            "answer_a": "Orientación",
+            "answer_b": "Resolución",
+            "answer_c": "Ancho y alto de la ventana del navegador",
+            "answer_d": "Todo lo anterior",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_d"
+    },
+    {
+        "id": "49",
+        "category": "css",
+        "question": "¿Qué significa CSS?",
+        "answers": {
+            "answer_a": "Cascading Style Sheets",
+            "answer_b": "Cascading Style System",
+            "answer_c": "Color Style Sheets",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "50",
+        "category": "css",
+        "question": "¿Cuál de estas declaraciones da más transparencia al elemento?",
+        "answers": {
+            "answer_a": "opacity:.1",
+            "answer_b": "opacity:.5",
+            "answer_c": "opacity:0.9",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "51",
+        "category": "css",
+        "question": "El valor por defecto de 'overflow' es 'visible'",
+        "answers": {
+            "answer_a": "Verdadero",
+            "answer_b": "Falso",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "52",
+        "category": "css",
+        "question": "Los elementos con 'position:absolute' se eliminan del flujo normal y pueden superponerse a los elementos",
+        "answers": {
+            "answer_a": "Verdadero",
+            "answer_b": "Falso",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "53",
+        "category": "css",
+        "question": "¿Cuál de estas es una pseudo-clase?",
+        "answers": {
+            "answer_a": ".wrappe > a",
+            "answer_b": "div + p",
+            "answer_c": "p:first-child",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "54",
+        "category": "css",
+        "question": "¿Cuál de estos no es un selector de pseudoelemento válido?",
+        "answers": {
+            "answer_a": "::first-line",
+            "answer_b": "::before",
+            "answer_c": "::paragraph",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "55",
+        "category": "css",
+        "question": "¿Cuál es el propósito de CSS?",
+        "answers": {
+            "answer_a": "Agregar funcionalidad a elementos html",
+            "answer_b": "Describir cómo se mostrarán los elementos html",
+            "answer_c": "Crear el marcado de un sitio web",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "56",
+        "category": "css",
+        "question": "¿Qué separador se usa para declaraciones múltiples en el mismo bloque de reglas?",
+        "answers": {
+            "answer_a": ";",
+            "answer_b": ",",
+            "answer_c": "/",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "57",
+        "category": "css",
+        "question": "'position:sticky' establece que el elemento permanezca siempre en el mismo lugar si se desplaza la página",
+        "answers": {
+            "answer_a": "True",
+            "answer_b": "False",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "58",
+        "category": "css",
+        "question": "¿En qué consiste el bloque de reglas CSS?",
+        "answers": {
+            "answer_a": "Etiqueta y valor",
+            "answer_b": "Selector y declaración",
+            "answer_c": "Clase y propiedad",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "59",
+        "category": "css",
+        "question": "¿Qué selector se usa para crear una variable CSS con un alcance global?",
+        "answers": {
+            "answer_a": ":global",
+            "answer_b": ":all",
+            "answer_c": ":root",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "60",
+        "category": "css",
+        "question": "¿Cuál es la diferencia entre 'display:none' y 'visibilty:hidden'?",
+        "answers": {
+            "answer_a": "'visibilty:hidden' ocupará el mismo espacio que antes",
+            "answer_b": "display:none ocupará el mismo espacio que antes",
+            "answer_c": "No hay diferencia entre los dos",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
+    },
+    {
+        "id": "",
+        "category": "",
+        "question": "",
+        "answers": {
+            "answer_a": "",
+            "answer_b": "",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": ""
     },
     {
         "id": "6",
@@ -532,13 +1610,27 @@
         "correct_answer": "answer_c"
     },
     {
-        "id": "10",
-        "category": "css",
-        "question": "¿Qué hace box-sizing: border-box?",
+        "id": "4",
+        "category": "javascript",
+        "question": "Cómo insertar un comentario que tiene más de una línea?",
         "answers": {
-            "answer_a": "Crear un \"margin\" adicional igual al tamaño del \"padding\" y el \"border\"",
-            "answer_b": "Incluir el \"padding\" y el \"border\" en el ancho y alto total de un elemento",
-            "answer_c": null,
+            "answer_a": "/*Este comentario tiene más de una línea.*/",
+            "answer_b": "<!--Este comentario tiene más de una línea.-->",
+            "answer_c": "//Este comentario tiene más de una línea.//",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "5",
+        "category": "javascript",
+        "question": "¿Cuál es el método para agregar elementos al comienzo de un array?",
+        "answers": {
+            "answer_a": "push()",
+            "answer_b": "unshift()",
+            "answer_c": "pop()",
             "answer_d": null,
             "answer_e": null,
             "answer_f": null
