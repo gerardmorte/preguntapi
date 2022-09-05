@@ -1,34 +1,108 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import "./App.css";
+import { Container, Nav, Navbar, Figure, Row, Col } from "react-bootstrap";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
-  )
+    return (
+        <>
+            <Navbar bg="dark" variant="dark" expand="lg">
+                <Container>
+                    <Navbar.Brand href="#home">preguntAPI</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="me-auto">
+                            <Nav.Link href="#home">Home</Nav.Link>
+                            <Nav.Link href="#api">API</Nav.Link>
+                            <Nav.Link href="#link">Link</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
+            <Container>
+                <main className="mt-4 text-center">
+                    <h1>PREGUNTAPI</h1>
+                    <h2>¡Quizzes de programación y API!</h2>
+                    {/* <h3>
+                PreguntAPI és la primera api de preguntas de programación en
+                español, és completamente abierta y no requiere de
+                autenticación para consultar y obtener los datos.
+            </h3>
+            <h3>Preguntas de ...</h3> */}
+                    <h3>HTML, CSS, JAVASCRIPT...</h3>
+                    <h3>Y pronto, muchas mas!</h3>
+                </main>
+                <h4>Elige una categoria: </h4>
+                <Container>
+                    <Row>
+                        <Col>
+                            <Figure>
+                                <Figure.Image
+                                    className="fluid"
+                                    width={80}
+                                    height={"auto"}
+                                    src="https://cdn-icons-png.flaticon.com/128/1051/1051277.png"
+                                />
+                                <Figure.Caption className="text-center">
+                                    HTML
+                                </Figure.Caption>
+                            </Figure>
+                        </Col>
+                        <Col>
+                            <Figure>
+                                <Figure.Image
+                                    className="fluid"
+                                    width={80}
+                                    height={"auto"}
+                                    src="https://cdn-icons-png.flaticon.com/128/1051/1051277.png"
+                                />
+                                <Figure.Caption className="text-center">
+                                    HTML
+                                </Figure.Caption>
+                            </Figure>
+                        </Col>
+                        <Col>
+                            <Figure>
+                                <Figure.Image
+                                    className="fluid"
+                                    width={80}
+                                    height={"auto"}
+                                    src="https://cdn-icons-png.flaticon.com/128/1051/1051277.png"
+                                />
+                                <Figure.Caption className="text-center">
+                                    HTML
+                                </Figure.Caption>
+                            </Figure>
+                        </Col>
+                        <Col>
+                            <Figure>
+                                <Figure.Image
+                                    className="fluid"
+                                    width={80}
+                                    height={"auto"}
+                                    src="https://cdn-icons-png.flaticon.com/128/1051/1051277.png"
+                                />
+                                <Figure.Caption className="text-center">
+                                    HTML
+                                </Figure.Caption>
+                            </Figure>
+                        </Col>
+                        <Col>
+                            <Figure>
+                                <Figure.Image
+                                    className="fluid"
+                                    width={80}
+                                    height={"auto"}
+                                    src="https://cdn-icons-png.flaticon.com/128/1051/1051277.png"
+                                />
+                                <Figure.Caption className="text-center">
+                                    HTML
+                                </Figure.Caption>
+                            </Figure>
+                        </Col>
+                    </Row>
+                </Container>
+            </Container>
+        </>
+    );
 }
 
-export default App
+export default App;
