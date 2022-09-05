@@ -4,15 +4,15 @@ const questions = require("../database/db.json");
 
 router.get("/", (req, res) => {
     const category = req.query.category;
-    const limit = req.query.limit || 10;
+    const limit = req.query.limit;
 
     if (category) {
-        const question = questions
-            .filter((question) => question.category === category)
-            .slice(0, limit);
-        res.json(question);
+        const filteredQuestions = questions.filter(
+            (question) => question.category === category
+        );
+        res.json(filteredQuestions.slice(0, limit || filteredQuestions.length));
     } else {
-        res.json(questions.slice(0, limit));
+        res.json(questions);
     }
 });
 
