@@ -1,20 +1,34 @@
 [
     {
         "id": "1",
-        "category": "javascript",
-        "question": "Cómo insertar un comentario que tiene más de una línea?",
+        "category": "html",
+        "question": "¿Cuál de estos es un elemento de bloque?",
         "answers": {
-            "answer_a": "/*Este comentario tiene más de una línea.*/",
-            "answer_b": "<!--Este comentario tiene más de una línea.-->",
-            "answer_c": "//Este comentario tiene más de una línea.//",
+            "answer_a": "<span>",
+            "answer_b": "<table>",
+            "answer_c": "<em>",
+            "answer_d": "<img>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "2",
+        "category": "html",
+        "question": "¿Cuál es la sintaxis correcta para añadir un \"checkbox\"?",
+        "answers": {
+            "answer_a": "<checkbox>",
+            "answer_b": "<check>",
+            "answer_c": "<input tpye='checkbox'>",
             "answer_d": null,
             "answer_e": null,
             "answer_f": null
         },
-        "correct_answer": "answer_a"
+        "correct_answer": "answer_c"
     },
     {
-        "id": "2",
+        "id": "3",
         "category": "html",
         "question": "¿Qué define el atributo \"action\" en el elemento <form>?",
         "answers": {
@@ -28,7 +42,399 @@
         "correct_answer": "answer_b"
     },
     {
-        "id": "3",
+        "id": "4",
+        "category": "html",
+        "question": "¿Cuál es la sinstaxis válida de los comentarios en html?",
+        "answers": {
+            "answer_a": "<!-- Comentario -->",
+            "answer_b": "/* Comentario */",
+            "answer_c": "// Comentario",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "5",
+        "category": "html",
+        "question": "¿Qué significa html?",
+        "answers": {
+            "answer_a": "Hypertext Markdown Language",
+            "answer_b": "Hypertext Machine Language",
+            "answer_c": "Hypertext Markup Language",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "6",
+        "category": "html",
+        "question": "¿Cuál de estos \"meta-tags\" está \"deprecated\"",
+        "answers": {
+            "answer_a": "description",
+            "answer_b": "keywords",
+            "answer_c": "author",
+            "answer_d": "copyright",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "7",
+        "category": "html",
+        "question": "¿Cuál es la forma correcta de declarar un documento HTML5?",
+        "answers": {
+            "answer_a": "<!DOCTYPE html5>",
+            "answer_b": "<!DOCTYPE html>",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "8",
+        "category": "html",
+        "question": "¿Cuál es la forma correcta de crear un enlace de correo electrónico?",
+        "answers": {
+            "answer_a": "<a href=\"mailto:email@email.com\">Email</a>",
+            "answer_b": "<a href=\"email:email@email.com\">Email</a>",
+            "answer_c": "<a href=\"send:email@email.com\">Email</a>",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "9",
+        "category": "html",
+        "question": "¿Tanto '.html' como '.htm' son extensiones html válidas?",
+        "answers": {
+            "answer_a": "Verdadero",
+            "answer_b": "Falso",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "10",
+        "category": "html",
+        "question": "Qué fuente de imagen está un nivel por encima de la carpeta actual",
+        "answers": {
+            "answer_a": "<img src=\"picture.jpg\">",
+            "answer_b": "<img src=\"../picture.jpg\">",
+            "answer_c": "<img src=\"/images/picture.jpg\">",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "11",
+        "category": "html",
+        "question": "¿Cuál de los siguientes elementos no corresponde a la sección <head>?",
+        "answers": {
+            "answer_a": "<title>",
+            "answer_b": "<header>",
+            "answer_c": "<meta>",
+            "answer_d": "<link>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "12",
+        "category": "html",
+        "question": "¿Cuántas etiquetas <heading> hay en html?",
+        "answers": {
+            "answer_a": "2",
+            "answer_b": "4",
+            "answer_c": "6",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "13",
+        "category": "html",
+        "question": "¿Para qué se utiliza la etiqueta <iframe>?",
+        "answers": {
+            "answer_a": "Para incrustar contenido",
+            "answer_b": "Para dibujar gráficos",
+            "answer_c": "Para enmarcar un grupo de elementos.",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "14",
+        "category": "html",
+        "question": "¿Qué define el atributo 'alt' dentro de la etiqueta <img/>",
+        "answers": {
+            "answer_a": "La descripción de una imagen para cuando esta no se pueda mostrar.",
+            "answer_b": "Una imagen alternativa a la imagen principal.",
+            "answer_c": "",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "15",
+        "category": "html",
+        "question": "¿Qué etiqueta html se usa para definir texto importante?",
+        "answers": {
+            "answer_a": "<i>",
+            "answer_b": "<b>",
+            "answer_c": "<strong>",
+            "answer_d": "<important>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "16",
+        "category": "html",
+        "question": "¿Cuál de estos es un elemento en línea?",
+        "answers": {
+            "answer_a": "<form>",
+            "answer_b": "<hr>",
+            "answer_c": "<a>",
+            "answer_d": "<canvas>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_d"
+    },
+    {
+        "id": "17",
+        "category": "html",
+        "question": "¿Cuál es la sintaxis correcta para los estilos en línea?",
+        "answers": {
+            "answer_a": "<p color=\"red\">Text</p>",
+            "answer_b": "<p color:\"red\">Text</p>",
+            "answer_c": "<p style=\"color:red\">Text</p>",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "18",
+        "category": "html",
+        "question": "¿Cuál de estos elementos no es un 'input type'?",
+        "answers": {
+            "answer_a": "file",
+            "answer_b": "radio",
+            "answer_c": "list",
+            "answer_d": "submit",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "19",
+        "category": "html",
+        "question": "¿Cuál es la forma correcta de definir un enlace?",
+        "answers": {
+            "answer_a": "<a url=\"path/to/file\">Link</a>",
+            "answer_b": "<a link=\"path/to/file\">Link</a>",
+            "answer_c": "<a href=\"path/to/file\">Link</a>",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "20",
+        "category": "html",
+        "question": "¿Qué atributo se usa para especificar que un 'input' debe completarse?",
+        "answers": {
+            "answer_a": "placeholder",
+            "answer_b": "mandatory",
+            "answer_c": "validate",
+            "answer_d": "required",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_d"
+    },
+    {
+        "id": "21",
+        "category": "html",
+        "question": "¿Qué etiqueta se utiliza para producir un salto de línea?",
+        "answers": {
+            "answer_a": "<break>",
+            "answer_b": "<br>",
+            "answer_c": "<b>",
+            "answer_d": "<new>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "22",
+        "category": "html",
+        "question": "¿Cómo puedes hacer una lista numerada?",
+        "answers": {
+            "answer_a": "<list>",
+            "answer_b": "<ol>",
+            "answer_c": "<ul>",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "23",
+        "category": "html",
+        "question": "¿Cuál de estos es un campo de contraseña válido?",
+        "answers": {
+            "answer_a": "<text type=\"password\">",
+            "answer_b": "<password>",
+            "answer_c": "<input type=\"password\">",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "24",
+        "category": "html",
+        "question": "¿Qué hace la etiqueta <pre>?",
+        "answers": {
+            "answer_a": "Resalta el texto",
+            "answer_b": "Define texto preformateado",
+            "answer_c": "Muestra el texto como una cita",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "25",
+        "category": "html",
+        "question": "¿Cuál no se considera una etiqueta de cita?",
+        "answers": {
+            "answer_a": "<cite>",
+            "answer_b": "<q>",
+            "answer_c": "<blockquote>",
+            "answer_d": "<em>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_d"
+    },
+    {
+        "id": "26",
+        "category": "html",
+        "question": "¿Cuál es el elemento raíz de html?",
+        "answers": {
+            "answer_a": "<body>",
+            "answer_b": "<html>",
+            "answer_c": "<head>",
+            "answer_d": "<doctype>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "27",
+        "category": "html",
+        "question": "¿Cuál de estas es una etiqueta de cierre automático?",
+        "answers": {
+            "answer_a": "<h1>",
+            "answer_b": "<nav>",
+            "answer_c": "<input>",
+            "answer_d": "<code>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "28",
+        "category": "html",
+        "question": "¿Cuál es la forma correcta de abrir un enlace en una nueva pestaña/ventana del navegador?",
+        "answers": {
+            "answer_a": "<a href=\"url\" target=\"_new\">",
+            "answer_b": "<a href=\"url\" target=\"_blank\">",
+            "answer_c": "<a href=\"url\" target=\"_window\">",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "29",
+        "category": "html",
+        "question": "¿Cuál es la sintaxis correcta para 'textarea'?",
+        "answers": {
+            "answer_a": "<textarea>",
+            "answer_b": "<input type=\"textarea\">",
+            "answer_c": "<input type=\"textbox\">",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "30",
+        "category": "html",
+        "question": "Qué etiqueta se utiliza para definir el título del documento",
+        "answers": {
+            "answer_a": "<head>",
+            "answer_b": "<meta>",
+            "answer_c": "<title>",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "4",
+        "category": "javascript",
+        "question": "Cómo insertar un comentario que tiene más de una línea?",
+        "answers": {
+            "answer_a": "/*Este comentario tiene más de una línea.*/",
+            "answer_b": "<!--Este comentario tiene más de una línea.-->",
+            "answer_c": "//Este comentario tiene más de una línea.//",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "5",
         "category": "javascript",
         "question": "¿Cuál es el método para agregar elementos al comienzo de un array?",
         "answers": {
@@ -42,7 +448,7 @@
         "correct_answer": "answer_b"
     },
     {
-        "id": "4",
+        "id": "6",
         "category": "css",
         "question": "¿Qué se puede seleccionar con un asterisco (*)?",
         "answers": {
@@ -138,34 +544,6 @@
             "answer_f": null
         },
         "correct_answer": "answer_b"
-    },
-    {
-        "id": "11",
-        "category": "html",
-        "question": "¿Cuál de estos es un elemento de bloque?",
-        "answers": {
-            "answer_a": "<span>",
-            "answer_b": "<table>",
-            "answer_c": "<em>",
-            "answer_d": "<img>",
-            "answer_e": null,
-            "answer_f": null
-        },
-        "correct_answer": "answer_b"
-    },
-    {
-        "id": "12",
-        "category": "html",
-        "question": "¿Cuál es la sintaxis correcta para añadir un \"checkbox\"?",
-        "answers": {
-            "answer_a": "<checkbox>",
-            "answer_b": "<check>",
-            "answer_c": "<input tpye='checkbox'>",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
-        },
-        "correct_answer": "answer_c"
     },
     {
         "id": "13",
