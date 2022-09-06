@@ -1,17 +1,12 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { Container } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 
 export default function StartQuiz() {
-    // const [quizCategory, setQuizCategory] = useState();
-    // const [quizLimit, setQuizLimit] = useState();
+    const [actualQuestion, setActualQuestion] = useState(5);
     const [questions, setQuestions] = useState([]);
     const { category, limit } = useParams();
-
-    // useEffect(() => {
-    //     setQuizCategory(category);
-    //     setQuizLimit(limit);
-    // }, [category, limit]);
+    const [qu, setQu] = useState();
 
     useEffect(() => {
         fetch(`/api/v1/questions?category=${category}&limit=${limit}`)
@@ -19,13 +14,35 @@ export default function StartQuiz() {
             .then((data) => setQuestions(data));
     }, []);
 
+    useEffect(() => {
+        questions.map((question, index) => {
+            if (index == 0) {
+                setQu(question);
+            }
+        });
+    });
+
+    console.log(qu);
+
     console.log(questions);
 
     return (
-        <Container>
-            {questions.map((question) => (
-                <h1>{question.question}</h1>
-            ))}
-        </Container>
+        <main>
+            <div>
+                Pregunta {actualQuestion + 1} de {questions.length}
+            </div>
+            <div>
+                {questions.map((question, index) => {
+                    if (index == actualQuestion) {
+                        return (
+                            <>
+                                <h1>{question.question}</h1>
+                                <h1>{question.category}</h1>
+                            </>
+                        );
+                    }
+                })}
+            </div>
+        </main>
     );
 }
