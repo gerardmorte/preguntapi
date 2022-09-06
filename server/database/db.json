@@ -916,10 +916,7 @@
         "answers": {
             "answer_a": "push()",
             "answer_b": "unshift()",
-            "answer_c": "pop()",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "pop()"
         },
         "correct_answer": "answer_b"
     },
