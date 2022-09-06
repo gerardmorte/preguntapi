@@ -3,9 +3,11 @@ import { useParams } from "react-router-dom";
 import { Button, Container } from "react-bootstrap";
 
 export default function StartQuiz() {
-    const [actualQuestion, setActualQuestion] = useState(5);
+    const [actualQuestion, setActualQuestion] = useState(0);
     const [questions, setQuestions] = useState([]);
     const { category, limit } = useParams();
+    const [btnColor, setBtnColor] = useState("warning");
+    const [btnDisabled, setBtnDisabled] = useState();
 
     useEffect(() => {
         fetch(`/api/v1/questions?category=${category}&limit=${limit}`)
@@ -14,7 +16,7 @@ export default function StartQuiz() {
     }, []);
 
     return (
-        <main>
+        <Container>
             <div>
                 Pregunta {actualQuestion + 1} de {questions.length}
             </div>
@@ -25,17 +27,48 @@ export default function StartQuiz() {
                             <>
                                 <h1>{question.question}</h1>
                                 <h1>{question.category}</h1>
-                                {console.log(Object.values(question.answers))}
-                                {Object.values(question.answers).map(
-                                    (answer) => (
-                                        <button>{answer}</button>
-                                    )
-                                )}
+
+                                {Object.keys(question.answers).map((key) => {
+                                    const value = question.answers[key];
+
+                                    return (
+                                        <Button
+                                            variant={btnColor}
+                                            disabled={btnDisabled}
+                                            className="m-4"
+                                            onClick={(e) => {
+                                                if (
+                                                    key ===
+                                                    question.correct_answer
+                                                ) {
+                                                    setBtnColor("success");
+                                                    setBtnDisabled(true);
+                                                } else {
+                                                    setBtnColor("danger");
+                                                    setBtnDisabled(true);
+                                                }
+                                            }}
+                                        >
+                                            {value}
+                                        </Button>
+                                    );
+                                })}
                             </>
                         );
                     }
                 })}
             </div>
-        </main>
+            <Button
+                onClick={() => {
+                    if (actualQuestion < questions.length - 1) {
+                        setActualQuestion(actualQuestion + 1);
+                        setBtnDisabled(false);
+                        setBtnColor("warning");
+                    }
+                }}
+            >
+                NEXT
+            </Button>
+        </Container>
     );
 }
