@@ -3,11 +3,18 @@ import { useParams } from "react-router-dom";
 
 export default function StartQuiz() {
     const [quizCategory, setQuizCategory] = useState();
-    const { category } = useParams();
+    const [quizLimit, setQuizLimit] = useState();
+    const { category, limit } = useParams();
 
     useEffect(() => {
         setQuizCategory(category);
-    }, [category]);
+        setQuizLimit(limit);
+    }, [category, limit]);
 
-    return <div>Hola {quizCategory}</div>;
+    return (
+        <div>
+            Hola, has elegido la categoria: {quizCategory} y el limite de
+            preguntas: {quizLimit}
+        </div>
+    );
 }

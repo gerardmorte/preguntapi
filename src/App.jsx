@@ -44,7 +44,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="quiz" element={<Quiz />} />
                 <Route path="api" element={<Api />} />
-                <Route path="startQuiz/:category" element={<StartQuiz />} />
+                <Route path="startQuiz/:category/:limit" element={<StartQuiz />} />
             </Routes>
         </div>
     );

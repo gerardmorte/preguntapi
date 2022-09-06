@@ -19,9 +19,8 @@ function Quiz() {
     return (
         <>
             <Container>
-             
                 <Container className="text-center">
-                <h4 className="p-5">Elige una categoria: </h4>
+                    <h4 className="p-5">Elige una categoria:</h4>
                     <Row className="p-5">
                         <Col>
                             <Figure>
@@ -111,7 +110,7 @@ function Quiz() {
                 </Container>
 
                 <Container className="text-center p-5">
-                    <Link to={`/startQuiz/${category}`}>
+                    <Link to={`/startQuiz/${category}/${limit}`}>
                         <Button>Empezar Quiz</Button>
                     </Link>
                 </Container>
