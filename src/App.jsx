@@ -12,6 +12,7 @@ import Quiz from "./components/Quiz";
 import Api from "./components/Api";
 import Home from "./components/Home";
 import StartQuiz from "./components/StartQuiz";
+import ScoreQuiz from "./components/ScoreQuiz";
 
 import { Route, Routes, Link } from "react-router-dom";
 
@@ -48,6 +49,7 @@ function App() {
                     path="startQuiz/:category/:limit"
                     element={<StartQuiz />}
                 />
+                <Route path="scoreQuiz/:score" element={<ScoreQuiz />}></Route>
             </Routes>
         </div>
     );

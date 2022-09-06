@@ -1,13 +1,15 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { Button, Container } from "react-bootstrap";
-
 export default function StartQuiz() {
+    const { category, limit } = useParams();
     const [actualQuestion, setActualQuestion] = useState(0);
     const [questions, setQuestions] = useState([]);
-    const { category, limit } = useParams();
     const [btnColor, setBtnColor] = useState("warning");
     const [btnDisabled, setBtnDisabled] = useState();
+    const [btnNextDisabled, setBtnNextDisabled] = useState(true);
+    const [quizEnd, setQuizEnd] = useState(false);
+    const [score, setScore] = useState(0);
 
     useEffect(() => {
         fetch(`/api/v1/questions?category=${category}&limit=${limit}`)
@@ -18,7 +20,12 @@ export default function StartQuiz() {
     return (
         <Container>
             <div>
-                Pregunta {actualQuestion + 1} de {questions.length}
+                <h1>
+                    Pregunta {actualQuestion + 1} de {questions.length}
+                </h1>
+                <h1>
+                    Puntuación: {score} de {questions.length}
+                </h1>
             </div>
             <div>
                 {questions.map((question, index) => {
@@ -43,10 +50,12 @@ export default function StartQuiz() {
                                                 ) {
                                                     setBtnColor("success");
                                                     setBtnDisabled(true);
+                                                    setScore(score + 1);
                                                 } else {
                                                     setBtnColor("danger");
                                                     setBtnDisabled(true);
                                                 }
+                                                setBtnNextDisabled(false);
                                             }}
                                         >
                                             {value}
@@ -58,17 +67,30 @@ export default function StartQuiz() {
                     }
                 })}
             </div>
-            <Button
-                onClick={() => {
-                    if (actualQuestion < questions.length - 1) {
-                        setActualQuestion(actualQuestion + 1);
-                        setBtnDisabled(false);
-                        setBtnColor("warning");
-                    }
-                }}
-            >
-                NEXT
-            </Button>
+            <div>
+                {quizEnd ? (
+                    <Link to={`/scoreQuiz/${score}`}>
+                        <Button disabled={btnNextDisabled}>
+                            Ver puntuación
+                        </Button>
+                    </Link>
+                ) : (
+                    <Button
+                        disabled={btnNextDisabled}
+                        onClick={() => {
+                            setActualQuestion(actualQuestion + 1);
+                            setBtnDisabled(false);
+                            setBtnColor("warning");
+                            setBtnNextDisabled(true);
+                            if (actualQuestion == questions.length - 2) {
+                                setQuizEnd(true);
+                            }
+                        }}
+                    >
+                        NEXT
+                    </Button>
+                )}
+            </div>
         </Container>
     );
 }
