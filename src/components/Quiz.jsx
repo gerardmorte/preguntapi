@@ -7,19 +7,22 @@ import {
     Row,
     Col,
     Button,
+    Form,
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Api from "./Api";
 
 function Quiz() {
-    const [category, setCategory] = useState("");
+    const [category, setCategory] = useState("javascript");
+    const [limit, setLimit] = useState("10");
 
     return (
         <>
             <Container>
-                <h4 className="p-4">Elige una categoria: </h4>
+             
                 <Container className="text-center">
-                    <Row>
+                <h4 className="p-5">Elige una categoria: </h4>
+                    <Row className="p-5">
                         <Col>
                             <Figure>
                                 <Figure.Image
@@ -33,8 +36,9 @@ function Quiz() {
                                         id="btn-html"
                                         variant="warning"
                                         onClick={(e) => {
-                                            setCategory(e.target.textContent);
-                                            console.log(category);
+                                            setCategory(
+                                                e.target.textContent.toLowerCase()
+                                            );
                                         }}
                                     >
                                         HTML
@@ -51,7 +55,17 @@ function Quiz() {
                                     src="https://cdn-icons-png.flaticon.com/128/732/732190.png"
                                 />
                                 <Figure.Caption className="text-center">
-                                    <Button variant="warning">CSS</Button>
+                                    <Button
+                                        id="btn-html"
+                                        variant="warning"
+                                        onClick={(e) => {
+                                            setCategory(
+                                                e.target.textContent.toLowerCase()
+                                            );
+                                        }}
+                                    >
+                                        CSS
+                                    </Button>
                                 </Figure.Caption>
                             </Figure>
                         </Col>
@@ -64,7 +78,15 @@ function Quiz() {
                                     src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png"
                                 />
                                 <Figure.Caption className="text-center">
-                                    <Button variant="warning">
+                                    <Button
+                                        id="btn-html"
+                                        variant="warning"
+                                        onClick={(e) => {
+                                            setCategory(
+                                                e.target.textContent.toLowerCase()
+                                            );
+                                        }}
+                                    >
                                         JAVASCRIPT
                                     </Button>
                                 </Figure.Caption>
@@ -72,14 +94,26 @@ function Quiz() {
                         </Col>
                     </Row>
                 </Container>
-                <Container>
-                    <Button
-                        onClick={() => {
-                            return "sdasdasd";
-                        }}
-                    >
-                        Click!
-                    </Button>
+
+                <Container className="text-center">
+                    <Form.Label>
+                        <h4 className="p-5">Limite preguntas: {limit}</h4>
+                    </Form.Label>
+                    <br />
+                    <Form.Range
+                        className="w-25"
+                        value={limit}
+                        onChange={(e) => setLimit(e.target.value)}
+                        step={10}
+                        min={10}
+                        max={30}
+                    />
+                </Container>
+
+                <Container className="text-center p-5">
+                    <Link to={`/startQuiz/${category}`}>
+                        <Button>Empezar Quiz</Button>
+                    </Link>
                 </Container>
             </Container>
         </>
