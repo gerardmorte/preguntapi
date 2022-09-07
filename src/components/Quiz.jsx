@@ -34,7 +34,7 @@ function Quiz() {
             <Form.Label className="mt-5">
                 <h1>Total preguntas:</h1>
             </Form.Label>
-            <Form.Select 
+            <Form.Select
                 size="lg"
                 onChange={(e) => {
                     setLimit(e.target.value);
@@ -45,7 +45,12 @@ function Quiz() {
                 <option>30</option>
             </Form.Select>
             <Link to={`/startQuiz/${category}/${limit}`}>
-                <Button variant="primary" type="submit" className="mt-5 w-100" size="lg">
+                <Button
+                    variant="primary"
+                    type="submit"
+                    className="mt-5 w-100"
+                    size="lg"
+                >
                     Empezar Quiz!
                 </Button>
             </Link>
