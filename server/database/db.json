@@ -845,11 +845,7 @@
         "question": "¿Javascript distingue entre mayúsculas y minúsculas?",
         "answers": {
             "answer_a": "Verdadero",
-            "answer_b": "Falso",
-            "answer_c": null,
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_b": "Falso"
         },
         "correct_answer": "answer_a"
     },
@@ -860,10 +856,7 @@
         "answers": {
             "answer_a": "expands",
             "answer_b": "exports",
-            "answer_c": "extends",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "extends"
         },
         "correct_answer": "answer_c"
     },
@@ -874,10 +867,7 @@
         "answers": {
             "answer_a": "onmouseclick",
             "answer_b": "onclick",
-            "answer_c": "onkeydown",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "onkeydown"
         },
         "correct_answer": "answer_b"
     },
@@ -888,10 +878,7 @@
         "answers": {
             "answer_a": "attach()",
             "answer_b": "append()",
-            "answer_c": "concat()",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "concat()"
         },
         "correct_answer": "answer_c"
     },
@@ -902,10 +889,7 @@
         "answers": {
             "answer_a": "/*Este comentario tiene más de una línea.*/",
             "answer_b": "<!--Este comentario tiene más de una línea.-->",
-            "answer_c": "//Este comentario tiene más de una línea.//",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "//Este comentario tiene más de una línea.//"
         },
         "correct_answer": "answer_a"
     },
@@ -927,10 +911,7 @@
         "answers": {
             "answer_a": "Tim Berners-Lee",
             "answer_b": "Brendan Eich",
-            "answer_c": "James Gosling",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "James Gosling"
         },
         "correct_answer": "answer_b"
     },
@@ -940,11 +921,7 @@
         "question": "Si proporciona solo un parámetro como un valor entero para el objeto Fecha, ¿se tratará como milisegundos?",
         "answers": {
             "answer_a": "Verdadero",
-            "answer_b": "False",
-            "answer_c": null,
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_b": "False"
         },
         "correct_answer": "answer_a"
     },
@@ -955,10 +932,7 @@
         "answers": {
             "answer_a": "Math.sqrt",
             "answer_b": "Math.pow",
-            "answer_c": "Math.trunc",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "Math.trunc"
         },
         "correct_answer": "answer_b"
     },
@@ -968,11 +942,7 @@
         "question": "console.log(3 > 2 > 1 === false) ... ¿Cuál es la salida de la consola? ",
         "answers": {
             "answer_a": "True",
-            "answer_b": "False",
-            "answer_c": null,
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_b": "False"
         },
         "correct_answer": "answer_a"
     },

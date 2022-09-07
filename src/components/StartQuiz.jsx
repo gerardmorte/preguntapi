@@ -18,48 +18,52 @@ export default function StartQuiz() {
     }, []);
 
     return (
-        <Container>
-            <div>
-                <h1>
-                    Pregunta {actualQuestion + 1} de {questions.length}
-                </h1>
-                <h1>
-                    Puntuación: {score} de {questions.length}
-                </h1>
-            </div>
-            <div>
+        <Container className="text-center">
+            <h1 className="mt-4 mb-4">{category.toUpperCase()}</h1>
+            <h2>
+                Pregunta {actualQuestion + 1} de {questions.length}
+            </h2>
+            <h2 className="mb-5">
+                Puntuación: {score} de {questions.length}
+            </h2>
+
+            <div className="mt-5 mb-5">
                 {questions.map((question, index) => {
                     if (index == actualQuestion) {
                         return (
                             <>
-                                <h1>{question.question}</h1>
-                                <h1>{question.category}</h1>
+                                <h1 className="text-center text-break mb-4">
+                                    {question.question}
+                                </h1>
 
                                 {Object.keys(question.answers).map((key) => {
                                     const value = question.answers[key];
 
                                     return (
-                                        <Button
-                                            variant={btnColor}
-                                            disabled={btnDisabled}
-                                            className="m-4"
-                                            onClick={(e) => {
-                                                if (
-                                                    key ===
-                                                    question.correct_answer
-                                                ) {
-                                                    setBtnColor("success");
-                                                    setBtnDisabled(true);
-                                                    setScore(score + 1);
-                                                } else {
-                                                    setBtnColor("danger");
-                                                    setBtnDisabled(true);
-                                                }
-                                                setBtnNextDisabled(false);
-                                            }}
-                                        >
-                                            {value}
-                                        </Button>
+                                        <div className="d-grid mb-2">
+                                            <Button
+                                                variant={btnColor}
+                                                disabled={btnDisabled}
+                                                className="mt-4"
+                                                size="lg"
+                                                onClick={(e) => {
+                                                    if (
+                                                        key ===
+                                                        question.correct_answer
+                                                    ) {
+                                                        setBtnColor("success");
+                                                        setBtnDisabled(true);
+                                                        setScore(score + 1);
+                                                    } else {
+                                                        setBtnColor("danger");
+                                                        setBtnDisabled(true);
+                                                    }
+                                                    setBtnNextDisabled(false);
+                                                }}
+                                            >
+                                                {value}
+                                            </Button>
+                                        </div>
                                     );
                                 })}
                             </>
@@ -87,7 +91,7 @@ export default function StartQuiz() {
                             }
                         }}
                     >
-                        NEXT
+                        SIGUIENTE
                     </Button>
                 )}
             </div>
