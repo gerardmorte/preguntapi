@@ -51,6 +51,12 @@ function App() {
                 />
                 <Route path="scoreQuiz/:score" element={<ScoreQuiz />}></Route>
             </Routes>
+
+            <div className="w-100 bg-dark position-fixed bottom-0 p-2">
+                <h4 className="text-white text-center">
+                    www.quizprogramming.world
+                </h4>
+            </div>
         </div>
     );
 }
