@@ -5,18 +5,20 @@ import Api from "./components/Api";
 import Home from "./components/Home";
 import StartQuiz from "./components/StartQuiz";
 import ScoreQuiz from "./components/ScoreQuiz";
-
 import { Route, Routes, Link } from "react-router-dom";
 
 function App() {
     return (
         <div className="App">
-            <Navbar bg="dark" variant="dark" expand="lg">
+            <Navbar bg="dark" variant="dark" expand="lg" >
                 <Navbar.Brand as={Link} to="/" className="text-warning ps-4">
                     <h4>QUIZPROGRAMMING</h4>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
+                <Navbar.Collapse
+                    id="basic-navbar-nav"
+                    className="justify-content-end pe-4"
+                >
                     <Nav>
                         <Nav.Link as={Link} to="/">
                             <h4 className="fw-light">Inicio</h4>
@@ -58,7 +60,8 @@ function App() {
                 <Route path="scoreQuiz/:score" element={<ScoreQuiz />}></Route>
             </Routes>
 
-            <footer className="w-100 bg-dark position-fixed bottom-0 p-2">
+            {/* <footer className="w-100 bg-dark position-fixed bottom-0 p-2"> */}
+            <footer className="w-100 bg-dark mt-auto bottom-0 p-2">
                 <h4 className="text-warning text-center">
                     www.quizprogramming.world
                 </h4>

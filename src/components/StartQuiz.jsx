@@ -18,23 +18,23 @@ export default function StartQuiz() {
     }, []);
 
     return (
-        <Container className="text-center">
+        <Container className="text-center my-auto">
             <h1 className="mt-4 mb-4">{category.toUpperCase()}</h1>
             <h2>
                 Pregunta {actualQuestion + 1} de {questions.length}
             </h2>
-            <h2 className="mb-5">
+            <h2 className="mb-4">
                 Puntuación: {score} de {questions.length}
             </h2>
 
-            <div className="mt-5 mb-5">
+            <div className="mb-3">
                 {questions.map((question, index) => {
                     if (index == actualQuestion) {
                         return (
                             <>
-                                <h1 className="text-center text-break mb-4">
+                                <h2 className="text-center text-break mb-4">
                                     {question.question}
-                                </h1>
+                                </h2>
 
                                 {Object.keys(question.answers).map((key) => {
                                     const value = question.answers[key];
@@ -44,7 +44,7 @@ export default function StartQuiz() {
                                             <Button
                                                 variant={btnColor}
                                                 disabled={btnDisabled}
-                                                className="mt-4"
+                                                className="mt-2 fs-5"
                                                 size="lg"
                                                 onClick={(e) => {
                                                     if (
@@ -71,7 +71,7 @@ export default function StartQuiz() {
                     }
                 })}
             </div>
-            <div>
+            <div className="d-grid">
                 {quizEnd ? (
                     <Link to={`/scoreQuiz/${score}`}>
                         <Button disabled={btnNextDisabled}>
@@ -80,6 +80,7 @@ export default function StartQuiz() {
                     </Link>
                 ) : (
                     <Button
+                        size="lg"
                         disabled={btnNextDisabled}
                         onClick={() => {
                             setActualQuestion(actualQuestion + 1);
