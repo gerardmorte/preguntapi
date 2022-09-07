@@ -7,7 +7,7 @@ function Home() {
             <Container>
                 <main className="mt-5 text-center mb-3">
                     <h1 className="mb-5">Bienvenido a QUIZPROGRAMMING!</h1>
-                    <h2 className="mb-5">QUIZ & API WEB</h2>
+                    <h2 className="mb-5">QUIZ & API</h2>
                     <h3 className="mb-5">
                         Aprende con nuestros quizzes de programación o usa
                         libremente la API
