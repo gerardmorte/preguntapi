@@ -1,19 +1,9 @@
 import { useState } from "react";
-import {
-    Container,
-    Nav,
-    Navbar,
-    Figure,
-    Row,
-    Col,
-    Button,
-    Form,
-} from "react-bootstrap";
+import { Container, Button, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Api from "./Api";
 
 function Quiz() {
-    const [category, setCategory] = useState("javascript");
+    const [category, setCategory] = useState("html");
     const [limit, setLimit] = useState("10");
 
     return (
@@ -40,8 +30,11 @@ function Quiz() {
                     setLimit(e.target.value);
                 }}
             >
+                <option>5</option>
                 <option>10</option>
+                <option>15</option>
                 <option>20</option>
+                <option>25</option>
                 <option>30</option>
             </Form.Select>
             <Link to={`/startQuiz/${category}/${limit}`}>

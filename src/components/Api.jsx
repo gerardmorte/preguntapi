@@ -102,7 +102,7 @@ function Api() {
             </p>
             <div className="p-2 overflow-scroll">
                 <p className="fs-5 ">
-                    https://quizprogramming.com/api/v1/questions
+                    https://www.preguntapi.dev/api/v1/questions
                 </p>
             </div>
             <br />

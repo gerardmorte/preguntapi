@@ -4,7 +4,6 @@ import Quiz from "./components/Quiz";
 import Api from "./components/Api";
 import Home from "./components/Home";
 import StartQuiz from "./components/StartQuiz";
-import ScoreQuiz from "./components/ScoreQuiz";
 import { Route, Routes, Link } from "react-router-dom";
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
         <div className="App">
             <Navbar bg="dark" variant="dark" expand="lg" >
                 <Navbar.Brand as={Link} to="/" className="text-warning ps-4 mt-2">
-                    <h4>QUIZPROGRAMMING</h4>
+                    <h4>preguntAPI</h4>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse
@@ -57,12 +56,11 @@ function App() {
                     path="startQuiz/:category/:limit"
                     element={<StartQuiz />}
                 />
-                <Route path="scoreQuiz/:score" element={<ScoreQuiz />}></Route>
             </Routes>
 
             <footer className="w-100 bg-dark mt-auto bottom-0 pt-2">
                 <h4 className="text-warning text-center">
-                    www.quizprogramming.org
+                    www.preguntapi.dev
                 </h4>
             </footer>
         </div>
