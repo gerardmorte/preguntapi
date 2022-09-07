@@ -11,13 +11,13 @@ function App() {
     return (
         <div className="App">
             <Navbar bg="dark" variant="dark" expand="lg" >
-                <Navbar.Brand as={Link} to="/" className="text-warning ps-4">
+                <Navbar.Brand as={Link} to="/" className="text-warning ps-4 mt-2">
                     <h4>QUIZPROGRAMMING</h4>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse
                     id="basic-navbar-nav"
-                    className="justify-content-end pe-4"
+                    className="justify-content-end pe-4 mt-2"
                 >
                     <Nav>
                         <Nav.Link as={Link} to="/">
@@ -26,7 +26,7 @@ function App() {
                         <Nav.Link as={Link} to="quiz">
                             <h4 className="fw-light">Quiz</h4>
                         </Nav.Link>
-                        <Nav.Link as={Link} to="api">
+                        <Nav.Link as={Link} to="info-api">
                             <h4 className="fw-light">API</h4>
                         </Nav.Link>
                         <a
@@ -52,7 +52,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="quiz" element={<Quiz />} />
-                <Route path="api" element={<Api />} />
+                <Route path="info-api" element={<Api />} />
                 <Route
                     path="startQuiz/:category/:limit"
                     element={<StartQuiz />}
@@ -60,10 +60,9 @@ function App() {
                 <Route path="scoreQuiz/:score" element={<ScoreQuiz />}></Route>
             </Routes>
 
-            {/* <footer className="w-100 bg-dark position-fixed bottom-0 p-2"> */}
-            <footer className="w-100 bg-dark mt-auto bottom-0 p-2">
+            <footer className="w-100 bg-dark mt-auto bottom-0 pt-2">
                 <h4 className="text-warning text-center">
-                    www.quizprogramming.world
+                    www.quizprogramming.org
                 </h4>
             </footer>
         </div>

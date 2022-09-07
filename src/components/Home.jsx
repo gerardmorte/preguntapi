@@ -24,18 +24,23 @@ function Home() {
                                     className="border border-dark mt-1 m-4 p-4 rounded-5 w-auto"
                                 >
                                     <h2>Quieres hacer un Quiz?</h2>
-                                    <span>Clica aqui!</span>
+                                    <span>
+                                        <b>Clica aqui!</b>
+                                    </span>
                                 </Button>
                             </Link>
                         </Col>
                         <Col>
-                            <Link to="api">
+                            <Link to="info-api">
                                 <Button
+                                    variant="warning"
                                     type="submit"
-                                    className="bg-warning text-dark border border-dark mt-1 m-4 p-4 rounded-5 w-auto"
+                                    className="border border-dark mt-1 m-4 p-4 rounded-5 w-auto"
                                 >
                                     <h2>Quieres conocer la API?</h2>
-                                    <span>Clica aqui!</span>
+                                    <span>
+                                        <b>Clica aqui!</b>
+                                    </span>
                                 </Button>
                             </Link>
                         </Col>
