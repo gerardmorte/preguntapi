@@ -36,6 +36,9 @@ export default function StartQuiz() {
                                     {question.question}
                                 </h2>
 
+                                {/* quizEnd ? <h1>End</h1> : <Button>Start</Button>; */}
+
+
                                 {Object.keys(question.answers).map((key) => {
                                     const value = question.answers[key];
 
