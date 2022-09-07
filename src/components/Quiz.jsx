@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Quiz() {
     const [category, setCategory] = useState("html");
-    const [limit, setLimit] = useState("10");
+    const [limit, setLimit] = useState(10);
 
     return (
         <Container className="my-auto">
@@ -30,7 +30,6 @@ function Quiz() {
                     setLimit(e.target.value);
                 }}
             >
-                <option>5</option>
                 <option>10</option>
                 <option>15</option>
                 <option>20</option>
