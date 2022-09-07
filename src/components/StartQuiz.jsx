@@ -32,57 +32,39 @@ export default function StartQuiz() {
                             <div className="mb-3">
                                 {questions.map((question, index) => {
                                     if (index == actualQuestion) {
-                                        return (
-                                            <>
-                                                <h2 className="text-center text-break mb-4">{question.question}</h2>
-                                                {Object.keys(question.answers).map((key) => {
-                                                    const value = question.answers[key]
-                                                    return (
-                                                        <div className="d-grid mb-2">
-                                                            <Button
-                                                                variant={btnColor}
-                                                                disabled={btnDisabled}
-                                                                className="mt-2 fs-5"
-                                                                size="lg"
-                                                                onClick={(e) => {
-                                                                    if (
-                                                                        key ===
-                                                                        question.correct_answer
-                                                                    ) {
-                                                                        setBtnColor(
-                                                                            "success"
-                                                                        );
-                                                                        setBtnDisabled(
-                                                                            true
-                                                                        );
-                                                                        setScore(score + 1);
-                                                                    } else {
-                                                                        setBtnColor(
-                                                                            "danger"
-                                                                        );
-                                                                        setBtnDisabled(
-                                                                            true
-                                                                        );
-                                                                    }
-                                                                    setBtnNextDisabled(
-                                                                        false
-                                                                    );
-                                                                    if (actualQuestion == questions.length - 1) {
-                                                                        setBtnNextDisabled(true);
-                                                                        setTimeout(() => {
-                                                                            setQuizEnd(true);
-                                                                        }, 2000)
-
-                                                                    }
-                                                                }}
-                                                            >
-                                                                {value}
-                                                            </Button>
-                                                        </div>
-                                                    );
-                                                })
-                                                }
-                                            </>
+                                        return (<>
+                                            <h2 className="text-center text-break mb-4">{question.question}</h2>
+                                            {Object.keys(question.answers).map((key) => {
+                                                const value = question.answers[key]
+                                                return (
+                                                    <div className="d-grid mb-2">
+                                                        <Button
+                                                            variant={btnColor}
+                                                            disabled={btnDisabled}
+                                                            className="mt-2 fs-5"
+                                                            size="lg"
+                                                            onClick={() => {
+                                                                if (key === question.correct_answer) {
+                                                                    setBtnColor("success");
+                                                                    setBtnDisabled(true);
+                                                                    setScore(score + 1);
+                                                                } else {
+                                                                    setBtnColor("danger");
+                                                                    setBtnDisabled(true);
+                                                                }
+                                                                setBtnNextDisabled(false);
+                                                                if (actualQuestion == questions.length - 1) {
+                                                                    setBtnNextDisabled(true);
+                                                                    setTimeout(() => {
+                                                                        setQuizEnd(true);
+                                                                    }, 2000)
+                                                                }
+                                                            }}>
+                                                            {value}
+                                                        </Button>
+                                                    </div>
+                                                );
+                                            })} </>
                                         );
                                     }
                                 })}
@@ -103,8 +85,6 @@ export default function StartQuiz() {
                                 SALIR
                             </Button>
                         </Link>
-
-
                     </>
                 ) : (
                     <Button
