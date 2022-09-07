@@ -19,12 +19,12 @@ function Home() {
                     <h3>Y pronto, muchas mas!</h3>
                 </main>
                 <Container className="text-center">
-                    <Row>
+                    <Row lg={1}>
                         <Col className="border border-dark m-4 p-4 bg-warning rounded">
-                            <h1>Quizzes</h1>
+                            <h1>Hacer un Quiz</h1>
                         </Col>
                         <Col className="border border-dark m-4 p-4 bg-warning rounded">
-                            <h1>API</h1>
+                            <h1>Conocer la API</h1>
                         </Col>
                     </Row>
                 </Container>
