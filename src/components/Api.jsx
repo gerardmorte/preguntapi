@@ -1,5 +1,4 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
-import carbonSnipet from "../assets/carbon2.png";
 
 function Api() {
     let texto = String.raw`
@@ -29,14 +28,6 @@ function Api() {
             </Container>
             <Container>
                 <pre>{texto}</pre>
-            </Container>
-
-            <Container className="mx-auto">
-                <img
-                    src={carbonSnipet}
-                    alt="snippet json"
-                    className="img-fluid"
-                />
             </Container>
         </Container>
     );
