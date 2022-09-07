@@ -1,4 +1,4 @@
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 function Api() {
     let texto = String.raw`
@@ -15,20 +15,17 @@ function Api() {
     `;
 
     return (
-        <Container className="my-auto mt-5">
-            <Container>
-                <h1>
-                    <b>Documentación</b>
-                </h1>
-                <p className="w-75 fs-4">
-                    Esta documentación lo ayudará a familiarizarse con los
-                    recursos de la API le mostrará cómo realizar diferentes
-                    consultas, para que pueda aprovecharla al máximo.
-                </p>
-            </Container>
-            <Container>
-                <pre>{texto}</pre>
-            </Container>
+        <Container className="my-auto">
+            <h1 className="mb-5 ">
+                <b>Documentación</b>
+            </h1>
+            <p className="fs-5 mx-auto">
+                Esta documentación lo ayudará a familiarizarse con los recursos
+                de la API le mostrará cómo realizar diferentes consultas, para
+                que pueda aprovecharla al máximo.
+            </p>
+
+            <pre>{texto}</pre>
         </Container>
     );
 }
