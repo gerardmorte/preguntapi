@@ -7,9 +7,7 @@
             "answer_a": "<span>",
             "answer_b": "<table>",
             "answer_c": "<em>",
-            "answer_d": "<img>",
-            "answer_e": null,
-            "answer_f": null
+            "answer_d": "<img>"
         },
         "correct_answer": "answer_b"
     },
@@ -20,10 +18,7 @@
         "answers": {
             "answer_a": "<checkbox>",
             "answer_b": "<check>",
-            "answer_c": "<input tpye='checkbox'>",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "<input tpye='checkbox'>"
         },
         "correct_answer": "answer_c"
     },
@@ -34,10 +29,7 @@
         "answers": {
             "answer_a": "El método http para enviar los datos del formulario.",
             "answer_b": "Dónde enviar los datos del formulario cuando se envían",
-            "answer_c": "El tipo mime utilizado para codificar el contenido.",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "El tipo mime utilizado para codificar el contenido."
         },
         "correct_answer": "answer_b"
     },
@@ -48,10 +40,7 @@
         "answers": {
             "answer_a": "<!-- Comentario -->",
             "answer_b": "/* Comentario */",
-            "answer_c": "// Comentario",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "// Comentario"
         },
         "correct_answer": "answer_a"
     },
@@ -62,10 +51,7 @@
         "answers": {
             "answer_a": "Hypertext Markdown Language",
             "answer_b": "Hypertext Machine Language",
-            "answer_c": "Hypertext Markup Language",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "Hypertext Markup Language"
         },
         "correct_answer": "answer_c"
     },
@@ -77,9 +63,7 @@
             "answer_a": "description",
             "answer_b": "keywords",
             "answer_c": "author",
-            "answer_d": "copyright",
-            "answer_e": null,
-            "answer_f": null
+            "answer_d": "copyright"
         },
         "correct_answer": "answer_b"
     },
@@ -89,11 +73,7 @@
         "question": "¿Cuál es la forma correcta de declarar un documento HTML5?",
         "answers": {
             "answer_a": "<!DOCTYPE html5>",
-            "answer_b": "<!DOCTYPE html>",
-            "answer_c": null,
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_b": "<!DOCTYPE html>"
         },
         "correct_answer": "answer_b"
     },
@@ -104,10 +84,7 @@
         "answers": {
             "answer_a": "<a href=\"mailto:email@email.com\">Email</a>",
             "answer_b": "<a href=\"email:email@email.com\">Email</a>",
-            "answer_c": "<a href=\"send:email@email.com\">Email</a>",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "<a href=\"send:email@email.com\">Email</a>"
         },
         "correct_answer": "answer_a"
     },
@@ -117,11 +94,7 @@
         "question": "¿Tanto '.html' como '.htm' son extensiones html válidas?",
         "answers": {
             "answer_a": "Verdadero",
-            "answer_b": "Falso",
-            "answer_c": null,
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_b": "Falso"
         },
         "correct_answer": "answer_a"
     },
@@ -132,10 +105,7 @@
         "answers": {
             "answer_a": "<img src=\"picture.jpg\">",
             "answer_b": "<img src=\"../picture.jpg\">",
-            "answer_c": "<img src=\"/images/picture.jpg\">",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "<img src=\"/images/picture.jpg\">"
         },
         "correct_answer": "answer_b"
     },
@@ -147,9 +117,7 @@
             "answer_a": "<title>",
             "answer_b": "<header>",
             "answer_c": "<meta>",
-            "answer_d": "<link>",
-            "answer_e": null,
-            "answer_f": null
+            "answer_d": "<link>"
         },
         "correct_answer": "answer_b"
     },
@@ -160,10 +128,7 @@
         "answers": {
             "answer_a": "2",
             "answer_b": "4",
-            "answer_c": "6",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "6"
         },
         "correct_answer": "answer_c"
     },
@@ -174,10 +139,7 @@
         "answers": {
             "answer_a": "Para incrustar contenido",
             "answer_b": "Para dibujar gráficos",
-            "answer_c": "Para enmarcar un grupo de elementos.",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "Para enmarcar un grupo de elementos."
         },
         "correct_answer": "answer_a"
     },
@@ -187,11 +149,7 @@
         "question": "¿Qué define el atributo 'alt' dentro de la etiqueta <img/>",
         "answers": {
             "answer_a": "La descripción de una imagen para cuando esta no se pueda mostrar.",
-            "answer_b": "Una imagen alternativa a la imagen principal.",
-            "answer_c": "",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_b": "Una imagen alternativa a la imagen principal."
         },
         "correct_answer": "answer_a"
     },
@@ -203,9 +161,7 @@
             "answer_a": "<i>",
             "answer_b": "<b>",
             "answer_c": "<strong>",
-            "answer_d": "<important>",
-            "answer_e": null,
-            "answer_f": null
+            "answer_d": "<important>"
         },
         "correct_answer": "answer_c"
     },
@@ -217,9 +173,7 @@
             "answer_a": "<form>",
             "answer_b": "<hr>",
             "answer_c": "<a>",
-            "answer_d": "<canvas>",
-            "answer_e": null,
-            "answer_f": null
+            "answer_d": "<canvas>"
         },
         "correct_answer": "answer_d"
     },
@@ -230,10 +184,7 @@
         "answers": {
             "answer_a": "<p color=\"red\">Text</p>",
             "answer_b": "<p color:\"red\">Text</p>",
-            "answer_c": "<p style=\"color:red\">Text</p>",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "<p style=\"color:red\">Text</p>"
         },
         "correct_answer": "answer_c"
     },
@@ -245,9 +196,7 @@
             "answer_a": "file",
             "answer_b": "radio",
             "answer_c": "list",
-            "answer_d": "submit",
-            "answer_e": null,
-            "answer_f": null
+            "answer_d": "submit"
         },
         "correct_answer": "answer_c"
     },
@@ -258,10 +207,7 @@
         "answers": {
             "answer_a": "<a url=\"path/to/file\">Link</a>",
             "answer_b": "<a link=\"path/to/file\">Link</a>",
-            "answer_c": "<a href=\"path/to/file\">Link</a>",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "<a href=\"path/to/file\">Link</a>"
         },
         "correct_answer": "answer_c"
     },
@@ -273,9 +219,7 @@
             "answer_a": "placeholder",
             "answer_b": "mandatory",
             "answer_c": "validate",
-            "answer_d": "required",
-            "answer_e": null,
-            "answer_f": null
+            "answer_d": "required"
         },
         "correct_answer": "answer_d"
     },
@@ -287,9 +231,7 @@
             "answer_a": "<break>",
             "answer_b": "<br>",
             "answer_c": "<b>",
-            "answer_d": "<new>",
-            "answer_e": null,
-            "answer_f": null
+            "answer_d": "<new>"
         },
         "correct_answer": "answer_b"
     },
@@ -300,10 +242,7 @@
         "answers": {
             "answer_a": "<list>",
             "answer_b": "<ol>",
-            "answer_c": "<ul>",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "<ul>"
         },
         "correct_answer": "answer_b"
     },
@@ -314,10 +253,7 @@
         "answers": {
             "answer_a": "<text type=\"password\">",
             "answer_b": "<password>",
-            "answer_c": "<input type=\"password\">",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "<input type=\"password\">"
         },
         "correct_answer": "answer_c"
     },
@@ -328,10 +264,7 @@
         "answers": {
             "answer_a": "Resalta el texto",
             "answer_b": "Define texto preformateado",
-            "answer_c": "Muestra el texto como una cita",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "Muestra el texto como una cita"
         },
         "correct_answer": "answer_b"
     },
@@ -343,9 +276,7 @@
             "answer_a": "<cite>",
             "answer_b": "<q>",
             "answer_c": "<blockquote>",
-            "answer_d": "<em>",
-            "answer_e": null,
-            "answer_f": null
+            "answer_d": "<em>"
         },
         "correct_answer": "answer_d"
     },
@@ -357,9 +288,7 @@
             "answer_a": "<body>",
             "answer_b": "<html>",
             "answer_c": "<head>",
-            "answer_d": "<doctype>",
-            "answer_e": null,
-            "answer_f": null
+            "answer_d": "<doctype>"
         },
         "correct_answer": "answer_b"
     },
@@ -371,9 +300,7 @@
             "answer_a": "<h1>",
             "answer_b": "<nav>",
             "answer_c": "<input>",
-            "answer_d": "<code>",
-            "answer_e": null,
-            "answer_f": null
+            "answer_d": "<code>"
         },
         "correct_answer": "answer_c"
     },
@@ -384,10 +311,7 @@
         "answers": {
             "answer_a": "<a href=\"url\" target=\"_new\">",
             "answer_b": "<a href=\"url\" target=\"_blank\">",
-            "answer_c": "<a href=\"url\" target=\"_window\">",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "<a href=\"url\" target=\"_window\">"
         },
         "correct_answer": "answer_b"
     },
@@ -398,10 +322,7 @@
         "answers": {
             "answer_a": "<textarea>",
             "answer_b": "<input type=\"textarea\">",
-            "answer_c": "<input type=\"textbox\">",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "<input type=\"textbox\">"
         },
         "correct_answer": "answer_a"
     },
@@ -412,10 +333,7 @@
         "answers": {
             "answer_a": "<head>",
             "answer_b": "<meta>",
-            "answer_c": "<title>",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "<title>"
         },
         "correct_answer": "answer_c"
     },
@@ -426,10 +344,7 @@
         "answers": {
             "answer_a": "Una \"clase\"",
             "answer_b": "Un \"id\"",
-            "answer_c": "Todos los elementos",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "Todos los elementos"
         },
         "correct_answer": "answer_c"
     },
@@ -440,10 +355,7 @@
         "answers": {
             "answer_a": "Content -> padding -> border -> margin",
             "answer_b": "Content -> border -> padding -> margin",
-            "answer_c": "Content -> margin -> border -> padding",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "Content -> margin -> border -> padding"
         },
         "correct_answer": "answer_a"
     },
@@ -453,11 +365,7 @@
         "question": "¿Qué hace box-sizing: border-box?",
         "answers": {
             "answer_a": "Crear un \"margin\" adicional igual al tamaño del \"padding\" y el \"border\"",
-            "answer_b": "Incluir el \"padding\" y el \"border\" en el ancho y alto total de un elemento",
-            "answer_c": null,
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_b": "Incluir el \"padding\" y el \"border\" en el ancho y alto total de un elemento"
         },
         "correct_answer": "answer_b"
     },
@@ -468,10 +376,7 @@
         "answers": {
             "answer_a": "*",
             "answer_b": "#",
-            "answer_c": ".",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "."
         },
         "correct_answer": "answer_c"
     },
@@ -483,9 +388,7 @@
             "answer_a": "DodgerBlue",
             "answer_b": "MediumSeaGreen",
             "answer_c": "VioletBlue",
-            "answer_d": "Tomato",
-            "answer_e": null,
-            "answer_f": null
+            "answer_d": "Tomato"
         },
         "correct_answer": "answer_c"
     },
@@ -497,9 +400,7 @@
             "answer_a": "HEX",
             "answer_b": "DOTA",
             "answer_c": "RGB",
-            "answer_d": "HSL",
-            "answer_e": null,
-            "answer_f": null
+            "answer_d": "HSL"
         },
         "correct_answer": "answer_b"
     },
@@ -511,9 +412,7 @@
             "answer_a": ">",
             "answer_b": "+",
             "answer_c": "/",
-            "answer_d": "~",
-            "answer_e": null,
-            "answer_f": null
+            "answer_d": "~"
         },
         "correct_answer": "answer_c"
     },
@@ -524,10 +423,7 @@
         "answers": {
             "answer_a": "<!-- Comentario -->",
             "answer_b": "/* Comentario */",
-            "answer_c": "// Comentario",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "// Comentario"
         },
         "correct_answer": "answer_b"
     },
@@ -539,9 +435,7 @@
             "answer_a": "Fixed",
             "answer_b": "Relative",
             "answer_c": "Absolute",
-            "answer_d": "Static",
-            "answer_e": null,
-            "answer_f": null
+            "answer_d": "Static"
         },
         "correct_answer": "answer_d"
     },
@@ -551,11 +445,7 @@
         "question": "Un elemento con \"positions:fixed\" se coloca en relación al \"viewport\"",
         "answers": {
             "answer_a": "Verdadero",
-            "answer_b": "Falso",
-            "answer_c": null,
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_b": "Falso"
         },
         "correct_answer": "answer_a"
     },
@@ -565,11 +455,7 @@
         "question": "¿Qué hace el selector :focus?",
         "answers": {
             "answer_a": "Establece el elemento para que se enfoque de forma predeterminada",
-            "answer_b": "Selecciona el elemento cuando tiene foco",
-            "answer_c": null,
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_b": "Selecciona el elemento cuando tiene foco"
         },
         "correct_answer": "answer_b"
     },
@@ -580,10 +466,7 @@
         "answers": {
             "answer_a": "font-color: red",
             "answer_b": "text-color: red",
-            "answer_c": "color: red",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "color: red"
         },
         "correct_answer": "answer_c"
     },
@@ -594,10 +477,7 @@
         "answers": {
             "answer_a": "#",
             "answer_b": ".",
-            "answer_c": "*",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "*"
         },
         "correct_answer": "answer_a"
     },
@@ -607,11 +487,7 @@
         "question": "La regla '!important!' se usa para dar mas importancia a una propiedad/valor",
         "answers": {
             "answer_a": "Verdadero",
-            "answer_b": "Falso",
-            "answer_c": null,
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_b": "Falso"
         },
         "correct_answer": "answer_a"
     },
@@ -621,11 +497,7 @@
         "question": "¿Qué es cierto sobre display:inline-block?",
         "answers": {
             "answer_a": "Agrega un salto de línea después del elemento",
-            "answer_b": "Permite establecer un ancho y alto en el elemento",
-            "answer_c": null,
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_b": "Permite establecer un ancho y alto en el elemento"
         },
         "correct_answer": "answer_b"
     },
@@ -636,10 +508,7 @@
         "answers": {
             "answer_a": "Z-index",
             "answer_b": "X-index",
-            "answer_c": "Y-index",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "Y-index"
         },
         "correct_answer": "answer_a"
     },
@@ -649,11 +518,7 @@
         "question": "¿Qué propiedad se puede usar para eliminar los marcadores de una lista?",
         "answers": {
             "answer_a": "text-decoration: none",
-            "answer_b": "list-style-type: none",
-            "answer_c": null,
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_b": "list-style-type: none"
         },
         "correct_answer": "answer_b"
     },
@@ -665,9 +530,7 @@
             "answer_a": "Orientación",
             "answer_b": "Resolución",
             "answer_c": "Ancho y alto de la ventana del navegador",
-            "answer_d": "Todo lo anterior",
-            "answer_e": null,
-            "answer_f": null
+            "answer_d": "Todo lo anterior"
         },
         "correct_answer": "answer_d"
     },
@@ -678,10 +541,7 @@
         "answers": {
             "answer_a": "Cascading Style Sheets",
             "answer_b": "Cascading Style System",
-            "answer_c": "Color Style Sheets",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "Color Style Sheets"
         },
         "correct_answer": "answer_a"
     },
@@ -692,10 +552,7 @@
         "answers": {
             "answer_a": "opacity:.1",
             "answer_b": "opacity:.5",
-            "answer_c": "opacity:0.9",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "opacity:0.9"
         },
         "correct_answer": "answer_a"
     },
@@ -705,11 +562,7 @@
         "question": "El valor por defecto de 'overflow' es 'visible'",
         "answers": {
             "answer_a": "Verdadero",
-            "answer_b": "Falso",
-            "answer_c": null,
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_b": "Falso"
         },
         "correct_answer": "answer_a"
     },
@@ -719,11 +572,7 @@
         "question": "Los elementos con 'position:absolute' se eliminan del flujo normal y pueden superponerse a los elementos",
         "answers": {
             "answer_a": "Verdadero",
-            "answer_b": "Falso",
-            "answer_c": null,
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_b": "Falso"
         },
         "correct_answer": ""
     },
@@ -734,10 +583,7 @@
         "answers": {
             "answer_a": ".wrappe > a",
             "answer_b": "div + p",
-            "answer_c": "p:first-child",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "p:first-child"
         },
         "correct_answer": "answer_c"
     },
@@ -748,10 +594,7 @@
         "answers": {
             "answer_a": "::first-line",
             "answer_b": "::before",
-            "answer_c": "::paragraph",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "::paragraph"
         },
         "correct_answer": "answer_c"
     },
@@ -762,10 +605,7 @@
         "answers": {
             "answer_a": "Agregar funcionalidad a elementos html",
             "answer_b": "Describir cómo se mostrarán los elementos html",
-            "answer_c": "Crear el marcado de un sitio web",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "Crear el marcado de un sitio web"
         },
         "correct_answer": "answer_b"
     },
@@ -776,10 +616,7 @@
         "answers": {
             "answer_a": ";",
             "answer_b": ",",
-            "answer_c": "/",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "/"
         },
         "correct_answer": "answer_a"
     },
@@ -789,11 +626,7 @@
         "question": "'position:sticky' establece que el elemento permanezca siempre en el mismo lugar si se desplaza la página",
         "answers": {
             "answer_a": "True",
-            "answer_b": "False",
-            "answer_c": null,
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_b": "False"
         },
         "correct_answer": "answer_b"
     },
@@ -804,10 +637,7 @@
         "answers": {
             "answer_a": "Etiqueta y valor",
             "answer_b": "Selector y declaración",
-            "answer_c": "Clase y propiedad",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "Clase y propiedad"
         },
         "correct_answer": "answer_b"
     },
@@ -818,10 +648,7 @@
         "answers": {
             "answer_a": ":global",
             "answer_b": ":all",
-            "answer_c": ":root",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": ":root"
         },
         "correct_answer": "answer_c"
     },
@@ -832,10 +659,7 @@
         "answers": {
             "answer_a": "'visibilty:hidden' ocupará el mismo espacio que antes",
             "answer_b": "display:none ocupará el mismo espacio que antes",
-            "answer_c": "No hay diferencia entre los dos",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "No hay diferencia entre los dos"
         },
         "correct_answer": "answer_a"
     },
@@ -921,7 +745,7 @@
         "question": "Si proporciona solo un parámetro como un valor entero para el objeto Fecha, ¿se tratará como milisegundos?",
         "answers": {
             "answer_a": "Verdadero",
-            "answer_b": "False"
+            "answer_b": "Falso"
         },
         "correct_answer": "answer_a"
     },
@@ -953,10 +777,7 @@
         "answers": {
             "answer_a": "err/res",
             "answer_b": "try/catch",
-            "answer_c": "check/return",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "check/return"
         },
         "correct_answer": "answer_b"
     },
@@ -967,10 +788,7 @@
         "answers": {
             "answer_a": "event.preventDefault()",
             "answer_b": "event.stopPropagation()",
-            "answer_c": "Los dos",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "Los dos"
         },
         "correct_answer": "answer_c"
     },
@@ -981,10 +799,7 @@
         "answers": {
             "answer_a": "pos()",
             "answer_b": "position()",
-            "answer_c": "indexOf()",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "indexOf()"
         },
         "correct_answer": "answer_c"
     },
@@ -995,10 +810,7 @@
         "answers": {
             "answer_a": "0.3",
             "answer_b": "0.31",
-            "answer_c": "0.30000000000000004",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "0.30000000000000004"
         },
         "correct_answer": "answer_c"
     },
@@ -1009,10 +821,7 @@
         "answers": {
             "answer_a": "ejemplo()",
             "answer_b": "function ejemplo()",
-            "answer_c": "execute function ejemplo()",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "execute function ejemplo()"
         },
         "correct_answer": "answer_a"
     },
@@ -1023,10 +832,7 @@
         "answers": {
             "answer_a": "Un string",
             "answer_b": "Un integer",
-            "answer_c": "Un objeto",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "Un objeto"
         },
         "correct_answer": "answer_b"
     },
@@ -1036,11 +842,7 @@
         "question": "¿Que es el 'hoisting'?",
         "answers": {
             "answer_a": "Comportamiento predeterminado de mover declaraciones a la parte superior",
-            "answer_b": "Eliminación automática de variables no utilizadas en todo el código.",
-            "answer_c": null,
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_b": "Eliminación automática de variables no utilizadas en todo el código."
         },
         "correct_answer": "answer_a"
     },
@@ -1051,10 +853,7 @@
         "answers": {
             "answer_a": "<script src=\"main.js\">",
             "answer_b": "<script href=\"main.js\">",
-            "answer_c": "<script name=\"main.js\">",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "<script name=\"main.js\">"
         },
         "correct_answer": "answer_a"
     },
@@ -1065,10 +864,7 @@
         "answers": {
             "answer_a": "#demo.innerHTML = \"Edited!\"",
             "answer_b": "document.getElementById(\"demo\").innerHTML = \"Edited!\".",
-            "answer_c": "document.getElementByName(\"p\").innerHTML = \"Edited!\"",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "document.getElementByName(\"p\").innerHTML = \"Edited!\""
         },
         "correct_answer": "answer_b"
     },
@@ -1079,10 +875,7 @@
         "answers": {
             "answer_a": "do/while",
             "answer_b": "for/in",
-            "answer_c": "if/then",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "if/then"
         },
         "correct_answer": "answer_c"
     },
@@ -1093,10 +886,7 @@
         "answers": {
             "answer_a": "lowerCase()",
             "answer_b": "toLowerCase()",
-            "answer_c": "toLocaleLowerCase()",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "toLocaleLowerCase()"
         },
         "correct_answer": "answer_b"
     },
@@ -1108,9 +898,7 @@
             "answer_a": "Math.min(xy)",
             "answer_b": "Math.min(x, y)",
             "answer_c": "Math(min(xy))",
-            "answer_d": "Math(min(x, y))",
-            "answer_e": null,
-            "answer_f": null
+            "answer_d": "Math(min(x, y))"
         },
         "correct_answer": "answer_b"
     },
@@ -1121,10 +909,7 @@
         "answers": {
             "answer_a": "$",
             "answer_b": "_",
-            "answer_c": "Cualquier número",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "Cualquier número"
         },
         "correct_answer": "answer_c"
     },
@@ -1135,10 +920,7 @@
         "answers": {
             "answer_a": "let arr = {a,b,c}",
             "answer_b": "let arr = a,b,c",
-            "answer_c": "let arr = [a,b,c]",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "let arr = [a,b,c]"
         },
         "correct_answer": "answer_c"
     },
@@ -1149,10 +931,7 @@
         "answers": {
             "answer_a": "let obj = {a:1, b:2, c:3}",
             "answer_b": "let obj = a:1, b:2, c:3",
-            "answer_c": "let obj = [a:1, b:2, c:3]",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "let obj = [a:1, b:2, c:3]"
         },
         "correct_answer": "answer_a"
     },
@@ -1163,10 +942,7 @@
         "answers": {
             "answer_a": "null",
             "answer_b": "undefined",
-            "answer_c": "NaN",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "NaN"
         },
         "correct_answer": "answer_b"
     },
@@ -1176,11 +952,7 @@
         "question": "¿Cuál es la sintaxis correcta para no igual?",
         "answers": {
             "answer_a": "!==",
-            "answer_b": "==!",
-            "answer_c": null,
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_b": "==!"
         },
         "correct_answer": "answer_a"
     },
@@ -1191,10 +963,7 @@
         "answers": {
             "answer_a": "105",
             "answer_b": "'105'",
-            "answer_c": "SyntaxError",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "SyntaxError"
         },
         "correct_answer": "answer_b"
     },
@@ -1205,10 +974,7 @@
         "answers": {
             "answer_a": "person.name",
             "answer_b": "person[\"name\"]",
-            "answer_c": "Ambas son correctas",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_c": "Ambas son correctas"
         },
         "correct_answer": "answer_c"
     },
@@ -1218,11 +984,7 @@
         "question": "Los scripts se pueden colocar en la sección <body>, o en la <head> de una página HTML, o en ambas",
         "answers": {
             "answer_a": "Verdadero",
-            "answer_b": "Falso",
-            "answer_c": null,
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
+            "answer_b": "Falso"
         },
         "correct_answer": "answer_a"
     }
