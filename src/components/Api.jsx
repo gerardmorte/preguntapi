@@ -100,8 +100,8 @@ function Api() {
       <br />
       <h2><b>Como contribuir en el proyecto</b></h2>
       <p className="fs-5 mx-auto">
-        Si usas la API y encuentras algún error en las preguntas puedes avisarme en el siguiente correo: info@preguntapi.dev. <br />
-        También puedes contribuir en GitHub.
+        Si usas la API y encuentras algún error en las preguntas puedes avisarme en el siguiente correo: info@preguntapi.dev <br />
+        También puedes contribuir en <a href="https://github.com/gmorte/preguntapi" target="_blank">GitHub</a>
       </p>
 
       <br />

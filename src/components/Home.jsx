@@ -17,11 +17,11 @@ function Home() {
                 <Container className="text-center">
                     <Row lg={1} className="justify-content-center">
                         <Col>
-                            <Link to="quiz">
+                            <Link to="/quiz">
                                 <Button
                                     variant="warning"
                                     type="submit"
-                                    className="border border-dark mt-1 m-4 p-4 rounded-5 w-auto"
+                                    className="border border-dark mt-1 m-4 p-4 rounded-5 w-auto shadow"
                                 >
                                     <h2>Quieres hacer un Quiz?</h2>
                                     <span>
@@ -31,11 +31,11 @@ function Home() {
                             </Link>
                         </Col>
                         <Col>
-                            <Link to="info-api">
+                            <Link to="/info-api">
                                 <Button
                                     variant="warning"
                                     type="submit"
-                                    className="border border-dark mt-1 m-4 p-4 rounded-5 w-auto"
+                                    className="border border-dark mt-1 m-4 p-4 rounded-5 w-auto shadow"
                                 >
                                     <h2>Quieres conocer la API?</h2>
                                     <span>

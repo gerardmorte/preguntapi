@@ -9,18 +9,22 @@ import { Route, Routes, Link } from "react-router-dom";
 function App() {
     return (
         <div className="App">
-            <Navbar bg="dark" variant="dark" expand="lg" >
-                <Navbar.Brand as={Link} to="/" className="text-warning ps-4 mt-2">
+            <Navbar bg="dark" variant="dark" expand="lg">
+                <Navbar.Brand
+                    as={Link}
+                    to="/"
+                    className="text-warning ps-4 mt-2"
+                >
                     <h4>preguntAPI</h4>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav"  className="border-0 shadow-none me-2"/>
                 <Navbar.Collapse
                     id="basic-navbar-nav"
-                    className="justify-content-end pe-4 mt-2"
+                    className="justify-content-end pe-4 mt-2 ps-4"
                 >
                     <Nav>
                         <Nav.Link as={Link} to="/">
-                            <h4 className="fw-light">Inicio</h4>
+                            <h4 className="fw-light ">Inicio</h4>
                         </Nav.Link>
                         <Nav.Link as={Link} to="quiz">
                             <h4 className="fw-light">Quiz</h4>
@@ -29,7 +33,7 @@ function App() {
                             <h4 className="fw-light">API</h4>
                         </Nav.Link>
                         <a
-                            href="https://github.com/"
+                            href="https://github.com/gmorte/preguntapi"
                             target="_blank"
                             className="text-warning p-2"
                         >
@@ -50,18 +54,18 @@ function App() {
 
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="quiz" element={<Quiz />} />
-                <Route path="info-api" element={<Api />} />
+                <Route path="/quiz" element={<Quiz />} />
+                <Route path="/info-api" element={<Api />} />
                 <Route
-                    path="startQuiz/:category/:limit"
+                    path="/startQuiz/:category/:limit"
                     element={<StartQuiz />}
                 />
             </Routes>
 
             <footer className="w-100 bg-dark mt-auto bottom-0 pt-2">
-                <h4 className="text-warning text-center">
-                    www.preguntapi.dev
-                </h4>
+                <Link to="/" className="text-warning text-decoration-none">
+                    <h4 className=" text-center">www.preguntapi.dev</h4>
+                </Link>
             </footer>
         </div>
     );
