@@ -3,63 +3,61 @@ import { Container } from "react-bootstrap";
 function Api() {
     let texto = String.raw`
     [
-        {
-          "id": "1",
-          "category": "html",
-          "question": "¿Cuál de estos es un elemento de bloque?",
-          "answers": {
-            "answer_a": "<span>",
-            "answer_b": "<table>",
-            "answer_c": "<em>",
-            "answer_d": "<img>"
-          },
-          "correct_answer": "answer_b"
+      {
+        "id": "61",
+        "category": "javascript",
+        "question": "¿Javascript distingue entre mayúsculas y minúsculas?",
+        "answers": {
+          "answer_a": "Verdadero",
+          "answer_b": "Falso"
         },
-        {
-          "id": "2",
-          "category": "html",
-          "question": "¿Cuál es la sintaxis correcta para añadir un \"checkbox\"?",
-          "answers": {
-            "answer_a": "<checkbox>",
-            "answer_b": "<check>",
-            "answer_c": "<input tpye='checkbox'>"
-          },
-          "correct_answer": "answer_c"
+        "correct_answer": "answer_a"
+      },
+      {
+        "id": "62",
+        "category": "javascript",
+        "question": "¿Qué palabra está relacionada con la herencia de clase?",
+        "answers": {
+          "answer_a": "expands",
+          "answer_b": "exports",
+          "answer_c": "extends"
         },
-        {
-          "id": "3",
-          "category": "html",
-          "question": "¿Qué define el atributo \"action\" en el elemento <form>?",
-          "answers": {
-            "answer_a": "El método http para enviar los datos del formulario.",
-            "answer_b": "Dónde enviar los datos del formulario cuando se envían",
-            "answer_c": "El tipo mime utilizado para codificar el contenido"
-          },
-          "correct_answer": "answer_b"
+        "correct_answer": "answer_c"
+      },
+      {
+        "id": "63",
+        "category": "javascript",
+        "question": "¿Qué controlador de eventos se utiliza para procesar el evento de clic?",
+        "answers": {
+          "answer_a": "onmouseclick",
+          "answer_b": "onclick",
+          "answer_c": "onkeydown"
         },
-        {
-          "id": "4",
-          "category": "html",
-          "question": "¿Cuál es la sinstaxis válida de los comentarios en html?",
-          "answers": {
-            "answer_a": "<!-- Comentario -->",
-            "answer_b": "/* Comentario */",
-            "answer_c": "// Comentario"
-          },
-          "correct_answer": "answer_a"
+        "correct_answer": "answer_b"
+      },
+      {
+        "id": "64",
+        "category": "javascript",
+        "question": "¿Cuál de estos métodos combina dos cadenas?",
+        "answers": {
+          "answer_a": "attach()",
+          "answer_b": "append()",
+          "answer_c": "concat()"
         },
-        {
-          "id": "5",
-          "category": "html",
-          "question": "¿Qué significa html?",
-          "answers": {
-            "answer_a": "Hypertext Markdown Language",
-            "answer_b": "Hypertext Machine Language",
-            "answer_c": "Hypertext Markup Language"
-          },
-          "correct_answer": "answer_c"
-        }
-      ]
+        "correct_answer": "answer_c"
+      },
+      {
+        "id": "65",
+        "category": "javascript",
+        "question": "Cómo insertar un comentario que tiene más de una línea?",
+        "answers": {
+          "answer_a": "/*Este comentario tiene más de una línea.*/",
+          "answer_b": "<!--Este comentario tiene más de una línea.-->",
+          "answer_c": "//Este comentario tiene más de una línea.//"
+        },
+        "correct_answer": "answer_a"
+      }
+    ]
     `;
 
     return (
@@ -130,7 +128,7 @@ function Api() {
                 <b>Ejemplo:</b>
             </p>
             <p className="fs-5 mx-auto">
-                .../api/v1/questions?category=html&limit=5
+                .../api/v1/questions?category=javascript&limit=5
             </p>
             <pre>{texto}</pre>
         </Container>

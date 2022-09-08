@@ -709,17 +709,6 @@
     {
         "id": "65",
         "category": "javascript",
-        "question": "Cómo insertar un comentario que tiene más de una línea?",
-        "answers": {
-            "answer_a": "/*Este comentario tiene más de una línea.*/",
-            "answer_b": "<!--Este comentario tiene más de una línea.-->",
-            "answer_c": "//Este comentario tiene más de una línea.//"
-        },
-        "correct_answer": "answer_a"
-    },
-    {
-        "id": "66",
-        "category": "javascript",
         "question": "¿Cuál es el método para agregar elementos al comienzo de un array?",
         "answers": {
             "answer_a": "push()",
@@ -727,6 +716,17 @@
             "answer_c": "pop()"
         },
         "correct_answer": "answer_b"
+    },
+    {
+        "id": "66",
+        "category": "javascript",
+        "question": "Cómo insertar un comentario que tiene más de una línea?",
+        "answers": {
+            "answer_a": "/*Este comentario tiene más de una línea.*/",
+            "answer_b": "<!--Este comentario tiene más de una línea.-->",
+            "answer_c": "//Este comentario tiene más de una línea.//"
+        },
+        "correct_answer": "answer_a"
     },
     {
         "id": "67",
