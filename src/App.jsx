@@ -13,7 +13,7 @@ function App() {
                 <Navbar.Brand
                     as={Link}
                     to="/"
-                    className="text-warning ps-4 mt-2"
+                    className="text-warning ps-3 mt-2"
                 >
                     <h4>preguntAPI</h4>
                 </Navbar.Brand>
@@ -23,7 +23,7 @@ function App() {
                 />
                 <Navbar.Collapse
                     id="basic-navbar-nav"
-                    className="justify-content-end pe-4 mt-2 ps-4"
+                    className="justify-content-end pe-2 mt-2 ps-4"
                 >
                     <Nav>
                         <Nav.Link as={Link} to="/">
