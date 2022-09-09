@@ -20,6 +20,7 @@ function Quiz() {
                 <option value="html">HTML</option>
                 <option value="css">CSS</option>
                 <option value="javascript">JAVASCRIPT</option>
+                <option value="java">JAVA</option>
             </Form.Select>
             <Form.Label className="mt-5">
                 <h1>Total preguntas:</h1>
