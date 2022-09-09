@@ -95,7 +95,7 @@ export default function StartQuiz() {
                 ) : (
                     <Button
                         variant="primary"
-                        className="fs-5 fw-bold"
+                        className="fs-5 fw-bold mb-2"
                         size="lg"
                         disabled={btnNextDisabled}
                         onClick={() => {
