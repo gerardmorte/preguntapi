@@ -1,7 +1,21 @@
 import { Container } from "react-bootstrap";
 
 function Api() {
-    let texto = String.raw`
+    let texto1 = String.raw`
+    {
+      "categories": {
+        "html": "https://www.preguntapi.dev/api/v1/questions?category=html",
+        "css": "https://www.preguntapi.dev/api/v1/questions?category=css",
+        "javascript": "https://www.preguntapi.dev/api/v1/questions?category=javascript",
+        "java": "https://www.preguntapi.dev/api/v1/questions?category=java",
+        "sql": "https://www.preguntapi.dev/api/v1/questions?category=sql",
+        "swift": "https://www.preguntapi.dev/api/v1/questions?category=swift",
+        "kotlin": "https://www.preguntapi.dev/api/v1/questions?category=kotlin",
+        "typescript": "https://www.preguntapi.dev/api/v1/questions?category=typescript"
+      }
+    }
+    `;
+    let texto2 = String.raw`
     [
       {
         "id": "61",
@@ -110,17 +124,19 @@ function Api() {
             <h2>
                 <b>URL base</b>
             </h2>
+            {/* { La URL base es la URL raíz para toda la API y contiene toda la
+                información de la API disponible.} */}
             <p className="fs-5 mx-auto">
-                La URL base es la URL raíz para toda la API y contiene toda la
-                información de la API disponible.
+                La URL base contiene información sobre todas las categorias disponibles.
                 <br /> <br />
                 <b>La URL base es:</b>
             </p>
             <div className="p-2 overflow-scroll">
                 <p className="fs-5 ">
-                    https://www.preguntapi.dev/api/v1/questions
+                    https://www.preguntapi.dev/api/v1
                 </p>
             </div>
+            <pre>{texto1}</pre>
             <br />
             <p className="fs-5 mx-auto">
                 El único recurso disponible es "questions", se utiliza para
@@ -140,7 +156,7 @@ function Api() {
                     https://www.preguntapi.dev/api/v1/questions?category=javascript&limit=5
                 </p>
             </div>
-            <pre>{texto}</pre>
+            <pre>{texto2}</pre>
             <br />
         </Container>
     );
