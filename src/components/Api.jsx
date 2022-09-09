@@ -107,13 +107,18 @@ function Api() {
                 Si encuentras algún error en las preguntas o el funcionamiento
                 de la API puedes{" "}
                 <a
+                    className="text-decoration-none"
                     href="https://github.com/gmorte/preguntapi/issues/new"
                     target="_blank"
                 >
                     enviar una sugerencia
                 </a>{" "}
                 o contribuir directamente en el proyecto mediante{" "}
-                <a href="https://github.com/gmorte/preguntapi" target="_blank">
+                <a
+                    className="text-decoration-none"
+                    href="https://github.com/gmorte/preguntapi"
+                    target="_blank"
+                >
                     GitHub
                 </a>{" "}
                 para añadir categorías, preguntas, mejorar el funcionamiento de
@@ -127,13 +132,20 @@ function Api() {
             {/* { La URL base es la URL raíz para toda la API y contiene toda la
                 información de la API disponible.} */}
             <p className="fs-5 mx-auto">
-                La URL base contiene información sobre todas las categorias disponibles.
+                La URL base contiene información sobre todas las categorias
+                disponibles.
                 <br /> <br />
                 <b>La URL base es:</b>
             </p>
             <div className="p-2 overflow-scroll">
                 <p className="fs-5 ">
-                    https://www.preguntapi.dev/api/v1
+                    <a
+                        className="text-decoration-none"
+                        href=" https://www.preguntapi.dev/api/v1"
+                        target={"_blank"}
+                    >
+                        https://www.preguntapi.dev/api/v1
+                    </a>
                 </p>
             </div>
             <pre>{texto1}</pre>
@@ -153,7 +165,13 @@ function Api() {
             </p>
             <div className="p-2 overflow-scroll">
                 <p className="fs-5 ">
-                    https://www.preguntapi.dev/api/v1/questions?category=javascript&limit=5
+                    <a
+                        className="text-decoration-none"
+                        href="https://www.preguntapi.dev/api/v1/questions?category=javascript&limit=5"
+                        target={"_blank"}
+                    >
+                        https://www.preguntapi.dev/api/v1/questions?category=javascript&limit=5
+                    </a>
                 </p>
             </div>
             <pre>{texto2}</pre>
