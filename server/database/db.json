@@ -1915,19 +1915,5 @@
             "answer_d": "Todo lo anterior"
         },
         "correct_answer": "answer_d"
-    },
-    {
-        "id": "171",
-        "category": "swift",
-        "question": "",
-        "answers": {
-            "answer_a": "",
-            "answer_b": "",
-            "answer_c": "",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
-        },
-        "correct_answer": ""
     }
 ]
