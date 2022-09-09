@@ -17,7 +17,10 @@ function App() {
                 >
                     <h4>preguntAPI</h4>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav"  className="border-0 shadow-none me-2"/>
+                <Navbar.Toggle
+                    aria-controls="basic-navbar-nav"
+                    className="border-0 shadow-none me-2"
+                />
                 <Navbar.Collapse
                     id="basic-navbar-nav"
                     className="justify-content-end pe-4 mt-2 ps-4"

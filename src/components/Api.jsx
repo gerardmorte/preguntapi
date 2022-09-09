@@ -90,12 +90,20 @@ function Api() {
                 <b>Como contribuir en el proyecto</b>
             </h2>
             <p className="fs-5 mx-auto">
-                Puedes contribuir en{" "}
+                Si encuentras algún error en las preguntas o el funcionamiento
+                de la API puedes{" "}
+                <a
+                    href="https://github.com/gmorte/preguntapi/issues/new"
+                    target="_blank"
+                >
+                    enviar una sugerencia
+                </a>{" "}
+                o contribuir directamente en el proyecto mediante{" "}
                 <a href="https://github.com/gmorte/preguntapi" target="_blank">
                     GitHub
                 </a>{" "}
-                para añadir categorias, preguntas, mejorar el funcionamiento de
-                la API o reportar errores.
+                para añadir categorías, preguntas, mejorar el funcionamiento de
+                la API o reportar errores.{" "}
             </p>
 
             <br />
