@@ -10,7 +10,16 @@ router.get("/", (req, res) => {
         const filteredQuestions = questions.filter(
             (question) => question.category === category
         );
-        res.json(filteredQuestions.slice(0, limit || filteredQuestions.length));
+
+        if (limit > filteredQuestions.length) {
+            res.json({
+                error: `Max limit questions of ${category} is ${filteredQuestions.length}`,
+            });
+        } else {
+            res.json(
+                filteredQuestions.slice(0, limit || filteredQuestions.length)
+            );
+        }
     } else {
         res.json(questions);
     }
