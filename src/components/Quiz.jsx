@@ -24,6 +24,7 @@ function Quiz() {
                 <option value="sql">SQL</option>
                 <option value="swift">SWIFT</option>
                 <option value="kotlin">KOTLIN</option>
+                <option value="typescript">TYPESCRIPT</option>
             </Form.Select>
             <Form.Label className="mt-5">
                 <h1>Total preguntas:</h1>
