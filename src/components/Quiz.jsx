@@ -42,7 +42,7 @@ function Quiz() {
                 <Button
                     variant="primary"
                     type="submit"
-                    className="mt-5 w-100 fs-5 fw-bold"
+                    className="mt-5 w-100 fs-5 fw-bold shadow"
                     size="lg"
                 >
                     Empezar Quiz!

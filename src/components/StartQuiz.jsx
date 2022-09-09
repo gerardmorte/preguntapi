@@ -41,7 +41,7 @@ export default function StartQuiz() {
                                                         <Button
                                                             //variant={btnColor}
                                                             disabled={btnDisabled}
-                                                            className="mt-2 fs-5 fw-semibold bg-warning text-dark border-0 text-break"
+                                                            className="mt-2 fs-5 fw-semibold bg-warning text-dark border-0 text-break shadow"
                                                             size="lg"
                                                             onClick={(e) => {
                                                                 if (key === question.correct_answer) {
@@ -81,13 +81,13 @@ export default function StartQuiz() {
             <div className="d-grid">
                 {quizEnd ? (
                     <>
-                        <Button variant="primary" size="lg" className="fs-5 fw-bold mb-4 mt-2" onClick={() => {
+                        <Button variant="primary" size="lg" className="fs-5 fw-bold mb-4 mt-2 shadow" onClick={() => {
                             location.reload()
                         }}>
                             REPETIR QUIZ
                         </Button>
                         <Link to="/quiz">
-                            <Button className="w-100 fs-5 fw-bold" variant="primary">
+                            <Button className="w-100 fs-5 fw-bold shadow" variant="primary">
                                 SALIR
                             </Button>
                         </Link>
@@ -95,7 +95,7 @@ export default function StartQuiz() {
                 ) : (
                     <Button
                         variant="primary"
-                        className="fs-5 fw-bold mb-2"
+                        className="fs-5 fw-bold mb-2 shadow"
                         size="lg"
                         disabled={btnNextDisabled}
                         onClick={() => {
