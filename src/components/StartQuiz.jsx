@@ -41,7 +41,7 @@ export default function StartQuiz() {
                                                         <Button
                                                             //variant={btnColor}
                                                             disabled={btnDisabled}
-                                                            className="mt-2 fs-5 fw-semibold bg-warning text-dark border-0"
+                                                            className="mt-2 fs-5 fw-semibold bg-warning text-dark border-0 text-break"
                                                             size="lg"
                                                             onClick={(e) => {
                                                                 if (key === question.correct_answer) {
