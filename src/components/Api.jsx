@@ -135,9 +135,11 @@ function Api() {
             <p className="fs-5 mx-auto">
                 <b>Ejemplo:</b>
             </p>
-            <p className="fs-5 mx-auto">
-                .../api/v1/questions?category=javascript&limit=5
-            </p>
+            <div className="p-2 overflow-scroll">
+                <p className="fs-5 ">
+                    https://www.preguntapi.dev/api/v1/questions?category=javascript&limit=5
+                </p>
+            </div>
             <pre>{texto}</pre>
         </Container>
     );
