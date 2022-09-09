@@ -45,14 +45,16 @@ export default function StartQuiz() {
                                                             size="lg"
                                                             onClick={(e) => {
                                                                 if (key === question.correct_answer) {
-                                                                    e.target.classList.remove("bg-warning");
-                                                                    e.target.classList.add("bg-success");
+                                                                    // e.target.classList.remove("bg-warning");
+                                                                    // e.target.classList.add("bg-success");
+                                                                    e.target.classList.replace("bg-warning", "bg-success")
                                                                     //setBtnColor("success")
                                                                     setBtnDisabled(true);
                                                                     setScore(score + 1);
                                                                 } else {
-                                                                    e.target.classList.remove("bg-warning");
-                                                                    e.target.classList.add("bg-danger");
+                                                                    // e.target.classList.remove("bg-warning");
+                                                                    // e.target.classList.add("bg-danger");
+                                                                    e.target.classList.replace("bg-warning", "bg-danger")
                                                                     //setBtnColor("danger");
                                                                     setBtnDisabled(true);
                                                                 }
