@@ -5,7 +5,6 @@ export default function StartQuiz() {
     const { category, limit } = useParams();
     const [actualQuestion, setActualQuestion] = useState(0);
     const [questions, setQuestions] = useState([]);
-    // const [btnColor, setBtnColor] = useState("warning");
     const [btnDisabled, setBtnDisabled] = useState();
     const [btnNextDisabled, setBtnNextDisabled] = useState(true);
     const [quizEnd, setQuizEnd] = useState(false);
@@ -39,23 +38,16 @@ export default function StartQuiz() {
                                                 return (
                                                     <div className="d-grid mb-2">
                                                         <Button
-                                                            //variant={btnColor}
                                                             disabled={btnDisabled}
                                                             className="mt-2 fs-5 fw-semibold bg-warning text-dark border-0 text-break shadow"
                                                             size="lg"
                                                             onClick={(e) => {
-                                                                if (key === question.correct_answer) {
-                                                                    // e.target.classList.remove("bg-warning");
-                                                                    // e.target.classList.add("bg-success");
+                                                                if (key === question.correct_answer) {  
                                                                     e.target.classList.replace("bg-warning", "bg-success")
-                                                                    //setBtnColor("success")
                                                                     setBtnDisabled(true);
                                                                     setScore(score + 1);
                                                                 } else {
-                                                                    // e.target.classList.remove("bg-warning");
-                                                                    // e.target.classList.add("bg-danger");
                                                                     e.target.classList.replace("bg-warning", "bg-danger")
-                                                                    //setBtnColor("danger");
                                                                     setBtnDisabled(true);
                                                                 }
                                                                 setBtnNextDisabled(false);
@@ -101,7 +93,6 @@ export default function StartQuiz() {
                         onClick={() => {
                             setActualQuestion(actualQuestion + 1);
                             setBtnDisabled(false);
-                           // setBtnColor("warning");
                             setBtnNextDisabled(true);
                         }}
                     >
