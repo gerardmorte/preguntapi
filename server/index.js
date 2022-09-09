@@ -12,6 +12,8 @@ app.use(express.json());
 const buildPath = path.join(__dirname, "..", "dist");
 app.use(express.static(buildPath));
 
+app.use("/api/v1", require("./routes/infoapi"));
+
 app.use("/api/v1/questions", require("./routes/questions"));
 
 app.get("*", (req, res) => {

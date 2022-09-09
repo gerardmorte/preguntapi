@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "html": "https://www.preguntapi.dev/api/v1/questions?category=html",
+        "css": "https://www.preguntapi.dev/api/v1/questions?category=css",
+        "javascript": "https://www.preguntapi.dev/api/v1/questions?category=javascript",
+        "java": "https://www.preguntapi.dev/api/v1/questions?category=java",
+        "sql": "https://www.preguntapi.dev/api/v1/questions?category=sql",
+        "swift": "https://www.preguntapi.dev/api/v1/questions?category=swift",
+        "kotlin": "https://www.preguntapi.dev/api/v1/questions?category=kotlin",
+        "typescript": "https://www.preguntapi.dev/api/v1/questions?category=typescript"
+    } 
+}

@@ -4,7 +4,7 @@ import Quiz from "./components/Quiz";
 import Api from "./components/Api";
 import Home from "./components/Home";
 import StartQuiz from "./components/StartQuiz";
-import { Route, Routes, Link } from "react-router-dom";
+import { Route, Routes, Link, Navigate } from "react-router-dom";
 
 function App() {
     return (
@@ -63,6 +63,7 @@ function App() {
                     path="/startQuiz/:category/:limit"
                     element={<StartQuiz />}
                 />
+                <Route path="*" element={<Navigate to="/" />} />
             </Routes>
 
             <footer className="w-100 bg-dark mt-auto bottom-0 pt-2">
