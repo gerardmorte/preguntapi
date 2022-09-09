@@ -1347,5 +1347,337 @@
             "answer_d": "main()"
         },
         "correct_answer": "answer_a"
+    },
+    {
+        "id": "121",
+        "category": "sql",
+        "question": "¿Qué son las restricciones (constraints)?",
+        "answers": {
+            "answer_a": "Valores predefinidos que no se pueden cambiar",
+            "answer_b": "Reglas aplicadas en las columnas de datos de una tabla"
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "122",
+        "category": "sql",
+        "question": "¿Para qué sirve el comando \"FROM\"?",
+        "answers": {
+            "answer_a": "Especificar el rango de condición de búsqueda",
+            "answer_b": "Especifique de qué tabla seleccionar o eliminar los datos"
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "123",
+        "category": "sql",
+        "question": "¿Para que sirve la operador \"IN\"?",
+        "answers": {
+            "answer_a": "Permite seleccionar tablas específicas en la base de datos",
+            "answer_b": "Permite especificar múltiples valores en una cláusula WHERE"
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "124",
+        "category": "sql",
+        "question": "¿Cuál de estos es un tipo de \"JOIN\" válido?",
+        "answers": {
+            "answer_a": "INSIDE JOIN",
+            "answer_b": "JOIN IN",
+            "answer_c": "INNER JOIN"
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "125",
+        "category": "sql",
+        "question": "¿Cuál de estos no es un operador lógico en SQL?",
+        "answers": {
+            "answer_a": "WITH",
+            "answer_b": "BETWEEN",
+            "answer_c": "LIKE"
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "126",
+        "category": "sql",
+        "question": "¿Qué significa SQL?",
+        "answers": {
+            "answer_a": "Standard Query Language",
+            "answer_b": "Specified Query Language",
+            "answer_c": "Structured Query Language"
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "127",
+        "category": "sql",
+        "question": "¿Qué declaración se utiliza para modificar datos en la base de datos?",
+        "answers": {
+            "answer_a": "MODIFY",
+            "answer_b": "EDIT",
+            "answer_c": "UPDATE"
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "128",
+        "category": "sql",
+        "question": "¿Qué declaración se usa para insertar un nuevo registro en la tabla?",
+        "answers": {
+            "answer_a": "INSERT VALUE",
+            "answer_b": "INSERT INTO",
+            "answer_c": "INSERT"      
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "129",
+        "category": "sql",
+        "question": "¿Qué declaración se usa para crear una tabla de base de datos?",
+        "answers": {
+            "answer_a": "CREATE TABLE",
+            "answer_b": "ADD TABLE",
+            "answer_c": "NEW TABLE"
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "130",
+        "category": "sql",
+        "question": "¿Cuándo apareció SQL por primera vez?",
+        "answers": {
+            "answer_a": "Principios de la década de 1970",
+            "answer_b": "Principios de la década de 1980",
+            "answer_c": "Principios de la década de 1990"
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "131",
+        "category": "sql",
+        "question": "¿Qué operador se utiliza para verificar la presencia de cualquier registro en una subconsulta?",
+        "answers": {
+            "answer_a": "IS PRESENT",
+            "answer_b": "EXISTS",
+            "answer_c": "INCLUDE"
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "132",
+        "category": "sql",
+        "question": "¿Qué operador se usa para seleccionar valores dentro de un rango?",
+        "answers": {
+            "answer_a": "RANGE",
+            "answer_b": "BETWEEN",
+            "answer_c": "WITHIN"
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "133",
+        "category": "sql",
+        "question": "¿Qué es cierto acerca de eliminar filas de una tabla?",
+        "answers": {
+            "answer_a": "No se eliminan filas si se omite la cláusula where",
+            "answer_b": "Eliminas filas existentes de una tabla usando la declaración DELETE",
+            "answer_c": "No puede eliminar filas en función de los valores de otra tabla"
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "134",
+        "category": "sql",
+        "question": "¿Qué operador se usa para buscar un patrón específico en una columna?",
+        "answers": {
+            "answer_a": "SEARCH",
+            "answer_b": "LIKE",
+            "answer_c": "FROM"
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "135",
+        "category": "sql",
+        "question": "¿Cuál es un problema de seguridad común relacionado con SQL?",
+        "answers": {
+            "answer_a": "SQL encryption",
+            "answer_b": "SQL blocking",
+            "answer_c": "SQL injection"
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "136",
+        "category": "sql",
+        "question": "¿Cómo seleccionar todos los registros de la \"Productos\"?",
+        "answers": {
+            "answer_a": "SELECT ALL FROM Products",
+            "answer_b": "SELECT * FROM Products",
+            "answer_c": "SELECT Products"
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "137",
+        "category": "sql",
+        "question": "¿Cómo seleccionar varias columnas de la tabla Productos?",
+        "answers": {
+            "answer_a": "SELECT Name, Surname FROM Products",
+            "answer_b": "SELECT Name Surname FROM Products"
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "138",
+        "category": "sql",
+        "question": "Qué palabra clave de SQL se utiliza para ordenar un conjunto de resultados",
+        "answers": {
+            "answer_a": "SORT",
+            "answer_b": "ORDER",
+            "answer_c": "ORDER BY"
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "139",
+        "category": "sql",
+        "question": "¿Cuál de estas no es una base de datos SQL?",
+        "answers": {
+            "answer_a": "Oracle",
+            "answer_b": "PostgreSQL",
+            "answer_c": "Cassandra"
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "140",
+        "category": "sql",
+        "question": "¿Cómo seleccionar todos los registros de la tabla \"Productos\" donde el valor de \"Nombre\" comienza con \"z\"?",
+        "answers": {
+            "answer_a": "SELECT * FROM Products WHERE Name is 'z%'",
+            "answer_b": "SELECT * FROM Products WHERE Name Like 'z%'"
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "141",
+        "category": "sql",
+        "question": "¿Qué función SQL se usa para contar el número de filas en una consulta SQL?",
+        "answers": {
+            "answer_a": "SELECT()",
+            "answer_b": "COUNT()",
+            "answer_c": "TOTAL()"
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "142",
+        "category": "sql",
+        "question": "¿Qué declaración SQL se usa para devolver solo valores diferentes?",
+        "answers": {
+            "answer_a": "SELECT DIFFERENT",
+            "answer_b": "SELECT DISTINCT",
+            "answer_c": "SELECT UNIQUE"
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "143",
+        "category": "sql",
+        "question": "¿La cláusula WHERE solo se usa en declaraciones de selección?",
+        "answers": {
+            "answer_a": "Verdadero",
+            "answer_b": "Falso"
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "144",
+        "category": "sql",
+        "question": "Which of the following join extracts data of matching rows from both tables?",
+        "answers": {
+            "answer_a": "Full Outer Join",
+            "answer_b": "Left Join",
+            "answer_c": "Right Join",
+            "answer_d": "Ninguna de estas"
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "145",
+        "category": "sql",
+        "question": "¿Cuál de las siguientes es la forma correcta de comentar en SQL?",
+        "answers": {
+            "answer_a": "/* Esto es un comentario*/",
+            "answer_b": "# Esto es un comentario",
+            "answer_c": "% Esto es un comentario %",
+            "answer_d": "& Esto es un comentario"
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "146",
+        "category": "sql",
+        "question": "¿Cuántas claves primarias se pueden crear en una tabla?",
+        "answers": {
+            "answer_a": "Infinitas",
+            "answer_b": "2",
+            "answer_c": "1",
+            "answer_d": "24"
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "147",
+        "category": "sql",
+        "question": "¿Cuál de los siguientes no es parte de las operaciones CRUD en SQL?",
+        "answers": {
+            "answer_a": "Crear una tabla",
+            "answer_b": "Eliminar registros de una tabla",
+            "answer_c": "Crear una copia de una tabla",
+            "answer_d": "Actualizar los datos almacenados en la tabla"
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "148",
+        "category": "sql",
+        "question": "¿Cuál de las siguientes respuestas es cierta acerca de una vista",
+        "answers": {
+            "answer_a": "La vista se elimina automáticamente después de que se completa la sesión",
+            "answer_b": "Las vistas no se pueden actualizar una vez creadas",
+            "answer_c": "Las vistas se crean agrupando un solo atributo deseado de una base de datos",
+            "answer_d": "Ninguna de estas"
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "149",
+        "category": "sql",
+        "question": "¿Cuál de las siguientes consultas limitaría la salida a 5 filas?",
+        "answers": {
+            "answer_a": "SELECT * FROM DataFlair 5",
+            "answer_b": "SELECT * FROM DataFlair LIMIT 5",
+            "answer_c": "SELECT * FROM DataFlair 5 LIMIT",
+            "answer_d": "SELECT LIMIT(5) * FROM DataFlair"
+
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "150",
+        "category": "sql",
+        "question": "¿La base de datos SQL sigue cuál de los siguientes principios?",
+        "answers": {
+            "answer_a": "ACID",
+            "answer_b": "AGILE",
+            "answer_c": "SQL",
+            "answer_d": "DBMS"
+        },
+        "correct_answer": "answer_a"
     }
 ]
