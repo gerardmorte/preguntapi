@@ -13,7 +13,8 @@ export default function StartQuiz() {
     useEffect(() => {
         fetch(`/api/v1/questions?category=${category}&limit=${limit}`)
             .then((res) => res.json())
-            .then((data) => setQuestions(data));
+            .then((data) => setQuestions(data))
+            .catch((err) => console.log(err.message));
     }, []);
 
     return (
