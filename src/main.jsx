@@ -8,20 +8,20 @@ import { TourProvider } from "@reactour/tour";
 
 const steps = [
     {
-        selector: "#nav-tour",
-        content: "Empecemos el tour!",
+        selector: "#nav-brand",
+        content: "¡Bienvenido a preguntAPI!",
     },
     {
         selector: "#text-info",
-        content: "Bienvenido a preguntAPI",
+        content: "¿Que es preguntAPI?",
     },
     {
         selector: "#nav-quiz",
-        content: "Si quieres hacer un QUIZ, clica aqui!",
+        content: "Si quieres hacer un QUIZ. ¡Clica aquí!",
     },
     {
         selector: "#nav-api",
-        content: "Si quieres conocer la API, clica aqui!",
+        content: "Si quieres conocer la API. ¡Clica aquí!",
     }
     // ...
 ];

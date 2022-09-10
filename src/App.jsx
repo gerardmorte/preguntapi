@@ -25,6 +25,7 @@ function App() {
                     as={Link}
                     to="/"
                     className="text-warning ps-3 mt-2"
+                    id="nav-brand"
                 >
                     <h4>preguntAPI</h4>
                 </Navbar.Brand>
