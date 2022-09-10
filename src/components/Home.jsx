@@ -1,5 +1,6 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 function Home() {
     return (
@@ -49,6 +50,14 @@ function Home() {
                     </Row>
                 </Container>
             </Container>
+            <Player
+                src={
+                    "https://assets7.lottiefiles.com/packages/lf20_ayopewsc.json"
+                }
+                className="player fluid w-75"
+                loop
+                autoplay
+            />
         </div>
     );
 }
