@@ -9,7 +9,7 @@ import { useTour } from "@reactour/tour";
 import { useEffect } from "react";
 
 function App() {
-    const { setIsOpen, setCurrentStep } = useTour();
+    const { setIsOpen, setCurrentStep, isOpen } = useTour();
     const navigate = useNavigate();
 
     useEffect(() => {
@@ -34,7 +34,9 @@ function App() {
                 />
                 <Navbar.Collapse
                     id="basic-navbar-nav"
-                    className="justify-content-end pe-2 mt-2 ps-4"
+                    className={`justify-content-end pe-2 mt-2 ps-4 ${
+                        isOpen ? "show" : "hide"
+                    }`}
                 >
                     <Nav>
                         <Nav.Link as={Link} to="/">
