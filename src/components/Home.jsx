@@ -4,9 +4,9 @@ import { Player } from "@lottiefiles/react-lottie-player";
 
 function Home() {
     return (
-        <div className="my-auto mt-5">
+        <div className="my-auto">
             <Container>
-                <main className="mt-5 text-center mb-3" id="text-info">
+                <main className="mt-5 text-center" id="text-info">
                     <h1 className="mb-5">preguntAPI</h1>
                     <h2 className="mb-5">
                         La primera API de preguntas de programación en español
@@ -54,7 +54,7 @@ function Home() {
                 src={
                     "https://assets7.lottiefiles.com/packages/lf20_ayopewsc.json"
                 }
-                className="player fluid w-100"
+                className="player w-75"
                 loop
                 autoplay
             />
