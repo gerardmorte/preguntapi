@@ -5,8 +5,16 @@ import Api from "./components/Api";
 import Home from "./components/Home";
 import StartQuiz from "./components/StartQuiz";
 import { Route, Routes, Link, Navigate } from "react-router-dom";
+import { useTour } from "@reactour/tour";
+import { useEffect, useState } from "react";
 
 function App() {
+    const { setIsOpen } = useTour();
+
+    useEffect(() => {
+        setIsOpen(true)
+    },[])
+
     return (
         <div className="App">
             <Navbar bg="dark" variant="dark" expand="lg">
@@ -29,12 +37,15 @@ function App() {
                         <Nav.Link as={Link} to="/">
                             <h4 className="fw-light ">Inicio</h4>
                         </Nav.Link>
-                        <Nav.Link as={Link} to="quiz">
+                        <Nav.Link as={Link} to="quiz" id="nav-quiz">
                             <h4 className="fw-light">Quiz</h4>
                         </Nav.Link>
-                        <Nav.Link as={Link} to="info-api">
+                        <Nav.Link as={Link} to="info-api" id="nav-api">
                             <h4 className="fw-light">API</h4>
                         </Nav.Link>
+                        {/* <Nav.Link onClick={() => setIsOpen(true)}>
+                            <h4 className="fw-light text-warning">Tour</h4>
+                        </Nav.Link> */}
                         <a
                             href="https://github.com/gmorte/preguntapi"
                             target="_blank"

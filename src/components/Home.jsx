@@ -5,7 +5,7 @@ function Home() {
     return (
         <div className="my-auto">
             <Container>
-                <main className="mt-5 text-center mb-3">
+                <main className="mt-5 text-center mb-3" id="text-info">
                     <h1 className="mb-5">preguntAPI</h1>
                     <h2 className="mb-5">La primera API de preguntas de programación en español</h2>
                     <h3 className="mb-5">
