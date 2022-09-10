@@ -1,5 +1,4 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import { Player } from "@lottiefiles/react-lottie-player";
 
 function Home() {
@@ -7,7 +6,7 @@ function Home() {
         <div className="my-auto">
             <Container>
                 <main className="mt-5 text-center" id="text-info">
-                    <h1 className="mb-5">preguntAPI</h1>
+                    <h1 className="mb-5 fw-bold">preguntAPI</h1>
                     <h2 className="mb-5">
                         La primera API de preguntas de programación en español
                     </h2>
@@ -16,40 +15,7 @@ function Home() {
                         libremente la API
                     </h3>
                 </main>
-            </Container>
-            {/* <Container className="text-center mt-5">
-                <Row lg={2} className="justify-content-center">
-                    <Col>
-                        <Link to="/quiz">
-                            <Button
-                                variant="warning"
-                                type="submit"
-                                className="border border-dark mt-1 m-4 p-4 rounded-5 w-auto shadow"
-                            >
-                                <h2>Quieres hacer un Quiz?</h2>
-                                <span>
-                                    <b>Clica aqui!</b>
-                                </span>
-                            </Button>
-                        </Link>
-                    </Col>
-                    <Col>
-                        <Link to="/info-api">
-                            <Button
-                                variant="warning"
-                                type="submit"
-                                className="border border-dark mt-1 m-4 p-4 rounded-5 w-auto shadow"
-                            >
-                                <h2>Quieres conocer la API?</h2>
-                                <span>
-                                    <b>Clica aqui!</b>
-                                </span>
-                            </Button>
-                        </Link>
-                    </Col>
-                </Row>
-            </Container> */}
-          
+            </Container>  
             <Player
                 src={
                     "https://assets7.lottiefiles.com/packages/lf20_ayopewsc.json"
@@ -58,8 +24,6 @@ function Home() {
                 loop
                 autoplay
             />
-
-        
         </div>
     );
 }
