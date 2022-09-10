@@ -9,7 +9,7 @@ import { TourProvider } from "@reactour/tour";
 const steps = [
     {
         selector: "#nav-tour",
-        content: "Empezemos el tour!",
+        content: "Empecemos el tour!",
     },
     {
         selector: "#text-info",
