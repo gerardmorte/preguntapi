@@ -4,20 +4,20 @@ import { Player } from "@lottiefiles/react-lottie-player";
 
 function Home() {
     return (
-        <div className="my-auto">
+        <div className="my-auto mt-5">
             <Container>
                 <main className="mt-5 text-center mb-3" id="text-info">
                     <h1 className="mb-5">preguntAPI</h1>
                     <h2 className="mb-5">
                         La primera API de preguntas de programación en español
                     </h2>
-                    <h3 className="mb-5">
+                    <h3>
                         Aprende con nuestros quizzes de programación o usa
                         libremente la API
                     </h3>
                 </main>
 
-                <Container className="text-center">
+                {/* <Container className="text-center">
                     <Row lg={1} className="justify-content-center">
                         <Col>
                             <Link to="/quiz">
@@ -48,13 +48,13 @@ function Home() {
                             </Link>
                         </Col>
                     </Row>
-                </Container>
+                </Container> */}
             </Container>
             <Player
                 src={
                     "https://assets7.lottiefiles.com/packages/lf20_ayopewsc.json"
                 }
-                className="player fluid w-75"
+                className="player fluid w-100"
                 loop
                 autoplay
             />
