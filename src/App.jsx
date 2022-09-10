@@ -53,6 +53,7 @@ function App() {
                                 setCurrentStep(0);
                                 setIsOpen(true);
                             }}
+                            id="nav-tour"
                         >
                             <h4 className="fw-light text-warning">
                                 <svg

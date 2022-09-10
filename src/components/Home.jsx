@@ -17,7 +17,7 @@ function Home() {
                     </h3>
                 </main>
             </Container>
-            <Container className="text-center mt-5">
+            {/* <Container className="text-center mt-5">
                 <Row lg={2} className="justify-content-center">
                     <Col>
                         <Link to="/quiz">
@@ -48,7 +48,8 @@ function Home() {
                         </Link>
                     </Col>
                 </Row>
-            </Container>
+            </Container> */}
+          
             <Player
                 src={
                     "https://assets7.lottiefiles.com/packages/lf20_ayopewsc.json"

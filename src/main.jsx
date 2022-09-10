@@ -8,6 +8,10 @@ import { TourProvider } from "@reactour/tour";
 
 const steps = [
     {
+        selector: "#nav-tour",
+        content: "Empezemos el tour!",
+    },
+    {
         selector: "#text-info",
         content: "Bienvenido a preguntAPI",
     },
