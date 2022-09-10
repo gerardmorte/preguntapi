@@ -16,39 +16,38 @@ function Home() {
                         libremente la API
                     </h3>
                 </main>
-
-                {/* <Container className="text-center">
-                    <Row lg={1} className="justify-content-center">
-                        <Col>
-                            <Link to="/quiz">
-                                <Button
-                                    variant="warning"
-                                    type="submit"
-                                    className="border border-dark mt-1 m-4 p-4 rounded-5 w-auto shadow"
-                                >
-                                    <h2>Quieres hacer un Quiz?</h2>
-                                    <span>
-                                        <b>Clica aqui!</b>
-                                    </span>
-                                </Button>
-                            </Link>
-                        </Col>
-                        <Col>
-                            <Link to="/info-api">
-                                <Button
-                                    variant="warning"
-                                    type="submit"
-                                    className="border border-dark mt-1 m-4 p-4 rounded-5 w-auto shadow"
-                                >
-                                    <h2>Quieres conocer la API?</h2>
-                                    <span>
-                                        <b>Clica aqui!</b>
-                                    </span>
-                                </Button>
-                            </Link>
-                        </Col>
-                    </Row>
-                </Container> */}
+            </Container>
+            <Container className="text-center mt-5">
+                <Row lg={2} className="justify-content-center">
+                    <Col>
+                        <Link to="/quiz">
+                            <Button
+                                variant="warning"
+                                type="submit"
+                                className="border border-dark mt-1 m-4 p-4 rounded-5 w-auto shadow"
+                            >
+                                <h2>Quieres hacer un Quiz?</h2>
+                                <span>
+                                    <b>Clica aqui!</b>
+                                </span>
+                            </Button>
+                        </Link>
+                    </Col>
+                    <Col>
+                        <Link to="/info-api">
+                            <Button
+                                variant="warning"
+                                type="submit"
+                                className="border border-dark mt-1 m-4 p-4 rounded-5 w-auto shadow"
+                            >
+                                <h2>Quieres conocer la API?</h2>
+                                <span>
+                                    <b>Clica aqui!</b>
+                                </span>
+                            </Button>
+                        </Link>
+                    </Col>
+                </Row>
             </Container>
             <Player
                 src={
@@ -58,6 +57,8 @@ function Home() {
                 loop
                 autoplay
             />
+
+        
         </div>
     );
 }
