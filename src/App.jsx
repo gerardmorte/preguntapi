@@ -9,11 +9,12 @@ import { useTour } from "@reactour/tour";
 import { useEffect } from "react";
 
 function App() {
-    const { setIsOpen } = useTour();
+    const { setIsOpen, setCurrentStep } = useTour();
     const navigate = useNavigate();
 
     useEffect(() => {
         navigate("/", { replace: true });
+        setCurrentStep(0);
         setIsOpen(true);
     }, []);
 
@@ -48,7 +49,10 @@ function App() {
                         <Nav.Link
                             as={Link}
                             to="/"
-                            onClick={() => setIsOpen(true)}
+                            onClick={() => {
+                                setCurrentStep(0);
+                                setIsOpen(true);
+                            }}
                         >
                             <h4 className="fw-light text-warning">
                                 <svg
