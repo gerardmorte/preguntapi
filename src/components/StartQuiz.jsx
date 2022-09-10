@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { Button, Container } from "react-bootstrap";
+
 export default function StartQuiz() {
     const { category, limit } = useParams();
     const [actualQuestion, setActualQuestion] = useState(0);
@@ -52,57 +53,25 @@ export default function StartQuiz() {
                                                     return (
                                                         <div className="d-grid mb-2">
                                                             <Button
-                                                                disabled={
-                                                                    btnDisabled
-                                                                }
+                                                                disabled={btnDisabled}
                                                                 className="mt-2 fs-5 fw-semibold bg-warning text-dark border-0 text-break shadow"
                                                                 size="lg"
-                                                                onClick={(
-                                                                    e
-                                                                ) => {
-                                                                    if (
-                                                                        key ===
-                                                                        question.correct_answer
-                                                                    ) {
-                                                                        e.target.classList.replace(
-                                                                            "bg-warning",
-                                                                            "bg-success"
-                                                                        );
-                                                                        setBtnDisabled(
-                                                                            true
-                                                                        );
-                                                                        setScore(
-                                                                            score +
-                                                                                1
-                                                                        );
+                                                                onClick={(e) => {
+                                                                    if (key === question.correct_answer) {
+                                                                        e.target.classList.replace("bg-warning", "bg-success");
+                                                                        setBtnDisabled(true);
+                                                                        setScore(score + 1);
                                                                     } else {
-                                                                        e.target.classList.replace(
-                                                                            "bg-warning",
-                                                                            "bg-danger"
-                                                                        );
-                                                                        setBtnDisabled(
-                                                                            true
-                                                                        );
+                                                                        e.target.classList.replace("bg-warning", "bg-danger");
+                                                                        setBtnDisabled(true);
                                                                     }
-                                                                    setBtnNextDisabled(
-                                                                        false
-                                                                    );
-                                                                    if (
-                                                                        actualQuestion ==
-                                                                        questions.length -
-                                                                            1
-                                                                    ) {
-                                                                        setBtnNextDisabled(
-                                                                            true
-                                                                        );
+                                                                    setBtnNextDisabled(false);
+                                                                    if (actualQuestion == questions.length -1) {
+                                                                        setBtnNextDisabled(true);
                                                                         setTimeout(
                                                                             () => {
-                                                                                setQuizEnd(
-                                                                                    true
-                                                                                );
-                                                                            },
-                                                                            2000
-                                                                        );
+                                                                                setQuizEnd(true);
+                                                                            },2000);
                                                                     }
                                                                 }}
                                                             >
