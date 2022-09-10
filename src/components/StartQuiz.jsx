@@ -74,11 +74,11 @@ export default function StartQuiz() {
             <div className="d-grid">
                 {quizEnd ? (
                     <>
-                        <Button variant="primary" size="lg" className="fs-5 fw-bold mb-4 mt-2 shadow" onClick={() => {
+                        {/* <Button variant="primary" size="lg" className="fs-5 fw-bold mb-4 mt-2 shadow" onClick={() => {
                             location.reload()
                         }}>
                             REPETIR QUIZ
-                        </Button>
+                        </Button> */}
                         <Link to="/quiz">
                             <Button className="w-100 fs-5 fw-bold shadow" variant="primary">
                                 SALIR
