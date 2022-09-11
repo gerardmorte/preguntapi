@@ -129,8 +129,6 @@ function Api() {
             <h2>
                 <b>URL base</b>
             </h2>
-            {/* { La URL base es la URL raíz para toda la API y contiene toda la
-                información de la API disponible.} */}
             <p className="fs-5 mx-auto">
                 La URL base contiene información sobre todas las categorias
                 disponibles.

@@ -1,4 +1,4 @@
-import { Container/*, Row, Col, Button */} from "react-bootstrap";
+import { Container} from "react-bootstrap";
 import { Player } from "@lottiefiles/react-lottie-player";
 import { useTour } from "@reactour/tour";
 import { useEffect } from "react";
