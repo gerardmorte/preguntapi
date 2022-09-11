@@ -4,13 +4,12 @@ import { Button, Container } from "react-bootstrap";
 
 export default function StartQuiz() {
     const { category, limit } = useParams();
-    const [actualQuestionIndex, setActualQuestionIndex] = useState(0);
-    const [actualQuestion, setActualQuestion] = useState();
     const [questions, setQuestions] = useState([]);
+    const [actualQuestionIndex, setActualQuestionIndex] = useState(0);
+    const [score, setScore] = useState(0);
+    const [quizEnd, setQuizEnd] = useState(false);
     const [btnDisabled, setBtnDisabled] = useState();
     const [btnNextDisabled, setBtnNextDisabled] = useState(true);
-    const [quizEnd, setQuizEnd] = useState(false);
-    const [score, setScore] = useState(0);
 
     useEffect(() => {
         fetch(`/api/v1/questions?category=${category}&limit=${limit}`)

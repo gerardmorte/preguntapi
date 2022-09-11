@@ -28,7 +28,7 @@ const steps = [
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
-        <TourProvider steps={steps}>
+        <TourProvider steps={steps} className="rounded">
             <App />
         </TourProvider>
     </BrowserRouter>
