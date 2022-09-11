@@ -1,9 +1,9 @@
 const { Router } = require("express");
 const router = Router();
-const infoApi = require("../database/infoapi.json");
+const categories = require("../database/categories.json");
 
 router.get("/", (req, res) => {
-    res.json(infoApi);
+    res.json(categories);
 });
 
 module.exports = router;

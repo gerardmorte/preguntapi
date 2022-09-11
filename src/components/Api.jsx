@@ -4,14 +4,14 @@ function Api() {
     let texto1 = String.raw`
     {
       "categories": {
-        "html": "https://www.preguntapi.dev/api/v1/questions?category=html",
-        "css": "https://www.preguntapi.dev/api/v1/questions?category=css",
-        "javascript": "https://www.preguntapi.dev/api/v1/questions?category=javascript",
-        "java": "https://www.preguntapi.dev/api/v1/questions?category=java",
-        "sql": "https://www.preguntapi.dev/api/v1/questions?category=sql",
-        "swift": "https://www.preguntapi.dev/api/v1/questions?category=swift",
-        "kotlin": "https://www.preguntapi.dev/api/v1/questions?category=kotlin",
-        "typescript": "https://www.preguntapi.dev/api/v1/questions?category=typescript"
+        "html": "https://www.preguntapi.dev/api/v1/quizzes?category=html",
+        "css": "https://www.preguntapi.dev/api/v1/quizzes?category=css",
+        "javascript": "https://www.preguntapi.dev/api/v1/quizzes?category=javascript",
+        "java": "https://www.preguntapi.dev/api/v1/quizzes?category=java",
+        "sql": "https://www.preguntapi.dev/api/v1/quizzes?category=sql",
+        "swift": "https://www.preguntapi.dev/api/v1/quizzes?category=swift",
+        "kotlin": "https://www.preguntapi.dev/api/v1/quizzes?category=kotlin",
+        "typescript": "https://www.preguntapi.dev/api/v1/quizzes?category=typescript"
       }
     }
     `;
@@ -149,8 +149,8 @@ function Api() {
             <pre>{texto1}</pre>
             <br />
             <p className="fs-5 mx-auto">
-                El único recurso disponible es "questions", se utiliza para
-                obtener todas las preguntas. "questions" puede recibir dos
+                El único recurso disponible es "quizzes", se utiliza para
+                obtener todos los quiz/preguntas. "quizzes" puede recibir dos
                 parámetros: "category" y "limit". <br />
                 <br />
                 Si solo se especifica "category" la API devolverá todas las
@@ -165,10 +165,10 @@ function Api() {
                 <p className="fs-5 ">
                     <a
                         className="text-decoration-none"
-                        href="https://www.preguntapi.dev/api/v1/questions?category=javascript&limit=5"
+                        href="https://www.preguntapi.dev/api/v1/quizzes?category=javascript&limit=5"
                         target={"_blank"}
                     >
-                        https://www.preguntapi.dev/api/v1/questions?category=javascript&limit=5
+                        https://www.preguntapi.dev/api/v1/quizzes?category=javascript&limit=5
                     </a>
                 </p>
             </div>
