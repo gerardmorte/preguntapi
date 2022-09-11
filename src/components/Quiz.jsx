@@ -1,10 +1,18 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Container, Button, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-function Quiz() {
+export default function Quiz() {
+    const [categories, setCategories] = useState([]);
     const [category, setCategory] = useState("html");
     const [limit, setLimit] = useState(10);
+
+    useEffect(() => {
+        fetch("/api/v1")
+            .then((res) => res.json())
+            .then((data) => setCategories(Object.keys(data.categories)))
+            .catch((err) => console.log(err.message));
+    }, []);
 
     return (
         <Container className="my-auto">
@@ -17,14 +25,9 @@ function Quiz() {
                     setCategory(e.target.value);
                 }}
             >
-                <option value="html">HTML</option>
-                <option value="css">CSS</option>
-                <option value="javascript">JAVASCRIPT</option>
-                <option value="java">JAVA</option>
-                <option value="sql">SQL</option>
-                <option value="swift">SWIFT</option>
-                <option value="kotlin">KOTLIN</option>
-                <option value="typescript">TYPESCRIPT</option>
+                {categories.map((item) => {
+                    return <option value={item}>{item.toUpperCase()}</option>;
+                })}
             </Form.Select>
             <Form.Label className="mt-5">
                 <h1>Total preguntas:</h1>
@@ -52,5 +55,3 @@ function Quiz() {
         </Container>
     );
 }
-
-export default Quiz;
