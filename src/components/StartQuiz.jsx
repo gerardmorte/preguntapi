@@ -4,7 +4,8 @@ import { Button, Container } from "react-bootstrap";
 
 export default function StartQuiz() {
     const { category, limit } = useParams();
-    const [actualQuestion, setActualQuestion] = useState(0);
+    const [actualQuestionIndex, setActualQuestionIndex] = useState(0);
+    const [actualQuestion, setActualQuestion] = useState();
     const [questions, setQuestions] = useState([]);
     const [btnDisabled, setBtnDisabled] = useState();
     const [btnNextDisabled, setBtnNextDisabled] = useState(true);
@@ -29,10 +30,11 @@ export default function StartQuiz() {
                         </h1>
                     </>
                 ) : (
-                    <div>
+                    <>
                         <h1 className="mt-4 mb-4">{category.toUpperCase()}</h1>
                         <h2>
-                            Pregunta {actualQuestion + 1} de {questions.length}{" "}
+                            Pregunta {actualQuestionIndex + 1} de{" "}
+                            {questions.length}{" "}
                         </h2>
                         <h2 className="mb-4">
                             {" "}
@@ -40,53 +42,54 @@ export default function StartQuiz() {
                         </h2>
                         <div className="mb-3">
                             {questions.map((question, index) => {
-                                if (index == actualQuestion) {
+                                if (index == actualQuestionIndex) {
                                     return (
-                                        <>
-                                            <h2 className="text-center text-break mb-4">
-                                                {question.question}
-                                            </h2>
-                                            {Object.keys(question.answers).map(
-                                                (key) => {
-                                                    const value =
-                                                        question.answers[key];
-                                                    return (
-                                                        <div className="d-grid mb-2">
-                                                            <Button
-                                                                disabled={btnDisabled}
-                                                                className="mt-2 fs-5 fw-semibold bg-warning text-dark border-0 text-break shadow"
-                                                                size="lg"
-                                                                onClick={(e) => {
-                                                                    if (key === question.correct_answer) {
-                                                                        e.target.classList.replace("bg-warning", "bg-success");
-                                                                        setBtnDisabled(true);
-                                                                        setScore(score + 1);
-                                                                    } else {
-                                                                        e.target.classList.replace("bg-warning", "bg-danger");
-                                                                        setBtnDisabled(true);
-                                                                    }
-                                                                    setBtnNextDisabled(false);
-                                                                    if (actualQuestion == questions.length -1) {
-                                                                        setBtnNextDisabled(true);
-                                                                        setTimeout(
-                                                                            () => {
-                                                                                setQuizEnd(true);
-                                                                            },2000);
-                                                                    }
-                                                                }}
-                                                            >
-                                                                {value}
-                                                            </Button>
-                                                        </div>
-                                                    );
-                                                }
-                                            )}{" "}
-                                        </>
+                                        <h2 className="text-center text-break mb-4">
+                                            {question.question}
+                                        </h2>
                                     );
                                 }
                             })}
                         </div>
-                    </div>
+                        <div>
+                            {questions.map((question, index) => {
+                                if (index == actualQuestionIndex) {
+                                    return (
+                                        <div className="d-grid mb-2">
+                                            {Object.keys(question.answers).map(((key) => {
+                                                const value = question.answers[key];
+                                                return (
+                                                    <Button
+                                                        className="mt-2 fs-5 fw-semibold bg-warning text-dark border-0 text-break shadow"
+                                                        disabled={btnDisabled}
+                                                        size="lg"
+                                                        onClick={(e) => {
+                                                            if (key === question.correct_answer) {
+                                                                e.target.classList.replace("bg-warning", "bg-success");
+                                                                setBtnDisabled(true);
+                                                                setScore(score + 1);
+                                                            } else {
+                                                                e.target.classList.replace("bg-warning", "bg-danger");
+                                                                setBtnDisabled(true);
+                                                            }
+                                                            setBtnNextDisabled(false);
+                                                            if (actualQuestionIndex == questions.length - 1) {
+                                                                setBtnNextDisabled(true);
+                                                                setTimeout(() => {
+                                                                    setQuizEnd(true)
+                                                                }, 2000);
+                                                            }
+                                                        }}>
+                                                        {value}
+                                                    </Button>
+                                                );
+                                            }))}
+                                        </div>
+                                    );
+                                }
+                            })}
+                        </div>
+                    </>
                 )}
             </div>
             <div className="d-grid">
@@ -97,7 +100,7 @@ export default function StartQuiz() {
                                 className="w-100 fs-5 fw-bold shadow mb-4 mt-2"
                                 variant="primary"
                                 onClick={() => {
-                                    setActualQuestion(0);
+                                    setActualQuestionIndex(0);
                                     setQuizEnd(false);
                                     setScore(0);
                                     setBtnDisabled(false);
@@ -122,7 +125,7 @@ export default function StartQuiz() {
                         size="lg"
                         disabled={btnNextDisabled}
                         onClick={() => {
-                            setActualQuestion(actualQuestion + 1);
+                            setActualQuestionIndex(actualQuestionIndex + 1);
                             setBtnDisabled(false);
                             setBtnNextDisabled(true);
                         }}
