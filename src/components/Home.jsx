@@ -1,7 +1,16 @@
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container/*, Row, Col, Button */} from "react-bootstrap";
 import { Player } from "@lottiefiles/react-lottie-player";
+import { useTour } from "@reactour/tour";
+import { useEffect } from "react";
 
 function Home() {
+    const { setIsOpen, setCurrentStep } = useTour();
+
+    useEffect(() => {
+        setCurrentStep(0);
+        setIsOpen(true);
+    }, []);
+
     return (
         <div className="my-auto">
             <Container>
