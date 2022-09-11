@@ -21,7 +21,6 @@ export default function StartQuiz() {
  
     return (
         <Container className="text-center my-auto">
-       
             <div>
                 {quizEnd ? (
                     <>
@@ -41,6 +40,11 @@ export default function StartQuiz() {
                             {" "}
                             Puntuación: {quizScore} de {quizzes.length}
                         </h2>
+                        {quizzes.map((quiz,index) => {
+                            if(index == actualQuizIndex){
+                                return (<h2 className="mb-4">{quiz.question}</h2>)
+                            }
+                        })}
                         <div>
                             {quizzes.map((quiz, index) => {
                                 if (index == actualQuizIndex) {
