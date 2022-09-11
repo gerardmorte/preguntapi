@@ -17,11 +17,11 @@ const steps = [
     },
     {
         selector: "#nav-quiz",
-        content: "Si quieres hacer un QUIZ. ¡Clica aquí!",
+        content: "Si quieres hacer un QUIZ, clica el botón QUIZ en el menú.",
     },
     {
         selector: "#nav-api",
-        content: "Si quieres conocer la API. ¡Clica aquí!",
+        content: "Si quieres conocer la API, clica el botón API en el menú.",
     }
     // ...
 ];
