@@ -6,5 +6,5 @@
 **https://www.preguntapi.dev**
 
 ## Documentación
-**Puedes ver la documentación para el uso de la API [aquí](https://www.preguntapi.dev/info-api)**
+**Puedes ver la documentación para el uso de la API [aquí](https://www.preguntapi.dev/info-api).**
 
