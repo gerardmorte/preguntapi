@@ -18,7 +18,7 @@
         "answers": {
             "answer_a": "<checkbox>",
             "answer_b": "<check>",
-            "answer_c": "<input tpye='checkbox'>"
+            "answer_c": "<input type='checkbox'>"
         },
         "correct_answer": "answer_c"
     },
