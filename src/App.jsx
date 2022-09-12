@@ -4,19 +4,19 @@ import Quiz from "./components/Quiz";
 import Api from "./components/Api";
 import Home from "./components/Home";
 import StartQuiz from "./components/StartQuiz";
-import { Route, Routes, Link, Navigate, useNavigate } from "react-router-dom";
+import { Route, Routes, Link, Navigate, useLocation } from "react-router-dom";
 import { useTour } from "@reactour/tour";
 import { useEffect } from "react";
 
-
 function App() {
-    const navigate = useNavigate()
     const { setIsOpen, setCurrentStep, isOpen } = useTour();
+    const currentRoute = useLocation();
 
     useEffect(() => {
-        navigate("/")
-        setCurrentStep(0);
-        setIsOpen(true);
+        if (currentRoute.pathname == "/") {
+            setCurrentStep(0);
+            setIsOpen(true);
+        }
     }, []);
 
     return (
