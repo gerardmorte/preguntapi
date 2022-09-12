@@ -54,6 +54,7 @@ export default function StartQuiz() {
                                                 const value = quiz.answers[key];
                                                 return (
                                                     <Button
+                                                        id={key}
                                                         className="mt-2 fs-5 fw-semibold bg-warning text-dark border-0 text-break shadow"
                                                         disabled={btnDisabled}
                                                         size="lg"
@@ -64,6 +65,7 @@ export default function StartQuiz() {
                                                                 setQuizScore(quizScore + 1);
                                                             } else {
                                                                 e.target.classList.replace("bg-warning", "bg-danger");
+                                                                document.getElementById(quiz.correct_answer).classList.replace("bg-warning", "bg-success")
                                                                 setBtnDisabled(true);
                                                             }
                                                             setBtnNextDisabled(false);
