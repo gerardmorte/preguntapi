@@ -1,16 +1,7 @@
-import { Container} from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { Player } from "@lottiefiles/react-lottie-player";
-import { useTour } from "@reactour/tour";
-import { useEffect } from "react";
 
 function Home() {
-    const { setIsOpen, setCurrentStep } = useTour();
-
-    useEffect(() => {
-        setCurrentStep(0);
-        setIsOpen(true);
-    }, []);
-
     return (
         <div className="my-auto">
             <Container>
@@ -24,7 +15,7 @@ function Home() {
                         libremente la API
                     </h3>
                 </main>
-            </Container>  
+            </Container>
             <Player
                 src={
                     "https://assets7.lottiefiles.com/packages/lf20_ayopewsc.json"
