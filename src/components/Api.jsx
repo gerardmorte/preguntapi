@@ -11,7 +11,8 @@ function Api() {
         "sql": "https://www.preguntapi.dev/api/v1/quizzes?category=sql",
         "swift": "https://www.preguntapi.dev/api/v1/quizzes?category=swift",
         "kotlin": "https://www.preguntapi.dev/api/v1/quizzes?category=kotlin",
-        "typescript": "https://www.preguntapi.dev/api/v1/quizzes?category=typescript"
+        "typescript": "https://www.preguntapi.dev/api/v1/quizzes?category=typescript",
+        "cobol": "https://www.preguntapi.dev/api/v1/quizzes?category=cobol"
       }
     }
     `;
