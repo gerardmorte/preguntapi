@@ -442,7 +442,7 @@
     {
         "id": "40",
         "category": "css",
-        "question": "Un elemento con \"positions:fixed\" se coloca en relación al \"viewport\"",
+        "question": "Un elemento con \"position: fixed\" se coloca en relación al \"viewport\"",
         "answers": {
             "answer_a": "Verdadero",
             "answer_b": "Falso"
