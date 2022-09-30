@@ -8,7 +8,7 @@
 ## Documentación 📋
 **Puedes ver la documentación para el uso de la API [aquí](https://www.preguntapi.dev/info-api).**
 
-## Ejecutar proyecto 🚀
+## Ejecutar proyecto 🔧
 
 **Minimo tener instalado Node.js versión 16.17**
 
