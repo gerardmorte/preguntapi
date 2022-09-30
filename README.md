@@ -14,8 +14,8 @@
 
 **Desde una terminal seguir los siguientes pasos:**
 
-npm install 
+> npm install 
 
-npm run build 
+> npm run build 
 
-npm run dev
+> npm run dev
