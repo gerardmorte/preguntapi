@@ -10,7 +10,7 @@
 
 ## Ejecutar proyecto 🔧
 
-**Minimo tener instalado Node.js versión 16.17**
+**Mínimo tener instalado Node.js versión 16.17**
 
 **Desde una terminal seguir los siguientes pasos:**
 
