@@ -2,6 +2,7 @@
   {
     "id": "1",
     "category": "html",
+    "level": "normal",
     "question": "¿Cuál de estos es un elemento de bloque?",
     "answers": {
       "answer_a": "<span>",
@@ -14,6 +15,7 @@
   {
     "id": "2",
     "category": "html",
+    "level": "normal",
     "question": "¿Cuál es la sintaxis correcta para añadir un \"checkbox\"?",
     "answers": {
       "answer_a": "<checkbox>",
@@ -25,6 +27,7 @@
   {
     "id": "3",
     "category": "html",
+    "level": "dificil",
     "question": "¿Qué define el atributo \"action\" en el elemento <form>?",
     "answers": {
       "answer_a": "El método http para enviar los datos del formulario.",
@@ -36,6 +39,7 @@
   {
     "id": "4",
     "category": "html",
+    "level": "facil",
     "question": "¿Cuál es la sinstaxis válida de los comentarios en html?",
     "answers": {
       "answer_a": "<!-- Comentario -->",
@@ -47,6 +51,7 @@
   {
     "id": "5",
     "category": "html",
+    "level": "normal",
     "question": "¿Qué significa html?",
     "answers": {
       "answer_a": "Hypertext Markdown Language",
@@ -58,6 +63,7 @@
   {
     "id": "6",
     "category": "html",
+    "level": "facil",
     "question": "¿Cuál de estos \"meta-tags\" está \"deprecated\"",
     "answers": {
       "answer_a": "description",
@@ -70,6 +76,7 @@
   {
     "id": "7",
     "category": "html",
+    "level": "facil",
     "question": "¿Cuál es la forma correcta de declarar un documento HTML5?",
     "answers": {
       "answer_a": "<!DOCTYPE html5>",
@@ -80,6 +87,7 @@
   {
     "id": "8",
     "category": "html",
+    "level": "normal",
     "question": "¿Cuál es la forma correcta de crear un enlace de correo electrónico?",
     "answers": {
       "answer_a": "<a href=\"mailto:email@email.com\">Email</a>",
@@ -91,6 +99,7 @@
   {
     "id": "9",
     "category": "html",
+    "level": "facil",
     "question": "¿Tanto '.html' como '.htm' son extensiones html válidas?",
     "answers": {
       "answer_a": "Verdadero",
@@ -101,6 +110,7 @@
   {
     "id": "10",
     "category": "html",
+    "level": "dificil",
     "question": "Qué fuente de imagen está un nivel por encima de la carpeta actual",
     "answers": {
       "answer_a": "<img src=\"picture.jpg\">",
@@ -112,6 +122,7 @@
   {
     "id": "11",
     "category": "html",
+    "level": "normal",
     "question": "¿Cuál de los siguientes elementos no corresponde a la sección <head>?",
     "answers": {
       "answer_a": "<title>",
@@ -124,6 +135,7 @@
   {
     "id": "12",
     "category": "html",
+    "level": "normal",
     "question": "¿Cuántas etiquetas <heading> hay en html?",
     "answers": {
       "answer_a": "2",
@@ -135,6 +147,7 @@
   {
     "id": "13",
     "category": "html",
+    "level": "normal",
     "question": "¿Para qué se utiliza la etiqueta <iframe>?",
     "answers": {
       "answer_a": "Para incrustar contenido",
@@ -146,6 +159,7 @@
   {
     "id": "14",
     "category": "html",
+    "level": "facil",
     "question": "¿Qué define el atributo 'alt' dentro de la etiqueta <img/>",
     "answers": {
       "answer_a": "La descripción de una imagen para cuando esta no se pueda mostrar.",
@@ -156,6 +170,7 @@
   {
     "id": "15",
     "category": "html",
+    "level": "facil",
     "question": "¿Qué etiqueta html se usa para definir texto importante?",
     "answers": {
       "answer_a": "<i>",
@@ -168,6 +183,7 @@
   {
     "id": "16",
     "category": "html",
+    "level": "normal",
     "question": "¿Cuál de estos es un elemento en línea?",
     "answers": {
       "answer_a": "<form>",
@@ -180,6 +196,7 @@
   {
     "id": "17",
     "category": "html",
+    "level": "facil",
     "question": "¿Cuál es la sintaxis correcta para los estilos en línea?",
     "answers": {
       "answer_a": "<p color=\"red\">Text</p>",
@@ -191,6 +208,7 @@
   {
     "id": "18",
     "category": "html",
+    "level": "normal",
     "question": "¿Cuál de estos elementos no es un 'input type'?",
     "answers": {
       "answer_a": "file",
@@ -203,6 +221,7 @@
   {
     "id": "19",
     "category": "html",
+    "level": "facil",
     "question": "¿Cuál es la forma correcta de definir un enlace?",
     "answers": {
       "answer_a": "<a url=\"path/to/file\">Link</a>",
@@ -214,6 +233,7 @@
   {
     "id": "20",
     "category": "html",
+    "level": "facil",
     "question": "¿Qué atributo se usa para especificar que un 'input' debe completarse?",
     "answers": {
       "answer_a": "placeholder",
@@ -226,6 +246,7 @@
   {
     "id": "21",
     "category": "html",
+    "level": "facil",
     "question": "¿Qué etiqueta se utiliza para producir un salto de línea?",
     "answers": {
       "answer_a": "<break>",
@@ -238,6 +259,7 @@
   {
     "id": "22",
     "category": "html",
+    "level": "facil",
     "question": "¿Cómo puedes hacer una lista numerada?",
     "answers": {
       "answer_a": "<list>",
