@@ -91,11 +91,7 @@
     "question": "¿Cuál de las siguientes respuestas no es cierta sobre TS?",
     "answers": {
       "answer_a": "Fuertemente tipado",
-      "answer_b": "Debilmente tipado",
-      "answer_c": "Lenguaje compilado",
-      "answer_d": null,
-      "answer_e": null,
-      "answer_f": null
+      "answer_b": "Debilmente tipado"
     },
     "correct_answer": "answer_b"
   },
