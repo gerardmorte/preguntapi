@@ -1,0 +1,229 @@
+[
+  {
+    "id": "171",
+    "category": "kotlin",
+    "question": "¿Qué palabra clave se usa para definir una función?",
+    "answers": {
+      "answer_a": "main",
+      "answer_b": "fun",
+      "answer_c": "function",
+      "answer_d": "new"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "172",
+    "category": "kotlin",
+    "question": "En Kotlin, se debe definir al menos una función main().",
+    "answers": {
+      "answer_a": "Verdadero",
+      "answer_b": "Falso"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "173",
+    "category": "kotlin",
+    "question": "En Kotlin, println y la función pint hacen lo mismo.",
+    "answers": {
+      "answer_a": "Verdadero",
+      "answer_b": "Falso"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "174",
+    "category": "kotlin",
+    "question": "No se puede restablecer el valor de una variable \"val\"",
+    "answers": {
+      "answer_a": "Verdadero",
+      "answer_b": "Falso"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "175",
+    "category": "kotlin",
+    "question": "Kotlin es desarrollado por ...",
+    "answers": {
+      "answer_a": "Google",
+      "answer_b": "IBM",
+      "answer_c": "Sun Systems",
+      "answer_d": "JetBrains"
+    },
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "176",
+    "category": "kotlin",
+    "question": "¿Cuál de las siguientes extensiones se usa para crear un archivo Kotlin?",
+    "answers": {
+      "answer_a": ".ko",
+      "answer_b": ".kt",
+      "answer_c": ".jv",
+      "answer_d": ".app"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "177",
+    "category": "kotlin",
+    "question": "¿Cómo se hacen los comentarios en Kotlin?",
+    "answers": {
+      "answer_a": "// Esto es un comentario",
+      "answer_b": "*/ Esto es un comentario",
+      "answer_c": "# Esto es un comentario",
+      "answer_d": "<!-- Esto es un comentario -->"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "178",
+    "category": "kotlin",
+    "question": "¿Podemos usar Kotlin en el lenguaje de programación Java?",
+    "answers": {
+      "answer_a": "Si",
+      "answer_b": "No"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "179",
+    "category": "kotlin",
+    "question": "¿Cuántos tipos de constructores hay disponibles en Kotlin?",
+    "answers": {
+      "answer_a": "1",
+      "answer_b": "2",
+      "answer_c": "3",
+      "answer_d": "4"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "180",
+    "category": "kotlin",
+    "question": "¿Cómo se crea una instancia de clase?",
+    "answers": {
+      "answer_a": "val person = new Person()",
+      "answer_b": "val person = obj Person()",
+      "answer_c": "val person = Person()",
+      "answer_d": "val person = instace of Person()"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "181",
+    "category": "kotlin",
+    "question": "La visibilidad predeterminada de una clase en Kotlin es...",
+    "answers": {
+      "answer_a": "public",
+      "answer_b": "private",
+      "answer_c": "protected",
+      "answer_d": "internal"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "182",
+    "category": "kotlin",
+    "question": "¿Puedes ejecutar código Kotlin sin JVM?",
+    "answers": {
+      "answer_a": "Verdadero",
+      "answer_b": "Falso"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "183",
+    "category": "kotlin",
+    "question": "¿Cuál de las siguientes se usa para manejar excepciones nulas?",
+    "answers": {
+      "answer_a": "Lambda Function",
+      "answer_b": "Range",
+      "answer_c": "Sealed Class",
+      "answer_d": "Elvis operator"
+    },
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "184",
+    "category": "kotlin",
+    "question": "¿Cuál de los siguientes no es un tipo de datos básico en Kotlin?",
+    "answers": {
+      "answer_a": "Array",
+      "answer_b": "List",
+      "answer_c": "String",
+      "answer_d": "Character"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "185",
+    "category": "kotlin",
+    "question": "El lenguaje Kotlin es ___",
+    "answers": {
+      "answer_a": "OOP",
+      "answer_b": "Procedural Programming",
+      "answer_c": "Las dos anteriores",
+      "answer_d": "Ninguna de las anteriores"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "186",
+    "category": "kotlin",
+    "question": "Kotlin se puede utilizar en desarrollo web.",
+    "answers": {
+      "answer_a": "Verdadero",
+      "answer_b": "Falso"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "187",
+    "category": "kotlin",
+    "question": "¿Cuál de las siguientes no es una palabra clave reservada en Kotlin?",
+    "answers": {
+      "answer_a": "super",
+      "answer_b": "package",
+      "answer_c": "static",
+      "answer_d": "dynamic"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "188",
+    "category": "kotlin",
+    "question": "En Kotlin, la especificación del paquete debe realizarse en ___",
+    "answers": {
+      "answer_a": "Al inicio del archivo",
+      "answer_b": "Al final del archivo",
+      "answer_c": "En cualquier sitio del archivo"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "189",
+    "category": "kotlin",
+    "question": "En Kotlin un programa comienza a ejecutarse desde ___",
+    "answers": {
+      "answer_a": "Parte superior del archivo",
+      "answer_b": "Primera clase  del archivo",
+      "answer_c": "Desde el metodo main",
+      "answer_d": "Ninguna de las anteriores"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "190",
+    "category": "kotlin",
+    "question": "En Kotlin, la herencia entre clases se declara mediante un símbolo ___",
+    "answers": {
+      "answer_a": "?",
+      "answer_b": ":",
+      "answer_c": "\"\"",
+      "answer_d": "()"
+    },
+    "correct_answer": "answer_b"
+  }
+]

@@ -1,0 +1,230 @@
+[
+  {
+    "id": "211",
+    "category": "cobol",
+    "question": "¿Cuál de las siguientes es una palabra COBOL válida?.",
+    "answers": {
+      "answer_a": "B12-4",
+      "answer_b": "-GROSS",
+      "answer_c": "OVER TIME",
+      "answer_d": "GROSS_SALARY"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "212",
+    "category": "cobol",
+    "question": "¿Cuál de las siguientes no es una constante figurativa?",
+    "answers": {
+      "answer_a": "SPACES",
+      "answer_b": "QUOTE",
+      "answer_c": "BLANK",
+      "answer_d": "LOW-VALUE"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "213",
+    "category": "cobol",
+    "question": "¿Cuál es el valor editado de la cláusula de imagen? Campo PIC 9999+ El valor numérico se movió al campo -382 y el valor Editado es...",
+    "answers": {
+      "answer_a": "0382-",
+      "answer_b": "3820-",
+      "answer_c": "-0038",
+      "answer_d": "-0003"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "214",
+    "category": "cobol",
+    "question": "¿Qué división se utiliza para especificar la computadora utilizada por el programa?",
+    "answers": {
+      "answer_a": "Identification Division",
+      "answer_b": "Environment Division",
+      "answer_c": "Data Division",
+      "answer_d": "Procedure Division"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "215",
+    "category": "cobol",
+    "question": "Initially A=30, B=60 \n IF A=40 DISPLAY 'ABC' ELSE NEXT SENTENCE END-IF MOVE 90 TO B. DISPLAY B. ¿Cuál es la salida del programa?",
+    "answers": {
+      "answer_a": "30",
+      "answer_b": "60",
+      "answer_c": "90",
+      "answer_d": "No se puede realizar la operación"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "216",
+    "category": "cobol",
+    "question": "En la instrucción WRITE, se requiere mencionar el nombre del registro y no el nombre del archivo.",
+    "answers": {
+      "answer_a": "Verdadero",
+      "answer_b": "Falso"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "217",
+    "category": "cobol",
+    "question": "S9(7) COMP-3 ocupa ___ bytes.",
+    "answers": {
+      "answer_a": "4",
+      "answer_b": "6",
+      "answer_c": "8",
+      "answer_d": "1"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "218",
+    "category": "cobol",
+    "question": "La cláusula ________ usada en una área tiene el propósito de permitir que dicha área sea referida por más de un nombre de datos con diferentes tamaños e imágenes.",
+    "answers": {
+      "answer_a": "JUSTIFIED",
+      "answer_b": "REDEFINES",
+      "answer_c": "USAGE",
+      "answer_d": "SIGN"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "219",
+    "category": "cobol",
+    "question": "Un \"data name\" da referencias al espacio de almacenamiento de la memoria donde se almacena el valor real.",
+    "answers": {
+      "answer_a": "Verdadero",
+      "answer_b": "Falso"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "220",
+    "category": "cobol",
+    "question": "Si A=10, B=20, C=30,D=0 \n SUMA A B A C DANDO D El resultado de la operación es ...",
+    "answers": {
+      "answer_a": "60",
+      "answer_b": "50",
+      "answer_c": "20",
+      "answer_d": "10"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "221",
+    "category": "cobol",
+    "question": "El verbo _______ provoca la finalización de la ejecución del programa objeto.",
+    "answers": {
+      "answer_a": "STOP RUN",
+      "answer_b": "END",
+      "answer_c": "GO-BACK"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "222",
+    "category": "cobol",
+    "question": "¿Cuál es la diferencia entre COMP y COMP-3?",
+    "answers": {
+      "answer_a": "Formato binario",
+      "answer_b": "Formato decimal empaquetado",
+      "answer_c": "Formato decimal empaquetado & Formato binario"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "223",
+    "category": "cobol",
+    "question": "¿Cuál de las siguientes es falsa?",
+    "answers": {
+      "answer_a": "\"77 level\" es utilizado como elemento de nivel elemental",
+      "answer_b": "\"88 level\" es utilizado para condición",
+      "answer_c": "\"77 level\" pueden ser subdivididos",
+      "answer_d": "\"66 level\" es utilizado para la cláusula RENAMES"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "224",
+    "category": "cobol",
+    "question": "Un ____ significa el valor específico que permanece sin cambios a lo largo de la ejecución del programa",
+    "answers": {
+      "answer_a": "LITERAL",
+      "answer_b": "GLOBAL",
+      "answer_c": "STOP RUN"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "225",
+    "category": "cobol",
+    "question": "La cláusula USAGE se puede especificar en cualquier nivel.",
+    "answers": {
+      "answer_a": "Verdadero",
+      "answer_b": "Falso"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "226",
+    "category": "cobol",
+    "question": "¿Cuál de los siguientes no es un delimitador válido en COBOL?",
+    "answers": {
+      "answer_a": "A.",
+      "answer_b": ".",
+      "answer_c": ";",
+      "answer_d": "-"
+    },
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "227",
+    "category": "cobol",
+    "question": "En un programa COBOL, especifique el rango de posición de la columna del Área A _____.",
+    "answers": {
+      "answer_a": "8-11",
+      "answer_b": "12-80",
+      "answer_c": "0-7"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "228",
+    "category": "cobol",
+    "question": "Un literal numérico puede tener un máximo de 18 dígitos.",
+    "answers": {
+      "answer_a": "Verdadero",
+      "answer_b": "Falso"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "229",
+    "category": "cobol",
+    "question": "La alineación estándar a la izquierda de los datos alfanuméricos o alfabéticos se puede invertir usando la CLÁUSULA _____.",
+    "answers": {
+      "answer_a": "JUSTIFIED",
+      "answer_b": "SIGN",
+      "answer_c": "SYNCHRONIZED",
+      "answer_d": "USAGE"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "230",
+    "category": "cobol",
+    "question": "¿Cuál es el valor editado de la siguiente sentencia... PICTURE Value Internal Representation $$$$$ 009",
+    "answers": {
+      "answer_a": "Bbb$9",
+      "answer_b": "$9",
+      "answer_c": "Bbb",
+      "answer_d": "$9bbb"
+    },
+    "correct_answer": "answer_a"
+  }
+]
