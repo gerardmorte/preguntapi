@@ -1,0 +1,327 @@
+[
+  {
+    "id": "61",
+    "category": "javascript",
+    "question": "¿Javascript distingue entre mayúsculas y minúsculas?",
+    "answers": {
+      "answer_a": "Verdadero",
+      "answer_b": "Falso"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "62",
+    "category": "javascript",
+    "question": "¿Qué palabra está relacionada con la herencia de clase?",
+    "answers": {
+      "answer_a": "expands",
+      "answer_b": "exports",
+      "answer_c": "extends"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "63",
+    "category": "javascript",
+    "question": "¿Qué controlador de eventos se utiliza para procesar el evento de clic?",
+    "answers": {
+      "answer_a": "onmouseclick",
+      "answer_b": "onclick",
+      "answer_c": "onkeydown"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "64",
+    "category": "javascript",
+    "question": "¿Cuál de estos métodos combina dos cadenas?",
+    "answers": {
+      "answer_a": "attach()",
+      "answer_b": "append()",
+      "answer_c": "concat()"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "65",
+    "category": "javascript",
+    "question": "¿Cuál es el método para agregar elementos al comienzo de un array?",
+    "answers": {
+      "answer_a": "push()",
+      "answer_b": "unshift()",
+      "answer_c": "pop()"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "66",
+    "category": "javascript",
+    "question": "Cómo insertar un comentario que tiene más de una línea?",
+    "answers": {
+      "answer_a": "/*Este comentario tiene más de una línea.*/",
+      "answer_b": "<!--Este comentario tiene más de una línea.-->",
+      "answer_c": "//Este comentario tiene más de una línea.//"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "67",
+    "category": "javascript",
+    "question": "¿Quién creó el lenguaje de programación Javascript?",
+    "answers": {
+      "answer_a": "Tim Berners-Lee",
+      "answer_b": "Brendan Eich",
+      "answer_c": "James Gosling"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "68",
+    "category": "javascript",
+    "question": "Si proporciona solo un parámetro como un valor entero para el objeto Fecha, ¿se tratará como milisegundos?",
+    "answers": {
+      "answer_a": "Verdadero",
+      "answer_b": "Falso"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "69",
+    "category": "javascript",
+    "question": "¿Cuál es el equivalente para el operador **?",
+    "answers": {
+      "answer_a": "Math.sqrt",
+      "answer_b": "Math.pow",
+      "answer_c": "Math.trunc"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "70",
+    "category": "javascript",
+    "question": "console.log(3 > 2 > 1 === false) ... ¿Cuál es la salida de la consola? ",
+    "answers": {
+      "answer_a": "True",
+      "answer_b": "False"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "71",
+    "category": "javascript",
+    "question": "¿Cuáles de estos pares de declaraciones se usan comúnmente para el manejo de errores?",
+    "answers": {
+      "answer_a": "err/res",
+      "answer_b": "try/catch",
+      "answer_c": "check/return"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "72",
+    "category": "javascript",
+    "question": "¿Cuál de estos métodos modificadores de eventos se proporciona de forma predeterminada?",
+    "answers": {
+      "answer_a": "event.preventDefault()",
+      "answer_b": "event.stopPropagation()",
+      "answer_c": "Los dos"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "73",
+    "category": "javascript",
+    "question": "¿Qué método se usa para devolver la posición de la primera aparición de un texto específico en un 'string'?",
+    "answers": {
+      "answer_a": "pos()",
+      "answer_b": "position()",
+      "answer_c": "indexOf()"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "74",
+    "category": "javascript",
+    "question": "console.log(0.2 + 0.1); ... ¿Cuál es la salida de la consola?",
+    "answers": {
+      "answer_a": "0.3",
+      "answer_b": "0.31",
+      "answer_c": "0.30000000000000004"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "75",
+    "category": "javascript",
+    "question": "¿Cómo llamas a una función ya creada llamada 'ejemplo'?",
+    "answers": {
+      "answer_a": "ejemplo()",
+      "answer_b": "function ejemplo()",
+      "answer_c": "execute function ejemplo()"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "76",
+    "category": "javascript",
+    "question": "El método getMonth() en el objeto Date devuelve el mes como...?",
+    "answers": {
+      "answer_a": "Un string",
+      "answer_b": "Un integer",
+      "answer_c": "Un objeto"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "77",
+    "category": "javascript",
+    "question": "¿Que es el 'hoisting'?",
+    "answers": {
+      "answer_a": "Comportamiento predeterminado de mover declaraciones a la parte superior",
+      "answer_b": "Eliminación automática de variables no utilizadas en todo el código."
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "78",
+    "category": "javascript",
+    "question": "¿Cuál es la forma correcta de incluir un archivo JS externo en HTML?",
+    "answers": {
+      "answer_a": "<script src=\"main.js\">",
+      "answer_b": "<script href=\"main.js\">",
+      "answer_c": "<script name=\"main.js\">"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "79",
+    "category": "javascript",
+    "question": "<p id=\"demo\">My awesome text</p> ... ¿Cuál es la sintaxis JS correcta para cambiar el contenido?",
+    "answers": {
+      "answer_a": "#demo.innerHTML = \"Edited!\"",
+      "answer_b": "document.getElementById(\"demo\").innerHTML = \"Edited!\".",
+      "answer_c": "document.getElementByName(\"p\").innerHTML = \"Edited!\""
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "80",
+    "category": "javascript",
+    "question": "¿Cuál de las siguientes opciones no es un tipo de bucle?",
+    "answers": {
+      "answer_a": "do/while",
+      "answer_b": "for/in",
+      "answer_c": "if/then"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "81",
+    "category": "javascript",
+    "question": "¿Cuál es el método correcto para transformar un texto a minúsculas?",
+    "answers": {
+      "answer_a": "lowerCase()",
+      "answer_b": "toLowerCase()",
+      "answer_c": "toLocaleLowerCase()"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "82",
+    "category": "javascript",
+    "question": "¿Cuál es el método correcto para obtener el valor mínimo de los valores?",
+    "answers": {
+      "answer_a": "Math.min(xy)",
+      "answer_b": "Math.min(x, y)",
+      "answer_c": "Math(min(xy))",
+      "answer_d": "Math(min(x, y))"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "83",
+    "category": "javascript",
+    "question": "¿Cuál es un carácter no válido para iniciar un nombre de variable?",
+    "answers": {
+      "answer_a": "$",
+      "answer_b": "_",
+      "answer_c": "Cualquier número"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "84",
+    "category": "javascript",
+    "question": "¿Cuál es una forma válida de crear un 'array'?",
+    "answers": {
+      "answer_a": "let arr = {a,b,c}",
+      "answer_b": "let arr = a,b,c",
+      "answer_c": "let arr = [a,b,c]"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "85",
+    "category": "javascript",
+    "question": "¿Cuál es una forma válida de crear un objeto?",
+    "answers": {
+      "answer_a": "let obj = {a:1, b:2, c:3}",
+      "answer_b": "let obj = a:1, b:2, c:3",
+      "answer_c": "let obj = [a:1, b:2, c:3]"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "86",
+    "category": "javascript",
+    "question": "¿Cuál es el valor de una variable declarada sin valor?",
+    "answers": {
+      "answer_a": "null",
+      "answer_b": "undefined",
+      "answer_c": "NaN"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "87",
+    "category": "javascript",
+    "question": "¿Cuál es la sintaxis correcta para no igual?",
+    "answers": {
+      "answer_a": "!==",
+      "answer_b": "==!"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "88",
+    "category": "javascript",
+    "question": "console.log(10 + \"5\") ... ¿Cuál es la salida de la consola?",
+    "answers": {
+      "answer_a": "105",
+      "answer_b": "'105'",
+      "answer_c": "SyntaxError"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "89",
+    "category": "javascript",
+    "question": "const person = {name:\"John\", age:31, city:\"New York\"};... ¿cuál es la forma correcta de acceder a los valores?",
+    "answers": {
+      "answer_a": "person.name",
+      "answer_b": "person[\"name\"]",
+      "answer_c": "Ambas son correctas"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "90",
+    "category": "javascript",
+    "question": "Los scripts se pueden colocar en la sección <body>, o en la <head> de una página HTML, o en ambas",
+    "answers": {
+      "answer_a": "Verdadero",
+      "answer_b": "Falso"
+    },
+    "correct_answer": "answer_a"
+  }
+]
