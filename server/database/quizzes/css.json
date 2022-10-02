@@ -2,6 +2,7 @@
   {
     "id": "31",
     "category": "css",
+    "level": "normal",
     "question": "¿Qué se puede seleccionar con un asterisco (*)?",
     "answers": {
       "answer_a": "Una \"clase\"",
@@ -13,6 +14,7 @@
   {
     "id": "32",
     "category": "css",
+    "level": "normal",
     "question": "¿Cuál es la secuencia correcta del modelo de caja de adentro hacia afuera?",
     "answers": {
       "answer_a": "Content -> padding -> border -> margin",
@@ -24,6 +26,7 @@
   {
     "id": "33",
     "category": "css",
+    "level": "dificil",
     "question": "¿Qué hace box-sizing: border-box?",
     "answers": {
       "answer_a": "Crear un \"margin\" adicional igual al tamaño del \"padding\" y el \"border\"",
@@ -34,6 +37,7 @@
   {
     "id": "34",
     "category": "css",
+    "level": "facil",
     "question": "¿Qué selector se utiliza para acceder a las clases?",
     "answers": {
       "answer_a": "*",
@@ -45,6 +49,7 @@
   {
     "id": "35",
     "category": "css",
+    "level": "dificil",
     "question": "¿Cuál de estos no es un nombre de color predefinido?",
     "answers": {
       "answer_a": "DodgerBlue",
@@ -57,6 +62,7 @@
   {
     "id": "36",
     "category": "css",
+    "level": "dificil",
     "question": "¿Cuál de estos no es un sistema de color válido?",
     "answers": {
       "answer_a": "HEX",
@@ -69,6 +75,7 @@
   {
     "id": "37",
     "category": "css",
+    "level": "dificil",
     "question": "¿Qué selector combinador no se usa en css?",
     "answers": {
       "answer_a": ">",
@@ -81,6 +88,7 @@
   {
     "id": "38",
     "category": "css",
+    "level": "facil",
     "question": "¿Cuál es la sintaxis correcta para los comentarios CSS?",
     "answers": {
       "answer_a": "<!-- Comentario -->",
@@ -92,6 +100,7 @@
   {
     "id": "39",
     "category": "css",
+    "level": "normal",
     "question": "¿Cuál es la propiedad de posición predeterminada para los elementos html?",
     "answers": {
       "answer_a": "Fixed",
@@ -104,6 +113,7 @@
   {
     "id": "40",
     "category": "css",
+    "level": "dificil",
     "question": "Un elemento con \"position: fixed\" se coloca en relación al \"viewport\"",
     "answers": {
       "answer_a": "Verdadero",
@@ -114,6 +124,7 @@
   {
     "id": "41",
     "category": "css",
+    "level": "normal",
     "question": "¿Qué hace el selector :focus?",
     "answers": {
       "answer_a": "Establece el elemento para que se enfoque de forma predeterminada",
@@ -124,6 +135,7 @@
   {
     "id": "42",
     "category": "css",
+    "level": "facil",
     "question": "¿Cuál es la forma correcta de establecer el color de una fuente?",
     "answers": {
       "answer_a": "font-color: red",
@@ -135,6 +147,7 @@
   {
     "id": "43",
     "category": "css",
+    "level": "facil",
     "question": "¿Qué selector se usa para acceder al ID?",
     "answers": {
       "answer_a": "#",
@@ -146,6 +159,7 @@
   {
     "id": "44",
     "category": "css",
+    "level": "normal",
     "question": "La regla '!important!' se usa para dar mas importancia a una propiedad/valor",
     "answers": {
       "answer_a": "Verdadero",
@@ -156,6 +170,7 @@
   {
     "id": "45",
     "category": "css",
+    "level": "normal",
     "question": "¿Qué es cierto sobre display:inline-block?",
     "answers": {
       "answer_a": "Agrega un salto de línea después del elemento",
@@ -166,6 +181,7 @@
   {
     "id": "46",
     "category": "css",
+    "level": "normal",
     "question": "¿Cuál de estas propiedades se utiliza para controlar la secuencia de capas CSS?",
     "answers": {
       "answer_a": "Z-index",
@@ -177,6 +193,7 @@
   {
     "id": "47",
     "category": "css",
+    "level": "facil",
     "question": "¿Qué propiedad se puede usar para eliminar los marcadores de una lista?",
     "answers": {
       "answer_a": "text-decoration: none",
@@ -187,6 +204,7 @@
   {
     "id": "48",
     "category": "css",
+    "level": "normal",
     "question": "¿Los media queries se pueden utilizar para comprobar qué?",
     "answers": {
       "answer_a": "Orientación",
@@ -199,6 +217,7 @@
   {
     "id": "49",
     "category": "css",
+    "level": "facil",
     "question": "¿Qué significa CSS?",
     "answers": {
       "answer_a": "Cascading Style Sheets",
@@ -210,6 +229,7 @@
   {
     "id": "50",
     "category": "css",
+    "level": "normal",
     "question": "¿Cuál de estas declaraciones da más transparencia al elemento?",
     "answers": {
       "answer_a": "opacity:.1",
@@ -221,6 +241,7 @@
   {
     "id": "51",
     "category": "css",
+    "level": "dificil",
     "question": "El valor por defecto de 'overflow' es 'visible'",
     "answers": {
       "answer_a": "Verdadero",
@@ -231,6 +252,7 @@
   {
     "id": "52",
     "category": "css",
+    "level": "normal",
     "question": "Los elementos con 'position:absolute' se eliminan del flujo normal y pueden superponerse a los elementos",
     "answers": {
       "answer_a": "Verdadero",
@@ -241,6 +263,7 @@
   {
     "id": "53",
     "category": "css",
+    "level": "normal",
     "question": "¿Cuál de estas es una pseudo-clase?",
     "answers": {
       "answer_a": ".wrappe > a",
@@ -252,6 +275,7 @@
   {
     "id": "54",
     "category": "css",
+    "level": "dificil",
     "question": "¿Cuál de estos no es un selector de pseudoelemento válido?",
     "answers": {
       "answer_a": "::first-line",
@@ -263,6 +287,7 @@
   {
     "id": "55",
     "category": "css",
+    "level": "facil",
     "question": "¿Cuál es el propósito de CSS?",
     "answers": {
       "answer_a": "Agregar funcionalidad a elementos html",
@@ -274,6 +299,7 @@
   {
     "id": "56",
     "category": "css",
+    "level": "normal",
     "question": "¿Qué separador se usa para declaraciones múltiples en el mismo bloque de reglas?",
     "answers": {
       "answer_a": ";",
@@ -285,6 +311,7 @@
   {
     "id": "57",
     "category": "css",
+    "level": "facil",
     "question": "'position:sticky' establece que el elemento permanezca siempre en el mismo lugar si se desplaza la página",
     "answers": {
       "answer_a": "True",
@@ -295,6 +322,7 @@
   {
     "id": "58",
     "category": "css",
+    "level": "dificil",
     "question": "¿En qué consiste el bloque de reglas CSS?",
     "answers": {
       "answer_a": "Etiqueta y valor",
@@ -306,6 +334,7 @@
   {
     "id": "59",
     "category": "css",
+    "level": "dificil",
     "question": "¿Qué selector se usa para crear una variable CSS con un alcance global?",
     "answers": {
       "answer_a": ":global",
@@ -317,6 +346,7 @@
   {
     "id": "60",
     "category": "css",
+    "level": "dificil",
     "question": "¿Cuál es la diferencia entre 'display:none' y 'visibilty:hidden'?",
     "answers": {
       "answer_a": "'visibilty:hidden' ocupará el mismo espacio que antes",
