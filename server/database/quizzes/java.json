@@ -2,6 +2,7 @@
   {
     "id": "91",
     "category": "java",
+    "level": "facil",
     "question": "¿Cuál es la sintaxis correcta para imprimir por consola \"Hola mundo\" en Java?",
     "answers": {
       "answer_a": "Console.WriteLine(\"Hola mundo\")",
@@ -14,6 +15,7 @@
   {
     "id": "92",
     "category": "java",
+    "level": "facil",
     "question": "¿Cómo puedes insertar comentarios en Java?",
     "answers": {
       "answer_a": "# Esto es un comentario",
@@ -25,6 +27,7 @@
   {
     "id": "93",
     "category": "java",
+    "level": "facil",
     "question": "¿Qué tipo de datos se utiliza para crear una variable que debe almacenar texto?",
     "answers": {
       "answer_a": "String",
@@ -37,6 +40,7 @@
   {
     "id": "94",
     "category": "java",
+    "level": "facil",
     "question": "¿Cómo se crea una variable con el valor numérico 5?",
     "answers": {
       "answer_a": "num x = 5",
@@ -49,6 +53,7 @@
   {
     "id": "95",
     "category": "java",
+    "level": "dificil",
     "question": "¿Cuál de estos métodos se puede usar para convertir todos los caracteres de una cadena en una matriz de caracteres?",
     "answers": {
       "answer_a": "charAt()",
@@ -61,6 +66,7 @@
   {
     "id": "96",
     "category": "java",
+    "level": "dificil",
     "question": "¿Cuáles de estas constantes están definidas en la clase WindowEvent?",
     "answers": {
       "answer_a": "Todas las mencionadas",
@@ -73,6 +79,7 @@
   {
     "id": "97",
     "category": "java",
+    "level": "normal",
     "question": "¿Qué pasará si escribimos static public void en lugar de public static void?",
     "answers": {
       "answer_a": "El programa no compilará",
@@ -85,6 +92,7 @@
   {
     "id": "98",
     "category": "java",
+    "level": "dificil",
     "question": "¿Cuál de los siguientes componentes se puede usar para crear una aplicación que admita tareas múltiples?",
     "answers": {
       "answer_a": "Ambos",
@@ -97,6 +105,7 @@
   {
     "id": "99",
     "category": "java",
+    "level": "normal",
     "question": "El constructor se utiliza para?",
     "answers": {
       "answer_a": "Inicializar el estado de una clase.",
@@ -109,6 +118,7 @@
   {
     "id": "100",
     "category": "java",
+    "level": "dificil",
     "question": "¿Cuál de las siguientes es una palabra clave?",
     "answers": {
       "answer_a": "next",
@@ -121,6 +131,7 @@
   {
     "id": "101",
     "category": "java",
+    "level": "dificil",
     "question": "¿Podemos anular un método sobrecargado?",
     "answers": {
       "answer_a": "Sí, solo en la clase heredada",
@@ -133,6 +144,7 @@
   {
     "id": "102",
     "category": "java",
+    "level": "dificil",
     "question": "¿Cuál de estas clases es padre de todas las otras clases?",
     "answers": {
       "answer_a": "java.Lang.Object",
@@ -145,6 +157,7 @@
   {
     "id": "103",
     "category": "java",
+    "level": "normal",
     "question": "¿Qué es la clonación de objetos?",
     "answers": {
       "answer_a": "La clonación de objetos se utiliza para crear una nueva copia de un objeto con diferentes valores.",
@@ -157,6 +170,7 @@
   {
     "id": "104",
     "category": "java",
+    "level": "dificil",
     "question": "¿Podemos tener funciones virtuales en Java?",
     "answers": {
       "answer_a": "No",
@@ -169,6 +183,7 @@
   {
     "id": "105",
     "category": "java",
+    "level": "dificil",
     "question": "¿Cuál es el valor predeterminado para una variable de instancia?",
     "answers": {
       "answer_a": "Las referencias a objetos no se inicializan con ningún valor predeterminado.",
@@ -181,6 +196,7 @@
   {
     "id": "106",
     "category": "java",
+    "level": "dificil",
     "question": "¿Cuál de estas interfaces define cuatro métodos?",
     "answers": {
       "answer_a": "ActionListener",
@@ -193,6 +209,7 @@
   {
     "id": "107",
     "category": "java",
+    "level": "dificil",
     "question": "¿Qué es cierto sobre el bloque estático?",
     "answers": {
       "answer_a": "Se puede ejecutar en cualquier momento",
@@ -205,6 +222,7 @@
   {
     "id": "108",
     "category": "java",
+    "level": "normal",
     "question": "¿Cuál de estos métodos de la clase String se usa para obtener la longitud del objeto String?",
     "answers": {
       "answer_a": "SifeOf()",
@@ -217,6 +235,7 @@
   {
     "id": "109",
     "category": "java",
+    "level": "normal",
     "question": "¿Puedes hacer un constructor \"final\"?",
     "answers": {
       "answer_a": "Sí",
@@ -229,6 +248,7 @@
   {
     "id": "110",
     "category": "java",
+    "level": "normal",
     "question": "¿Qué sucederá si se elimina el modificador estático de la firma del método principal?",
     "answers": {
       "answer_a": "La JVM la agregará de nuevo automáticamente.",
@@ -241,6 +261,7 @@
   {
     "id": "111",
     "category": "java",
+    "level": "facil",
     "question": "¿Se hereda un constructor?",
     "answers": {
       "answer_a": "Se hereda de un Método.",
@@ -253,6 +274,7 @@
   {
     "id": "112",
     "category": "java",
+    "level": "normal",
     "question": "¿Cuál de estos métodos utilizará para obtener los caracteres ASCII a medida que los escribe un usuario en un campo de texto?",
     "answers": {
       "answer_a": "keyTyped()",
@@ -265,6 +287,7 @@
   {
     "id": "113",
     "category": "java",
+    "level": "facil",
     "question": "¿Cuál es el valor predeterminado para una variable local?",
     "answers": {
       "answer_a": "Depende del tipo de variable.",
@@ -277,6 +300,7 @@
   {
     "id": "114",
     "category": "java",
+    "level": "facil",
     "question": "¿Qué método se puede usar para devolver una cadena en letras mayúsculas?",
     "answers": {
       "answer_a": "toUpperCase()",
@@ -289,6 +313,7 @@
   {
     "id": "115",
     "category": "java",
+    "level": "normal",
     "question": "¿Cuál es la forma correcta de crear un objeto llamado myObj de MyClass?",
     "answers": {
       "answer_a": "class myObj = new MyClass()",
@@ -301,6 +326,7 @@
   {
     "id": "116",
     "category": "java",
+    "level": "normal",
     "question": "¿Cuál causará un error del compilador?",
     "answers": {
       "answer_a": "int[ ] scores = {3, 5, 7}",
@@ -314,6 +340,7 @@
   {
     "id": "117",
     "category": "java",
+    "level": "dificil",
     "question": "¿Qué clase de colección le permite acceder a sus elementos asociando una clave con el valor de un elemento y proporciona sincronización?",
     "answers": {
       "answer_a": "java.util.SortedMap",
@@ -326,6 +353,7 @@
   {
     "id": "118",
     "category": "java",
+    "level": "normal",
     "question": "¿Cuál de las siguientes producirá una respuesta con el valor más cercano a un double, d, sin ser mayor que d?",
     "answers": {
       "answer_a": "(int)Math.min(d)",
@@ -338,6 +366,7 @@
   {
     "id": "119",
     "category": "java",
+    "level": "normal",
     "question": "Para que las subclases de cualquier paquete tengan acceso a los miembros de una superclase. ¿Cuál es el acceso más restrictivo que cumple este objetivo?",
     "answers": {
       "answer_a": "public",
@@ -350,6 +379,7 @@
   {
     "id": "120",
     "category": "java",
+    "level": "dificil",
     "question": "¿Cuál contendrá el cuerpo del \"thread\"",
     "answers": {
       "answer_a": "run()",
