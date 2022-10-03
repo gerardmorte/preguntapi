@@ -10,6 +10,7 @@ const java = require("../database/quizzes/java.json");
 const kotlin = require("../database/quizzes/kotlin.json");
 const swift = require("../database/quizzes/swift.json");
 const sql = require("../database/quizzes/sql.json");
+const cpp = require("../database/quizzes/cpp.json");
 
 router.get("/", (req, res) => {
   const category = req.query.category;
@@ -26,6 +27,7 @@ router.get("/", (req, res) => {
     kotlin: kotlin,
     swift: swift,
     sql: sql,
+    cpp: cpp,
   };
 
   if (!category) {

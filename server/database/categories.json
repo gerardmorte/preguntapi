@@ -8,6 +8,7 @@
         "swift": "https://www.preguntapi.dev/api/v1/quizzes?category=swift",
         "kotlin": "https://www.preguntapi.dev/api/v1/quizzes?category=kotlin",
         "typescript": "https://www.preguntapi.dev/api/v1/quizzes?category=typescript",
-        "cobol": "https://www.preguntapi.dev/api/v1/quizzes?category=cobol"
+        "cobol": "https://www.preguntapi.dev/api/v1/quizzes?category=cobol",
+        "cpp": "https://www.preguntapi.dev/api/v1/quizzes?category=cpp"
     } 
 }

@@ -1,0 +1,358 @@
+[
+  {
+    "id": "231",
+    "category": "cpp",
+    "question": "¿Cuál es la sintaxis correcta para imprimir por consola \"Hola mundo\" en C++?",
+    "answers": {
+      "answer_a": "Console.WriteLine(\"Hola mundo\");",
+      "answer_b": "cout << \"Hola mundo\" << \"\n\";",
+      "answer_c": "std::cout << \"Hola mundo\" << \"\n\";",
+      "answer_d": "System.out.println(\"Hola mundo\");"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "232",
+    "category": "cpp",
+    "question": "¿Cuál es la prefijo correcto para invocar al namespace standar de C++?",
+    "answers": {
+      "answer_a": "std::",
+      "answer_b": "standar::",
+      "answer_d": "stdio::"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "233",
+    "category": "cpp",
+    "question": "Qué debe de retornar la función principal cuando el programa termina sin ningún problema",
+    "answers": {
+      "answer_a": "200",
+      "answer_b": "success",
+      "answer_c": "OK",
+      "answer_d": "0"
+    },
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "234",
+    "category": "cpp",
+    "question": "¿Cómo introduces una variable de entrada por consola en C++?",
+    "answers": {
+      "answer_a": "int x = scanf(\"%19s\", str);",
+      "answer_b": "int x = std::cin >> str;",
+      "answer_c": "int x = input();",
+      "answer_d": "int x = scanner.nextLine();"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "235",
+    "category": "cpp",
+    "question": "¿Qué tipo de dato es util para representar el numero 3.1416?",
+    "answers": {
+      "answer_a": "float",
+      "answer_b": "double",
+      "answer_c": "long double",
+      "answer_d": "Todas las mencionadas"
+    },
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "236",
+    "category": "cpp",
+    "question": "¿Cuáles de estas constantes están definidas en la clase WindowEvent?",
+    "answers": {
+      "answer_a": "Todas las mencionadas",
+      "answer_b": "WINDOW_CLOSED",
+      "answer_c": "WINDOW_DEICONIFIED",
+      "answer_d": "WINDOW_ACTIVATED"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "237",
+    "category": "cpp",
+    "question": "¿Qué tipo de dato expresa que una función no va a retornar?",
+    "answers": {
+      "answer_a": "int*",
+      "answer_b": "string",
+      "answer_c": "void",
+      "answer_d": "int"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "238",
+    "category": "cpp",
+    "question": "¿Cuál de estos ejemplos representa una asignacion de valor?",
+    "answers": {
+      "answer_a": "int x = 1;",
+      "answer_b": "x = 1;",
+      "answer_c": "x { 1 };",
+      "answer_d": "Ninguno de los dos"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "239",
+    "category": "cpp",
+    "question": "¿Cuál de estos ejemplos representa una definicion de variable?",
+    "answers": {
+      "answer_a": "int x;",
+      "answer_b": "int x = 1;",
+      "answer_c": "int { x }",
+      "answer_d": "Ninguna es correcta"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "240",
+    "category": "cpp",
+    "question": "¿Cuál de estos ejemplos representa una inicializacion de variable?",
+    "answers": {
+      "answer_a": "int x = 1;",
+      "answer_b": "int x( 1 );",
+      "answer_c": "int x{ 1 };",
+      "answer_d": "Todas son correctas"
+    },
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "241",
+    "category": "cpp",
+    "question": "¿Cuál es la manera moderna y recomendada de inicializar una variable?",
+    "answers": {
+      "answer_a": "inicializacion por copia int x = 1;",
+      "answer_b": "inicializacion directa int x ( 1 ) ",
+      "answer_c": "inicializacion en llaves int x { 1 }",
+      "answer_d": "Todas las anteriores son correctas"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "242",
+    "category": "cpp",
+    "question": "¿Cuál de estas clases es padre de todas las otras clases?",
+    "answers": {
+      "answer_a": "java.Lang.Object",
+      "answer_b": "java.util.Object",
+      "answer_c": "java.util.Class",
+      "answer_d": "java.lang.Class"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "243",
+    "category": "cpp",
+    "question": "¿Cuál es el paradigma de programacion de C++?",
+    "answers": {
+      "answer_a": "Funcional",
+      "answer_b": "Logico funcional",
+      "answer_c": "Orientado a objetos",
+      "answer_d": "Orientado a componentes"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "244",
+    "category": "cpp",
+    "question": "¿Podemos usar librerias de C en C++?",
+    "answers": {
+      "answer_a": "No",
+      "answer_b": "Sí",
+      "answer_c": "Sí, solo las standar",
+      "answer_d": "No, no se puede usar librerias de lenguages diferentes"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "245",
+    "category": "cpp",
+    "question": "¿Cuál es un ejemplo de macro en C++",
+    "answers": {
+      "answer_a": "#define MY_LIB",
+      "answer_b": "const pi { 3.1416 }",
+      "answer_c": "#if GTEST ... #endif",
+      "answer_d": "Opcion a y c"
+    },
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "246",
+    "category": "cpp",
+    "question": "¿Para qué se usan las macros?",
+    "answers": {
+      "answer_a": "Trabajar constantes durante la ejecución",
+      "answer_b": "Trabajar constantes durante la compilacion",
+      "answer_c": "Comentar el codigo",
+      "answer_d": "Trabajar con el linker"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "247",
+    "category": "cpp",
+    "question": "¿Qué proyectos usan C++ actualmente?",
+    "answers": {
+      "answer_a": "El kernel de Linux",
+      "answer_b": "Minecraft",
+      "answer_c": "La mayoria de proyectos de Videojuegos",
+      "answer_d": "Todos los anteriores"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "248",
+    "category": "cpp",
+    "question": "¿Cuál de estos métodos puedo saber el valo del tamaño de un tipo de dato?",
+    "answers": {
+      "answer_a": "SifeOf()",
+      "answer_b": "size_of()",
+      "answer_c": "size()",
+      "answer_d": "size_t()"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "249",
+    "category": "cpp",
+    "question": "¿Cuál es la manera mas eficiente de usar banderas en C++ en caso de tener un hardware limitado?",
+    "answers": {
+      "answer_a": "Con el tipo de dato booleano",
+      "answer_b": "Con el tipo de dato entero y valores 1 y 0",
+      "answer_c": "Con manipuladores de bits",
+      "answer_d": "No es necesario el compilador de C++ hace eficiente el software sin importar el hardware"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "250",
+    "category": "cpp",
+    "question": "¿Cuál es la diferencia entre un signed integer y un unsigner integer?",
+    "answers": {
+      "answer_a": "El rango de bits que pueden tener las variables en memoria",
+      "answer_b": "Los valores unsigner no pueden ser negativos",
+      "answer_c": "Las dos anteriores",
+      "answer_d": "No tiene diferencia alguna"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "251",
+    "category": "cpp",
+    "question": "¿Se pueden hacer pruebas unitarias en C++?",
+    "answers": {
+      "answer_a": "No",
+      "answer_b": "Sí, solo en algunos compiladores",
+      "answer_c": "Sí",
+      "answer_d": "No, en todas los estandares"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "252",
+    "category": "cpp",
+    "question": "¿Qué es un puntero?",
+    "answers": {
+      "answer_a": "Un tipo de dato que puede apuntar a una direccion en memoria",
+      "answer_b": "Un objecto",
+      "answer_c": "Una estructura de dato",
+      "answer_d": "Una funcion"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "253",
+    "category": "cpp",
+    "question": "¿Qué es un desborde de datos?",
+    "answers": {
+      "answer_a": "No existe ese termino",
+      "answer_b": "Los datos se convierten en 0 en caso de que el maximo tamaño de tipo de dato sea alcanzado",
+      "answer_c": "Los datos se convierten en el primer valor de bit en caso de que el maximo tamaño de tipo de dato se alcanzado.",
+      "answer_d": "Ninguna de las anteriores"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "254",
+    "category": "cpp",
+    "question": "¿Qué suit de pruebas unitarias estan disponibles en C++?",
+    "answers": {
+      "answer_a": "Google test",
+      "answer_b": "Jest",
+      "answer_c": "Jasmine",
+      "answer_d": "Test.cpp"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "255",
+    "category": "cpp",
+    "question": "¿Cuál es la forma correcta de crear un objeto llamado myObj de MyClass?",
+    "answers": {
+      "answer_a": "int myObj = MyClass()",
+      "answer_b": "MyClass myObj = MyClass()",
+      "answer_c": "MyClass* myObj = new MyClass()",
+      "answer_d": "Las dos anteriores"
+    },
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "256",
+    "category": "cpp",
+    "question": "Con el manejo de memoria de C++ ¿Es posible probocar un error en todo el equipo donde se esta programando?",
+    "answers": {
+      "answer_a": "No",
+      "answer_b": "Sí si es que usas un equipo Windows",
+      "answer_c": "Sí en todos los equipos"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "257",
+    "category": "cpp",
+    "question": "¿Un software construido en C++ en equipo Linux puede ser corrido en Windows?",
+    "answers": {
+      "answer_a": "No. las arquitecturas son diferentes",
+      "answer_b": "Sí. con una correcta configuracion ",
+      "answer_c": "Solo con un transpilador"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "258",
+    "category": "cpp",
+    "question": "¿Cuál es la ventaja de C++ contra Java, Kotlin, Javascript, Python?",
+    "answers": {
+      "answer_a": "El manejo de apuntadores",
+      "answer_b": "El nivel que puedes manipular el hardware",
+      "answer_c": "El manejo de memoria",
+      "answer_d": "Todas las anteriores"
+    },
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "259",
+    "category": "cpp",
+    "question": "Para que las subclases de cualquier paquete tengan acceso a los miembros de una superclase. ¿Cuál es el acceso más restrictivo que cumple este objetivo?",
+    "answers": {
+      "answer_a": "public",
+      "answer_b": "private",
+      "answer_c": "protected"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "260",
+    "category": "cpp",
+    "question": "¿Cuál es sistema de versionado en el lenguages C++",
+    "answers": {
+      "answer_a": "versionado tradicional",
+      "answer_b": "estandar ISO",
+      "answer_c": "estandar propio",
+      "answer_d": "Es rolling release"
+    },
+    "correct_answer": "answer_b"
+  }
+]
