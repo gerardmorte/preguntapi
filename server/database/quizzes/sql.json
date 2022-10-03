@@ -2,6 +2,7 @@
   {
     "id": "121",
     "category": "sql",
+    "level": "normal",
     "question": "¿Qué son las restricciones (constraints)?",
     "answers": {
       "answer_a": "Valores predefinidos que no se pueden cambiar",
@@ -12,6 +13,7 @@
   {
     "id": "122",
     "category": "sql",
+    "level": "facil",
     "question": "¿Para qué sirve el comando \"FROM\"?",
     "answers": {
       "answer_a": "Especificar el rango de condición de búsqueda",
@@ -22,6 +24,7 @@
   {
     "id": "123",
     "category": "sql",
+    "level": "facil",
     "question": "¿Para que sirve la operador \"IN\"?",
     "answers": {
       "answer_a": "Permite seleccionar tablas específicas en la base de datos",
@@ -32,6 +35,7 @@
   {
     "id": "124",
     "category": "sql",
+    "level": "normal",
     "question": "¿Cuál de estos es un tipo de \"JOIN\" válido?",
     "answers": {
       "answer_a": "INSIDE JOIN",
@@ -43,6 +47,7 @@
   {
     "id": "125",
     "category": "sql",
+    "level": "normal",
     "question": "¿Cuál de estos no es un operador lógico en SQL?",
     "answers": {
       "answer_a": "WITH",
@@ -54,6 +59,7 @@
   {
     "id": "126",
     "category": "sql",
+    "level": "facil",
     "question": "¿Qué significa SQL?",
     "answers": {
       "answer_a": "Standard Query Language",
@@ -65,6 +71,7 @@
   {
     "id": "127",
     "category": "sql",
+    "level": "facil",
     "question": "¿Qué declaración se utiliza para modificar datos en la base de datos?",
     "answers": {
       "answer_a": "MODIFY",
@@ -76,6 +83,7 @@
   {
     "id": "128",
     "category": "sql",
+    "level": "facil",
     "question": "¿Qué declaración se usa para insertar un nuevo registro en la tabla?",
     "answers": {
       "answer_a": "INSERT VALUE",
@@ -87,6 +95,7 @@
   {
     "id": "129",
     "category": "sql",
+    "level": "facil",
     "question": "¿Qué declaración se usa para crear una tabla de base de datos?",
     "answers": {
       "answer_a": "CREATE TABLE",
@@ -98,6 +107,7 @@
   {
     "id": "130",
     "category": "sql",
+    "level": "normal",
     "question": "¿Cuándo apareció SQL por primera vez?",
     "answers": {
       "answer_a": "Principios de la década de 1970",
@@ -109,6 +119,7 @@
   {
     "id": "131",
     "category": "sql",
+    "level": "normal",
     "question": "¿Qué operador se utiliza para verificar la presencia de cualquier registro en una subconsulta?",
     "answers": {
       "answer_a": "IS PRESENT",
@@ -120,6 +131,7 @@
   {
     "id": "132",
     "category": "sql",
+    "level": "facil",
     "question": "¿Qué operador se usa para seleccionar valores dentro de un rango?",
     "answers": {
       "answer_a": "RANGE",
@@ -131,6 +143,7 @@
   {
     "id": "133",
     "category": "sql",
+    "level": "normal",
     "question": "¿Qué es cierto acerca de eliminar filas de una tabla?",
     "answers": {
       "answer_a": "No se eliminan filas si se omite la cláusula where",
@@ -142,6 +155,7 @@
   {
     "id": "134",
     "category": "sql",
+    "level": "facil",
     "question": "¿Qué operador se usa para buscar un patrón específico en una columna?",
     "answers": {
       "answer_a": "SEARCH",
@@ -153,6 +167,7 @@
   {
     "id": "135",
     "category": "sql",
+    "level": "normal",
     "question": "¿Cuál es un problema de seguridad común relacionado con SQL?",
     "answers": {
       "answer_a": "SQL encryption",
@@ -164,6 +179,7 @@
   {
     "id": "136",
     "category": "sql",
+    "level": "facil",
     "question": "¿Cómo seleccionar todos los registros de la \"Productos\"?",
     "answers": {
       "answer_a": "SELECT ALL FROM Products",
@@ -175,6 +191,7 @@
   {
     "id": "137",
     "category": "sql",
+    "level": "facil",
     "question": "¿Cómo seleccionar varias columnas de la tabla Productos?",
     "answers": {
       "answer_a": "SELECT Name, Surname FROM Products",
@@ -185,6 +202,7 @@
   {
     "id": "138",
     "category": "sql",
+    "level": "facil",
     "question": "Qué palabra clave de SQL se utiliza para ordenar un conjunto de resultados",
     "answers": {
       "answer_a": "SORT",
@@ -196,6 +214,7 @@
   {
     "id": "139",
     "category": "sql",
+    "level": "normal",
     "question": "¿Cuál de estas no es una base de datos SQL?",
     "answers": {
       "answer_a": "Oracle",
@@ -207,6 +226,7 @@
   {
     "id": "140",
     "category": "sql",
+    "level": "normal",
     "question": "¿Cómo seleccionar todos los registros de la tabla \"Productos\" donde el valor de \"Nombre\" comienza con \"z\"?",
     "answers": {
       "answer_a": "SELECT * FROM Products WHERE Name is 'z%'",
@@ -217,6 +237,7 @@
   {
     "id": "141",
     "category": "sql",
+    "level": "normal",
     "question": "¿Qué función SQL se usa para contar el número de filas en una consulta SQL?",
     "answers": {
       "answer_a": "SELECT()",
@@ -228,6 +249,7 @@
   {
     "id": "142",
     "category": "sql",
+    "level": "normal",
     "question": "¿Qué declaración SQL se usa para devolver solo valores diferentes?",
     "answers": {
       "answer_a": "SELECT DIFFERENT",
@@ -239,6 +261,7 @@
   {
     "id": "143",
     "category": "sql",
+    "level": "normal",
     "question": "¿La cláusula WHERE solo se usa en declaraciones de selección?",
     "answers": {
       "answer_a": "Verdadero",
@@ -249,7 +272,8 @@
   {
     "id": "144",
     "category": "sql",
-    "question": "Which of the following join extracts data of matching rows from both tables?",
+    "level": "dificil",
+    "question": "¿Cuál de las siguientes combinaciones extrae datos de filas coincidentes de ambas tablas?",
     "answers": {
       "answer_a": "Full Outer Join",
       "answer_b": "Left Join",
@@ -261,6 +285,7 @@
   {
     "id": "145",
     "category": "sql",
+    "level": "facil",
     "question": "¿Cuál de las siguientes es la forma correcta de comentar en SQL?",
     "answers": {
       "answer_a": "/* Esto es un comentario*/",
@@ -273,6 +298,7 @@
   {
     "id": "146",
     "category": "sql",
+    "level": "facil",
     "question": "¿Cuántas claves primarias se pueden crear en una tabla?",
     "answers": {
       "answer_a": "Infinitas",
@@ -285,6 +311,7 @@
   {
     "id": "147",
     "category": "sql",
+    "level": "facil",
     "question": "¿Cuál de los siguientes no es parte de las operaciones CRUD en SQL?",
     "answers": {
       "answer_a": "Crear una tabla",
@@ -297,6 +324,7 @@
   {
     "id": "148",
     "category": "sql",
+    "level": "dificil",
     "question": "¿Cuál de las siguientes respuestas es cierta acerca de una vista",
     "answers": {
       "answer_a": "La vista se elimina automáticamente después de que se completa la sesión",
@@ -309,6 +337,7 @@
   {
     "id": "149",
     "category": "sql",
+    "level": "normal",
     "question": "¿Cuál de las siguientes consultas limitaría la salida a 5 filas?",
     "answers": {
       "answer_a": "SELECT * FROM DataFlair 5",
@@ -321,6 +350,7 @@
   {
     "id": "150",
     "category": "sql",
+    "level": "normal",
     "question": "¿La base de datos SQL sigue cuál de los siguientes principios?",
     "answers": {
       "answer_a": "ACID",
