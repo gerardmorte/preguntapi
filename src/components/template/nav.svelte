@@ -1,9 +1,8 @@
 <script>
   import Iconnav from "../../utils/iconnav.svelte";
   const nav = [
-    { name: "Inicio", icon: "home", link: "/" },
-    { name: "Hacer un quiz!", icon: "info", link: "/quiz" },
-    { name: "Documentación", icon: "mail", link: "/doc" },
+    { name: "Hacer un quiz!", icon: "info", link: "/" },
+    { name: "Documentación", icon: "mail", link: "/documentation" },
   ];
 </script>
 

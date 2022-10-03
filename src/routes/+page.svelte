@@ -109,7 +109,7 @@
                 </div>
                 <div class="form-control">
                   <a
-                    href="/quiz?lang={categorySelected}&qty{countAnswered}"
+                    href="/quiz?category={categorySelected}&limit={countAnswered}"
                     class="btn bg-sky-900 hover:bg-sky-800 border-0"
                   >
                     Empezar Quiz!
