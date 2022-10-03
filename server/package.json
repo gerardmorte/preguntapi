@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "jest --verbose --silent",
     "test:watch": "npm run test -- --watch"
   },
@@ -15,6 +16,7 @@
   },
   "devDependencies": {
     "jest": "^29.0.3",
+    "nodemon": "^2.0.20",
     "supertest": "^6.2.4"
   }
 }
