@@ -1,1 +1,1 @@
-export const flagLevelsQuizz = false;
+export const flagLevelsQuizz = true;

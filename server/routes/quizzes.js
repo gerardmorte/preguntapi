@@ -39,13 +39,22 @@ router.get("/", (req, res) => {
   );
 
   if (level && limit) {
+
     const filteredQuizzesLevel = filteredQuizzes.filter(
-      (quiz) => quiz.level === level
+      (quiz) => {
+        if(level === "aleatorio"){
+          return quiz;
+        }else{
+          return quiz.level === level;
+        }
+      }
     );
+    
+    filteredQuizzesLevel.sort(()=> Math.random() - 0.5);
 
     const filteredQuizzesLength = limit <= filteredQuizzesLevel.length;
 
-    if (filteredQuizzesLevel > 0 && filteredQuizzesLength) {
+    if (filteredQuizzesLevel.length > 0 && filteredQuizzesLength) {
       res.status(200).json(filteredQuizzesLevel.slice(0, limit));
     } else {
       res
@@ -56,7 +65,13 @@ router.get("/", (req, res) => {
 
   if (level) {
     const filteredQuizzesLevel = filteredQuizzes.filter(
-      (quiz) => quiz.level === level
+      (quiz) => {
+        if(level === "aleatorio"){
+          return quiz;
+        }else{
+          return quiz.level === level;
+        }
+      }
     );
 
     if (filteredQuizzesLevel.length > 0) {
