@@ -16,19 +16,10 @@ export default function StartQuiz() {
   const [btnNextDisabled, setBtnNextDisabled] = useState(true);
 
   useEffect(() => {
-    if (level) {
-      fetch(`/api/v1/quizzes?category=${category}&level=${level}`)
-        .then((res) => res.json())
-        .then((data) => setQuizzes(data))
-        .catch((err) => console.log(err.message));
-    }
-
-    if (limit) {
-      fetch(`/api/v1/quizzes?category=${category}&limit=${limit}`)
-        .then((res) => res.json())
-        .then((data) => setQuizzes(data))
-        .catch((err) => console.log(err.message));
-    }
+    fetch(`/api/v1/quizzes?category=${category}&level=${level}&limit=${limit}`)
+      .then((res) => res.json())
+      .then((data) => setQuizzes(data))
+      .catch((err) => console.log(err.message));
   }, []);
 
   return (
