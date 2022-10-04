@@ -2,6 +2,7 @@
   {
     "id": "191",
     "category": "typescript",
+    "level": "normal",
     "question": "Las declaraciones ambientales permiten usar de forma segura las bibliotecas JS populares existentes",
     "answers": {
       "answer_a": "Verdadero",
@@ -12,6 +13,7 @@
   {
     "id": "192",
     "category": "typescript",
+    "level": "normal",
     "question": "¿Cuál de estas no es un tipo incorporado en Typescript?",
     "answers": {
       "answer_a": "Integer",
@@ -23,6 +25,7 @@
   {
     "id": "193",
     "category": "typescript",
+    "level": "normal",
     "question": "¿Qué categoría describe mejor Typescript?",
     "answers": {
       "answer_a": "Framework",
@@ -34,6 +37,7 @@
   {
     "id": "194",
     "category": "typescript",
+    "level": "facil",
     "question": "Los programas Javascript existentes también son programas Typescript válidos",
     "answers": {
       "answer_a": "Verdadero",
@@ -44,6 +48,7 @@
   {
     "id": "195",
     "category": "typescript",
+    "level": "normal",
     "question": "Qué comando se usa para compilar un archivo TS a JS",
     "answers": {
       "answer_a": "tsc file.js",
@@ -55,6 +60,7 @@
   {
     "id": "196",
     "category": "typescript",
+    "level": "facil",
     "question": "Qué archivo de configuración se requiere para compilar todo el proyecto Typescript",
     "answers": {
       "answer_a": "app.js",
@@ -66,6 +72,7 @@
   {
     "id": "197",
     "category": "typescript",
+    "level": "facil",
     "question": "¿Cuál es la extensión del archivo de declaración?",
     "answers": {
       "answer_a": ".tsx",
@@ -77,6 +84,7 @@
   {
     "id": "198",
     "category": "typescript",
+    "level": "facil",
     "question": "Qué empresa desarrolla y mantiene Typescript",
     "answers": {
       "answer_a": "Google",
@@ -88,6 +96,7 @@
   {
     "id": "199",
     "category": "typescript",
+    "level": "normal",
     "question": "¿Cuál de las siguientes respuestas no es cierta sobre TS?",
     "answers": {
       "answer_a": "Fuertemente tipado",
@@ -98,6 +107,7 @@
   {
     "id": "200",
     "category": "typescript",
+    "level": "facil",
     "question": "¿Qué comando se usa para instalar TypeScript?",
     "answers": {
       "answer_a": "npm install -g typescript",
@@ -108,6 +118,7 @@
   {
     "id": "201",
     "category": "typescript",
+    "level": "normal",
     "question": "Qué palabra clave se utiliza para definir una interfaz",
     "answers": {
       "answer_a": "set",
@@ -119,6 +130,7 @@
   {
     "id": "202",
     "category": "typescript",
+    "level": "facil",
     "question": "Un \"namespace\" es una forma de agrupar lógicamente el código relacionado",
     "answers": {
       "answer_a": "Verdadero",
@@ -129,6 +141,7 @@
   {
     "id": "203",
     "category": "typescript",
+    "level": "facil",
     "question": "TS se originó a partir de las deficiencias de JS para el desarrollo de aplicaciones a gran escala",
     "answers": {
       "answer_a": "Verdadero",
@@ -139,6 +152,7 @@
   {
     "id": "204",
     "category": "typescript",
+    "level": "dificil",
     "question": "¿Qué \"flaf\" se utiliza para observar los cambios en los archivos y volver a compilarlos sobre la marcha?",
     "answers": {
       "answer_a": "--compile",
@@ -150,6 +164,7 @@
   {
     "id": "205",
     "category": "typescript",
+    "level": "facil",
     "question": "Los puntos y comas son obligatorios en Typescript",
     "answers": {
       "answer_a": "Verdadero",
@@ -160,6 +175,7 @@
   {
     "id": "206",
     "category": "typescript",
+    "level": "normal",
     "question": "¿Cuál de estas es una forma válida de establecer un tipo para la variable",
     "answers": {
       "answer_a": "let name:string = 'Jhon'",
@@ -171,6 +187,7 @@
   {
     "id": "207",
     "category": "typescript",
+    "level": "facil",
     "question": "Typescript admite conceptos como clases, interfaces y herencia",
     "answers": {
       "answer_a": "Verdadero",
@@ -181,6 +198,7 @@
   {
     "id": "208",
     "category": "typescript",
+    "level": "normal",
     "question": "¿Cuál de estos es un ejemplo válido de tupla?",
     "answers": {
       "answer_a": "let tuple:string|number = 123",
@@ -192,6 +210,7 @@
   {
     "id": "209",
     "category": "typescript",
+    "level": "facil",
     "question": "¿Cuál de las siguientes es una variable de tipo unión válida?",
     "answers": {
       "answer_a": "var val:string|number = 567",
@@ -203,6 +222,7 @@
   {
     "id": "210",
     "category": "typescript",
+    "level": "facil",
     "question": "Typescript no ignora los espacios, tabulaciones y saltos de línea que aparecen en los programas.",
     "answers": {
       "answer_a": "Verdadero",
