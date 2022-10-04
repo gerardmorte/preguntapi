@@ -2,8 +2,6 @@ import { useState, useEffect } from "react";
 import { Container, Button, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-import { flagLevelsQuizz } from "../featureFlags/featureFlags";
-
 const levels = ["facil", "normal", "dificil", "aleatorio"];
 
 export default function Quiz() {
@@ -103,7 +101,6 @@ export default function Quiz() {
           setLimit(e.target.value);
         }}
       >
-
         {randomQuiz && 
         <>
         <option>10</option>
@@ -135,7 +132,6 @@ export default function Quiz() {
         <option>15</option>
         <option>20</option>
         </>}
-
       </Form.Select>
 
       <Link to={link}>
