@@ -32,7 +32,6 @@ export default function Quiz() {
       .then(res => res.json())
       .then(data => {
         setFlagLevelsQuiz(data.map(quiz => Object.keys(quiz).includes("level")).every(level => level == true));
-        console.log(data.map(quiz => Object.keys(quiz).includes("level")).every(level => level == true))
         setTotalLevelQuestions(data.length);
         if(level != "aleatorio" && data.length < 10){
           setLimit(data.length);
