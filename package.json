@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "cd server && npm run dev",
+    "dev": "vite",
+    "devapi": "cd server && npm run dev",
     "build": "vite build && (cd server && npm install)",
     "preview": "vite preview",
     "start": "cd server && npm start"
