@@ -50,6 +50,14 @@ const Navigation = () => {
                       Empieza un Quiz!
                     </Link>
                   </li>
+                   <li>
+                  <Link
+                    to="/info-api"
+                    className="hover:bg-lime-400 text-white no-underline"
+                  >
+                    Documentación
+                  </Link>
+                </li>
                 </ul>
               </div>
               <Link
