@@ -12,8 +12,8 @@ const Navigation = () => {
       <div className="bg-sky-900">
         <div className="container mx-auto items-center">
           <div className="navbar">
-            <div class="navbar-start">
-              <div class="dropdown md:hiden lg:hidden">
+            <div className="navbar-start">
+              <div className="dropdown md:hiden lg:hidden">
                 <label tabindex="0" class="btn btn-ghost  text-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -32,12 +32,12 @@ const Navigation = () => {
                 </label>
                 <ul
                   tabindex="0"
-                  class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+                  className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-sky-900 rounded-box w-52"
                 >
                   <li>
                     <Link
                       to="/"
-                      className="hover:bg-lime-400 text-white no-underline"
+                      className="hover:bg-lime-700 text-white no-underline"
                     >
                       Inicio
                     </Link>
@@ -45,7 +45,7 @@ const Navigation = () => {
                   <li>
                     <Link
                       to="/quiz"
-                      className="hover:bg-lime-400 text-white no-underline"
+                      className="hover:bg-lime-700 text-white no-underline"
                     >
                       Empieza un Quiz!
                     </Link>
@@ -53,7 +53,7 @@ const Navigation = () => {
                    <li>
                   <Link
                     to="/info-api"
-                    className="hover:bg-lime-400 text-white no-underline"
+                    className="hover:bg-lime-700 text-white no-underline"
                   >
                     Documentación
                   </Link>
@@ -67,12 +67,12 @@ const Navigation = () => {
                 preguntAPI
               </Link>
             </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal p-0 m-0">
+            <div className="navbar-center hidden lg:flex">
+              <ul className="menu menu-horizontal p-0 m-0">
                 <li>
                   <Link
                     to="/"
-                    className="hover:bg-lime-400 text-white no-underline"
+                    className="hover:bg-lime-700 hover:text-zinc-900 text-white no-underline"
                   >
                     Inicio
                   </Link>
@@ -80,7 +80,7 @@ const Navigation = () => {
                 <li>
                   <Link
                     to="/quiz"
-                    className="hover:bg-lime-400 text-white no-underline"
+                    className="hover:bg-lime-700 text-white no-underline"
                   >
                     Empieza un Quiz!
                   </Link>
@@ -88,14 +88,14 @@ const Navigation = () => {
                 <li>
                   <Link
                     to="/info-api"
-                    className="hover:bg-lime-400 text-white no-underline"
+                    className="hover:bg-lime-700 text-white no-underline"
                   >
                     Documentación
                   </Link>
                 </li>
               </ul>
             </div>
-            <div class="navbar-end hidden">
+            <div className="navbar-end hidden">
               <a
                 href="https://github.com/gerardmorte/preguntapi"
                 target="__blank"
