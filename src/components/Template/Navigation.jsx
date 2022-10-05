@@ -1,4 +1,3 @@
-import { Nav, Navbar } from "react-bootstrap";
 import Quiz from "../Quiz";
 import Api from "../Api";
 import Home from "../Home";
@@ -62,7 +61,7 @@ const Navigation = () => {
               </div>
               <Link
                 to="/"
-                className="btn btn-ghost normal-case text-xl cursor-pointer text-white no-underline"
+                className="normal-case text-2xl cursor-pointer text-white no-underline"
               >
                 preguntAPI
               </Link>
