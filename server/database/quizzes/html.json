@@ -368,7 +368,7 @@
     "correct_answer": "answer_c"
   },
   {
-    "id": "",
+    "id": "307",
     "category": "html",
     "level": "normal",
     "question": "¿Cuáles son los mejores ejemplos de elementos vacíos?",
@@ -381,7 +381,7 @@
     "correct_answer": "answer_b"
   },
   {
-    "id": "",
+    "id": "308",
     "category": "html",
     "level": "dificil",
     "question": "¿Cuál es el propósito principal de la etiqueta <canvas>?",
@@ -394,7 +394,7 @@
     "correct_answer": "answer_c"
   },
   {
-    "id": "",
+    "id": "309",
     "category": "html",
     "level": "normal",
     "question": "Como se escribiria una entrada que permita al usuario seleccionar entre un rango de valores enteros entre 0 y 100 (inclusive) en incrementos de 5.",
@@ -407,7 +407,7 @@
     "correct_answer": "answer_b"
   },
   {
-    "id": "",
+    "id": "310",
     "category": "html",
     "level": "normal",
     "question": "¿Cuál es la diferencia entre <svg> y <canvas>?",
@@ -420,7 +420,7 @@
     "correct_answer": "answer_a"
   },
   {
-    "id": "",
+    "id": "311",
     "category": "html",
     "level": "normal",
     "question": "¿Para qué sirve el atributo class?",

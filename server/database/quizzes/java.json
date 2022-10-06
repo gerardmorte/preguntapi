@@ -390,7 +390,7 @@
     "correct_answer": "answer_a"
   },
   {
-    "id": "",
+    "id": "317",
     "category": "java",
     "level": "facil",
     "question": "Al implementar la encapsulación, no se puede acceder directamente a las propiedades ___ de la clase a menos que esté escribiendo código dentro de la propia clase.",
@@ -403,7 +403,7 @@
     "correct_answer": "answer_a"
   },
   {
-    "id": "",
+    "id": "318",
     "category": "java",
     "level": "normal",
     "question": "Cual de las siguientes expresiones es la mas fiable para comprobar si dos variables de tipo String son iguales?",
@@ -416,7 +416,7 @@
     "correct_answer": "answer_d"
   },
   {
-    "id": "",
+    "id": "319",
     "category": "java",
     "level": "facil",
     "question": "¿Qué tipo de variable mantiene un valor constante una vez asigando?",
@@ -429,7 +429,7 @@
     "correct_answer": "answer_b"
   },
   {
-    "id": "",
+    "id": "320",
     "category": "java",
     "level": "facil",
     "question": "¿Qué palabra clave permite llamar al constructor de una clase padre?",
@@ -442,7 +442,7 @@
     "correct_answer": "answer_c"
   },
   {
-    "id": "",
+    "id": "321",
     "category": "java",
     "level": "facil",
     "question": "¿Qué palabra clave permite utilizar una interfaz?",

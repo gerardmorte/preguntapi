@@ -355,7 +355,7 @@
     "correct_answer": "answer_a"
   },
   {
-    "id": "",
+    "id": "322",
     "category": "javascript",
     "level": "normal",
     "question": "Cuál es el resultado de ejecutar: console.log(typeof 42);",
@@ -368,7 +368,7 @@
     "correct_answer": "answer_c"
   },
   {
-    "id": "",
+    "id": "323",
     "category": "javascript",
     "level": "normal",
     "question": "¿Qué método convierte los datos JSON en un objeto JavaScript?",
@@ -381,7 +381,7 @@
     "correct_answer": "answer_b"
   },
   {
-    "id": "",
+    "id": "324",
     "category": "javascript",
     "level": "facil",
     "question": "¿Cómo se añade un comentario en JavaScript?",
@@ -394,7 +394,7 @@
     "correct_answer": "answer_d"
   },
   {
-    "id": "",
+    "id": "325",
     "category": "javascript",
     "level": "facil",
     "question": "¿Qué sentencia puede tomar una sola expresión como entrada y luego buscar a través de un número de opciones hasta que se encuentre una que coincida con ese valor?",
@@ -407,7 +407,7 @@
     "correct_answer": "answer_c"
   },
   {
-    "id": "",
+    "id": "326",
     "category": "javascript",
     "level": "facil",
     "question": "¿Qué opción no es un método de arrays?",

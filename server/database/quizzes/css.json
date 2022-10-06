@@ -356,7 +356,7 @@
     "correct_answer": "answer_a"
   },
   {
-    "id": "",
+    "id": "312",
     "category": "css",
     "level": "facil",
     "question": "¿Cuál es la ventaja de utilizar CSS en línea?",
@@ -369,7 +369,7 @@
     "correct_answer": "answer_b"
   },
   {
-    "id": "",
+    "id": "313",
     "category": "css",
     "level": "facil",
     "question": "Para insertar un archivo de hoja de estilo externo en otro archivo de hoja de estilo, ¿qué regla debe utilizar?",
@@ -382,7 +382,7 @@
     "correct_answer": "answer_a"
   },
   {
-    "id": "",
+    "id": "314",
     "category": "css",
     "level": "facil",
     "question": "¿Qué opción no es válida para declarar un valor de relleno de 10 píxeles en la parte superior e inferior, y de 0 píxeles en la izquierda y la derecha?",
@@ -395,7 +395,7 @@
     "correct_answer": "answer_b"
   },
   {
-    "id": "",
+    "id": "315",
     "category": "css",
     "level": "normal",
     "question": "¿Qué opción utiliza la sintaxis correcta para añadir una pseudoclase hover a un elemento?",
@@ -408,7 +408,7 @@
     "correct_answer": "answer_a"
   },
   {
-    "id": "",
+    "id": "316",
     "category": "css",
     "level": "facil",
     "question": "¿Cual de los siguients es un valor NO valido para la propiedad font-size?",
