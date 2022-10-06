@@ -388,5 +388,70 @@
       "answer_d": "main()"
     },
     "correct_answer": "answer_a"
+  },
+  {
+    "id": "",
+    "category": "java",
+    "level": "facil",
+    "question": "Al implementar la encapsulación, no se puede acceder directamente a las propiedades ___ de la clase a menos que esté escribiendo código dentro de la propia clase.",
+    "answers": {
+      "answer_a": "private",
+      "answer_b": "protected",
+      "answer_c": "public",
+      "answer_d": "sin modificador de acceso"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "",
+    "category": "java",
+    "level": "normal",
+    "question": "Cual de las siguientes expresiones es la mas fiable para comprobar si dos variables de tipo String son iguales?",
+    "answers": {
+      "answer_a": "string1 == string2",
+      "answer_b": "string1 = string2",
+      "answer_c": "string1.matches(string2)",
+      "answer_d": "string1.equals(string2)"
+    },
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "",
+    "category": "java",
+    "level": "facil",
+    "question": "¿Qué tipo de variable mantiene un valor constante una vez asigando?",
+    "answers": {
+      "answer_a": "static",
+      "answer_b": "final",
+      "answer_c": "private",
+      "answer_d": "non-static"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "",
+    "category": "java",
+    "level": "facil",
+    "question": "¿Qué palabra clave permite llamar al constructor de una clase padre?",
+    "answers": {
+      "answer_a": "parent",
+      "answer_b": "this",
+      "answer_c": "super",
+      "answer_d": "new"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "",
+    "category": "java",
+    "level": "facil",
+    "question": "¿Qué palabra clave permite utilizar una interfaz?",
+    "answers": {
+      "answer_a": "implements",
+      "answer_b": "extends",
+      "answer_c": "inherits",
+      "answer_d": "import"
+    },
+    "correct_answer": "answer_a"
   }
 ]
