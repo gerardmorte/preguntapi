@@ -57,7 +57,7 @@ export default function StartQuiz() {
                         return (
                           <Button
                             id={key}
-                            className="mt-2 fs-5 fw-semibold bg-warning text-dark border-0 text-break shadow"
+                            className="mt-2 fs-5 fw-semibold bg-warning text-dark border-0 text-break shadow normal-case"
                             disabled={btnDisabled}
                             size="lg"
                             onClick={(e) => {
