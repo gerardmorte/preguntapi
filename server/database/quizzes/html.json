@@ -366,5 +366,70 @@
       "answer_c": "<title>"
     },
     "correct_answer": "answer_c"
+  },
+  {
+    "id": "",
+    "category": "html",
+    "level": "normal",
+    "question": "¿Cuáles son los mejores ejemplos de elementos vacíos?",
+    "answers": {
+      "answer_a": "<link><meta><title>",
+      "answer_b": "<br><base><source>",
+      "answer_c": "<input><br><p>",
+      "answer_d": "<area><embed><strong>"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "",
+    "category": "html",
+    "level": "dificil",
+    "question": "¿Cuál es el propósito principal de la etiqueta <canvas>?",
+    "answers": {
+      "answer_a": "Permite representar imágenes rasterizadas en la página web.",
+      "answer_b": "Muestra imágenes con anotaciones.",
+      "answer_c": "Permite dibujar sobre un mapa de bits a través de JavaScript.",
+      "answer_d": "Permite representar imágenes vectoriales en la página web."
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "",
+    "category": "html",
+    "level": "normal",
+    "question": "Como se escribiria una entrada que permita al usuario seleccionar entre un rango de valores enteros entre 0 y 100 (inclusive) en incrementos de 5.",
+    "answers": {
+      "answer_a": "<input type=\"range\" min=\"0\" max=\"100\" by=\"5\" />",
+      "answer_b": "<input type=\"range\" min=\"0\" max=\"100\" step=\"5\" />",
+      "answer_c": "<input type=\"number\" min=\"0\" max=\"100\" step=\"5\" />",
+      "answer_d": "<input type=\"number\" min=\"0\" max=\"100\" by=\"5\" />"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "",
+    "category": "html",
+    "level": "normal",
+    "question": "¿Cuál es la diferencia entre <svg> y <canvas>?",
+    "answers": {
+      "answer_a": "<svg> produce gráficos vectoriales, mientras que <canvas> produce gráficos rasterizados.",
+      "answer_b": "<svg> se integra con JavaScript, mientras que <canvas> no.",
+      "answer_c": "<svg> produce gráficos de trama, mientras que <canvas> produce gráficos vectoriales.",
+      "answer_d": "<svg> no se puede usar como imagen de fondo, mientras que <canvas> se puede usar como fondo."
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "",
+    "category": "html",
+    "level": "normal",
+    "question": "¿Para qué sirve el atributo class?",
+    "answers": {
+      "answer_a": "Las clases permiten a CSS seleccionar elementos específicos en la página. En el atributo class se pueden incluir tantos nombres de clase como se desee, separados por espacios.",
+      "answer_b": "Las clases permiten a CSS y JavaScript seleccionar elementos específicos en la página. Sólo puede enumerar un nombre de clase por atributo de clase.",
+      "answer_c": "Las clases permiten a CSS seleccionar elementos específicos en la página. Sólo puede enumerar un nombre de clase por atributo de clase.",
+      "answer_d": "Las clases permiten que CSS y JavaScript seleccionen elementos específicos en la página. Puede enumerar tantos nombres de clase dentro del atributo class como desee, separados por espacios."
+    },
+    "correct_answer": "answer_d"
   }
 ]
