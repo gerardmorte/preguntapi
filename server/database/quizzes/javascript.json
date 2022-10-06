@@ -353,5 +353,70 @@
       "answer_b": "Falso"
     },
     "correct_answer": "answer_a"
+  },
+  {
+    "id": "",
+    "category": "javascript",
+    "level": "normal",
+    "question": "Cuál es el resultado de ejecutar: console.log(typeof 42);",
+    "answers": {
+      "answer_a": "float",
+      "answer_b": "object",
+      "answer_c": "number",
+      "answer_d": "integer"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "",
+    "category": "javascript",
+    "level": "normal",
+    "question": "¿Qué método convierte los datos JSON en un objeto JavaScript?",
+    "answers": {
+      "answer_a": "JSON.fromString();",
+      "answer_b": "JSON.parse()",
+      "answer_c": "JSON.toObject()",
+      "answer_d": "JSON.stringify()"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "",
+    "category": "javascript",
+    "level": "facil",
+    "question": "¿Cómo se añade un comentario en JavaScript?",
+    "answers": {
+      "answer_a": "! Esto es un comentario",
+      "answer_b": "# Esto es un comentario",
+      "answer_c": "< Esto es un comentario >",
+      "answer_d": "// Esto es un comentario"
+    },
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "",
+    "category": "javascript",
+    "level": "facil",
+    "question": "¿Qué sentencia puede tomar una sola expresión como entrada y luego buscar a través de un número de opciones hasta que se encuentre una que coincida con ese valor?",
+    "answers": {
+      "answer_a": "else",
+      "answer_b": "when",
+      "answer_c": "switch",
+      "answer_d": "if"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "",
+    "category": "javascript",
+    "level": "facil",
+    "question": "¿Qué opción no es un método de arrays?",
+    "answers": {
+      "answer_a": ".slice()",
+      "answer_b": ".shift()",
+      "answer_c": ".push()",
+      "answer_d": ".replace()"
+    },
+    "correct_answer": "answer_d"
   }
 ]
