@@ -1,0 +1,294 @@
+[
+    {
+      "id": "282",
+      "category": "csharp",
+      "question": "¿Cuál es la sintaxis correcta para mostrar por consola \"Hello World\" en C#?",
+      "answers": {
+        "answer_a": "Console.WriteLine(\"Hello World\");",
+        "answer_b": "print (\"Hello World\");",
+        "answer_c": "System.out.println(\"Hello World\");",
+        "answer_d": "cout << \"Hello World\";"
+      },
+      "correct_answer": "answer_a"
+    },
+    {
+      "id": "283",
+      "category": "csharp",
+      "question": "C# es un alias de C++",
+      "answers": {
+        "answer_a": "Falso",
+        "answer_b": "Verdadero"
+      },
+      "correct_answer": "answer_a"
+    },
+    {
+      "id": "284",
+      "category": "csharp",
+      "question": "¿Cómo se insertan COMENTARIOS en el código en C#?",
+      "answers": {
+        "answer_a": "// Esto es un comentario",
+        "answer_b": "# Esto es un comentario",
+        "answer_c": "/* Esto es un comentario"
+      },
+      "correct_answer": "answer_a"
+    },
+    {
+      "id": "285",
+      "category": "csharp",
+      "question": "¿Qué tipo de datos se utiliza para crear una variable que debe almacenar texto?",
+      "answers": {
+        "answer_a": "myString",
+        "answer_b": "Txt",
+        "answer_c": "str",
+        "answer_d": "string"
+      },
+      "correct_answer": "answer_d"
+    },
+    {
+      "id": "286",
+      "category": "csharp",
+      "question": "¿Cómo se crea una variable con el valor numérico 5?",
+      "answers": {
+        "answer_a": "int x = 5;",
+        "answer_b": "x = 5;",
+        "answer_c": "double x = 5;",
+        "answer_d": "num x = 5"
+      },
+      "correct_answer": "answer_a"
+    },
+    {
+      "id": "287",
+      "category": "csharp",
+      "question": "¿Cómo se crea una variable con el número flotante 2,8?",
+      "answers": {
+        "answer_a": "double x = 2.8D;",
+        "answer_b": "byte x = 2.8",
+        "answer_c": "int x = 2.8D;",
+        "answer_d": "int x = 2.8;"
+      },
+      "correct_answer": "answer_a"
+    },
+    {
+      "id": "288",
+      "category": "csharp",
+      "question": "¿Qué propiedad se puede utilizar para encontrar la longitud de una cadena?",
+      "answers": {
+        "answer_a": "getLength()",
+        "answer_b": "Length",
+        "answer_c": "length()",
+        "answer_d": "length"
+      },
+      "correct_answer": "answer_b"
+    },
+    {
+      "id": "289",
+      "category": "csharp",
+      "question": "¿Qué operador se utiliza para sumar dos valores?",
+      "answers": {
+        "answer_a": "El signo +",
+        "answer_b": "El signo &",
+        "answer_c": "El signo *"
+      },
+      "correct_answer": "answer_a"
+    },
+    {
+      "id": "290",
+      "category": "csharp",
+      "question": "El valor de una variable de cadena puede estar encerrado entre comillas simples",
+      "answers": {
+        "answer_a": "Verdadero",
+        "answer_b": "Falso"
+      },
+      "correct_answer": "answer_b"
+    },
+    {
+      "id": "291",
+      "category": "csharp",
+      "question": "El casting de tipos es cuando se asigna un valor de un tipo de datos a otro tipo",
+      "answers": {
+        "answer_a": "Verdadero",
+        "answer_b": "Falso"
+      },
+      "correct_answer": "answer_a"
+    },
+    {
+      "id": "292",
+      "category": "csharp",
+      "question": "¿Qué operador se puede utilizar para comparar dos valores?",
+      "answers": {
+        "answer_a": "==",
+        "answer_b": "=",
+        "answer_c": "<>",
+        "answer_d": "><"
+      },
+      "correct_answer": "answer_a"
+    },
+    {
+      "id": "293",
+      "category": "csharp",
+      "question": "Para declarar un array en C#, hay que definir el tipo de variable con:",
+      "answers": {
+        "answer_a": "()",
+        "answer_b": "[]",
+        "answer_c": "{}",
+        "answer_d": "\"\""
+      },
+      "correct_answer": "answer_b"
+    },
+    {
+      "id": "294",
+      "category": "csharp",
+      "question": "Los índices de los arrays empiezan por:",
+      "answers": {
+        "answer_a": "0",
+        "answer_b": "1",
+        "answer_c": "2",
+        "answer_d": "3"
+      },
+      "correct_answer": "answer_a"
+    },
+    {
+      "id": "295",
+      "category": "csharp",
+      "question": "¿Cómo se crea un método en C#?",
+      "answers": {
+        "answer_a": "myMethod[]",
+        "answer_b": "MyMethod",
+        "answer_c": "(MyMethod)",
+        "answer_d": "MyMethod()"
+      },
+      "correct_answer": "answer_d"
+    },
+    {
+      "id": "296",
+      "category": "csharp",
+      "question": "¿Cómo se llama a un método en C#?",
+      "answers": {
+        "answer_a": "MyMethod();",
+        "answer_b": "MyMethod;",
+        "answer_c": "myMethod[];",
+        "answer_d": "(MyMethod);"
+      },
+      "correct_answer": "answer_a"
+    },
+    {
+      "id": "297",
+      "category": "csharp",
+      "question": "¿Qué palabra clave se utiliza para crear una clase en C#?",
+      "answers": {
+        "answer_a": "MyClass",
+        "answer_b": "class",
+        "answer_c": "class()",
+        "answer_d": "className"
+      },
+      "correct_answer": "answer_b"
+    },
+    {
+      "id": "298",
+      "category": "csharp",
+      "question": "¿Cuál es la forma correcta de crear un objeto llamado myObj de MyClass?",
+      "answers": {
+        "answer_a": "new myObj = MyClass();",
+        "answer_b": "class myObj = new MyClass();",
+        "answer_c": "MyClass myObj = new MyClass();",
+        "answer_d": "class MyClass = new myObj();"
+      },
+      "correct_answer": "answer_c"
+    },
+    {
+      "id": "299",
+      "category": "csharp",
+      "question": "En C#, es posible heredar campos y métodos de una clase a otra",
+      "answers": {
+        "answer_a": "Verdadero",
+        "answer_b": "Falso"
+      },
+      "correct_answer": "answer_a"
+    },
+    {
+      "id": "300",
+      "category": "csharp",
+      "question": "¿Cómo se llama la clase 'especial' que representa un grupo de constantes?",
+      "answers": {
+        "answer_a": "const",
+        "answer_b": "special",
+        "answer_c": "void",
+        "answer_d": "enum"
+      },
+      "correct_answer": "answer_d"
+    },
+    {
+      "id": "301",
+      "category": "csharp",
+      "question": "¿Qué operador se utiliza para multiplicar números?",
+      "answers": {
+        "answer_a": "x",
+        "answer_b": "*",
+        "answer_c": "#",
+        "answer_d": "%"
+      },
+      "correct_answer": "answer_b"
+    },
+    {
+        "id": "302",
+        "category": "csharp",
+        "question": "¿Qué modificador de acceso hace que el código sólo sea accesible dentro de la misma clase?",
+        "answers": {
+          "answer_a": "private",
+          "answer_b": "final",
+          "answer_c": "public",
+          "answer_d": "abstract"
+        },
+        "correct_answer": "answer_a"
+      },
+      {
+          "id": "303",
+          "category": "csharp",
+          "question": "¿Cómo se empieza a escribir una sentencia if en C#?",
+          "answers": {
+            "answer_a": "if (x > y)",
+            "answer_b": "if x > y:",
+            "answer_c": "if x > y then:"
+          },
+          "correct_answer": "answer_a"
+        }
+        ,
+    {
+        "id": "304",
+        "category": "csharp",
+        "question": "¿Cómo se empieza a escribir un ciclo while en C#?",
+        "answers": {
+          "answer_a": "while (x > y)",
+          "answer_b": "while x > y:",
+          "answer_c": "x > y while {",
+          "answer_d": "while x > y {"
+        },
+        "correct_answer": "answer_a"
+      }
+      ,
+    {
+        "id": "305",
+        "category": "csharp",
+        "question": "¿Qué palabra clave se utiliza para devolver un valor dentro de un método?",
+        "answers": {
+          "answer_a": "get",
+          "answer_b": "void",
+          "answer_c": "break",
+          "answer_d": "return"
+        },
+        "correct_answer": "answer_d"
+      }
+      ,
+    {
+        "id": "306",
+        "category": "csharp",
+        "question": "¿Qué sentencia se utiliza para detener un ciclo?",
+        "answers": {
+          "answer_a": "exit",
+          "answer_b": "stop",
+          "answer_c": "break",
+          "answer_d": "return"
+        },
+        "correct_answer": "answer_c"
+      }
+  ]
