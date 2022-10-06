@@ -354,5 +354,70 @@
       "answer_c": "No hay diferencia entre los dos"
     },
     "correct_answer": "answer_a"
+  },
+  {
+    "id": "",
+    "category": "css",
+    "level": "facil",
+    "question": "¿Cuál es la ventaja de utilizar CSS en línea?",
+    "answers": {
+      "answer_a": "Es más fácil de manejar.",
+      "answer_b": "Es más fácil añadir múltiples estilos a través de él.",
+      "answer_c": "Se puede utilizar para probar rápidamente las anulaciones locales de CSS.",
+      "answer_d": "Reduce los conflictos con otros métodos de definición de CSS."
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "",
+    "category": "css",
+    "level": "facil",
+    "question": "Para insertar un archivo de hoja de estilo externo en otro archivo de hoja de estilo, ¿qué regla debe utilizar?",
+    "answers": {
+      "answer_a": "@import",
+      "answer_b": "@link",
+      "answer_c": "@insert",
+      "answer_d": "@style"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "",
+    "category": "css",
+    "level": "facil",
+    "question": "¿Qué opción no es válida para declarar un valor de relleno de 10 píxeles en la parte superior e inferior, y de 0 píxeles en la izquierda y la derecha?",
+    "answers": {
+      "answer_a": "padding: 10px 0px;",
+      "answer_b": "padding: 10px 10px 0px 0px;",
+      "answer_c": "padding: 10px 0;",
+      "answer_d": "padding: 10px 0px 10px 0px;"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "",
+    "category": "css",
+    "level": "normal",
+    "question": "¿Qué opción utiliza la sintaxis correcta para añadir una pseudoclase hover a un elemento?",
+    "answers": {
+      "answer_a": "a:hover {...}",
+      "answer_b": "a :hover {...}",
+      "answer_c": "a.hover {...}",
+      "answer_d": "a hover {...}"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "",
+    "category": "css",
+    "level": "facil",
+    "question": "¿Cual de los siguients es un valor NO valido para la propiedad font-size?",
+    "answers": {
+      "answer_a": "font-size: xsmall",
+      "answer_b": "font-size: 50%",
+      "answer_c": "font-size: 1em",
+      "answer_d": "font-size: 20px"
+    },
+    "correct_answer": "answer_a"
   }
 ]
