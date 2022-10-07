@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { Container, Button, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const levels = ["facil", "normal", "dificil", "aleatorio"];
@@ -29,15 +28,19 @@ export default function Quiz() {
 
   useEffect(() => {
     fetch(`/api/v1/quizzes?category=${category}&level=${level}`)
-      .then(res => res.json())
-      .then(data => {
-        setFlagLevelsQuiz(data.map(quiz => Object.keys(quiz).includes("level")).every(level => level == true));
+      .then((res) => res.json())
+      .then((data) => {
+        setFlagLevelsQuiz(
+          data
+            .map((quiz) => Object.keys(quiz).includes("level"))
+            .every((level) => level == true)
+        );
         setTotalLevelQuestions(data.length);
-        if(level != "aleatorio" && data.length < 10){
+        if (level != "aleatorio" && data.length < 10) {
           setLimit(data.length);
         }
-      })
-  },[category, level])
+      });
+  }, [category, level]);
 
   const handleLevel = (e) => {
     if (e.target.value === "FÁCIL") {
@@ -62,12 +65,10 @@ export default function Quiz() {
   };
 
   return (
-    <Container className="my-auto">
-      <Form.Label>
-        <h1>Elige una categoria:</h1>
-      </Form.Label>
-      <Form.Select
-        size="lg"
+    <div className="container m-auto w-8/12 ">
+      <h1 className="text-4xl">Elige una categoria:</h1>
+      <select
+        className="select w-full max-w-full mt-4 text-xl font-normal"
         onChange={(e) => {
           setCategory(e.target.value);
         }}
@@ -75,74 +76,74 @@ export default function Quiz() {
         {categories.map((item) => {
           return <option value={item}>{item.toUpperCase()}</option>;
         })}
-      </Form.Select>
+      </select>
 
       {flagLevelsQuiz && (
         <>
-          <Form.Label className="mt-5">
-            <h1>Dificultad:</h1>
-          </Form.Label>
-          <Form.Select size="lg" onChange={handleLevel}>
+          <h1 className="text-4xl mt-9">Dificultad:</h1>
+
+          <select className="select w-full max-w-full mt-4 text-xl font-normal" onChange={handleLevel}>
             <option>ALEATORIO</option>
             <option>FÁCIL</option>
             <option>NORMAL</option>
             <option>DIFÍCIL</option>
-          </Form.Select>
+          </select>
         </>
       )}
 
-      <Form.Label className="mt-5">
-        <h1>Total preguntas:</h1>
-      </Form.Label>
-      <Form.Select
-        size="lg"
+      <h1 className="text-4xl mt-9">Total preguntas:</h1>
+      <select
+        className="select w-full max-w-full mt-4 text-xl font-normal"
         onChange={(e) => {
           setLimit(e.target.value);
         }}
       >
-        {randomQuiz && 
-        <>
-        <option>10</option>
-        <option>15</option>
-        <option>20</option>
-        </>}
+        {randomQuiz && (
+          <>
+            <option>10</option>
+            <option>15</option>
+            <option>20</option>
+          </>
+        )}
 
-        {!randomQuiz && totalLevelQuestions <= 10 &&
-        <>
-        <option>{totalLevelQuestions}</option>
-        </>}
+        {!randomQuiz && totalLevelQuestions <= 10 && (
+          <>
+            <option>{totalLevelQuestions}</option>
+          </>
+        )}
 
-        {!randomQuiz && totalLevelQuestions > 10 && totalLevelQuestions < 15 &&
-        <>
-        <option>10</option>
-        <option>{totalLevelQuestions}</option>
-        </>}
+        {!randomQuiz && totalLevelQuestions > 10 && totalLevelQuestions < 15 && (
+          <>
+            <option>10</option>
+            <option>{totalLevelQuestions}</option>
+          </>
+        )}
 
-        {!randomQuiz && totalLevelQuestions >= 15 && totalLevelQuestions < 20 &&
-        <>
-        <option>10</option>
-        <option>15</option>
-        <option>{totalLevelQuestions}</option>
-        </>}
+        {!randomQuiz && totalLevelQuestions >= 15 && totalLevelQuestions < 20 && (
+          <>
+            <option>10</option>
+            <option>15</option>
+            <option>{totalLevelQuestions}</option>
+          </>
+        )}
 
-        {!randomQuiz && totalLevelQuestions >= 20 &&
-        <>
-        <option>10</option>
-        <option>15</option>
-        <option>20</option>
-        </>}
-      </Form.Select>
+        {!randomQuiz && totalLevelQuestions >= 20 && (
+          <>
+            <option>10</option>
+            <option>15</option>
+            <option>20</option>
+          </>
+        )}
+      </select>
 
       <Link to={link}>
-        <Button
-          variant="primary"
+        <button
           type="submit"
-          className="mt-5 w-100 fs-5 fw-bold shadow"
-          size="lg"
+          className="btn btn-block btn-primary mt-12 text-xl"
         >
           Empezar Quiz!
-        </Button>
+        </button>
       </Link>
-    </Container>
+    </div>
   );
 }

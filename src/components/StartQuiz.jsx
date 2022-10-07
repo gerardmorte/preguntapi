@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
-import { Button, Container } from "react-bootstrap";
 
 export default function StartQuiz() {
   const [searchParams] = useSearchParams();
@@ -23,28 +22,28 @@ export default function StartQuiz() {
   }, []);
 
   return (
-    <Container className="text-center my-auto">
+    <div className="container m-auto text-center w-8/12">
       <div>
         {quizEnd ? (
           <>
-            <h1 className="mt-4 mb-4">{category.toUpperCase()}</h1>
-            <h1 className="mb-4">
+            <h1 className="mt-4 mb-4 text-3xl">{category.toUpperCase()}</h1>
+            <h1 className="mb-4 text-2xl">
               Puntuación: {quizScore} de {quizzes.length}{" "}
             </h1>
           </>
         ) : (
           <>
-            <h1 className="mt-4 mb-4">{category.toUpperCase()}</h1>
-            <h2>
+            <h1 className="mt-4 mb-4 text-3xl">{category.toUpperCase()}</h1>
+            <h2 className="text-2xl">
               Pregunta {actualQuizIndex + 1} de {quizzes.length}{" "}
             </h2>
-            <h2 className="mb-4">
+            <h2 className="mb-4 text-2xl">
               {" "}
               Puntuación: {quizScore} de {quizzes.length}
             </h2>
             {quizzes.map((quiz, index) => {
               if (index == actualQuizIndex) {
-                return <h2 className="mb-4">{quiz.question}</h2>;
+                return <h2 className="mb-4 text-2xl">{quiz.question}</h2>;
               }
             })}
             <div>
@@ -55,31 +54,30 @@ export default function StartQuiz() {
                       {Object.keys(quiz.answers).map((key) => {
                         const value = quiz.answers[key];
                         return (
-                          <Button
+                          <button
                             id={key}
-                            className="mt-2 fs-5 fw-semibold bg-warning text-dark border-0 text-break shadow normal-case"
+                            className="mt-2 btn btn-block btn-warning normal-case text-black text-xl border-0 h-max disabled:btn-active disabled:text-black"
                             disabled={btnDisabled}
-                            size="lg"
                             onClick={(e) => {
                               if (key === quiz.correct_answer) {
                                 e.target.classList.replace(
-                                  "bg-warning",
-                                  "bg-success"
+                                  "btn-warning",
+                                  "btn-success"
                                 );
-                                setBtnDisabled(true);
+                                 setBtnDisabled(true);
                                 setQuizScore(quizScore + 1);
                               } else {
                                 e.target.classList.replace(
-                                  "bg-warning",
-                                  "bg-danger"
+                                  "btn-warning",
+                                  "btn-error"
                                 );
                                 document
                                   .getElementById(quiz.correct_answer)
                                   .classList.replace(
-                                    "bg-warning",
-                                    "bg-success"
+                                    "btn-warning",
+                                    "btn-success"
                                   );
-                                setBtnDisabled(true);
+                                 setBtnDisabled(true);
                               }
                               setBtnNextDisabled(false);
                               if (actualQuizIndex == quizzes.length - 1) {
@@ -91,7 +89,7 @@ export default function StartQuiz() {
                             }}
                           >
                             {value}
-                          </Button>
+                          </button>
                         );
                       })}
                     </div>
@@ -105,10 +103,15 @@ export default function StartQuiz() {
       <div className="d-grid">
         {quizEnd ? (
           <>
-            <Link to={level ? `/startQuiz?category=${category}&level=${level}` : `/startQuiz?category=${category}&limit=${limit}`}>
-              <Button
-                className="w-100 fs-5 fw-bold shadow mb-4 mt-2"
-                variant="primary"
+            <Link
+              to={
+                level
+                  ? `/startQuiz?category=${category}&level=${level}`
+                  : `/startQuiz?category=${category}&limit=${limit}`
+              }
+            >
+              <button
+                className="mt-2 btn btn-block btn-primary text-xl text-white"
                 onClick={() => {
                   setActualQuestionIndex(0);
                   setQuizEnd(false);
@@ -117,19 +120,17 @@ export default function StartQuiz() {
                 }}
               >
                 REPETIR QUIZ
-              </Button>
+              </button>
             </Link>
             <Link to="/quiz">
-              <Button className="w-100 fs-5 fw-bold shadow" variant="primary">
+              <button className="mt-2 btn btn-block btn-primary text-xl text-white">
                 SALIR
-              </Button>
+              </button>
             </Link>
           </>
         ) : (
-          <Button
-            variant="primary"
-            className="fs-5 fw-bold mb-2 shadow"
-            size="lg"
+          <button
+            className="btn btn-block btn-primary text-xl text-white disabled:btn-active disabled:text-white"
             disabled={btnNextDisabled}
             onClick={() => {
               setActualQuestionIndex(actualQuizIndex + 1);
@@ -138,9 +139,9 @@ export default function StartQuiz() {
             }}
           >
             SIGUIENTE
-          </Button>
+          </button>
         )}
       </div>
-    </Container>
+    </div>
   );
 }

@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="footer items-center p-4 bg-white">
+    <footer className="p-4 bg-white">
       <div className="container mx-auto items-center">
         <div className="grid-flow-col">
           <a
