@@ -7,3 +7,9 @@
     font-family: "Montserrat", sans-serif;
   }
 }
+
+.overflow-x {
+  overflow-x: auto;
+  background-color: white;
+  border-radius: .5rem;
+}
