@@ -19,7 +19,7 @@ function Home() {
                 src={
                     "https://assets7.lottiefiles.com/packages/lf20_ayopewsc.json"
                 }
-                className="player w-9/12"
+                className="h-96"
                 loop
                 autoplay
             />
