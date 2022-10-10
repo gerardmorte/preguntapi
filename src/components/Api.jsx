@@ -141,7 +141,7 @@ function Api() {
         <b className="text-xl">La URL base es:</b>
       </p>
       <br />
-      <div className="p-2 overflow-scroll">
+      <div className="p-2 overflow-x">
         <p className="fs-5 ">
           <a
             className="text-decoration-none"
@@ -153,7 +153,7 @@ function Api() {
         </p>
       </div>
       <br />
-      <pre className="overflow-scroll">{texto1}</pre>
+      <pre className="overflow-x">{texto1}</pre>
       <br />
       <p>
         El único recurso disponible es "quizzes", se utiliza para obtener todos
@@ -168,7 +168,7 @@ function Api() {
       <p className="text-xl mb-4 mt-4">
         <b>Ejemplo:</b>
       </p>
-      <div className="p-2 overflow-scroll">
+      <div className="p-2 overflow-x">
         <p className="fs-5 ">
           <a
             className="text-decoration-none"
@@ -180,7 +180,7 @@ function Api() {
         </p>
       </div>
       <br />
-      <pre className="overflow-scroll">{texto2}</pre>
+      <pre className="overflow-x">{texto2}</pre>
       <br />
     </div>
   );

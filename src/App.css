@@ -5,3 +5,10 @@
   flex-direction: column;
   font-family: "Montserrat", Courier, monospace;
 }
+
+
+.overflow-x {
+  overflow-x: auto;
+  background-color: white;
+  border-radius: .5rem;
+}
