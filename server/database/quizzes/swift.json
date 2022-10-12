@@ -2,6 +2,7 @@
   {
     "id": "151",
     "category": "swift",
+    "level": "facil",
     "question": "¿Qué palabra clave usas para anunciar constantes en Swift?",
     "answers": {
       "answer_a": "Var",
@@ -14,6 +15,7 @@
   {
     "id": "152",
     "category": "swift",
+    "level": "facil",
     "question": "¿Cuántos tipos de enteros hay en Swift?",
     "answers": {
       "answer_a": "1",
@@ -26,6 +28,7 @@
   {
     "id": "153",
     "category": "swift",
+    "level": "facil",
     "question": "¿Cuáles son los tipos de colección en Swift?",
     "answers": {
       "answer_a": "Dictionary y array",
@@ -38,6 +41,7 @@
   {
     "id": "154",
     "category": "swift",
+    "level": "facil",
     "question": "¿Qué debe usar para proporcionar un valor predeterminado para una variable en Swift?",
     "answers": {
       "answer_a": "?",
@@ -50,6 +54,7 @@
   {
     "id": "155",
     "category": "swift",
+    "level": "facil",
     "question": "¿Cuál de las siguientes definiciones de funciones es incorrecta considerando el lenguaje Swift?",
     "answers": {
       "answer_a": "func mean(numbers: Double...) -> Double",
@@ -62,6 +67,7 @@
   {
     "id": "156",
     "category": "swift",
+    "level": "normal",
     "question": "¿Cuál crea un diccionario con un tipo de clave de Entero y valor de Cadena?",
     "answers": {
       "answer_a": "var dict = [\"one\":1]",
@@ -74,6 +80,7 @@
   {
     "id": "157",
     "category": "swift",
+    "level": "normal",
     "question": "¿Cuál de estas no es una declaración de propiedad válida en Swift?",
     "answers": {
       "answer_a": "final var x = 0",
@@ -86,6 +93,7 @@
   {
     "id": "158",
     "category": "swift",
+    "level": "normal",
     "question": "¿Cuál es la definición incorrecta de un protocolo en Swift?",
     "answers": {
       "answer_a": "protocol SomeProtocol { var first: Int{ set } }",
@@ -98,6 +106,7 @@
   {
     "id": "159",
     "category": "swift",
+    "level": "normal",
     "question": "¿Todas las clases de Swift deben heredar de qué clase raíz?",
     "answers": {
       "answer_a": "Root",
@@ -110,6 +119,7 @@
   {
     "id": "160",
     "category": "swift",
+    "level": "normal",
     "question": "¿Cuál es correcta sobre las enumeraciones?",
     "answers": {
       "answer_a": "Las enumeraciones no pueden ajustarse a los protocolos.",
@@ -120,6 +130,7 @@
   {
     "id": "161",
     "category": "swift",
+    "level": "normal",
     "question": "¿Cuál de las siguientes declaraciones podría usarse para determinar si una variable dada es de tipo String?",
     "answers": {
       "answer_a": "if unkownVariable: String { }",
@@ -132,6 +143,7 @@
   {
     "id": "162",
     "category": "swift",
+    "level": "normal",
     "question": "¿Cuál de estas podría ser una declaración de protocolo adecuada en Swift?",
     "answers": {
       "answer_a": "protocol someProtocal { var first: Int { set } }",
@@ -144,6 +156,7 @@
   {
     "id": "163",
     "category": "swift",
+    "level": "normal",
     "question": "¿Qué se usa para importar archivos Objective-C a Swift?",
     "answers": {
       "answer_a": "Las clases de Objective-C se importan automáticamente",
@@ -156,6 +169,7 @@
   {
     "id": "164",
     "category": "swift",
+    "level": "dificil",
     "question": "¿Qué tipo de objeto son las \"Swift Structures\"?",
     "answers": {
       "answer_a": "Value Type",
@@ -168,6 +182,7 @@
   {
     "id": "165",
     "category": "swift",
+    "level": "dificil",
     "question": "¿Qué palabra clave en el contexto de una instrucción Switch se requiere para forzar la ejecución de un caso posterior?",
     "answers": {
       "answer_a": "Break",
@@ -180,6 +195,7 @@
   {
     "id": "166",
     "category": "swift",
+    "level": "normal",
     "question": "¿Cuál es el tipo de de las enumeraciones?",
     "answers": {
       "answer_a": "Value type",
@@ -192,6 +208,7 @@
   {
     "id": "167",
     "category": "swift",
+    "level": "normal",
     "question": "¿Qué tipos de colección están disponibles en Swift?",
     "answers": {
       "answer_a": "Array",
@@ -204,6 +221,7 @@
   {
     "id": "168",
     "category": "swift",
+    "level": "dificil",
     "question": "_____________ es un proceso de consulta y llamada de propiedades",
     "answers": {
       "answer_a": "Lazy Chaining",
@@ -216,6 +234,7 @@
   {
     "id": "169",
     "category": "swift",
+    "level": "dificil",
     "question": "Dado lo siguiente... var stringValue:String = \"Jane Doe\". ¿Cuál es el resultado de realizar... stringValue = nil?",
     "answers": {
       "answer_a": "stringValue == nil",
@@ -227,6 +246,7 @@
   {
     "id": "170",
     "category": "swift",
+    "level": "normal",
     "question": "¿Qué tipo de lenguaje es Swift?",
     "answers": {
       "answer_a": "Scripting language",
