@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 const levels = ["facil", "normal", "dificil", "aleatorio"];
 
@@ -65,85 +66,89 @@ export default function Quiz() {
   };
 
   return (
-    <div className="container m-auto w-8/12 ">
-      <h1 className="text-4xl">Elige una categoria:</h1>
-      <select
-        className="select w-full max-w-full mt-4 text-xl font-normal"
-        onChange={(e) => {
-          setCategory(e.target.value);
-        }}
-      >
-        {categories.map((item) => {
-          return <option value={item}>{item.toUpperCase()}</option>;
-        })}
-      </select>
+    <>
+      <div className="hero min-h-[calc(100vh-121px)] container mx-auto justify-start">
+        <div class="hero-content flex-col lg:flex-row">
+          <div className="w-3/6">
+            <Player
+              src={
+                "https://assets7.lottiefiles.com/packages/lf20_ayopewsc.json"
+              }
+              className="player w-full"
+              loop
+              autoplay
+            />
+          </div>
+          <div className="w-3/6">
+            <div className="flex flex-col">
+              <h1 className="text-5xl font-bold">Preguntas de programación!</h1>
+              <p className="py-6">
+                Utiliza nuestra API en tus proyectos y dale una estrella en
+                GitHub.
+                <br />
+                Aprende con mas de 3000 preguntas en 8 categorías.
+                <br />
+                Repite el test y aprende cada vez mas!
+              </p>
+              <div className="flex gap-2 mb-3 flex-wrap">
+                {categories.map((category) => (
+                  <button
+                    key={category}
+                    className="btn bg-sky-900 gap-2 border-none btn-category"
+                    data-category={category}
+                    onClick={(e) => {
+                      // get attr key
+                      const categorySelected =
+                        e.target.getAttribute("data-category");
+                      setCategory(categorySelected);
 
-      {flagLevelsQuiz && (
-        <>
-          <h1 className="text-4xl mt-9">Dificultad:</h1>
-
-          <select className="select w-full max-w-full mt-4 text-xl font-normal" onChange={handleLevel}>
-            <option>ALEATORIO</option>
-            <option>FÁCIL</option>
-            <option>NORMAL</option>
-            <option>DIFÍCIL</option>
-          </select>
-        </>
-      )}
-
-      <h1 className="text-4xl mt-9">Total preguntas:</h1>
-      <select
-        className="select w-full max-w-full mt-4 text-xl font-normal"
-        onChange={(e) => {
-          setLimit(e.target.value);
-        }}
-      >
-        {randomQuiz && (
-          <>
-            <option>10</option>
-            <option>15</option>
-            <option>20</option>
-          </>
-        )}
-
-        {!randomQuiz && totalLevelQuestions <= 10 && (
-          <>
-            <option>{totalLevelQuestions}</option>
-          </>
-        )}
-
-        {!randomQuiz && totalLevelQuestions > 10 && totalLevelQuestions < 15 && (
-          <>
-            <option>10</option>
-            <option>{totalLevelQuestions}</option>
-          </>
-        )}
-
-        {!randomQuiz && totalLevelQuestions >= 15 && totalLevelQuestions < 20 && (
-          <>
-            <option>10</option>
-            <option>15</option>
-            <option>{totalLevelQuestions}</option>
-          </>
-        )}
-
-        {!randomQuiz && totalLevelQuestions >= 20 && (
-          <>
-            <option>10</option>
-            <option>15</option>
-            <option>20</option>
-          </>
-        )}
-      </select>
-
-      <Link to={link}>
-        <button
-          type="submit"
-          className="btn btn-block btn-primary mt-12 text-xl"
-        >
-          Empezar Quiz!
-        </button>
-      </Link>
-    </div>
+                      // change background to element current
+                      const btns = document.querySelectorAll(".btn-category");
+                      btns.forEach((btn) => btn.classList.remove("bg-sky-600"));
+                      e.target.classList.add("bg-sky-600");
+                    }}
+                  >
+                    {category.toUpperCase()}
+                    <div className="badge bg-white text-black hidden">+99</div>
+                  </button>
+                ))}
+              </div>
+              <div className="flex gap-2 mb-3 flex-wrap">
+                {flagLevelsQuiz && (
+                  <div className="btn bg-white border-2 border-sky-900 gap-2 cursor-default text-black hover:bg-transparent">
+                    <p className="">Dificultad:</p>
+                    <select
+                      className="hover:bg-transparent"
+                      onChange={handleLevel}
+                    >
+                      <option>ALEATORIO</option>
+                      <option>FÁCIL</option>
+                      <option>NORMAL</option>
+                      <option>DIFÍCIL</option>
+                    </select>
+                  </div>
+                )}
+                <div className="btn bg-white border-2 border-sky-900 gap-2 cursor-default text-black hover:bg-transparent">
+                  <p className="">Cantidad de preguntas:</p>
+                  <select
+                    className="hover:bg-transparent"
+                    onChange={handleLevel}
+                  >
+                    <option>10</option>
+                    <option>15</option>
+                    <option>20</option>
+                  </select>
+                </div>
+              </div>
+              <div className="flex gap-2 mb-3">
+                <Link to={link} className="btn bg-green-600 border-none">
+                  Iniciar Quiz!
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
