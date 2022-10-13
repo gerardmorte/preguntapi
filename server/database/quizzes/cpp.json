@@ -2,6 +2,7 @@
   {
     "id": "231",
     "category": "cpp",
+    "level": "facil",
     "question": "¿Cuál es la sintaxis correcta para imprimir por consola \"Hola mundo\" en C++?",
     "answers": {
       "answer_a": "Console.WriteLine(\"Hola mundo\");",
@@ -14,6 +15,7 @@
   {
     "id": "232",
     "category": "cpp",
+    "level": "facil",
     "question": "¿Cuál es la prefijo correcto para invocar al namespace standar de C++?",
     "answers": {
       "answer_a": "std::",
@@ -25,6 +27,7 @@
   {
     "id": "233",
     "category": "cpp",
+    "level": "facil",
     "question": "Qué debe de retornar la función principal cuando el programa termina sin ningún problema",
     "answers": {
       "answer_a": "200",
@@ -37,6 +40,7 @@
   {
     "id": "234",
     "category": "cpp",
+    "level": "facil",
     "question": "¿Cómo introduces una variable de entrada por consola en C++?",
     "answers": {
       "answer_a": "int x = scanf(\"%19s\", str);",
@@ -49,6 +53,7 @@
   {
     "id": "235",
     "category": "cpp",
+    "level": "facil",
     "question": "¿Qué tipo de dato es util para representar el numero 3.1416?",
     "answers": {
       "answer_a": "float",
@@ -61,6 +66,7 @@
   {
     "id": "236",
     "category": "cpp",
+    "level": "dificil",
     "question": "¿Cuáles de estas constantes están definidas en la clase WindowEvent?",
     "answers": {
       "answer_a": "Todas las mencionadas",
@@ -73,6 +79,7 @@
   {
     "id": "237",
     "category": "cpp",
+    "level": "facil",
     "question": "¿Qué tipo de dato expresa que una función no va a retornar?",
     "answers": {
       "answer_a": "int*",
@@ -85,6 +92,7 @@
   {
     "id": "238",
     "category": "cpp",
+    "level": "normal",
     "question": "¿Cuál de estos ejemplos representa una asignacion de valor?",
     "answers": {
       "answer_a": "int x = 1;",
@@ -97,6 +105,7 @@
   {
     "id": "239",
     "category": "cpp",
+    "level": "normal",
     "question": "¿Cuál de estos ejemplos representa una definicion de variable?",
     "answers": {
       "answer_a": "int x;",
@@ -109,6 +118,7 @@
   {
     "id": "240",
     "category": "cpp",
+    "level": "normal",
     "question": "¿Cuál de estos ejemplos representa una inicializacion de variable?",
     "answers": {
       "answer_a": "int x = 1;",
@@ -121,6 +131,7 @@
   {
     "id": "241",
     "category": "cpp",
+    "level": "dificil",
     "question": "¿Cuál es la manera moderna y recomendada de inicializar una variable?",
     "answers": {
       "answer_a": "inicializacion por copia int x = 1;",
@@ -133,6 +144,7 @@
   {
     "id": "242",
     "category": "cpp",
+    "level": "dificil",
     "question": "¿Cuál de estas clases es padre de todas las otras clases?",
     "answers": {
       "answer_a": "java.Lang.Object",
@@ -145,6 +157,7 @@
   {
     "id": "243",
     "category": "cpp",
+    "level": "facil",
     "question": "¿Cuál es el paradigma de programacion de C++?",
     "answers": {
       "answer_a": "Funcional",
@@ -157,6 +170,7 @@
   {
     "id": "244",
     "category": "cpp",
+    "level": "facil",
     "question": "¿Podemos usar librerias de C en C++?",
     "answers": {
       "answer_a": "No",
@@ -169,6 +183,7 @@
   {
     "id": "245",
     "category": "cpp",
+    "level": "facil",
     "question": "¿Cuál es un ejemplo de macro en C++",
     "answers": {
       "answer_a": "#define MY_LIB",
@@ -181,6 +196,7 @@
   {
     "id": "246",
     "category": "cpp",
+    "level": "normal",
     "question": "¿Para qué se usan las macros?",
     "answers": {
       "answer_a": "Trabajar constantes durante la ejecución",
@@ -193,6 +209,7 @@
   {
     "id": "247",
     "category": "cpp",
+    "level": "normal",
     "question": "¿Qué proyectos usan C++ actualmente?",
     "answers": {
       "answer_a": "El kernel de Linux",
@@ -205,6 +222,7 @@
   {
     "id": "248",
     "category": "cpp",
+    "level": "normal",
     "question": "¿Cuál de estos métodos puedo saber el valo del tamaño de un tipo de dato?",
     "answers": {
       "answer_a": "SifeOf()",
@@ -217,6 +235,7 @@
   {
     "id": "249",
     "category": "cpp",
+    "level": "normal",
     "question": "¿Cuál es la manera mas eficiente de usar banderas en C++ en caso de tener un hardware limitado?",
     "answers": {
       "answer_a": "Con el tipo de dato booleano",
@@ -229,6 +248,7 @@
   {
     "id": "250",
     "category": "cpp",
+    "level": "normal",
     "question": "¿Cuál es la diferencia entre un signed integer y un unsigner integer?",
     "answers": {
       "answer_a": "El rango de bits que pueden tener las variables en memoria",
@@ -241,6 +261,7 @@
   {
     "id": "251",
     "category": "cpp",
+    "level": "normal",
     "question": "¿Se pueden hacer pruebas unitarias en C++?",
     "answers": {
       "answer_a": "No",
@@ -253,6 +274,7 @@
   {
     "id": "252",
     "category": "cpp",
+    "level": "normal",
     "question": "¿Qué es un puntero?",
     "answers": {
       "answer_a": "Un tipo de dato que puede apuntar a una direccion en memoria",
@@ -265,6 +287,7 @@
   {
     "id": "253",
     "category": "cpp",
+    "level": "normal",
     "question": "¿Qué es un desborde de datos?",
     "answers": {
       "answer_a": "No existe ese termino",
@@ -277,6 +300,7 @@
   {
     "id": "254",
     "category": "cpp",
+    "level": "normal",
     "question": "¿Qué suit de pruebas unitarias estan disponibles en C++?",
     "answers": {
       "answer_a": "Google test",
@@ -289,6 +313,7 @@
   {
     "id": "255",
     "category": "cpp",
+    "level": "normal",
     "question": "¿Cuál es la forma correcta de crear un objeto llamado myObj de MyClass?",
     "answers": {
       "answer_a": "int myObj = MyClass()",
@@ -301,6 +326,7 @@
   {
     "id": "256",
     "category": "cpp",
+    "level": "normal",
     "question": "Con el manejo de memoria de C++ ¿Es posible probocar un error en todo el equipo donde se esta programando?",
     "answers": {
       "answer_a": "No",
@@ -312,6 +338,7 @@
   {
     "id": "257",
     "category": "cpp",
+    "level": "normal",
     "question": "¿Un software construido en C++ en equipo Linux puede ser corrido en Windows?",
     "answers": {
       "answer_a": "No. las arquitecturas son diferentes",
@@ -323,6 +350,7 @@
   {
     "id": "258",
     "category": "cpp",
+    "level": "normal",
     "question": "¿Cuál es la ventaja de C++ contra Java, Kotlin, Javascript, Python?",
     "answers": {
       "answer_a": "El manejo de apuntadores",
@@ -335,6 +363,7 @@
   {
     "id": "259",
     "category": "cpp",
+    "level": "normal",
     "question": "Para que las subclases de cualquier paquete tengan acceso a los miembros de una superclase. ¿Cuál es el acceso más restrictivo que cumple este objetivo?",
     "answers": {
       "answer_a": "public",
@@ -346,6 +375,7 @@
   {
     "id": "260",
     "category": "cpp",
+    "level": "normal",
     "question": "¿Cuál es sistema de versionado en el lenguages C++",
     "answers": {
       "answer_a": "versionado tradicional",

@@ -2,6 +2,7 @@
   {
     "id": "211",
     "category": "cobol",
+    "level": "dificil",
     "question": "¿Cuál de las siguientes es una palabra COBOL válida?.",
     "answers": {
       "answer_a": "B12-4",
@@ -14,6 +15,7 @@
   {
     "id": "212",
     "category": "cobol",
+    "level": "dificil",
     "question": "¿Cuál de las siguientes no es una constante figurativa?",
     "answers": {
       "answer_a": "SPACES",
@@ -26,6 +28,7 @@
   {
     "id": "213",
     "category": "cobol",
+    "level": "dificil",
     "question": "¿Cuál es el valor editado de la cláusula de imagen? Campo PIC 9999+ El valor numérico se movió al campo -382 y el valor Editado es...",
     "answers": {
       "answer_a": "0382-",
@@ -38,6 +41,7 @@
   {
     "id": "214",
     "category": "cobol",
+    "level": "dificil",
     "question": "¿Qué división se utiliza para especificar la computadora utilizada por el programa?",
     "answers": {
       "answer_a": "Identification Division",
@@ -50,6 +54,7 @@
   {
     "id": "215",
     "category": "cobol",
+    "level": "dificil",
     "question": "Initially A=30, B=60 \n IF A=40 DISPLAY 'ABC' ELSE NEXT SENTENCE END-IF MOVE 90 TO B. DISPLAY B. ¿Cuál es la salida del programa?",
     "answers": {
       "answer_a": "30",
@@ -62,6 +67,7 @@
   {
     "id": "216",
     "category": "cobol",
+    "level": "dificil",
     "question": "En la instrucción WRITE, se requiere mencionar el nombre del registro y no el nombre del archivo.",
     "answers": {
       "answer_a": "Verdadero",
@@ -72,6 +78,7 @@
   {
     "id": "217",
     "category": "cobol",
+    "level": "dificil",
     "question": "S9(7) COMP-3 ocupa ___ bytes.",
     "answers": {
       "answer_a": "4",
@@ -84,6 +91,7 @@
   {
     "id": "218",
     "category": "cobol",
+    "level": "dificil",
     "question": "La cláusula ________ usada en una área tiene el propósito de permitir que dicha área sea referida por más de un nombre de datos con diferentes tamaños e imágenes.",
     "answers": {
       "answer_a": "JUSTIFIED",
@@ -96,6 +104,7 @@
   {
     "id": "219",
     "category": "cobol",
+    "level": "dificil",
     "question": "Un \"data name\" da referencias al espacio de almacenamiento de la memoria donde se almacena el valor real.",
     "answers": {
       "answer_a": "Verdadero",
@@ -106,6 +115,7 @@
   {
     "id": "220",
     "category": "cobol",
+    "level": "dificil",
     "question": "Si A=10, B=20, C=30,D=0 \n SUMA A B A C DANDO D El resultado de la operación es ...",
     "answers": {
       "answer_a": "60",
@@ -118,6 +128,7 @@
   {
     "id": "221",
     "category": "cobol",
+    "level": "dificil",
     "question": "El verbo _______ provoca la finalización de la ejecución del programa objeto.",
     "answers": {
       "answer_a": "STOP RUN",
@@ -129,6 +140,7 @@
   {
     "id": "222",
     "category": "cobol",
+    "level": "dificil",
     "question": "¿Cuál es la diferencia entre COMP y COMP-3?",
     "answers": {
       "answer_a": "Formato binario",
@@ -140,6 +152,7 @@
   {
     "id": "223",
     "category": "cobol",
+    "level": "dificil",
     "question": "¿Cuál de las siguientes es falsa?",
     "answers": {
       "answer_a": "\"77 level\" es utilizado como elemento de nivel elemental",
@@ -152,6 +165,7 @@
   {
     "id": "224",
     "category": "cobol",
+    "level": "dificil",
     "question": "Un ____ significa el valor específico que permanece sin cambios a lo largo de la ejecución del programa",
     "answers": {
       "answer_a": "LITERAL",
@@ -163,6 +177,7 @@
   {
     "id": "225",
     "category": "cobol",
+    "level": "dificil",
     "question": "La cláusula USAGE se puede especificar en cualquier nivel.",
     "answers": {
       "answer_a": "Verdadero",
@@ -173,6 +188,7 @@
   {
     "id": "226",
     "category": "cobol",
+    "level": "dificil",
     "question": "¿Cuál de los siguientes no es un delimitador válido en COBOL?",
     "answers": {
       "answer_a": "A.",
@@ -185,6 +201,7 @@
   {
     "id": "227",
     "category": "cobol",
+    "level": "dificil",
     "question": "En un programa COBOL, especifique el rango de posición de la columna del Área A _____.",
     "answers": {
       "answer_a": "8-11",
@@ -196,6 +213,7 @@
   {
     "id": "228",
     "category": "cobol",
+    "level": "dificil",
     "question": "Un literal numérico puede tener un máximo de 18 dígitos.",
     "answers": {
       "answer_a": "Verdadero",
@@ -206,6 +224,7 @@
   {
     "id": "229",
     "category": "cobol",
+    "level": "dificil",
     "question": "La alineación estándar a la izquierda de los datos alfanuméricos o alfabéticos se puede invertir usando la CLÁUSULA _____.",
     "answers": {
       "answer_a": "JUSTIFIED",
@@ -218,6 +237,7 @@
   {
     "id": "230",
     "category": "cobol",
+    "level": "dificil",
     "question": "¿Cuál es el valor editado de la siguiente sentencia... PICTURE Value Internal Representation $$$$$ 009",
     "answers": {
       "answer_a": "Bbb$9",
