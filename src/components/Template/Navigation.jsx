@@ -1,5 +1,5 @@
-import Quiz from "../Quiz";
-import Api from "../Api";
+import Home from "../Home";
+import Doc from "../Doc";
 import StartQuiz from "../StartQuiz";
 
 import { Route, Routes, Link, Navigate } from "react-router-dom";
@@ -42,7 +42,7 @@ const Navigation = () => {
                   </li>
                   <li>
                     <Link
-                      to="/info-api"
+                      to="/documentation"
                       className="hover:bg-white hover:text-black text-white no-underline"
                     >
                       Documentación
@@ -69,7 +69,7 @@ const Navigation = () => {
                 </li>
                 <li>
                   <Link
-                    to="/info-api"
+                    to="/documentation"
                     className="hover:bg-white hover:text-black text-white no-underline"
                   >
                     Documentación
@@ -98,8 +98,8 @@ const Navigation = () => {
       </div>
 
       <Routes>
-        <Route path="/" element={<Quiz />} />
-        <Route path="/info-api" element={<Api />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/documentation" element={<Doc />} />
         <Route path="/startQuiz" element={<StartQuiz />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
