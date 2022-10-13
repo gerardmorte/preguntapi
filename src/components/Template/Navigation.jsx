@@ -1,14 +1,13 @@
-import Quiz from "../Quiz";
-import Api from "../Api";
 import Home from "../Home";
+import Doc from "../Doc";
 import StartQuiz from "../StartQuiz";
 
-import { Route, Routes, Link, Navigate, useLocation } from "react-router-dom";
+import { Route, Routes, Link, Navigate } from "react-router-dom";
 
 const Navigation = () => {
   return (
     <>
-      <div className="bg-primary">
+      <div className="bg-sky-900">
         <div className="container mx-auto items-center">
           <div className="navbar">
             <div className="navbar-start">
@@ -38,20 +37,12 @@ const Navigation = () => {
                       to="/"
                       className="hover:bg-white hover:text-black text-white no-underline"
                     >
-                      Inicio
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/quiz"
-                      className="hover:bg-white hover:text-black text-white no-underline"
-                    >
                       Empieza un Quiz!
                     </Link>
                   </li>
                   <li>
                     <Link
-                      to="/info-api"
+                      to="/documentation"
                       className="hover:bg-white hover:text-black text-white no-underline"
                     >
                       Documentación
@@ -73,20 +64,12 @@ const Navigation = () => {
                     to="/"
                     className="hover:bg-white hover:text-black text-white no-underline"
                   >
-                    Inicio
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/quiz"
-                    className="hover:bg-white hover:text-black text-white no-underline"
-                  >
                     Empieza un Quiz!
                   </Link>
                 </li>
                 <li>
                   <Link
-                    to="/info-api"
+                    to="/documentation"
                     className="hover:bg-white hover:text-black text-white no-underline"
                   >
                     Documentación
@@ -116,8 +99,7 @@ const Navigation = () => {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/quiz" element={<Quiz />} />
-        <Route path="/info-api" element={<Api />} />
+        <Route path="/documentation" element={<Doc />} />
         <Route path="/startQuiz" element={<StartQuiz />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
