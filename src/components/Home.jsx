@@ -79,15 +79,15 @@ export default function Home() {
               autoplay
             />
           </div>
-          <div className="w-3/6">
+          <div className="w-11/12 sm:w-3/6">
             <div className="flex flex-col">
-              <h1 className="text-5xl font-bold">Preguntas de programación!</h1>
+              <h1 className="text-4xl sm:text-5xl font-bold">Preguntas de programación!</h1>
               <p className="py-6">
-                Itegra nuestra API en tus proyectos.
+                Integra nuestra API en tus proyectos.
                 <br />
                 Tenemos muchas preguntas y lenguajes de programación.
                 <br />
-                Cada ves tenemos mas preguntas y lenguajes.
+                Cada vez tenemos mas preguntas y lenguajes.
               </p>
               <div className="flex gap-2 mb-3 flex-wrap">
                 {categories.map((category) => (
@@ -130,11 +130,50 @@ export default function Home() {
                   <p className="">Cantidad de preguntas:</p>
                   <select
                     className="bg-gray-200 p-1 px-2 rounded"
-                    onChange={handleLevel}
+                    onChange={(e) => {
+                      setLimit(e.target.value);
+                    }}
                   >
-                    <option>10</option>
-                    <option>15</option>
-                    <option>20</option>
+                    {randomQuiz && (
+                      <>
+                        <option>10</option>
+                        <option>15</option>
+                        <option>20</option>
+                      </>
+                    )}
+
+                    {!randomQuiz && totalLevelQuestions <= 10 && (
+                      <>
+                        <option>{totalLevelQuestions}</option>
+                      </>
+                    )}
+
+                    {!randomQuiz &&
+                      totalLevelQuestions > 10 &&
+                      totalLevelQuestions < 15 && (
+                        <>
+                          <option>10</option>
+                          <option>{totalLevelQuestions}</option>
+                        </>
+                      )}
+
+                    {!randomQuiz &&
+                      totalLevelQuestions >= 15 &&
+                      totalLevelQuestions < 20 && (
+                        <>
+                          <option>10</option>
+                          <option>15</option>
+                          <option>{totalLevelQuestions}</option>
+                        </>
+                      )}
+
+                    {!randomQuiz && totalLevelQuestions >= 20 && (
+                      <>
+                        <option>10</option>
+                        <option>15</option>
+                        <option>20</option>
+                      </>
+                    )}
                   </select>
                 </div>
               </div>
