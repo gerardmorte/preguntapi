@@ -47,6 +47,10 @@
     {
       "name": "csharp",
       "link": "https://www.preguntapi.dev/api/v1/quizzes?category=csharp"
+    },
+    {
+      "name": "php",
+      "link": "https://www.preguntapi.dev/api/v1/quizzes?category=php"
     }
   ]
 }
