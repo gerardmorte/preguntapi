@@ -30,7 +30,7 @@ const Navigation = () => {
                 </label>
                 <ul
                   tabindex="0"
-                  className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-primary rounded-box w-52"
+                  className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-sky-900 rounded-box w-52"
                 >
                   <li>
                     <Link
