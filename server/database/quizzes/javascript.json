@@ -326,7 +326,7 @@
     "question": "console.log(10 + \"5\") ... ¿Cuál es la salida de la consola?",
     "answers": {
       "answer_a": "105",
-      "answer_b": "'105'",
+      "answer_b": "'15'",
       "answer_c": "SyntaxError"
     },
     "correct_answer": "answer_b"
