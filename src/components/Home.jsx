@@ -21,9 +21,11 @@ export default function Home() {
   useEffect(() => {
     fetch("/api/v1/categories")
       .then((res) => res.json())
-      .then((data) => setCategories(Object.keys(data.categories)))
+      .then((data) => setCategories(data.categories))
       .catch((err) => console.log(err.message));
   }, []);
+
+  console.log(categories);
 
   useEffect(() => {
     setLink(`/startQuiz?category=${category}&level=${level}&limit=${limit}`);
@@ -96,9 +98,9 @@ export default function Home() {
               <div className="flex gap-2 mb-3 flex-wrap">
                 {categories.map((category) => (
                   <button
-                    key={category}
+                    key={category.name}
                     className="btn bg-sky-900 gap-2 border-none btn-category"
-                    data-category={category}
+                    data-category={category.name}
                     onClick={(e) => {
                       const categorySelected =
                         e.target.getAttribute("data-category");
@@ -114,7 +116,7 @@ export default function Home() {
                       e.target.classList.add("bg-sky-600");
                     }}
                   >
-                    {category.toUpperCase()}
+                    {category.name.toUpperCase()}
                     <div className="badge bg-white text-black hidden">+99</div>
                   </button>
                 ))}

@@ -1,16 +1,52 @@
 {
-    "categories": {
-        "html": "https://www.preguntapi.dev/api/v1/quizzes?category=html",
-        "css": "https://www.preguntapi.dev/api/v1/quizzes?category=css",
-        "javascript": "https://www.preguntapi.dev/api/v1/quizzes?category=javascript",
-        "java": "https://www.preguntapi.dev/api/v1/quizzes?category=java",
-        "sql": "https://www.preguntapi.dev/api/v1/quizzes?category=sql",
-        "swift": "https://www.preguntapi.dev/api/v1/quizzes?category=swift",
-        "kotlin": "https://www.preguntapi.dev/api/v1/quizzes?category=kotlin",
-        "typescript": "https://www.preguntapi.dev/api/v1/quizzes?category=typescript",
-        "cobol": "https://www.preguntapi.dev/api/v1/quizzes?category=cobol",
-        "cpp": "https://www.preguntapi.dev/api/v1/quizzes?category=cpp",
-        "python": "https://www.preguntapi.dev/api/v1/quizzes?category=python",
-        "csharp": "https://www.preguntapi.dev/api/v1/quizzes?category=csharp"
-    } 
+  "categories": [
+    {
+      "name": "html",
+      "link": "https://www.preguntapi.dev/api/v1/quizzes?category=html"
+    },
+    {
+      "name": "css",
+      "link": "https://www.preguntapi.dev/api/v1/quizzes?category=css"
+    },
+    {
+      "name": "javascript",
+      "link": "https://www.preguntapi.dev/api/v1/quizzes?category=javascript"
+    },
+    {
+      "name": "java",
+      "link": "https://www.preguntapi.dev/api/v1/quizzes?category=java"
+    },
+    {
+      "name": "sql",
+      "link": "https://www.preguntapi.dev/api/v1/quizzes?category=sql"
+    },
+    {
+      "name": "swift",
+      "link": "https://www.preguntapi.dev/api/v1/quizzes?category=swift"
+    },
+    {
+      "name": "kotlin",
+      "link": "https://www.preguntapi.dev/api/v1/quizzes?category=kotlin"
+    },
+    {
+      "name": "typescript",
+      "link": "https://www.preguntapi.dev/api/v1/quizzes?category=typescript"
+    },
+    {
+      "name": "cobol",
+      "link": "https://www.preguntapi.dev/api/v1/quizzes?category=cobol"
+    },
+    {
+      "name": "cpp",
+      "link": "https://www.preguntapi.dev/api/v1/quizzes?category=cpp"
+    },
+    {
+      "name": "python",
+      "link": "https://www.preguntapi.dev/api/v1/quizzes?category=python"
+    },
+    {
+      "name": "csharp",
+      "link": "https://www.preguntapi.dev/api/v1/quizzes?category=csharp"
+    }
+  ]
 }
