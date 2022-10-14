@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { Player } from "@lottiefiles/react-lottie-player";
 
@@ -15,6 +15,8 @@ export default function Home() {
   const [totalLevelQuestions, setTotalLevelQuestions] = useState();
   const [randomQuiz, setRandomQuiz] = useState(true);
   const [flagLevelsQuiz, setFlagLevelsQuiz] = useState(false);
+
+  const selectLevelRef = useRef();
 
   useEffect(() => {
     fetch("/api/v1")
@@ -81,7 +83,9 @@ export default function Home() {
           </div>
           <div className="w-11/12 sm:w-3/6">
             <div className="flex flex-col">
-              <h1 className="text-4xl sm:text-5xl font-bold">Preguntas de programación!</h1>
+              <h1 className="text-4xl sm:text-5xl font-bold">
+                Preguntas de programación!
+              </h1>
               <p className="py-6">
                 Integra nuestra API en tus proyectos.
                 <br />
@@ -99,6 +103,10 @@ export default function Home() {
                       const categorySelected =
                         e.target.getAttribute("data-category");
                       setCategory(categorySelected);
+                      
+                      selectLevelRef.current.value = "ALEATORIO";
+                      setLevel(levels[3]);
+                      setLimit(10);
 
                       // change background to element current
                       const btns = document.querySelectorAll(".btn-category");
@@ -118,6 +126,7 @@ export default function Home() {
                     <select
                       className="bg-gray-200 p-1 px-2 rounded"
                       onChange={handleLevel}
+                      ref={selectLevelRef}
                     >
                       <option>ALEATORIO</option>
                       <option>FÁCIL</option>
