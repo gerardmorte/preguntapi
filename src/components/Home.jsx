@@ -19,7 +19,7 @@ export default function Home() {
   const selectLevelRef = useRef();
 
   useEffect(() => {
-    fetch("/api/v1")
+    fetch("/api/v1/categories")
       .then((res) => res.json())
       .then((data) => setCategories(Object.keys(data.categories)))
       .catch((err) => console.log(err.message));
@@ -103,7 +103,7 @@ export default function Home() {
                       const categorySelected =
                         e.target.getAttribute("data-category");
                       setCategory(categorySelected);
-                      
+
                       selectLevelRef.current.value = "ALEATORIO";
                       setLevel(levels[3]);
                       setLimit(10);

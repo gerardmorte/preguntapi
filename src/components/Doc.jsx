@@ -153,7 +153,7 @@ function Doc() {
             <br />
             <div class="mockup-code">
               <pre data-prefix="$">
-                <code>{"https://www.preguntapi.dev/api/v1"}</code>
+                <code>{"https://www.preguntapi.dev/api/v1/categories"}</code>
               </pre>
             </div>
             <br />

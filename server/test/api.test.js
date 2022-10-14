@@ -4,7 +4,7 @@ const api = supertest(app)
 
 test('return an json with key categories', async () => {
   await api
-    .get('/api/v1')
+    .get('/api/v1/categories')
     .expect(200)
     .expect('Content-Type', /application\/json/)
     .expect((res) => {
