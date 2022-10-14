@@ -1,0 +1,254 @@
+[
+    {
+        "id": "327",
+        "category": "php",
+        "level": "facil",
+        "question": "¿Cómo NO se insertan comentarios de una línea en el código en PHP?",
+        "answers": {
+            "answer_a": "// Esto es un comentario",
+            "answer_b": "# Esto es un comentario",
+            "answer_c": "<!-- Esto es un comentario -->"
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "328",
+        "category": "php",
+        "level": "facil",
+        "question": "¿Cómo se insertan comentarios multilínea en el código en PHP?",
+        "answers": {
+            "answer_a": "// Esto es un comentario",
+            "answer_b": "/* Esto es un comentario */",
+            "answer_c": "# Esto es un comentario"
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "329",
+        "category": "php",
+        "level": "facil",
+        "question": "¿Cómo llamar a la función `listarProductos` en PHP?",
+        "answers": {
+            "answer_a": "listarProductos()",
+            "answer_b": "function listarProductos()",
+            "answer_c": "$this->listarProductos()"
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "330",
+        "category": "php",
+        "level": "facil",
+        "question": "¿Cómo se declara un `for` de productos en PHP?",
+        "answers": {
+            "answer_a": "for(producto in productos)",
+            "answer_b": "for($i = 1; $i <= 0; $i++)",
+            "answer_c": "for producto in productos:"
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "331",
+        "category": "php",
+        "level": "facil",
+        "question": "¿Cómo se declara una variable en PHP?",
+        "answers": {
+            "answer_a": "let variable = 1",
+            "answer_b": "variable = 1",
+            "answer_c": "$variable = 1"
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "332",
+        "category": "php",
+        "level": "facil",
+        "question": "¿Cómo se concatenan strings en PHP?",
+        "answers": {
+            "answer_a": "$string1 . $string2",
+            "answer_b": "$string1 + $string2",
+            "answer_c": "concat($string1, $string2)"
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "333",
+        "category": "php",
+        "level": "facil",
+        "question": "¿Cómo se declara un if en PHP?",
+        "answers": {
+            "answer_a": "if x > y then:",
+            "answer_b": "if (x > y)",
+            "answer_c": "if x > y:"
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "334",
+        "category": "php",
+        "level": "facil",
+        "question": "¿Cómo se declara un while en PHP?",
+        "answers": {
+            "answer_a": "x > y while {",
+            "answer_b": "while x > y:",
+            "answer_c": "while (x > y)"
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "335",
+        "category": "php",
+        "level": "facil",
+        "question": "¿Qué método se puede usar para transformar todo un string en mayúsculas en PHP?",
+        "answers": {
+            "answer_a": "strtoupper($string)",
+            "answer_b": "strtolower($string)",
+            "answer_c": "ucwords($string)"
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "336",
+        "category": "php",
+        "level": "facil",
+        "question": "¿Cómo declarar una función en PHP?",
+        "answers": {
+            "answer_a": "function myFunction = () => {}",
+            "answer_b": "function myFunction(){}",
+            "answer_c": "const myFunction(){}"
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "337",
+        "category": "php",
+        "level": "normal",
+        "question": "¿Cómo reemplazar los espacios en blanco en PHP?",
+        "answers": {
+            "answer_a": "split(\"texto a sacar espacios\")",
+            "answer_b": "trim(\"texto a sacar espacios\")",
+            "answer_c": "str_replace(\" \", \"\", \"texto a sacar espacios\")"
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "338",
+        "category": "php",
+        "level": "normal",
+        "question": "¿Con qué framework se puede trabaja en PHP?",
+        "answers": {
+            "answer_a": "Spring",
+            "answer_b": "Codeigniter",
+            "answer_c": "Express"
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "339",
+        "category": "php",
+        "level": "normal",
+        "question": "¿Cómo obtener la cantidad de elementos en un array en PHP?",
+        "answers": {
+            "answer_a": "count($array)",
+            "answer_b": "$array.length()",
+            "answer_c": "$array.count()"
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "340",
+        "category": "php",
+        "level": "normal",
+        "question": "¿Cual de estas variables está declarada de forma incorrecta en PHP?",
+        "answers": {
+            "answer_a": "$_4variable",
+            "answer_b": "$4variable",
+            "answer_c": "$ABC"
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "341",
+        "category": "php",
+        "level": "normal",
+        "question": "¿Qué valor tiene una variable declarada sin valor en PHP?",
+        "answers": {
+            "answer_a": "undefined",
+            "answer_b": "NaN",
+            "answer_c": "NULL"
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "342",
+        "category": "php",
+        "level": "normal",
+        "question": "¿Cómo se agregan elementos en un array en PHP?",
+        "answers": {
+            "answer_a": "$array[] = $element",
+            "answer_b": "$array.push($element)",
+            "answer_c": "$array[$element]"
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "343",
+        "category": "php",
+        "level": "normal",
+        "question": "¿Cómo obtener la longitud de un string en PHP?",
+        "answers": {
+            "answer_a": "$string.length()",
+            "answer_b": "strlen($string)",
+            "answer_c": "length($string)"
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "344",
+        "category": "php",
+        "level": "dificil",
+        "question": "¿Cuál es el método correcto para obtener el valor mínimo de un array de números en PHP?",
+        "answers": {
+            "answer_a": "Math.min(1, 2, 3, 4)",
+            "answer_b": "min([1,2,3,4])",
+            "answer_c": "minimum([1,2,3,4])"
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "345",
+        "category": "php",
+        "level": "dificil",
+        "question": "¿Cuál de estos Métodos NO existen en PHP?",
+        "answers": {
+            "answer_a": "strchr",
+            "answer_b": "strcspn",
+            "answer_c": "strlength"
+        },
+        "correct_answer": "answer_c"
+    },
+    {
+        "id": "346",
+        "category": "php",
+        "level": "dificil",
+        "question": "¿Qué método se utiliza para dividir un string en un array de strings en PHP?",
+        "answers": {
+            "answer_a": "implode(\",\", $array)",
+            "answer_b": "explode(\",\", $array)",
+            "answer_c": "split(\",\", $array)"
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "347",
+        "category": "php",
+        "level": "dificil",
+        "question": "¿Qué método se utiliza para dividir un array en un strings en PHP?",
+        "answers": {
+            "answer_a": "implode(\",\", $array)",
+            "answer_b": "explode(\",\", $array)",
+            "answer_c": "split(\",\", $array)"
+        },
+        "correct_answer": "answer_a"
+    }
+]

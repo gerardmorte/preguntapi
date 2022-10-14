@@ -13,6 +13,7 @@ const sql = require('../database/quizzes/sql.json')
 const cpp = require('../database/quizzes/cpp.json')
 const python = require('../database/quizzes/python.json')
 const csharp = require('../database/quizzes/csharp.json')
+const php = require('../database/quizzes/php.json')
 
 router.get('/', (req, res) => {
   const category = req.query.category
@@ -31,7 +32,8 @@ router.get('/', (req, res) => {
     sql,
     cpp,
     python,
-    csharp
+    csharp,
+    php
   }
 
   if (!category) {
