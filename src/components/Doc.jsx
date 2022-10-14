@@ -1,21 +1,21 @@
 function Doc() {
   let texto1 = String.raw`
-    {
-      "categories": {
-        "html": "https://www.preguntapi.dev/api/v1/quizzes?category=html",
-        "css": "https://www.preguntapi.dev/api/v1/quizzes?category=css",
-        "javascript": "https://www.preguntapi.dev/api/v1/quizzes?category=javascript",
-        "java": "https://www.preguntapi.dev/api/v1/quizzes?category=java",
-        "sql": "https://www.preguntapi.dev/api/v1/quizzes?category=sql",
-        "swift": "https://www.preguntapi.dev/api/v1/quizzes?category=swift",
-        "kotlin": "https://www.preguntapi.dev/api/v1/quizzes?category=kotlin",
-        "typescript": "https://www.preguntapi.dev/api/v1/quizzes?category=typescript",
-        "cobol": "https://www.preguntapi.dev/api/v1/quizzes?category=cobol",
-        "cpp": "https://www.preguntapi.dev/api/v1/quizzes?category=cpp",
-        "python": "https://www.preguntapi.dev/api/v1/quizzes?category=python",
-        "csharp": "https://www.preguntapi.dev/api/v1/quizzes?category=csharp"
+  {
+    "categories": [
+      {
+        "name": "html",
+        "link": "https://www.preguntapi.dev/api/v1/quizzes?category=html"
+      },
+      {
+        "name": "css",
+        "link": "https://www.preguntapi.dev/api/v1/quizzes?category=css"
+      },
+      {
+        "name": "javascript",
+        "link": "https://www.preguntapi.dev/api/v1/quizzes?category=javascript"
       }
-    }
+    ]
+  }
     `;
   let texto2 = String.raw`
     [
@@ -153,7 +153,7 @@ function Doc() {
             <br />
             <div class="mockup-code">
               <pre data-prefix="$">
-                <code>{"https://www.preguntapi.dev/api/v1"}</code>
+                <code>{"https://www.preguntapi.dev/api/v1/categories"}</code>
               </pre>
             </div>
             <br />
