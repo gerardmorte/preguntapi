@@ -168,8 +168,9 @@ function Doc() {
             <p>
               El único recurso disponible es "quizzes", se utiliza para obtener
               todos los quiz/preguntas. "quizzes" puede recibir los siguientes
-              parámetros: "category", "limit" y "level". Level puede recibir los
-              valores: facil, normal o dificil. <br />
+              parámetros: "category", "limit" y "level". <br />
+              <br />
+              Level puede recibir los valores: facil, normal o dificil. <br />
               <br />
               Si solo se especifica "category" la API devolverá todas las
               preguntas de esa misma categoría. <br />
