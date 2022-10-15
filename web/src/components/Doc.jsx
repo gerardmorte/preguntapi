@@ -1,5 +1,5 @@
-function Doc() {
-  let texto1 = String.raw`
+function Doc () {
+  const texto1 = String.raw`
   {
     "categories": [
       {
@@ -16,8 +16,8 @@ function Doc() {
       }
     ]
   }
-    `;
-  let texto2 = String.raw`
+    `
+  const texto2 = String.raw`
   [
     {
       "id": "75",
@@ -80,18 +80,18 @@ function Doc() {
       "correct_answer": "answer_a"
     }
   ]
-    `;
+    `
 
   return (
     <>
-      <div className="min-h-[calc(100vh-121px)] container mx-auto justify-start p-4">
-        <div class="flex flex-col pt-12 gap-6">
-          <h1 className="mb-10 text-3xl">
+      <div className='min-h-[calc(100vh-121px)] container mx-auto justify-start p-4'>
+        <div class='flex flex-col pt-12 gap-6'>
+          <h1 className='mb-10 text-3xl'>
             <b>Documentación</b>
           </h1>
 
-          <div className="" id="informacion">
-            <h2 className="text-2xl">
+          <div className='' id='informacion'>
+            <h2 className='text-2xl'>
               <b>Información</b>
             </h2>
             <p>
@@ -102,10 +102,10 @@ function Doc() {
             </p>
             <p>
               No requiere autenticación, y todos los recursos están
-              completamente abiertos y disponibles.
+              compconstamente abiertos y disponibles.
             </p>
             <br />
-            <h2 className="text-2xl">
+            <h2 className='text-2xl'>
               <b>¿Por qué?</b>
             </h2>
             <p>
@@ -116,35 +116,35 @@ function Doc() {
             </p>
           </div>
 
-          <div className="" id="como-contribuir">
-            <h2 className="text-2xl">
+          <div className='' id='como-contribuir'>
+            <h2 className='text-2xl'>
               <b>Como contribuir en el proyecto</b>
             </h2>
             <p>
               Si encuentras algún error en las preguntas o el funcionamiento de
-              la API puedes{" "}
+              la API puedes{' '}
               <a
-                className="text-decoration-none"
-                href="https://github.com/gmorte/preguntapi/issues/new"
-                target="_blank"
+                className='text-decoration-none'
+                href='https://github.com/gmorte/preguntapi/issues/new'
+                target='_blank' rel='noreferrer'
               >
                 enviar una sugerencia
-              </a>{" "}
-              o contribuir directamente en el proyecto mediante{" "}
+              </a>{' '}
+              o contribuir directamente en el proyecto mediante{' '}
               <a
-                className="text-decoration-none"
-                href="https://github.com/gmorte/preguntapi"
-                target="_blank"
+                className='text-decoration-none'
+                href='https://github.com/gmorte/preguntapi'
+                target='_blank' rel='noreferrer'
               >
                 GitHub
-              </a>{" "}
+              </a>{' '}
               para añadir categorías, preguntas, mejorar el funcionamiento de la
-              API o reportar errores.{" "}
+              API o reportar errores.{' '}
             </p>
           </div>
 
-          <div className="" id="endpoints">
-            <h2 className="text-2xl">
+          <div className='' id='endpoints'>
+            <h2 className='text-2xl'>
               <b>URL base</b>
             </h2>
             <p>
@@ -152,14 +152,14 @@ function Doc() {
               disponibles.
             </p>
             <br />
-            <div class="mockup-code">
-              <pre data-prefix="$">
-                <code>{"https://www.preguntapi.dev/api/v1/categories"}</code>
+            <div class='mockup-code'>
+              <pre data-prefix='$'>
+                <code>https://www.preguntapi.dev/api/v1/categories</code>
               </pre>
             </div>
             <br />
-            <div class="mockup-code">
-              <pre data-prefix="$">
+            <div class='mockup-code'>
+              <pre data-prefix='$'>
                 <code>{texto1}</code>
               </pre>
             </div>
@@ -177,26 +177,24 @@ function Doc() {
               <br />
               Todas las respuestas devolverán datos en formato json.
             </p>
-            <p className="text-xl mb-4 mt-4">
+            <p className='text-xl mb-4 mt-4'>
               <b>Ejemplo:</b>
             </p>
-            <div class="mockup-code">
-              <pre data-prefix="$">
+            <div class='mockup-code'>
+              <pre data-prefix='$'>
                 <code>
-                  {
-                    "https://www.preguntapi.dev/api/v1/quizzes?category=javascript&limit=5&level=facil"
-                  }
+                  https://www.preguntapi.dev/api/v1/quizzes?category=javascript&limit=5&level=facil
                 </code>
               </pre>
             </div>
             <br />
-            <div class="mockup-code">
-              <pre data-prefix="$">
+            <div class='mockup-code'>
+              <pre data-prefix='$'>
                 <code>{texto2}</code>
               </pre>
             </div>
             <br />
-            <h2 className="text-2xl">
+            <h2 className='text-2xl'>
               <b>GraphQL</b>
             </h2>
             <p>
@@ -204,16 +202,16 @@ function Doc() {
               no dudes en probarlo.
             </p>
             <br />
-            <div class="mockup-code">
-              <pre data-prefix="$">
-                <code>{"https://www.preguntapi.dev/graphql"}</code>
+            <div class='mockup-code'>
+              <pre data-prefix='$'>
+                <code>https://www.preguntapi.dev/graphql</code>
               </pre>
             </div>
           </div>
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default Doc;
+export default Doc

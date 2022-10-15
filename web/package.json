@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint src/**/*.{js,jsx}",
+    "lint:fix": "eslint --fix src/**/*.{js,jsx}"
   },
   "dependencies": {
     "@lottiefiles/react-lottie-player": "3.4.7",
@@ -23,5 +25,11 @@
     "postcss": "^8.4.17",
     "tailwindcss": "^3.1.8",
     "vite": "^3.0.7"
+  },
+  "eslintConfig": {
+    "extends": [
+      "standard",
+      "standard-jsx"
+    ]
   }
 }
