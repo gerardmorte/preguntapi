@@ -18,67 +18,68 @@ function Doc() {
   }
     `;
   let texto2 = String.raw`
-    [
-      {
-        "id": "61",
-        "category": "javascript",
-        "level": "facil",
-        "question": "¿Javascript distingue entre mayúsculas y minúsculas?",
-        "answers": {
-          "answer_a": "Verdadero",
-          "answer_b": "Falso"
-        },
-        "correct_answer": "answer_a"
+  [
+    {
+      "id": "75",
+      "category": "javascript",
+      "level": "facil",
+      "question": "¿Cómo llamas a una función ya creada llamada 'ejemplo'?",
+      "answers": {
+        "answer_a": "ejemplo()",
+        "answer_b": "function ejemplo()",
+        "answer_c": "execute function ejemplo()"
       },
-      {
-        "id": "62",
-        "category": "javascript",
-        "level": "dificil",
-        "question": "¿Qué palabra está relacionada con la herencia de clase?",
-        "answers": {
-          "answer_a": "expands",
-          "answer_b": "exports",
-          "answer_c": "extends"
-        },
-        "correct_answer": "answer_c"
+      "correct_answer": "answer_a"
+    },
+    {
+      "id": "83",
+      "category": "javascript",
+      "level": "facil",
+      "question": "¿Cuál es un carácter no válido para iniciar un nombre de variable?",
+      "answers": {
+        "answer_a": "$",
+        "answer_b": "_",
+        "answer_c": "Cualquier número"
       },
-      {
-        "id": "63",
-        "category": "javascript",
-        "level": "normal",
-        "question": "¿Qué controlador de eventos se utiliza para procesar el evento de clic?",
-        "answers": {
-          "answer_a": "onmouseclick",
-          "answer_b": "onclick",
-          "answer_c": "onkeydown"
-        },
-        "correct_answer": "answer_b"
+      "correct_answer": "answer_c"
+    },
+    {
+      "id": "79",
+      "category": "javascript",
+      "level": "facil",
+      "question": "<p id=\"demo\">My awesome text</p> ... ¿Cuál es la sintaxis JS correcta para cambiar el contenido?",
+      "answers": {
+        "answer_a": "#demo.innerHTML = \"Edited!\"",
+        "answer_b": "document.getElementById(\"demo\").innerHTML = \"Edited!\".",
+        "answer_c": "document.getElementByName(\"p\").innerHTML = \"Edited!\""
       },
-      {
-        "id": "64",
-        "category": "javascript",
-        "level": "dificil",
-        "question": "¿Cuál de estos métodos combina dos cadenas?",
-        "answers": {
-          "answer_a": "attach()",
-          "answer_b": "append()",
-          "answer_c": "concat()"
-        },
-        "correct_answer": "answer_c"
+      "correct_answer": "answer_b"
+    },
+    {
+      "id": "71",
+      "category": "javascript",
+      "level": "facil",
+      "question": "¿Cuáles de estos pares de declaraciones se usan comúnmente para el manejo de errores?",
+      "answers": {
+        "answer_a": "err/res",
+        "answer_b": "try/catch",
+        "answer_c": "check/return"
       },
-      {
-        "id": "65",
-        "category": "javascript",
-        "level": "normal",
-        "question": "¿Cuál es el método para agregar elementos al comienzo de un array?",
-        "answers": {
-          "answer_a": "push()",
-          "answer_b": "unshift()",
-          "answer_c": "pop()"
-        },
-        "correct_answer": "answer_b"
-      }
-    ]
+      "correct_answer": "answer_b"
+    },
+    {
+      "id": "78",
+      "category": "javascript",
+      "level": "facil",
+      "question": "¿Cuál es la forma correcta de incluir un archivo JS externo en HTML?",
+      "answers": {
+        "answer_a": "<script src=\"main.js\">",
+        "answer_b": "<script href=\"main.js\">",
+        "answer_c": "<script name=\"main.js\">"
+      },
+      "correct_answer": "answer_a"
+    }
+  ]
     `;
 
   return (
@@ -166,8 +167,9 @@ function Doc() {
             <br />
             <p>
               El único recurso disponible es "quizzes", se utiliza para obtener
-              todos los quiz/preguntas. "quizzes" puede recibir dos parámetros:
-              "category" y "limit". <br />
+              todos los quiz/preguntas. "quizzes" puede recibir los siguientes
+              parámetros: "category", "limit" y "level". Level puede recibir los
+              valores: facil, normal o dificil. <br />
               <br />
               Si solo se especifica "category" la API devolverá todas las
               preguntas de esa misma categoría. <br />
@@ -181,7 +183,7 @@ function Doc() {
               <pre data-prefix="$">
                 <code>
                   {
-                    "https://www.preguntapi.dev/api/v1/quizzes?category=javascript&limit=5"
+                    "https://www.preguntapi.dev/api/v1/quizzes?category=javascript&limit=5&level=facil"
                   }
                 </code>
               </pre>
@@ -197,7 +199,8 @@ function Doc() {
               <b>GraphQL</b>
             </h2>
             <p>
-              También contamos con un endpoint para hacer consultas con GraphQL, no dudes en probarlo.
+              También contamos con un endpoint para hacer consultas con GraphQL,
+              no dudes en probarlo.
             </p>
             <br />
             <div class="mockup-code">
