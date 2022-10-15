@@ -16,7 +16,7 @@ export default ({ mode }) => {
     return defineConfig({
       server: {
         proxy: {
-          "/api": process.env.VITE_URL_API,
+          '/api': process.env.VITE_URL_API,
         },
       },
       plugins: [react()],
