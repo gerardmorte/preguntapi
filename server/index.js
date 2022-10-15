@@ -1,25 +1,51 @@
+const { ApolloServer } = require('apollo-server-express')
+const {
+  ApolloServerPluginDrainHttpServer,
+  ApolloServerPluginLandingPageLocalDefault
+} = require('apollo-server-core')
 const express = require('express')
-const app = express()
+const http = require('http')
 const path = require('path')
+
+const typeDefs = require('./graphql/typeDefs')
+const resolvers = require('./graphql/resolvers')
+
+const app = express()
 require('dotenv').config()
 
 // settings
 const PORT = process.env.PORT || 5000
 
-// middlewares
-app.use(express.json())
+async function startApolloServer (typeDefs, resolvers) {
+  // middlewares
+  app.use(express.json())
 
-// routes
-const buildPath = path.join(__dirname, '..', 'dist')
-app.use(express.static(buildPath))
-app.use('/api/v1', require('./routes/index'))
-app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '../dist', 'index.html'))
-})
+  // routes
+  const buildPath = path.join(__dirname, '..', 'dist')
+  app.use(express.static(buildPath))
+  app.use('/api/v1', require('./routes/index'))
 
-// starting the server
-const server = app.listen(PORT, () => {
-  console.log(`server started on port ${PORT}`)
-})
+  const httpServer = http.createServer(app)
+  const server = new ApolloServer({
+    typeDefs,
+    resolvers,
+    csrfPrevention: true,
+    cache: 'bounded',
+    plugins: [
+      ApolloServerPluginDrainHttpServer({ httpServer }),
+      ApolloServerPluginLandingPageLocalDefault({ embed: true })
+    ]
+  })
 
-module.exports = { app, server }
+  await server.start()
+  server.applyMiddleware({ app })
+  await new Promise((resolve) => httpServer.listen({ port: PORT }, resolve))
+
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '../dist', 'index.html'))
+  })
+
+  console.log(`🚀 Server started on port ${PORT}`)
+}
+
+startApolloServer(typeDefs, resolvers)
