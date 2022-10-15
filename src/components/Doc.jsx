@@ -193,6 +193,18 @@ function Doc() {
               </pre>
             </div>
             <br />
+            <h2 className="text-2xl">
+              <b>GraphQL</b>
+            </h2>
+            <p>
+              También contamos con un endpoint para hacer consultas con GraphQL, no dudes en probarlo.
+            </p>
+            <br />
+            <div class="mockup-code">
+              <pre data-prefix="$">
+                <code>{"https://www.preguntapi.dev/graphql"}</code>
+              </pre>
+            </div>
           </div>
         </div>
       </div>
