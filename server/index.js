@@ -29,6 +29,7 @@ async function startApolloServer (typeDefs, resolvers) {
   const server = new ApolloServer({
     typeDefs,
     resolvers,
+    introspection: true,
     csrfPrevention: true,
     cache: 'bounded',
     plugins: [
