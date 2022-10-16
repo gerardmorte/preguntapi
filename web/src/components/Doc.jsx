@@ -88,7 +88,7 @@ function Doc () {
   return (
     <>
       <div className='min-h-[calc(100vh-121px)] container mx-auto justify-start p-4'>
-        <div class='flex flex-col pt-12 gap-6'>
+        <div className='flex flex-col pt-12 gap-6'>
           <h1 className='mb-10 text-3xl'>
             <b>Documentación</b>
           </h1>
