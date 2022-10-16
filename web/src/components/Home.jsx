@@ -25,8 +25,6 @@ export default function Home () {
       .catch((err) => console.log(err.message))
   }, [])
 
-  console.log(categories)
-
   useEffect(() => {
     setLink(`/startQuiz?category=${category}&level=${level}&limit=${limit}`)
   }, [category, level, limit])
