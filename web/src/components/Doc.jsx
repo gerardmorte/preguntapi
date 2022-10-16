@@ -1,7 +1,6 @@
 import PreCode from './PreCode.jsx'
 
 function Doc () {
-
   const texto1 = String.raw`
   {
     "categories": [
@@ -19,7 +18,7 @@ function Doc () {
       }
     ]
   }
-    `;
+    `
 
   const texto2 = String.raw`
   [
@@ -157,9 +156,9 @@ function Doc () {
             </p>
             <br />
 
-            <PreCode code="https://www.preguntapi.dev/api/v1/categories" />
+            <PreCode code='https://www.preguntapi.dev/api/v1/categories' />
             <br />
-            <PreCode code={texto1} />
+            <PreCode code={texto1} copy={false} />
 
             <br />
             <p>
@@ -178,9 +177,9 @@ function Doc () {
               <b>Ejemplo:</b>
             </p>
 
-            <PreCode code="https://www.preguntapi.dev/api/v1/quizzes?category=javascript&limit=5&level=facil" />
+            <PreCode code='https://www.preguntapi.dev/api/v1/quizzes?category=javascript&limit=5&level=facil' />
             <br />
-            <PreCode code={texto2} />
+            <PreCode code={texto2} copy={false} />
 
             <br />
             <h2 className='text-2xl'>
@@ -191,7 +190,7 @@ function Doc () {
               no dudes en probarlo.
             </p>
             <br />
-            <PreCode code="https://www.preguntapi.dev/graphql" />
+            <PreCode code='https://www.preguntapi.dev/graphql' />
           </div>
         </div>
       </div>
