@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react'
 import { Link } from 'react-router-dom'
 import { Player } from '@lottiefiles/react-lottie-player'
 
-export default function Home() {
+export default function Home () {
   const [categories, setCategories] = useState([])
   const [category, setCategory] = useState('html')
   const [limit, setLimit] = useState(10)
