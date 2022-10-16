@@ -12,14 +12,14 @@ router.get('/', (req, res) => {
   let filteredQuizzes = quizzes[category]
 
   if (level) {
-    const filteredQuizzesLevel = filteredQuizzes
+    filteredQuizzes = filteredQuizzes
       .filter((quiz) => level === 'aleatorio' || quiz.level === level)
 
-    if (filteredQuizzesLevel.length <= 0) {
+    if (filteredQuizzes.length <= 0) {
       return res.status(500).json({ message: 'Por favor ingrese un nivel valido' })
     }
 
-    filteredQuizzes = filteredQuizzesLevel.sort(() => Math.random() - 0.5)
+    filteredQuizzes.sort(() => Math.random() - 0.5)
   }
 
   if (limit && !isNaN(limit)) {
