@@ -6,7 +6,7 @@
 **https://www.preguntapi.dev**
 
 ## Documentación 📋
-**Puedes ver la documentación para el uso de la API [aquí](https://www.preguntapi.dev/info-api).**
+**Puedes ver la documentación para el uso de la API [aquí](https://www.preguntapi.dev/documentation).**
 
 ## Contribuciones
 **Todas las contribuciones son bienvenidas, puedes ver las principales características a mejorar en las [issues](https://github.com/gerardmorte/preguntapi/issues).**

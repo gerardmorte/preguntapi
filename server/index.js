@@ -29,6 +29,7 @@ async function startApolloServer (typeDefs, resolvers) {
   const server = new ApolloServer({
     typeDefs,
     resolvers,
+    introspection: true,
     csrfPrevention: true,
     cache: 'bounded',
     plugins: [
@@ -42,7 +43,7 @@ async function startApolloServer (typeDefs, resolvers) {
   await new Promise((resolve) => httpServer.listen({ port: PORT }, resolve))
 
   app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, '../dist', 'index.html'))
+    res.sendFile(path.resolve(__dirname, '../web/dist', 'index.html'))
   })
 
   console.log(`🚀 Server started on port ${PORT}`)

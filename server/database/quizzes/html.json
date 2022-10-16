@@ -34,7 +34,8 @@
       "answer_b": "Dónde enviar los datos del formulario cuando se envían",
       "answer_c": "El tipo mime utilizado para codificar el contenido."
     },
-    "correct_answer": "answer_b"
+    "correct_answer": "answer_b",
+    "feedback": "El atributo action indica la página a la que se envían los datos del formulario. Si este atributo está vacío, es la página que contiene el formulario la que se recargará con los datos como parámetros."
   },
   {
     "id": "4",
@@ -117,7 +118,8 @@
       "answer_b": "<img src=\"../picture.jpg\">",
       "answer_c": "<img src=\"/images/picture.jpg\">"
     },
-    "correct_answer": "answer_b"
+    "correct_answer": "answer_b",
+    "feedback": "Usando dos puntos y una barra oblicua (../) podemos subir un nivel en la jerarquía de carpetas."
   },
   {
     "id": "11",
@@ -290,7 +292,8 @@
       "answer_b": "Define texto preformateado",
       "answer_c": "Muestra el texto como una cita"
     },
-    "correct_answer": "answer_b"
+    "correct_answer": "answer_b",
+    "feedback": "El elemento HTML <pre> representa texto preformateado. El texto en este elemento típicamente se muestra en una fuente fija, no proporcional, exactamente como es mostrado en el archivo."
   },
   {
     "id": "25",
@@ -303,7 +306,8 @@
       "answer_c": "<blockquote>",
       "answer_d": "<em>"
     },
-    "correct_answer": "answer_d"
+    "correct_answer": "answer_d",
+    "feedback": "La etiqueta <em>, se utiliza para resaltar texto en el documento dando “énfasis” al texto sobre el que se aplica la etiqueta. NO representa una cita."
   },
   {
     "id": "26",

@@ -11,12 +11,25 @@ export default function Home() {
   const [randomQuiz, setRandomQuiz] = useState(true)
   const [flagLevelsQuiz, setFlagLevelsQuiz] = useState(false)
 
+  const [totalCategories, setTotalCategories] = useState()
+  const [totalQuizzes, setTotalQuizzes] = useState()
+
   const link = `/startQuiz?category=${category}&level=${level}&limit=${limit}`
 
   useEffect(() => {
     fetch('/api/v1/categories')
       .then((res) => res.json())
-      .then((data) => setCategories(data.categories))
+      .then((data) => {
+        setCategories(data.categories)
+        setTotalCategories(data.categories.length)
+      })
+      .catch((err) => console.log(err.message))
+  }, [])
+
+  useEffect(() => {
+    fetch('/api/v1/quizzes?category=all')
+      .then((res) => res.json())
+      .then((data) => setTotalQuizzes(Object.values(data).flat().length))
       .catch((err) => console.log(err.message))
   }, [])
 
@@ -75,11 +88,9 @@ export default function Home() {
               Preguntas de programación!
             </h1>
             <p className='py-6'>
-              Integra nuestra API en tus proyectos.
+              Integra nuestra API en tus proyectos o pon a prueba tus conocimientos.
               <br />
-              Tenemos muchas preguntas y lenguajes de programación.
-              <br />
-              Cada vez tenemos mas preguntas y lenguajes.
+              Actualmente <b>{totalQuizzes}</b> preguntas sobre <b>{totalCategories}</b> lenguajes de programación.
             </p>
             <div className='flex gap-2 mb-3 flex-wrap'>
               {categories.map((c) => (
