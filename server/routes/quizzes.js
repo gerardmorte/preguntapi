@@ -5,12 +5,12 @@ const quizzes = require('../utils/languages')
 router.get('/', (req, res) => {
   const { category, limit, level } = req.query
 
-  if (category === 'all') {
-    return res.status(200).json(quizzes)
-  }
-
   if (!category) {
     return res.status(500).json({ message: 'Debe de ingresar una categoria' })
+  }
+
+  if (category === 'all') {
+    return res.status(200).json(quizzes)
   }
 
   let filteredQuizzes = quizzes[category]
