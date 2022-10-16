@@ -21,7 +21,7 @@ async function startApolloServer (typeDefs, resolvers) {
   app.use(express.json())
 
   // routes
-  const buildPath = path.join(__dirname, '..', 'dist')
+  const buildPath = path.join(__dirname, '../web', 'dist')
   app.use(express.static(buildPath))
   app.use('/api/v1', require('./routes/index'))
 
