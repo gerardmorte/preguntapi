@@ -1,5 +1,7 @@
+import PreCode from './PreCode.jsx'
+
 function Doc() {
-  let texto1 = String.raw`
+  const texto1 = String.raw`
   {
     "categories": [
       {
@@ -17,7 +19,8 @@ function Doc() {
     ]
   }
     `;
-  let texto2 = String.raw`
+
+  const texto2 = String.raw`
   [
     {
       "id": "75",
@@ -85,7 +88,7 @@ function Doc() {
   return (
     <>
       <div className="min-h-[calc(100vh-121px)] container mx-auto justify-start p-4">
-        <div class="flex flex-col pt-12 gap-6">
+        <div className="flex flex-col pt-12 gap-6">
           <h1 className="mb-10 text-3xl">
             <b>Documentación</b>
           </h1>
@@ -152,18 +155,9 @@ function Doc() {
               disponibles.
             </p>
             <br />
-            <div class="mockup-code">
-              <pre data-prefix="$">
-                <code>{"https://www.preguntapi.dev/api/v1/categories"}</code>
-              </pre>
-            </div>
+            <PreCode code="https://www.preguntapi.dev/api/v1/categories" />
             <br />
-            <div class="mockup-code">
-              <pre data-prefix="$">
-                <code>{texto1}</code>
-              </pre>
-            </div>
-
+            <PreCode code={texto1} />
             <br />
             <p>
               El único recurso disponible es "quizzes", se utiliza para obtener
@@ -180,21 +174,9 @@ function Doc() {
             <p className="text-xl mb-4 mt-4">
               <b>Ejemplo:</b>
             </p>
-            <div class="mockup-code">
-              <pre data-prefix="$">
-                <code>
-                  {
-                    "https://www.preguntapi.dev/api/v1/quizzes?category=javascript&limit=5&level=facil"
-                  }
-                </code>
-              </pre>
-            </div>
+            <PreCode code="https://www.preguntapi.dev/api/v1/quizzes?category=javascript&limit=5&level=facil" />
             <br />
-            <div class="mockup-code">
-              <pre data-prefix="$">
-                <code>{texto2}</code>
-              </pre>
-            </div>
+            <PreCode code={texto2} />
             <br />
             <h2 className="text-2xl">
               <b>GraphQL</b>
@@ -204,11 +186,7 @@ function Doc() {
               no dudes en probarlo.
             </p>
             <br />
-            <div class="mockup-code">
-              <pre data-prefix="$">
-                <code>{"https://www.preguntapi.dev/graphql"}</code>
-              </pre>
-            </div>
+            <PreCode code="https://www.preguntapi.dev/graphql" />
           </div>
         </div>
       </div>
