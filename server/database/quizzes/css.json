@@ -419,5 +419,41 @@
       "answer_d": "font-size: 20px"
     },
     "correct_answer": "answer_a"
+  },
+  {
+    "id": "353",
+    "category": "css",
+    "level": "facil",
+    "question": "¿Cómo posicionamos un elemento dentro de otro de forma precisa?",
+    "answers": {
+      "answer_a": "Padre - position:relative / Hijo - position:absolute",
+      "answer_b": "Padre - position:absolute / Hijo - position:relative",
+      "answer_c": "Padre - position:fixed / Hijo - position:absolute"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "354",
+    "category": "css",
+    "level": "normal",
+    "question": "¿Con que pseudo selector se puede seleccionar el primer hijo, sin tener class name o id?",
+    "answers": {
+      "answer_a": "nth-child(0)",
+      "answer_b": "nth-child(1)",
+      "answer_c": "nth-first-child"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "355",
+    "category": "css",
+    "level": "dificil",
+    "question": "¿Qué selector utilizarias para seleccionar un elemento que en el atributo título contenga la palabra \"container\"?",
+    "answers": {
+      "answer_a": "[title~=container]",
+      "answer_b": "[title^=container]",
+      "answer_c": "[title$=container]"
+    },
+    "correct_answer": "answer_a"
   }
 ]
