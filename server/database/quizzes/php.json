@@ -250,5 +250,41 @@
             "answer_c": "split(\",\", $array)"
         },
         "correct_answer": "answer_a"
+    },
+    {
+        "id": "347",
+        "category": "php",
+        "level": "facil",
+        "question": "¿Qué función utilizarias para imprimir por consola?",
+        "answers": {
+            "answer_a": "echo('Hello World')",
+            "answer_b": "console.log('Hello World')",
+            "answer_c": "System.out.println('Hello World')"
+        },
+        "correct_answer": "answer_a"
+    },
+    {
+        "id": "348",
+        "category": "php",
+        "level": "normal",
+        "question": "¿Cómo obtener el tipo de objecto en PHP?",
+        "answers": {
+            "answer_a": "typeof $object",
+            "answer_b": "get_class($object)",
+            "answer_c": "$object instanceof"
+        },
+        "correct_answer": "answer_b"
+    },
+    {
+        "id": "349",
+        "category": "php",
+        "level": "dificil",
+        "question": "¿Qué función utilizarías de PHP para trabajar con expresiones regulares?",
+        "answers": {
+            "answer_a": "reg_match()",
+            "answer_b": "regexp()",
+            "answer_c": "preg_match()"
+        },
+        "correct_answer": "answer_c"
     }
 ]

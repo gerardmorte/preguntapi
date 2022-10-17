@@ -359,5 +359,41 @@
       "answer_d": "DBMS"
     },
     "correct_answer": "answer_a"
+  },
+  {
+    "id": "350",
+    "category": "sql",
+    "level": "normal",
+    "question": "¿Qué palabra clave de SQL se utiliza para agrupar un conjunto de resultados?",
+    "answers": {
+      "answer_a": "GROUP WITH",
+      "answer_b": "GROUP BY",
+      "answer_c": "GROUPING BY"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "351",
+    "category": "sql",
+    "level": "dificil",
+    "question": "¿Cuales de los siguientes tipos de PROCEDURES es correcto?",
+    "answers": {
+      "answer_a": "Procedure with CALL parameter",
+      "answer_b": "Procedure with IN-OUT parameter",
+      "answer_c": "Procedure with ERASE parameter"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "352",
+    "category": "sql",
+    "level": "normal",
+    "question": "¿Qué es cierto sobre las TRANSACTIONS?",
+    "answers": {
+      "answer_a": "Si falla, tira una excepción de tipo SQLTransactionException",
+      "answer_b": "Cuando finaliza correctamente registra un log en la tabla mysql_logs",
+      "answer_c": "Si falla, hace un ROLLBACK de los cambios"
+    },
+    "correct_answer": "answer_c"
   }
 ]
