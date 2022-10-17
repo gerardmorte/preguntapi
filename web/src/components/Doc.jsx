@@ -1,7 +1,6 @@
 import PreCode from './PreCode.jsx'
 
 function Doc () {
-
   const texto1 = String.raw`
   {
     "categories": [
@@ -19,7 +18,7 @@ function Doc () {
       }
     ]
   }
-    `;
+    `
 
   const texto2 = String.raw`
   [
@@ -89,7 +88,7 @@ function Doc () {
   return (
     <>
       <div className='min-h-[calc(100vh-121px)] container mx-auto justify-start p-4'>
-        <div class='flex flex-col pt-12 gap-6'>
+        <div className='flex flex-col pt-12 gap-6'>
           <h1 className='mb-10 text-3xl'>
             <b>Documentación</b>
           </h1>
@@ -157,9 +156,9 @@ function Doc () {
             </p>
             <br />
 
-            <PreCode code="https://www.preguntapi.dev/api/v1/categories" />
+            <PreCode code='https://www.preguntapi.dev/api/v1/categories' />
             <br />
-            <PreCode code={texto1} />
+            <PreCode code={texto1} copy={false} />
 
             <br />
             <p>
@@ -178,9 +177,9 @@ function Doc () {
               <b>Ejemplo:</b>
             </p>
 
-            <PreCode code="https://www.preguntapi.dev/api/v1/quizzes?category=javascript&limit=5&level=facil" />
+            <PreCode code='https://www.preguntapi.dev/api/v1/quizzes?category=javascript&limit=5&level=facil' />
             <br />
-            <PreCode code={texto2} />
+            <PreCode code={texto2} copy={false} />
 
             <br />
             <h2 className='text-2xl'>
@@ -191,7 +190,7 @@ function Doc () {
               no dudes en probarlo.
             </p>
             <br />
-            <PreCode code="https://www.preguntapi.dev/graphql" />
+            <PreCode code='https://www.preguntapi.dev/graphql' />
           </div>
         </div>
       </div>
