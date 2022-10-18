@@ -140,11 +140,6 @@ web_modules/
 .yarn/install-state.gz
 .pnp.*
 
-# Testing
-test-results/
-playwright-report/
-playwright/.cache/
-
 ### Node Patch ###
 # Serverless Webpack directories
 .webpack/
