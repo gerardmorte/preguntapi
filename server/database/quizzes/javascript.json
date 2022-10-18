@@ -418,5 +418,41 @@
       "answer_d": ".replace()"
     },
     "correct_answer": "answer_d"
+  },
+  {
+    "id": "356",
+    "category": "javascript",
+    "level": "dificil",
+    "question": "¿Qué función tiene el event loop?",
+    "answers": {
+      "answer_a": "Es responsable de compilar el código, recopilar y procesar eventos y ejecutar subtareas en cola",
+      "answer_b": "Es responsable de revisar el código, recopilar y procesar eventos y ejecutar tareas en cola",
+      "answer_c": "Es responsable de ejecutar el código, recopilar y procesar eventos y ejecutar subtareas en cola"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "357",
+    "category": "javascript",
+    "level": "dificil",
+    "question": "¿Cuál es la definición de Clousure?",
+    "answers": {
+      "answer_a": "Es la combinación de una función agrupada (encerrada) con referencias a su estado circundante (el entorno dislexico)",
+      "answer_b": "Es la combinación de una función desagrupada (encerrada) con referencias a su estado circundante (el entorno léxico)",
+      "answer_c": "Es la combinación de una función agrupada (encerrada) con referencias a su estado circundante (el entorno léxico)"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "358",
+    "category": "javascript",
+    "level": "facil",
+    "question": "¿Qué método de la API del navegador se utiliza para hacer una petición HTTP de forma nativa?",
+    "answers": {
+      "answer_a": "fetch(\"https://some-url-here.com\")",
+      "answer_b": "axios.get(\"https://some-url-here.com\")",
+      "answer_c": "makeRequest(\"https://some-url-here.com\")"
+    },
+    "correct_answer": "answer_a"
   }
 ]
