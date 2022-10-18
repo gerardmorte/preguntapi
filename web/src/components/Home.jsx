@@ -102,32 +102,33 @@ export default function Home () {
                 <br />
                 Actualmente <b>{totalQuizzes}</b> preguntas sobre <b>{totalCategories}</b> lenguajes de programación.
               </p>
-              <div className='flex gap-2 mb-3 flex-wrap'>
+              <ul className='flex gap-2 mb-3 flex-wrap'>
                 {categories.map((category) => (
-                  <button
-                    key={category.name}
-                    className='btn bg-sky-900 gap-2 border-none btn-category'
-                    data-category={category.name}
-                    onClick={(e) => {
-                      const categorySelected =
+                  <li key={category.name}>
+                    <button
+                      className='btn bg-sky-900 gap-2 border-none btn-category'
+                      data-category={category.name}
+                      onClick={(e) => {
+                        const categorySelected =
                         e.target.getAttribute('data-category')
-                      setCategory(categorySelected)
+                        setCategory(categorySelected)
 
-                      selectLevelRef.current.value = 'ALEATORIO'
-                      setLevel(levels[3])
-                      setLimit(10)
+                        selectLevelRef.current.value = 'ALEATORIO'
+                        setLevel(levels[3])
+                        setLimit(10)
 
-                      // change background to element current
-                      const btns = document.querySelectorAll('.btn-category')
-                      btns.forEach((btn) => btn.classList.remove('bg-sky-600'))
-                      e.target.classList.add('bg-sky-600')
-                    }}
-                  >
-                    {category.name.toUpperCase()}
-                    <div className='badge bg-white text-black hidden'>+99</div>
-                  </button>
+                        // change background to element current
+                        const btns = document.querySelectorAll('.btn-category')
+                        btns.forEach((btn) => btn.classList.remove('bg-sky-600'))
+                        e.target.classList.add('bg-sky-600')
+                      }}
+                    >
+                      {category.name.toUpperCase()}
+                      <div className='badge bg-white text-black hidden'>+99</div>
+                    </button>
+                  </li>
                 ))}
-              </div>
+              </ul>
               <div className='flex gap-2 mb-3 flex-wrap'>
                 {flagLevelsQuiz && (
                   <div className='btn bg-white border-2 border-sky-900 gap-2 cursor-default text-black hover:bg-transparent'>

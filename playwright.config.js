@@ -9,9 +9,12 @@
  * @type {import('@playwright/test').PlaywrightTestConfig}
  */
 const config = {
+  use: {
+    baseURL: 'http://127.0.0.1:4173'
+  },
   testDir: './web/tests',
   /* Maximum time one test can run for. */
-  timeout: 30 * 1000,
+  timeout: 15 * 1000,
   expect: {
     /**
      * Maximum time expect() should wait for the condition to be met.
@@ -34,10 +37,10 @@ const config = {
   // outputDir: 'test-results/',
 
   /* Run your local dev server before starting the tests */
-  // webServer: {
-  //   command: 'npm run start',
-  //   port: 4173
-  // }
+  webServer: {
+    command: 'npm run web preview',
+    port: 4173
+  }
 }
 
 export default config

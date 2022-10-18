@@ -13,7 +13,7 @@
   },
   "scripts": {
     "dev": "run-p server:dev web:dev",
-    "start": "run-p server:start web:start",
+    "start": "run-p server:start web:preview",
     "lint": "run-s server:lint web:lint",
     "test": "run-s server:test web:test",
     "server": "npm --workspace=server run",
@@ -23,7 +23,6 @@
     "server:test": "npm run test --workspace=server",
     "web": "npm --workspace=web run",
     "web:dev": "npm run dev --workspace=web",
-    "web:start": "run-s web:build web:preview",
     "web:build": "npm run build --workspace=web",
     "web:preview": "npm run preview --workspace=web",
     "web:lint": "npm run lint --workspace=web",
