@@ -70,12 +70,12 @@ export default function StartQuiz () {
   return (
     <div className='container m-auto text-center w-8/12'>
       <div>
-        <h2 className='mt-4 mb-4 text-3xl'>{category.toUpperCase()}</h2>
-        <p className='mb-4 text-2xl'>Puntuación: {quizScore} de {quizzes.length}</p>
+        <h2 className='mt-4 mb-4 text-3xl font-bold'>{category.toUpperCase()}</h2>
+        <p className='text-2xl'>Puntuación: {quizScore} de {quizzes.length}</p>
 
         {!quizEnd && (
           <>
-            <p className='text-2xl'>Pregunta {actualQuizIndex + 1} de {quizzes.length}</p>
+            <p className='text-2xl mb-4'>Pregunta {actualQuizIndex + 1} de {quizzes.length}</p>
 
             {actualQuestion &&
               <div>
