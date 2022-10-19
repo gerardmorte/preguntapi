@@ -88,19 +88,20 @@ export default function Home () {
               <br />
               Actualmente <b>{totalQuizzes}</b> preguntas sobre <b>{categories.length}</b> lenguajes de programación.
             </p>
-            <div className='flex gap-2 mb-3 flex-wrap'>
+            <ul className='flex gap-2 mb-3 flex-wrap'>
               {categories.map((c) => (
-                <button
-                  key={c.name}
-                  data-category={c.name}
-                  className={`btn bg-sky-900 gap-2 border-none btn-category ${category === c.name ? 'bg-sky-600' : ''}`}
-                  onClick={handleSelectCategory}
-                >
-                  {c.name.toUpperCase()}
-                  <div className='badge bg-white text-black hidden'>+99</div>
-                </button>
+                <li key={c.name}>
+                  <button
+                    data-category={c.name}
+                    className={`btn bg-sky-900 gap-2 border-none btn-category ${category === c.name ? 'bg-sky-600' : ''}`}
+                    onClick={handleSelectCategory}
+                  >
+                    {c.name.toUpperCase()}
+                    <div className='badge bg-white text-black hidden'>+99</div>
+                  </button>
+                </li>
               ))}
-            </div>
+            </ul>
             <div className='flex gap-2 mb-3 flex-wrap'>
               {flagLevelsQuiz && (
                 <div className='btn bg-white border-2 border-sky-900 gap-2 cursor-default text-black hover:bg-transparent'>
