@@ -1,5 +1,5 @@
 const supertest = require('supertest')
-const { app, server } = require('../index')
+const { app } = require('../index')
 const api = supertest(app)
 
 test('return an json with key categories', async () => {
@@ -20,8 +20,4 @@ test('return an array and the first element should have an id', async () => {
     .expect((res) => {
       expect(res.body[0]).toHaveProperty('id')
     })
-})
-
-afterAll(() => {
-  server.close()
 })
