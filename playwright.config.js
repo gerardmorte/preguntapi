@@ -10,7 +10,16 @@
  */
 const config = {
   use: {
-    baseURL: 'http://127.0.0.1:4173'
+    browserName: 'chromium',
+    viewport: { width: 1280, height: 720 },
+
+    /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
+    actionTimeout: 0,
+    /* Base URL to use in actions like `await page.goto('/')`. */
+    baseURL: 'http://127.0.0.1:4173',
+
+    /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
+    trace: 'on-first-retry'
   },
   testDir: './web/tests',
   /* Maximum time one test can run for. */
@@ -32,6 +41,62 @@ const config = {
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: 'html',
+
+  /* Configure projects for major browsers */
+  // projects: [
+  // /* Test against desktop viewports. */
+  //   {
+  //     name: 'chromium',
+  //     use: {
+  //       browserName: 'chromium',
+  //       viewport: { width: 1280, height: 720 }
+  //     }
+  //   },
+
+  //   {
+  //     name: 'firefox',
+  //     use: {
+  //       browserName: 'firefox',
+  //       viewport: { width: 1280, height: 720 }
+  //     }
+  //   },
+
+  //   {
+  //     name: 'webkit',
+  //     use: {
+  //       browserName: 'webkit',
+  //       viewport: { width: 1280, height: 720 }
+  //     }
+  //   },
+
+  //   /* Test against mobile viewports. */
+  //   {
+  //     name: 'Mobile Chrome',
+  //     use: {
+  //       ...devices['Pixel 5']
+  //     }
+  //   },
+  //   {
+  //     name: 'Mobile Safari',
+  //     use: {
+  //       ...devices['iPhone 12']
+  //     }
+  //   },
+
+  //   /* Test against branded browsers. */
+  //   {
+  //     name: 'Microsoft Edge',
+  //     use: {
+  //       channel: 'msedge'
+  //     }
+  //   },
+  //   {
+  //     name: 'Google Chrome',
+  //     use: {
+  //       channel: 'chrome'
+  //     }
+  //   }
+  // ],
 
   /* Folder for test artifacts such as screenshots, videos, traces, etc. */
   // outputDir: 'test-results/',

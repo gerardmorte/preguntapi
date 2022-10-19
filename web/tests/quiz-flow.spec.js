@@ -34,7 +34,7 @@ test.describe('Quiz flow', async () => {
     await page.waitForSelector('.lf-player-container svg')
 
     // Click on the selected category button
-    const categoryBtn = page.getByRole('button', { name: category.toUpperCase() })
+    const categoryBtn = page.locator(`[data-category=${category}]`)
     await categoryBtn.click()
 
     // Select the level and number of questions configured
@@ -55,7 +55,7 @@ test.describe('Quiz flow', async () => {
       await page.waitForSelector('.lf-player-container svg')
 
       // Click on the selected category button
-      const categoryBtn = page.getByRole('button', { name: category.toUpperCase() })
+      const categoryBtn = page.locator(`[data-category=${category}]`)
       await categoryBtn.click()
 
       // Select the random level
@@ -70,9 +70,8 @@ test.describe('Quiz flow', async () => {
       expect(pathname + search).toEqual(`/startQuiz?category=${category}&level=aleatorio&limit=10`)
 
       // Check that the title is correct
-      const titleElement = page.getByRole('heading', { name: category.toUpperCase() })
+      const titleElement = page.getByText(category.toUpperCase()).first()
       const titleText = await titleElement.textContent()
-      expect(titleElement).toHaveCount(1)
       expect(titleText).toEqual(category.toUpperCase())
     })
   })
