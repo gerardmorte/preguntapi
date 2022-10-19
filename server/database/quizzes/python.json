@@ -1,275 +1,275 @@
 [
-    {
-      "id": "261",
-      "category": "python",
-      "level": "facil",
-      "question": "¿Cuál de estos no es un tipo de datos básico?",
-      "answers": {
-        "answer_a": "Lists",
-        "answer_b": "Dictionary",
-        "answer_c": "Tuples",
-        "answer_d": "Class"
-      },
-      "correct_answer": "answer_d"
+  {
+    "id": "261",
+    "category": "python",
+    "level": "facil",
+    "question": "¿Cuál de estos no es un tipo de datos básico?",
+    "answers": {
+      "answer_a": "Lists",
+      "answer_b": "Dictionary",
+      "answer_c": "Tuples",
+      "answer_d": "Class"
     },
-    {
-      "id": "262",
-      "category": "python",
-      "level": "facil",
-      "question": "¿Qué tipo de dato es el siguiente? L = [1, 23, ‘hello’, 1]",
-      "answers": {
-        "answer_a": "List",
-        "answer_b": "Dictionary",
-        "answer_c": "Tuple",
-        "answer_d": "Array"
-      },
-      "correct_answer": "answer_a"
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "262",
+    "category": "python",
+    "level": "facil",
+    "question": "¿Qué tipo de dato es el siguiente? L = [1, 23, ‘hello’, 1]",
+    "answers": {
+      "answer_a": "List",
+      "answer_b": "Dictionary",
+      "answer_c": "Tuple",
+      "answer_d": "Array"
     },
-    {
-      "id": "263",
-      "category": "python",
-      "level": "normal",
-      "question": "¿Cuál de las siguientes funciones convierte una cadena en un flotante en python?",
-      "answers": {
-        "answer_a": "int(x [,base])",
-        "answer_b": "long(x [,base] )",
-        "answer_c": "float(x)",
-        "answer_d": "str(x)"
-      },
-      "correct_answer": "answer_c"
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "263",
+    "category": "python",
+    "level": "normal",
+    "question": "¿Cuál de las siguientes funciones convierte una cadena en un flotante en python?",
+    "answers": {
+      "answer_a": "int(x [,base])",
+      "answer_b": "long(x [,base] )",
+      "answer_c": "float(x)",
+      "answer_d": "str(x)"
     },
-    {
-      "id": "264",
-      "category": "python",
-      "level": "normal",
-      "question": "Cuál es la salida del siguiente programa: print \"Hello World\"[::-1]",
-      "answers": {
-        "answer_a": "dlroW olleH",
-        "answer_b": "Hello World",
-        "answer_c": "-1",
-        "answer_d": "Error"
-      },
-      "correct_answer": "answer_a"
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "264",
+    "category": "python",
+    "level": "normal",
+    "question": "Cuál es la salida del siguiente programa: print \"Hello World\"[::-1]",
+    "answers": {
+      "answer_a": "dlroW olleH",
+      "answer_b": "Hello World",
+      "answer_c": "-1",
+      "answer_d": "Error"
     },
-    {
-      "id": "265",
-      "category": "python",
-      "level": "facil",
-      "question": "Dada una función que no devuelve ningún valor, ¿qué valor se muestra cuando se ejecuta en consola?",
-      "answers": {
-        "answer_a": "int",
-        "answer_b": "bool",
-        "answer_c": "void",
-        "answer_d": "None"
-      },
-      "correct_answer": "answer_d"
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "265",
+    "category": "python",
+    "level": "facil",
+    "question": "Dada una función que no devuelve ningún valor, ¿qué valor se muestra cuando se ejecuta en consola?",
+    "answers": {
+      "answer_a": "int",
+      "answer_b": "bool",
+      "answer_c": "void",
+      "answer_d": "None"
     },
-    {
-      "id": "266",
-      "category": "python",
-      "level": "normal",
-      "question": "¿Qué módulo de Python soporta expresiones regulares?",
-      "answers": {
-        "answer_a": "re",
-        "answer_b": "regex",
-        "answer_c": "pyregex",
-        "answer_d": "Ninguna de las anteriores"
-      },
-      "correct_answer": "answer_a"
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "266",
+    "category": "python",
+    "level": "normal",
+    "question": "¿Qué módulo de Python soporta expresiones regulares?",
+    "answers": {
+      "answer_a": "re",
+      "answer_b": "regex",
+      "answer_c": "pyregex",
+      "answer_d": "Ninguna de las anteriores"
     },
-    {
-      "id": "267",
-      "category": "python",
-      "level": "facil",
-      "question": "Cuál es la salida del siguiente programa: print 0.1 + 0.2 == 0.3",
-      "answers": {
-        "answer_a": "True",
-        "answer_b": "False",
-        "answer_c": "Depende de la máquina",
-        "answer_d": "Error"
-      },
-      "correct_answer": "answer_b"
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "267",
+    "category": "python",
+    "level": "facil",
+    "question": "Cuál es la salida del siguiente programa: print 0.1 + 0.2 == 0.3",
+    "answers": {
+      "answer_a": "True",
+      "answer_b": "False",
+      "answer_c": "Depende de la máquina",
+      "answer_d": "Error"
     },
-    {
-      "id": "268",
-      "category": "python",
-      "level": "dificil",
-      "question": "¿Cuál de los siguientes no es un número complejo?",
-      "answers": {
-        "answer_a": "k = 2 + 3j",
-        "answer_b": "k = complex(2, 3)",
-        "answer_c": "k = 2 + 3l",
-        "answer_d": "k = 2 + 3J"
-      },
-      "correct_answer": "answer_c"
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "268",
+    "category": "python",
+    "level": "dificil",
+    "question": "¿Cuál de los siguientes no es un número complejo?",
+    "answers": {
+      "answer_a": "k = 2 + 3j",
+      "answer_b": "k = complex(2, 3)",
+      "answer_c": "k = 2 + 3l",
+      "answer_d": "k = 2 + 3J"
     },
-    {
-      "id": "269",
-      "category": "python",
-      "level": "normal",
-      "question": "Para iniciar Python desde el símbolo del sistema, se utiliza el comando:",
-      "answers": {
-        "answer_a": "execute python",
-        "answer_b": "go python",
-        "answer_c": "python",
-        "answer_d": "run python"
-      },
-      "correct_answer": "answer_c"
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "269",
+    "category": "python",
+    "level": "normal",
+    "question": "Para iniciar Python desde el símbolo del sistema, se utiliza el comando:",
+    "answers": {
+      "answer_a": "execute python",
+      "answer_b": "go python",
+      "answer_c": "python",
+      "answer_d": "run python"
     },
-    {
-      "id": "270",
-      "category": "python",
-      "level": "dificil",
-      "question": "¿Cuál de las siguientes afirmaciones es correcta sobre Python?",
-      "answers": {
-        "answer_a": "Soporta la recolección automática de basura",
-        "answer_b": "Se puede integrar fácilmente con C, C++, COM, ActiveX, CORBA y Java",
-        "answer_c": "Todas las anteriores son correctas",
-        "answer_d": "Ninguna de las anteriores"
-      },
-      "correct_answer": "answer_c"
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "270",
+    "category": "python",
+    "level": "dificil",
+    "question": "¿Cuál de las siguientes afirmaciones es correcta sobre Python?",
+    "answers": {
+      "answer_a": "Soporta la recolección automática de basura",
+      "answer_b": "Se puede integrar fácilmente con C, C++, COM, ActiveX, CORBA y Java",
+      "answer_c": "Todas las anteriores son correctas",
+      "answer_d": "Ninguna de las anteriores"
     },
-    {
-      "id": "271",
-      "category": "python",
-      "level": "facil",
-      "question": "Cuál es la salida de la expresión: 3*1**3",
-      "answers": {
-        "answer_a": "27",
-        "answer_b": "9",
-        "answer_c": "3",
-        "answer_d": "1"
-      },
-      "correct_answer": "answer_c"
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "271",
+    "category": "python",
+    "level": "facil",
+    "question": "Cuál es la salida de la expresión: 3*1**3",
+    "answers": {
+      "answer_a": "27",
+      "answer_b": "9",
+      "answer_c": "3",
+      "answer_d": "1"
     },
-    {
-      "id": "272",
-      "category": "python",
-      "level": "dificil",
-      "question": "Cuál es la salida del siguiente programa: print '{0:.2}'.format(1.0 / 3)",
-      "answers": {
-        "answer_a": "0.333333",
-        "answer_b": "0.33",
-        "answer_c": "0.333333:-2",
-        "answer_d": "Error"
-      },
-      "correct_answer": "answer_b"
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "272",
+    "category": "python",
+    "level": "dificil",
+    "question": "Cuál es la salida del siguiente programa: print '{0:.2}'.format(1.0 / 3)",
+    "answers": {
+      "answer_a": "0.333333",
+      "answer_b": "0.33",
+      "answer_c": "0.333333:-2",
+      "answer_d": "Error"
     },
-    {
-      "id": "273",
-      "category": "python",
-      "level": "normal",
-      "question": "Cuál es la salida del siguiente programa: print '{0:-2%}'.format(1.0 / 3)",
-      "answers": {
-        "answer_a": "0.33",
-        "answer_b": "0.33%",
-        "answer_c": "33%",
-        "answer_d": "33.33%"
-      },
-      "correct_answer": "answer_d"
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "273",
+    "category": "python",
+    "level": "normal",
+    "question": "Cuál es la salida del siguiente programa: print '{0:-2%}'.format(1.0 / 3)",
+    "answers": {
+      "answer_a": "0.33",
+      "answer_b": "0.33%",
+      "answer_c": "33%",
+      "answer_d": "33.33%"
     },
-    {
-      "id": "274",
-      "category": "python",
-      "level": "normal",
-      "question": "Cuál es la salida del siguiente programa: print 'cd'.partition('cd')",
-      "answers": {
-        "answer_a": "(‘cd’)",
-        "answer_b": "(”)",
-        "answer_c": "(‘cd’, ”, ”)",
-        "answer_d": "(”, ‘cd’, ”)"
-      },
-      "correct_answer": "answer_d"
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "274",
+    "category": "python",
+    "level": "normal",
+    "question": "Cuál es la salida del siguiente programa: print 'cd'.partition('cd')",
+    "answers": {
+      "answer_a": "(‘cd’)",
+      "answer_b": "(”)",
+      "answer_c": "(‘cd’, ”, ”)",
+      "answer_d": "(”, ‘cd’, ”)"
     },
-    {
-      "id": "275",
-      "category": "python",
-      "level": "normal",
-      "question": "Cuál es la salida del siguiente código: print 9//2",
-      "answers": {
-        "answer_a": "4.5",
-        "answer_b": "4.0",
-        "answer_c": "4",
-        "answer_d": "Error"
-      },
-      "correct_answer": "answer_c"
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "275",
+    "category": "python",
+    "level": "normal",
+    "question": "Cuál es la salida del siguiente código: print 9//2",
+    "answers": {
+      "answer_a": "4.5",
+      "answer_b": "4.0",
+      "answer_c": "4",
+      "answer_d": "Error"
     },
-    {
-      "id": "276",
-      "category": "python",
-      "level": "normal",
-      "question": "¿Qué función sobrecarga el operador >>?",
-      "answers": {
-        "answer_a": "more()",
-        "answer_b": "gt()",
-        "answer_c": "ge()",
-        "answer_d": "Ninguna de las anteriores"
-      },
-      "correct_answer": "answer_d"
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "276",
+    "category": "python",
+    "level": "normal",
+    "question": "¿Qué función sobrecarga el operador >>?",
+    "answers": {
+      "answer_a": "more()",
+      "answer_b": "gt()",
+      "answer_c": "ge()",
+      "answer_d": "Ninguna de las anteriores"
     },
-    {
-      "id": "277",
-      "category": "python",
-      "level": "facil",
-      "question": "¿Qué operador está sobrecargado por la función or()?",
-      "answers": {
-        "answer_a": "||",
-        "answer_b": "|",
-        "answer_c": "//",
-        "answer_d": "/"
-      },
-      "correct_answer": "answer_b"
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "277",
+    "category": "python",
+    "level": "facil",
+    "question": "¿Qué operador está sobrecargado por la función or()?",
+    "answers": {
+      "answer_a": "||",
+      "answer_b": "|",
+      "answer_c": "//",
+      "answer_d": "/"
     },
-    {
-      "id": "278",
-      "category": "python",
-      "level": "dificil",
-      "question": "time.time() devuelve:",
-      "answers": {
-        "answer_a": "La hora actual",
-        "answer_b": "La hora actual en milisegundos",
-        "answer_c": "La hora actual en milisegundos desde la medianoche",
-        "answer_d": "La hora actual en milisegundos desde la medianoche del 1 de enero de 1970 GMT (la hora de Unix)"
-      },
-      "correct_answer": "answer_d"
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "278",
+    "category": "python",
+    "level": "dificil",
+    "question": "time.time() devuelve:",
+    "answers": {
+      "answer_a": "La hora actual",
+      "answer_b": "La hora actual en milisegundos",
+      "answer_c": "La hora actual en milisegundos desde la medianoche",
+      "answer_d": "La hora actual en milisegundos desde la medianoche del 1 de enero de 1970 GMT (la hora de Unix)"
     },
-    {
-      "id": "279",
-      "category": "python",
-      "level": "normal",
-      "question": "Supongamos que list1 es [3, 4, 5, 20, 5, 25, 1, 3], ¿Cómo será list1 después de ejecutar list1.pop(1)?",
-      "answers": {
-        "answer_a": "[3, 4, 5, 20, 5, 25, 1, 3]",
-        "answer_b": "[1, 3, 3, 4, 5, 5, 20, 25]",
-        "answer_c": "[3, 5, 20, 5, 25, 1, 3]",
-        "answer_d": "[1, 3, 4, 5, 20, 5, 25]"
-      },
-      "correct_answer": "answer_c"
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "279",
+    "category": "python",
+    "level": "normal",
+    "question": "Supongamos que list1 es [3, 4, 5, 20, 5, 25, 1, 3], ¿Cómo será list1 después de ejecutar list1.pop(1)?",
+    "answers": {
+      "answer_a": "[3, 4, 5, 20, 5, 25, 1, 3]",
+      "answer_b": "[1, 3, 3, 4, 5, 5, 20, 25]",
+      "answer_c": "[3, 5, 20, 5, 25, 1, 3]",
+      "answer_d": "[1, 3, 4, 5, 20, 5, 25]"
     },
-    {
-      "id": "280",
-      "category": "python",
-      "level": "facil",
-      "question": "¿Cómo se llama una función definida dentro de una clase?",
-      "answers": {
-        "answer_a": "Módulo",
-        "answer_b": "Clase",
-        "answer_c": "Otra función",
-        "answer_d": "Método"
-      },
-      "correct_answer": "answer_d"
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "280",
+    "category": "python",
+    "level": "facil",
+    "question": "¿Cómo se llama una función definida dentro de una clase?",
+    "answers": {
+      "answer_a": "Módulo",
+      "answer_b": "Clase",
+      "answer_c": "Otra función",
+      "answer_d": "Método"
     },
-    {
-        "id": "281",
-        "category": "python",
-        "level": "normal",
-        "question": "Cuál será la salida del siguiente código: print type(type(int))",
-        "answers": {
-          "answer_a": "type 'int'",
-          "answer_b": "type 'type'",
-          "answer_c": "Error",
-          "answer_d": "0"
-        },
-        "correct_answer": "answer_b"
-      }
-  ]
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "281",
+    "category": "python",
+    "level": "normal",
+    "question": "Cuál será la salida del siguiente código: print type(type(int))",
+    "answers": {
+      "answer_a": "type 'int'",
+      "answer_b": "type 'type'",
+      "answer_c": "Error",
+      "answer_d": "0"
+    },
+    "correct_answer": "answer_b"
+  }
+]
