@@ -63,7 +63,7 @@ export default function StartQuiz () {
       const idTimeout = setTimeout(() => {
         setQuizEnd(true)
         clearTimeout(idTimeout)
-      }, 2000)
+      }, 5000)
     }
   }
 
