@@ -9,8 +9,6 @@ export default function Home () {
   const [level, setLevel] = useState('aleatorio')
   const [totalLevelQuestions, setTotalLevelQuestions] = useState(0)
   const [randomQuiz, setRandomQuiz] = useState(true)
-  const [flagLevelsQuiz, setFlagLevelsQuiz] = useState(false)
-
   const [totalQuizzes, setTotalQuizzes] = useState(0)
 
   const link = `/startQuiz?category=${category}&level=${level}&limit=${limit}`
@@ -33,9 +31,7 @@ export default function Home () {
     fetch(`/api/v1/quizzes?category=${category}&level=${level}`)
       .then((res) => res.json())
       .then((data) => {
-        setFlagLevelsQuiz(data.filter((quiz) => quiz?.level).length === data.length)
         setTotalLevelQuestions(data.length)
-
         if (level !== 'aleatorio' && data.length < 10) {
           setLimit(data.length)
         }
@@ -103,21 +99,19 @@ export default function Home () {
               ))}
             </ul>
             <div className='flex gap-2 mb-3 flex-wrap'>
-              {flagLevelsQuiz && (
-                <div className='btn bg-white border-2 border-sky-900 gap-2 cursor-default text-black hover:bg-transparent'>
-                  <p>Dificultad:</p>
-                  <select
-                    className='bg-gray-200 p-1 px-2 rounded'
-                    onChange={handleLevel}
-                    value={level}
-                  >
-                    <option value='aleatorio'>ALEATORIO</option>
-                    <option value='facil'>FÁCIL</option>
-                    <option value='normal'>NORMAL</option>
-                    <option value='dificil'>DIFÍCIL</option>
-                  </select>
-                </div>
-              )}
+              <div className='btn bg-white border-2 border-sky-900 gap-2 cursor-default text-black hover:bg-transparent'>
+                <p>Dificultad:</p>
+                <select
+                  className='bg-gray-200 p-1 px-2 rounded'
+                  onChange={handleLevel}
+                  value={level}
+                >
+                  <option value='aleatorio'>ALEATORIO</option>
+                  <option value='facil'>FÁCIL</option>
+                  <option value='normal'>NORMAL</option>
+                  <option value='dificil'>DIFÍCIL</option>
+                </select>
+              </div>
               <div className='btn bg-white border-2 border-sky-900 gap-2 cursor-default text-black hover:bg-transparent'>
                 <p>Cantidad de preguntas:</p>
                 <select
