@@ -8,7 +8,8 @@
       "answer_a": "Verdadero",
       "answer_b": "Falso"
     },
-    "correct_answer": "answer_a"
+    "correct_answer": "answer_a",
+    "feedback": "JavaScript distingue entre mayúsculas y minúsculas (es case-sensitive) y utiliza el conjunto de caracteres Unicode. Por ejemplo, la palabra «Früh» (que significa 'temprano' en Alemán) se podría usar como el nombre de una variable."
   },
   {
     "id": "62",
@@ -20,7 +21,8 @@
       "answer_b": "exports",
       "answer_c": "extends"
     },
-    "correct_answer": "answer_c"
+    "correct_answer": "answer_c",
+    "feedback": "Para heredar de otra clase se utiliza 'extends' como palabra clave. La herencia de clase es el modo para que una clase extienda a otra. De esta manera podemos añadir nueva funcionalidad a la clase ya existente."
   },
   {
     "id": "63",
@@ -32,7 +34,8 @@
       "answer_b": "onclick",
       "answer_c": "onkeydown"
     },
-    "correct_answer": "answer_b"
+    "correct_answer": "answer_b",
+    "feedback": "El evento onclick en JavaScript te permite ejecutar una función cuando se hace clic en un elemento.."
   },
   {
     "id": "64",
@@ -44,7 +47,8 @@
       "answer_b": "append()",
       "answer_c": "concat()"
     },
-    "correct_answer": "answer_c"
+    "correct_answer": "answer_c",
+    "feedback": "El método concat() combina dos o más cadenas de texto y devuelve una cadena de texto nueva."
   },
   {
     "id": "65",
@@ -56,7 +60,8 @@
       "answer_b": "unshift()",
       "answer_c": "pop()"
     },
-    "correct_answer": "answer_b"
+    "correct_answer": "answer_b",
+    "feedback": "El método unshift() agrega uno o más elementos al inicio del array, y devuelve la nueva longitud del array."
   },
   {
     "id": "66",
@@ -68,7 +73,8 @@
       "answer_b": "<!--Este comentario tiene más de una línea.-->",
       "answer_c": "//Este comentario tiene más de una línea.//"
     },
-    "correct_answer": "answer_a"
+    "correct_answer": "answer_a",
+    "feedback": " Los comentarios comienzan con /* y terminan con */ . Cualquier texto entre /* y */ serán ignorados por JavaScript."
   },
   {
     "id": "67",
@@ -80,7 +86,8 @@
       "answer_b": "Brendan Eich",
       "answer_c": "James Gosling"
     },
-    "correct_answer": "answer_b"
+    "correct_answer": "answer_b",
+    "feedback": "JavaScript fue desarrollado originalmente por Brendan Eich de Netscape con el nombre de Mocha, el cual fue renombrado posteriormente a LiveScript, para finalmente quedar como JavaScript."
   },
   {
     "id": "68",
@@ -91,7 +98,8 @@
       "answer_a": "Verdadero",
       "answer_b": "Falso"
     },
-    "correct_answer": "answer_a"
+    "correct_answer": "answer_a",
+    "feedback": "Los objetos Date representan en JavaScript un momento fijo en el tiempo en un formato independiente. El objeto Date contiene un Number que representa los milisegundos transcurridos desde el 1 de Enero de 1970 UTC."
   },
   {
     "id": "69",
@@ -103,7 +111,8 @@
       "answer_b": "Math.pow",
       "answer_c": "Math.trunc"
     },
-    "correct_answer": "answer_b"
+    "correct_answer": "answer_b",
+    "feedback": "La función Math.pow() devuelve la base elevada al exponente , esto es, baseexponente."
   },
   {
     "id": "70",
@@ -114,7 +123,8 @@
       "answer_a": "True",
       "answer_b": "False"
     },
-    "correct_answer": "answer_a"
+    "correct_answer": "answer_a",
+    "feedback": "Arroja True porque 3 > 2 es igual a true, entonces true > 1 es igual a false porque true no es mayor que 1. Por consiguiente false es igual a false, esta condición es true."
   },
   {
     "id": "71",
@@ -126,7 +136,8 @@
       "answer_b": "try/catch",
       "answer_c": "check/return"
     },
-    "correct_answer": "answer_b"
+    "correct_answer": "answer_b",
+    "feedback": "La declaración try...catch señala un bloque de instrucciones a intentar (try), y especifica una respuesta si se produce una excepción (catch)."
   },
   {
     "id": "72",
