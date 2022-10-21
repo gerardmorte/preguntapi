@@ -97,7 +97,7 @@ test.describe('Quiz flow', async () => {
     score = await testOneQuestion(page, { quizNum: 10, score, limit })
 
     // Wait for the quiz to finish
-    await page.waitForTimeout(2500)
+    await page.waitForTimeout(5500)
 
     // Compares the obtained score with the calculated score
     const finalScore = await page.getByText(`Puntuación: ${score} de ${limit}`).textContent()
