@@ -1,6 +1,6 @@
 # [preguntAPI](https://www.preguntapi.dev)
 
-## La API de preguntas de programación en español 🚀
+## API de preguntas de programación 🚀
 
 ## Enlace 🌱
 **https://www.preguntapi.dev**
