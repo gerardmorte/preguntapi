@@ -22,7 +22,8 @@
       "answer_b": "<check>",
       "answer_c": "<input type='checkbox'>"
     },
-    "correct_answer": "answer_c"
+    "correct_answer": "answer_c",
+    "feedback": "Los checkbox se consiguen con la etiqueta <input type=\"checkbox\">."
   },
   {
     "id": "3",
@@ -59,7 +60,8 @@
       "answer_b": "Hypertext Machine Language",
       "answer_c": "Hypertext Markup Language"
     },
-    "correct_answer": "answer_c"
+    "correct_answer": "answer_c",
+    "feedback": "HTML (Lenguaje de Marcas de Hipertexto, del inglés HyperText Markup Language) es el componente más básico de la Web. Define el significado y la estructura del contenido web."
   },
   {
     "id": "6",
@@ -83,7 +85,8 @@
       "answer_a": "<!DOCTYPE html5>",
       "answer_b": "<!DOCTYPE html>"
     },
-    "correct_answer": "answer_b"
+    "correct_answer": "answer_b",
+    "feedback": "<!DOCTYPE html> La etiqueta doctype declara el tipo de documento, por lo que esta está señalando que este es un documento HTML."
   },
   {
     "id": "8",
@@ -144,7 +147,8 @@
       "answer_b": "4",
       "answer_c": "6"
     },
-    "correct_answer": "answer_c"
+    "correct_answer": "answer_c",
+    "feedback": "Los elementos de encabezado implementan seis niveles de encabezado del documento, <h1> es el más importante, y <h6>, el menos importante. Un elemento de encabezado describe brevemente el tema de la sección que presenta. La información de encabezado puede ser usada por los agentes usuarios, por ejemplo, para construir una tabla de contenidos para un documento automáticamente."
   },
   {
     "id": "13",
@@ -156,7 +160,8 @@
       "answer_b": "Para dibujar gráficos",
       "answer_c": "Para enmarcar un grupo de elementos."
     },
-    "correct_answer": "answer_a"
+    "correct_answer": "answer_a",
+    "feedback": "El elemento HTML <iframe> (de inline frame) representa un contexto de navegación anidado, el cual permite incrustrar otra página HTML en la página actual."
   },
   {
     "id": "14",
@@ -167,7 +172,8 @@
       "answer_a": "La descripción de una imagen para cuando esta no se pueda mostrar.",
       "answer_b": "Una imagen alternativa a la imagen principal."
     },
-    "correct_answer": "answer_a"
+    "correct_answer": "answer_a",
+    "feedback": "Este atributo define el texto alternativo que describe la imagen, texto que los usuarios verán si la URL de la imagen es errónea o la imagen tiene un formato no soportado o si la imagen aún no se ha descargado."
   },
   {
     "id": "15",
