@@ -23,7 +23,7 @@ async function startApolloServer (typeDefs, resolvers) {
   // routes
   const buildPath = path.join(__dirname, '../web', 'dist')
   app.use(express.static(buildPath))
-  app.use('/api/v1', require('./v1/routes/index'))
+  app.use('/api/v1', require('./routes/v1/index'))
 
   const httpServer = http.createServer(app)
   const server = new ApolloServer({

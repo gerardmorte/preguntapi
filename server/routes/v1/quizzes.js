@@ -1,6 +1,6 @@
 const { Router } = require('express')
 const router = Router()
-const quizzes = require('../utils/languages')
+const quizzes = require('../../utils/languages')
 
 router.get('/', (req, res) => {
   const { category, limit, level } = req.query
