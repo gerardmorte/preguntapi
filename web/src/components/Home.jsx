@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
-import { Link } from 'react-router-dom'
 import { Player } from '@lottiefiles/react-lottie-player'
+
+import Link from '@/components/Link'
 
 export default function Home () {
   const [categories, setCategories] = useState([])
@@ -11,7 +12,9 @@ export default function Home () {
   const [randomQuiz, setRandomQuiz] = useState(true)
   const [totalQuizzes, setTotalQuizzes] = useState(0)
 
-  const link = `/startQuiz?category=${category}&level=${level}&limit=${limit}`
+  const quizURL = `/startQuiz?category=${category}&level=${level}&limit=${limit}`
+
+  console.log({ quizURL })
 
   useEffect(() => {
     fetch('/api/v1/categories')
@@ -125,7 +128,7 @@ export default function Home () {
               </div>
             </div>
             <div className='flex gap-2 mb-3'>
-              <Link to={link} className='btn bg-green-600 border-none'>
+              <Link to={quizURL} className='btn bg-green-600 border-none'>
                 Iniciar Quiz!
               </Link>
             </div>
