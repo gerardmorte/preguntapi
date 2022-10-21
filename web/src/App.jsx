@@ -1,13 +1,22 @@
-import Navigation from '@/components/Template/Navigation'
-import Footer from '@/components/Template/Footer'
+import { Route, Routes, Navigate } from 'react-router-dom'
 
-function App () {
+import Doc from '@/components/Doc'
+import Home from '@/components/Home'
+import Footer from '@/components/Footer'
+import StartQuiz from '@/components/StartQuiz'
+import Navigation from '@/components/Navigation'
+
+export default function App () {
   return (
     <div className='min-h-screen flex flex-col'>
       <Navigation />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/documentation' element={<Doc />} />
+        <Route path='/startQuiz' element={<StartQuiz />} />
+        <Route path='*' element={<Navigate to='/' />} />
+      </Routes>
       <Footer />
     </div>
   )
 }
-
-export default App

@@ -1,8 +1,4 @@
-import Home from '@/components/Home'
-import Doc from '@/components/Doc'
-import StartQuiz from '@/components/StartQuiz'
-
-import { Route, Routes, Link, Navigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Navigation = () => {
   return (
@@ -96,13 +92,6 @@ const Navigation = () => {
           </div>
         </div>
       </div>
-
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/documentation' element={<Doc />} />
-        <Route path='/startQuiz' element={<StartQuiz />} />
-        <Route path='*' element={<Navigate to='/' />} />
-      </Routes>
     </>
   )
 }
