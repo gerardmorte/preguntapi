@@ -1,4 +1,4 @@
-import PreCode from './PreCode.jsx'
+import PreCode from '@/components/PreCode.jsx'
 
 function Doc () {
   const texto1 = String.raw`

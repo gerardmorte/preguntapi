@@ -1,6 +1,6 @@
-import Home from '../Home'
-import Doc from '../Doc'
-import StartQuiz from '../StartQuiz'
+import Home from '@/components/Home'
+import Doc from '@/components/Doc'
+import StartQuiz from '@/components/StartQuiz'
 
 import { Route, Routes, Link, Navigate } from 'react-router-dom'
 

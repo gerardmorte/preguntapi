@@ -1,4 +1,4 @@
-import IconCopy from './icons/IconCopy'
+import IconCopy from '@/components/icons/IconCopy'
 
 const PreCode = ({ code = '', prefix = '$', copy = true }) => {
   const clickOnCopy = () => {

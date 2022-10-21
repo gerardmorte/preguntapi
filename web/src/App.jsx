@@ -1,5 +1,5 @@
-import Navigation from './components/Template/Navigation'
-import Footer from './components/Template/Footer'
+import Navigation from '@/components/Template/Navigation'
+import Footer from '@/components/Template/Footer'
 
 function App () {
   return (
