@@ -1,10 +1,10 @@
-export default () => {
+export default ({ className, color = 'currentColor' }) => {
   return (
     <svg
-      className='w-6 h-6 mx-2'
       fill='none'
-      stroke='currentColor'
+      stroke={color}
       viewBox='0 0 24 24'
+      className={className}
       xmlns='http://www.w3.org/2000/svg'
     >
       <path
