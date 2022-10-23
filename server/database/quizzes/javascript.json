@@ -465,5 +465,31 @@
       "answer_c": "makeRequest(\"https://some-url-here.com\")"
     },
     "correct_answer": "answer_a"
+  },
+  {
+  "id": "359",
+  "category": "javascript",
+  "level": "normal",
+  "question": "¿Qué método de array devuelve un nuevo objeto iterable iterador?",
+   "answers": {
+      "answer_a": "sort()",
+      "answer_b": "values()",
+      "answer_c": "entries()",
+      "answer_d": "concat()"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+  "id": "360",
+  "category": "javascript",
+  "level": "dificil",
+  "question": "¿Qué métodos aceptan un iterable de promesas y devuelven un único array de resultados?",
+   "answers": {
+      "answer_a": "Promise.reject() y Promise.resolve()",
+      "answer_b": "Promise.reject() and Promise.all()",
+      "answer_c": "Promise.all() and Promise.allSettled()",
+      "answer_d": "Promise.any() and Promise.all()"
+    },
+    "correct_answer": "answer_c"
   }
 ]
