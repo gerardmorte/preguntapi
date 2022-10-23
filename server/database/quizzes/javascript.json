@@ -149,7 +149,8 @@
       "answer_b": "event.stopPropagation()",
       "answer_c": "Los dos"
     },
-    "correct_answer": "answer_c"
+    "correct_answer": "answer_c",
+    "feedback": "Ambos métodos son accesibles sin instalar paquetes adicionales."
   },
   {
     "id": "73",
@@ -161,7 +162,8 @@
       "answer_b": "position()",
       "answer_c": "indexOf()"
     },
-    "correct_answer": "answer_c"
+    "correct_answer": "answer_c",
+    "feedback": "Los otros métodos no existen en JavaScript. pos() pertenece al lenguaje PHP."
   },
   {
     "id": "74",
@@ -173,7 +175,8 @@
       "answer_b": "0.31",
       "answer_c": "0.30000000000000004"
     },
-    "correct_answer": "answer_c"
+    "correct_answer": "answer_c",
+    "feedback": "Los ordenadores almacenan los números en binario, por lo que al volver a pasar a decimal se producen inexactitudes como esta."
   },
   {
     "id": "75",
@@ -185,7 +188,8 @@
       "answer_b": "function ejemplo()",
       "answer_c": "execute function ejemplo()"
     },
-    "correct_answer": "answer_a"
+    "correct_answer": "answer_a",
+    "feedback": "La palabra 'function' es exclusiva de la definición de la función, no se usa en la llamada. Execute no existe en javascript."
   },
   {
     "id": "76",
@@ -197,7 +201,8 @@
       "answer_b": "Un integer",
       "answer_c": "Un objeto"
     },
-    "correct_answer": "answer_b"
+    "correct_answer": "answer_b",
+    "feedback": "Devuelve un entero entre 0 y 11 correspondiente con la hora local."
   },
   {
     "id": "77",
@@ -208,7 +213,8 @@
       "answer_a": "Comportamiento predeterminado de mover declaraciones a la parte superior",
       "answer_b": "Eliminación automática de variables no utilizadas en todo el código."
     },
-    "correct_answer": "answer_a"
+    "correct_answer": "answer_a",
+    "feedback": "Esto permite a javascript acceder a variables aunque estén creadas líneas más abajo."
   },
   {
     "id": "78",
@@ -220,7 +226,8 @@
       "answer_b": "<script href=\"main.js\">",
       "answer_c": "<script name=\"main.js\">"
     },
-    "correct_answer": "answer_a"
+    "correct_answer": "answer_a",
+    "feedback": "La etiqueta HTML <script></script> solo puede utilizar el atributo 'src', 'href' es usado en enlaces con etiqueta <a></a>."
   },
   {
     "id": "79",
@@ -232,7 +239,8 @@
       "answer_b": "document.getElementById(\"demo\").innerHTML = \"Edited!\".",
       "answer_c": "document.getElementByName(\"p\").innerHTML = \"Edited!\""
     },
-    "correct_answer": "answer_b"
+    "correct_answer": "answer_b",
+    "feedback": "Al definir un id en el elemento podemos seleccionarlo facilmente con 'getElementById'. # es un selector por id de CSS y 'getElementByName' no existe."
   },
   {
     "id": "80",
@@ -244,7 +252,8 @@
       "answer_b": "for/in",
       "answer_c": "if/then"
     },
-    "correct_answer": "answer_c"
+    "correct_answer": "answer_c",
+    "feedback": "La expresión if/then solo se lee una vez, sin embargo do/while se ejecutará mientras la condición del while se cumpla. Por su parte for/in se ejecuta por tantas propiedades tenga el objeto o por tantos elementos tenga el array, dependiendo de lo que le pasemos."
   },
   {
     "id": "81",
@@ -256,7 +265,8 @@
       "answer_b": "toLowerCase()",
       "answer_c": "toLocaleLowerCase()"
     },
-    "correct_answer": "answer_b"
+    "correct_answer": "answer_b",
+    "feedback": "Los demás métodos nombrados no existen en javascript."
   },
   {
     "id": "82",
