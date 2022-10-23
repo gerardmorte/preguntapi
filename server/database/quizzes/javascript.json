@@ -477,7 +477,7 @@
     "correct_answer": "answer_a"
   },
   {
-  "id": "359",
+  "id": "360",
   "category": "javascript",
   "level": "normal",
   "question": "¿Qué método de array devuelve un nuevo objeto iterable iterador?",
@@ -487,10 +487,11 @@
       "answer_c": "entries()",
       "answer_d": "concat()"
     },
-    "correct_answer": "answer_b"
+    "correct_answer": "answer_b",
+    "feedback": "El método values() devuelve un nuevo objeto Array Iterator que contiene los valores para cada índice del array."
   },
   {
-  "id": "360",
+  "id": "361",
   "category": "javascript",
   "level": "dificil",
   "question": "¿Qué métodos aceptan un iterable de promesas y devuelven un único array de resultados?",
