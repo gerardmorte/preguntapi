@@ -6,69 +6,79 @@ function Doc () {
     "categories": [
       {
         "name": "html",
-        "link": "https://www.preguntapi.dev/api/v1/quizzes?category=html"
+        "count_questions": 35,
+        "link": "http://www.preguntapi.dev/api/v2/categories/html"
       },
       {
         "name": "css",
-        "link": "https://www.preguntapi.dev/api/v1/quizzes?category=css"
+        "count_questions": 38,
+        "link": "http://www.preguntapi.dev/api/v2/categories/css"
       },
       {
         "name": "javascript",
-        "link": "https://www.preguntapi.dev/api/v1/quizzes?category=javascript"
-      }
-    ]
+        "count_questions": 40,
+        "link": "http://www.preguntapi.dev/api/v2/categories/javascript"
+      },
+      .
+      .
+      .
+    ],
+    "totalCategories": 13,
+    "totalQuestions": 361
   }
     `
 
   const texto2 = String.raw`
   [
     {
-      "id": "75",
+      "id": "89",
       "category": "javascript",
       "level": "facil",
-      "question": "¿Cómo llamas a una función ya creada llamada 'ejemplo'?",
+      "question": "const person = {name:\"John\", age:31, city:\"New York\"};... ¿cuál es la forma correcta de acceder a los valores?",
       "answers": {
-        "answer_a": "ejemplo()",
-        "answer_b": "function ejemplo()",
-        "answer_c": "execute function ejemplo()"
-      },
-      "correct_answer": "answer_a"
-    },
-    {
-      "id": "83",
-      "category": "javascript",
-      "level": "facil",
-      "question": "¿Cuál es un carácter no válido para iniciar un nombre de variable?",
-      "answers": {
-        "answer_a": "$",
-        "answer_b": "_",
-        "answer_c": "Cualquier número"
+        "answer_a": "person.name",
+        "answer_b": "person[\"name\"]",
+        "answer_c": "Ambas son correctas"
       },
       "correct_answer": "answer_c"
     },
     {
-      "id": "79",
+      "id": "325",
       "category": "javascript",
       "level": "facil",
-      "question": "<p id=\"demo\">My awesome text</p> ... ¿Cuál es la sintaxis JS correcta para cambiar el contenido?",
+      "question": "¿Qué sentencia puede tomar una sola expresión como entrada y luego buscar a través de un número de opciones hasta que se encuentre una que coincida con ese valor?",
       "answers": {
-        "answer_a": "#demo.innerHTML = \"Edited!\"",
-        "answer_b": "document.getElementById(\"demo\").innerHTML = \"Edited!\".",
-        "answer_c": "document.getElementByName(\"p\").innerHTML = \"Edited!\""
+        "answer_a": "else",
+        "answer_b": "when",
+        "answer_c": "switch",
+        "answer_d": "if"
       },
-      "correct_answer": "answer_b"
+      "correct_answer": "answer_c"
     },
     {
-      "id": "71",
+      "id": "358",
       "category": "javascript",
       "level": "facil",
-      "question": "¿Cuáles de estos pares de declaraciones se usan comúnmente para el manejo de errores?",
+      "question": "¿Qué método de la API del navegador se utiliza para hacer una petición HTTP de forma nativa?",
       "answers": {
-        "answer_a": "err/res",
-        "answer_b": "try/catch",
-        "answer_c": "check/return"
+        "answer_a": "fetch(\"https://some-url-here.com\")",
+        "answer_b": "axios.get(\"https://some-url-here.com\")",
+        "answer_c": "makeRequest(\"https://some-url-here.com\")"
       },
-      "correct_answer": "answer_b"
+      "correct_answer": "answer_a"
+    },
+    {
+      "id": "66",
+      "category": "javascript",
+      "level": "facil",
+      "question": "Cómo insertar un comentario que tiene más de una línea?",
+      "answers": {
+        "answer_a": "/*Este comentario tiene más de una línea.*/",
+        "answer_b": "<!--Este comentario tiene más de una línea.-->",
+        "answer_c": "//Este comentario tiene más de una línea.//"
+      },
+      "correct_answer": "answer_a",
+      "feedback": " Los comentarios comienzan con /* y terminan con */ . Cualquier texto entre /* y */ serán ignorados por JavaScript."
     },
     {
       "id": "78",
@@ -80,7 +90,8 @@ function Doc () {
         "answer_b": "<script href=\"main.js\">",
         "answer_c": "<script name=\"main.js\">"
       },
-      "correct_answer": "answer_a"
+      "correct_answer": "answer_a",
+      "feedback": "La etiqueta HTML <script></script> solo puede utilizar el atributo 'src', 'href' es usado en enlaces con etiqueta <a></a>."
     }
   ]
     `
@@ -152,24 +163,23 @@ function Doc () {
             </h2>
             <p>
               La URL base contiene información sobre todas las categorias
-              disponibles.
+              disponibles, el número total de categorias, de preguntas por categoria y de preguntas de la API.
             </p>
             <br />
 
-            <PreCode code='https://www.preguntapi.dev/api/v1/categories' />
+            <PreCode code='https://www.preguntapi.dev/api/v2/categories' />
             <br />
             <PreCode code={texto1} copy={false} />
 
             <br />
             <p>
-              El único recurso disponible es "quizzes", se utiliza para obtener
-              todos los quiz/preguntas. "quizzes" puede recibir los siguientes
-              parámetros: "category", "limit" y "level". <br />
+              Para obtener las preguntas concretas de una categoria, hay que añadir el nombre de la misma en la ruta y esta
+              puede recibir los siguientes parámetros: "limit" y "level". <br />
               <br />
               Level puede recibir los valores: facil, normal o dificil. <br />
               <br />
-              Si solo se especifica "category" la API devolverá todas las
-              preguntas de esa misma categoría. <br />
+              Si no se especifica un limite la API devolverá todas las
+              preguntas de esa misma categoría.<br />
               <br />
               Todas las respuestas devolverán datos en formato json.
             </p>
@@ -177,7 +187,7 @@ function Doc () {
               <b>Ejemplo:</b>
             </p>
 
-            <PreCode code='https://www.preguntapi.dev/api/v1/quizzes?category=javascript&limit=5&level=facil' />
+            <PreCode code='https://www.preguntapi.dev/api/v2/categories/javascript?level=facil&limit=5' />
             <br />
             <PreCode code={texto2} copy={false} />
 
