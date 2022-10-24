@@ -27,7 +27,7 @@ test.describe('Quiz flow', async () => {
   test('should generate the correct link to quiz', async ({ page }) => {
     const category = 'javascript'
     const level = 'normal'
-    const limit = 11
+    const limit = 10
 
     // Goes to the home page and waits for the item that takes the longest to load
     await page.goto('/')
