@@ -124,7 +124,7 @@ export default function StartQuiz () {
               >
                 REPETIR QUIZ
               </button>
-              <Link to='/quiz' className='mt-2 btn btn-block btn-primary text-xl text-white'>
+              <Link to='/' className='mt-2 btn btn-block btn-primary text-xl text-white'>
                 SALIR
               </Link>
             </>

@@ -45,7 +45,6 @@ export default function Home () {
   const handleSelectCategory = (e) => {
     const categorySelected = e.target.getAttribute('data-category')
     setCategory(categorySelected)
-
     setLevel('aleatorio')
     setLimit(10)
   }
