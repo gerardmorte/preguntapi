@@ -27,7 +27,7 @@ export default function Home () {
   }, [])
 
   useEffect(() => {
-    fetch(`/api/v1/quizzes?category=${category}&level=${level}`)
+    fetch(`/api/v2/categories/${category}?level=${level}`)
       .then((res) => res.json())
       .then((data) => {
         setTotalLevelQuestions(data.length)
