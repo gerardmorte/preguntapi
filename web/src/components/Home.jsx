@@ -17,16 +17,12 @@ export default function Home () {
   console.log({ quizURL })
 
   useEffect(() => {
-    fetch('/api/v1/categories')
+    fetch('/api/v2/categories')
       .then((res) => res.json())
-      .then((data) => setCategories(data.categories))
-      .catch((err) => console.log(err.message))
-  }, [])
-
-  useEffect(() => {
-    fetch('/api/v1/quizzes?category=all')
-      .then((res) => res.json())
-      .then((data) => setTotalQuizzes(Object.values(data).flat().length))
+      .then((data) => {
+        setCategories(data.categories)
+        setTotalQuizzes(data.totalQuestions)
+      })
       .catch((err) => console.log(err.message))
   }, [])
 
