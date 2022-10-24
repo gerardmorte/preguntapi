@@ -64,7 +64,7 @@ const getUrl = (req) => {
   const protocol = req.protocol;
   const host = req.hostname;
   const url = req.originalUrl;
-  const port = process.env.PORT || 5000;
+  const port = host === "localhost" ? ":" + (process.env.PORT || 5000) : "";
 
-  return `${protocol}://${host}:${port}${url}/`
+  return `${protocol}://${host}${port}${url}/`
 }
