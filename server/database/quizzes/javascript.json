@@ -279,7 +279,8 @@
       "answer_c": "Math(min(xy))",
       "answer_d": "Math(min(x, y))"
     },
-    "correct_answer": "answer_b"
+    "correct_answer": "answer_b",
+    "feedback": "Ya que min() es un método estático de Math, siempre debe usarse como Math.min(), en lugar de como un método de un objeto Math instanciado (Math no es un constructor)."
   },
   {
     "id": "83",
@@ -291,7 +292,8 @@
       "answer_b": "_",
       "answer_c": "Cualquier número"
     },
-    "correct_answer": "answer_c"
+    "correct_answer": "answer_c",
+    "feedback": "El nombre de la variable no puede empezar por un número o caracter especial, debe empezar por una letra (Aa-Zz), un subrayado (_) o el signo de dolar ($)."
   },
   {
     "id": "84",
@@ -303,7 +305,8 @@
       "answer_b": "let arr = a,b,c",
       "answer_c": "let arr = [a,b,c]"
     },
-    "correct_answer": "answer_c"
+    "correct_answer": "answer_c",
+    "feedback": "Los arrays deben ir entre corchetes [ ]."
   },
   {
     "id": "85",
@@ -315,7 +318,8 @@
       "answer_b": "let obj = a:1, b:2, c:3",
       "answer_c": "let obj = [a:1, b:2, c:3]"
     },
-    "correct_answer": "answer_a"
+    "correct_answer": "answer_a",
+    "feedback": "Los objetos deben ir entre llaves { }."
   },
   {
     "id": "86",
@@ -327,7 +331,8 @@
       "answer_b": "undefined",
       "answer_c": "NaN"
     },
-    "correct_answer": "answer_b"
+    "correct_answer": "answer_b",
+    "feedback": "Una variable declarada sin asignarle un valor inicial tiene el valor 'undefined'."
   },
   {
     "id": "87",
@@ -338,7 +343,8 @@
       "answer_a": "!==",
       "answer_b": "==!"
     },
-    "correct_answer": "answer_a"
+    "correct_answer": "answer_a",
+    "feedback": "Una exclamación seguida por dos iguales es la forma correcta de expresar 'no es igual'."
   },
   {
     "id": "88",
@@ -350,7 +356,8 @@
       "answer_b": "'15'",
       "answer_c": "SyntaxError"
     },
-    "correct_answer": "answer_b"
+    "correct_answer": "answer_a",
+    "feedback": "Al ser de tipo String uno de los operandos se produce una concatenación."
   },
   {
     "id": "89",
@@ -362,7 +369,8 @@
       "answer_b": "person[\"name\"]",
       "answer_c": "Ambas son correctas"
     },
-    "correct_answer": "answer_c"
+    "correct_answer": "answer_c",
+    "feedback": "Se puede utilizar cualquiera de las dos maneras."
   },
   {
     "id": "90",
@@ -373,7 +381,8 @@
       "answer_a": "Verdadero",
       "answer_b": "Falso"
     },
-    "correct_answer": "answer_a"
+    "correct_answer": "answer_a",
+    "feedback": "Aunque lo recomendable es ponerlo al final del body para que JS sea lo último que cargue. Haciendo más eficiente la web."
   },
   {
     "id": "322",
