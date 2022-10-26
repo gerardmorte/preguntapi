@@ -14,8 +14,6 @@ export default function Home () {
 
   const quizURL = `/startQuiz?category=${category}&level=${level}&limit=${limit}`
 
-  console.log({ quizURL })
-
   useEffect(() => {
     fetch('/api/v2/categories')
       .then((res) => res.json())
