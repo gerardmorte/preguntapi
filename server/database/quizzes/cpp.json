@@ -142,19 +142,6 @@
     "correct_answer": "answer_c"
   },
   {
-    "id": "242",
-    "category": "cpp",
-    "level": "dificil",
-    "question": "¿Cuál de estas clases es padre de todas las otras clases?",
-    "answers": {
-      "answer_a": "java.Lang.Object",
-      "answer_b": "java.util.Object",
-      "answer_c": "java.util.Class",
-      "answer_d": "java.lang.Class"
-    },
-    "correct_answer": "answer_a"
-  },
-  {
     "id": "243",
     "category": "cpp",
     "level": "facil",
