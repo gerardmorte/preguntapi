@@ -158,7 +158,7 @@
     "id": "243",
     "category": "cpp",
     "level": "facil",
-    "question": "¿Cuál es el paradigma de programacion de C++?",
+    "question": "¿Cuál es el paradigma de programación de C++?",
     "answers": {
       "answer_a": "Funcional",
       "answer_b": "Logico funcional",
