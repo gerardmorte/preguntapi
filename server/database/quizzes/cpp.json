@@ -106,7 +106,7 @@
     "id": "239",
     "category": "cpp",
     "level": "normal",
-    "question": "¿Cuál de estos ejemplos representa una definicion de variable?",
+    "question": "¿Cuál de estos ejemplos representa una definición de variable?",
     "answers": {
       "answer_a": "int x;",
       "answer_b": "int x = 1;",
