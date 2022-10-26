@@ -80,50 +80,52 @@ export default function Home () {
               <br />
               Dispones de un total de <b>{totalQuizzes}</b> preguntas y <b>{categories.length}</b> lenguajes de programación.
             </p>
-            <ul className='flex gap-2 mb-3 flex-wrap'>
-              {categories.map((c) => (
-                <li key={c.name}>
-                  <button
-                    data-category={c.name}
-                    className={`btn bg-sky-900 gap-2 border-none btn-category ${category === c.name ? 'bg-sky-600' : ''}`}
-                    onClick={handleSelectCategory}
-                  >
-                    {c.name.toUpperCase()}
-                    <div className='badge bg-white text-black hidden'>+99</div>
-                  </button>
-                </li>
-              ))}
-            </ul>
-            <div className='flex gap-2 mb-3 flex-wrap'>
-              <div className='btn bg-white border-2 border-sky-900 gap-2 cursor-default text-black hover:bg-transparent'>
-                <p>Dificultad:</p>
-                <select
-                  className='bg-gray-200 p-1 px-2 rounded'
-                  onChange={handleLevel}
-                  value={level}
-                >
-                  <option value='aleatorio'>ALEATORIO</option>
-                  <option value='facil'>FÁCIL</option>
-                  <option value='normal'>NORMAL</option>
-                  <option value='dificil'>DIFÍCIL</option>
-                </select>
+            <div className='flex flex-row gap-4 mb-3 flex-wrap'>
+              <ul className='flex flex-row gap-2 mb-3 flex-wrap'>
+                {categories.map((c) => (
+                  <li key={c.name}>
+                    <button
+                      data-category={c.name}
+                      className={`btn bg-sky-900 gap-2 border-none btn-category ${category === c.name ? 'bg-sky-600' : ''}`}
+                      onClick={handleSelectCategory}
+                    >
+                      {c.name.toUpperCase()}
+                      <div className='badge bg-white text-black hidden'>+99</div>
+                    </button>
+                  </li>
+                ))}
+              </ul>
+              <div className='flex flex-row gap-4 mb-3 flex-wrap'>
+                <div className='flex gap-2 mb-3 flex-wrap'>
+                  <div className='btn no-animation bg-white border-2 border-sky-900 gap-2 cursor-default text-black hover:bg-transparent'>
+                    <p>Dificultad:</p>
+                    <select
+                      className='bg-gray-200 p-1 px-2 rounded'
+                      onChange={handleLevel}
+                      value={level}
+                    >
+                      <option value='aleatorio'>ALEATORIO</option>
+                      <option value='facil'>FÁCIL</option>
+                      <option value='normal'>NORMAL</option>
+                      <option value='dificil'>DIFÍCIL</option>
+                    </select>
+                  </div>
+                  <div className='btn no-animation bg-white border-2 border-sky-900 gap-2 cursor-default text-black hover:bg-transparent'>
+                    <p>Cantidad de preguntas:</p>
+                    <select
+                      className='bg-gray-200 p-1 px-2 rounded'
+                      onChange={(e) => { setLimit(e.target.value) }}
+                    >
+                      {getOptionsCount().map((option) => (
+                        <option key={option} value={option}>{option}</option>
+                      ))}
+                    </select>
+                  </div>
+                </div>
+                <Link to={quizURL} className='btn btn-lg bg-green-600 border-none'>
+                  ¡Iniciar Quiz!
+                </Link>
               </div>
-              <div className='btn bg-white border-2 border-sky-900 gap-2 cursor-default text-black hover:bg-transparent'>
-                <p>Cantidad de preguntas:</p>
-                <select
-                  className='bg-gray-200 p-1 px-2 rounded'
-                  onChange={(e) => { setLimit(e.target.value) }}
-                >
-                  {getOptionsCount().map((option) => (
-                    <option key={option} value={option}>{option}</option>
-                  ))}
-                </select>
-              </div>
-            </div>
-            <div className='flex gap-2 mb-3'>
-              <Link to={quizURL} className='btn bg-green-600 border-none'>
-                Iniciar Quiz!
-              </Link>
             </div>
           </div>
         </div>
