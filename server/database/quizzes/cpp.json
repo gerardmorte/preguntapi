@@ -119,7 +119,7 @@
     "id": "240",
     "category": "cpp",
     "level": "normal",
-    "question": "¿Cuál de estos ejemplos representa una inicializacion de variable?",
+    "question": "¿Cuál de estos ejemplos inicializa de variable?",
     "answers": {
       "answer_a": "int x = 1;",
       "answer_b": "int x( 1 );",
