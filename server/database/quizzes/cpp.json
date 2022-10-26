@@ -28,7 +28,7 @@
     "id": "233",
     "category": "cpp",
     "level": "facil",
-    "question": "Qué debe de retornar la función principal cuando el programa termina sin ningún problema",
+    "question": "¿Qué debe de retornar la función principal cuando el programa termina sin ningún problema?",
     "answers": {
       "answer_a": "200",
       "answer_b": "success",
