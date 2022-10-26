@@ -3,15 +3,20 @@
 ## API de preguntas de programación 🚀
 
 ## Enlace 🌱
+
 **https://www.preguntapi.dev**
 
 ## Documentación 📋
+
 **Puedes ver la documentación para el uso de la API [aquí](https://www.preguntapi.dev/documentation).**
 
-## Contribuciones
-**Todas las contribuciones son bienvenidas, puedes ver las principales características a mejorar en las [issues](https://github.com/gerardmorte/preguntapi/issues).**
+## Contribuciones 🤝
+
+Todas las contribuciones son bienvenidas. Puedes ver las principales características a mejorar en las [issues](https://github.com/gerardmorte/preguntapi/issues).
+
 - Mejor PR's pequeñas y concretas.
-- Puedes dejar una issue para comentar algún cambio que se te ocurra antes de empezar a implementar-lo, puede que alguien ya esté trabajando en ello, mantengámonos comunicados.
+- Puedes dejar una *issue* para comentar algún cambio que se te ocurra.
+- Antes de empezar a implementar una nueva característica o solucionar algún error, puede que alguien ya esté trabajando en ello. Mantengámonos comunicados.
 
 ## Ejecutar proyecto 🔧
 
