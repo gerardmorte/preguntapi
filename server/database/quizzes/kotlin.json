@@ -294,5 +294,18 @@
       "answer_c": "onClick()"
     },
     "correct_answer": "answer_b"
+  },
+  {
+    "id": "366",
+    "category": "kotlin",
+    "level": "dificil",
+    "question": "¿Cuál es la forma correcta de crear un arraylist en Kotlin?",
+    "answers": {
+      "answer_a": "val map = hashMapOf(1 to 'one', 2 to 'two', 3 to 'three')",
+      "answer_b": "enum class Color {RED, GREEN, BLUE}",
+      "answer_c": "val list = arrayListOf(1, 2, 3)",
+      "answer_d": "val set = hashSetOf(1, 2, 3)"
+    },
+    "correct_answer": "answer_c"
   }
 ]
