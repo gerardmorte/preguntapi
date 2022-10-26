@@ -16,10 +16,10 @@
     "id": "232",
     "category": "cpp",
     "level": "facil",
-    "question": "¿Cuál es la prefijo correcto para invocar al namespace standar de C++?",
+    "question": "¿Cuál es la prefijo correcto para invocar al namespace standard de C++?",
     "answers": {
       "answer_a": "std::",
-      "answer_b": "standar::",
+      "answer_b": "standard::",
       "answer_d": "stdio::"
     },
     "correct_answer": "answer_a"
