@@ -200,8 +200,8 @@
     "question": "¿Para qué se usan las macros?",
     "answers": {
       "answer_a": "Trabajar constantes durante la ejecución",
-      "answer_b": "Trabajar constantes durante la compilacion",
-      "answer_c": "Comentar el codigo",
+      "answer_b": "Trabajar constantes durante la compilación",
+      "answer_c": "Comentar el código",
       "answer_d": "Trabajar con el linker"
     },
     "correct_answer": "answer_b"
@@ -214,7 +214,7 @@
     "answers": {
       "answer_a": "El kernel de Linux",
       "answer_b": "Minecraft",
-      "answer_c": "La mayoria de proyectos de Videojuegos",
+      "answer_c": "La mayoría de proyectos de Videojuegos",
       "answer_d": "Todos los anteriores"
     },
     "correct_answer": "answer_c"
@@ -223,7 +223,7 @@
     "id": "248",
     "category": "cpp",
     "level": "normal",
-    "question": "¿Cuál de estos métodos puedo saber el valo del tamaño de un tipo de dato?",
+    "question": "¿Cuál de estos métodos puedo saber el valor del tamaño de un tipo de dato?",
     "answers": {
       "answer_a": "SifeOf()",
       "answer_b": "size_of()",
@@ -249,10 +249,10 @@
     "id": "250",
     "category": "cpp",
     "level": "normal",
-    "question": "¿Cuál es la diferencia entre un signed integer y un unsigner integer?",
+    "question": "¿Cuál es la diferencia entre un signed integer y un unsigned integer?",
     "answers": {
       "answer_a": "El rango de bits que pueden tener las variables en memoria",
-      "answer_b": "Los valores unsigner no pueden ser negativos",
+      "answer_b": "Los valores unsigned no pueden ser negativos",
       "answer_c": "Las dos anteriores",
       "answer_d": "No tiene diferencia alguna"
     },
@@ -267,7 +267,7 @@
       "answer_a": "No",
       "answer_b": "Sí, solo en algunos compiladores",
       "answer_c": "Sí",
-      "answer_d": "No, en todas los estandares"
+      "answer_d": "No, en todos los estándares"
     },
     "correct_answer": "answer_c"
   },
@@ -277,10 +277,10 @@
     "level": "normal",
     "question": "¿Qué es un puntero?",
     "answers": {
-      "answer_a": "Un tipo de dato que puede apuntar a una direccion en memoria",
-      "answer_b": "Un objecto",
+      "answer_a": "Un tipo de dato que puede apuntar a una dirección en memoria",
+      "answer_b": "Un objeto",
       "answer_c": "Una estructura de dato",
-      "answer_d": "Una funcion"
+      "answer_d": "Una función"
     },
     "correct_answer": "answer_a"
   },
@@ -290,9 +290,9 @@
     "level": "normal",
     "question": "¿Qué es un desborde de datos?",
     "answers": {
-      "answer_a": "No existe ese termino",
-      "answer_b": "Los datos se convierten en 0 en caso de que el maximo tamaño de tipo de dato sea alcanzado",
-      "answer_c": "Los datos se convierten en el primer valor de bit en caso de que el maximo tamaño de tipo de dato se alcanzado.",
+      "answer_a": "No existe ese término",
+      "answer_b": "Los datos se convierten en 0 en caso de que el máximo tamaño de tipo de dato sea alcanzado",
+      "answer_c": "Los datos se convierten en el primer valor de bit en caso de que el máximo tamaño de tipo de dato se alcanzado",
       "answer_d": "Ninguna de las anteriores"
     },
     "correct_answer": "answer_c"
@@ -301,7 +301,7 @@
     "id": "254",
     "category": "cpp",
     "level": "normal",
-    "question": "¿Qué suit de pruebas unitarias estan disponibles en C++?",
+    "question": "¿Qué suite de pruebas unitarias están disponibles en C++?",
     "answers": {
       "answer_a": "Google test",
       "answer_b": "Jest",
@@ -327,7 +327,7 @@
     "id": "256",
     "category": "cpp",
     "level": "normal",
-    "question": "Con el manejo de memoria de C++ ¿Es posible probocar un error en todo el equipo donde se esta programando?",
+    "question": "Con el manejo de memoria de C++ ¿Es posible provocar un error en todo el equipo donde se esta programando?",
     "answers": {
       "answer_a": "No",
       "answer_b": "Sí si es que usas un equipo Windows",
@@ -339,10 +339,10 @@
     "id": "257",
     "category": "cpp",
     "level": "normal",
-    "question": "¿Un software construido en C++ en equipo Linux puede ser corrido en Windows?",
+    "question": "¿Un software construido en C++ en equipo Linux puede ser ejecutado en Windows?",
     "answers": {
       "answer_a": "No. las arquitecturas son diferentes",
-      "answer_b": "Sí. con una correcta configuracion ",
+      "answer_b": "Sí. con una correcta configuración",
       "answer_c": "Solo con un transpilador"
     },
     "correct_answer": "answer_b"
@@ -353,7 +353,7 @@
     "level": "normal",
     "question": "¿Cuál es la ventaja de C++ contra Java, Kotlin, Javascript, Python?",
     "answers": {
-      "answer_a": "El manejo de apuntadores",
+      "answer_a": "El manejo de punteros",
       "answer_b": "El nivel que puedes manipular el hardware",
       "answer_c": "El manejo de memoria",
       "answer_d": "Todas las anteriores"
@@ -376,11 +376,11 @@
     "id": "260",
     "category": "cpp",
     "level": "normal",
-    "question": "¿Cuál es sistema de versionado en el lenguages C++",
+    "question": "¿Cuál es sistema de versionado en el lenguaje C++",
     "answers": {
       "answer_a": "versionado tradicional",
-      "answer_b": "estandar ISO",
-      "answer_c": "estandar propio",
+      "answer_b": "estándar ISO",
+      "answer_c": "estándar propio",
       "answer_d": "Es rolling release"
     },
     "correct_answer": "answer_b"
