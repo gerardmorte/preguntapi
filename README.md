@@ -24,8 +24,5 @@ Todas las contribuciones son bienvenidas. Puedes ver las principales caracterís
 
 **Desde una terminal seguir los siguientes pasos:**
 
-> `npm install` 
-
-> `npm run build` 
-
+> `npm install`
 > `npm run dev`
