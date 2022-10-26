@@ -171,12 +171,12 @@
     "id": "244",
     "category": "cpp",
     "level": "facil",
-    "question": "¿Podemos usar librerias de C en C++?",
+    "question": "¿Podemos usar librerías de C en C++?",
     "answers": {
       "answer_a": "No",
       "answer_b": "Sí",
-      "answer_c": "Sí, solo las standar",
-      "answer_d": "No, no se puede usar librerias de lenguages diferentes"
+      "answer_c": "Sí, solo las standard",
+      "answer_d": "No, no se puede usar librerías de lenguajes diferentes"
     },
     "correct_answer": "answer_b"
   },
