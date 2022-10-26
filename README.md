@@ -15,12 +15,12 @@
 
 ## Ejecutar proyecto 🔧
 
-**Mínimo tener instalado Node.js versión 16.17**
+**Como mínimo, debes tener instalado Node.js versión `16.17` y NPM versión `7`.**
 
 **Desde una terminal seguir los siguientes pasos:**
 
-> npm install 
+> `npm install` 
 
-> npm run build 
+> `npm run build` 
 
-> npm run dev
+> `npm run dev`
