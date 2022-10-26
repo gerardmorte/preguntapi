@@ -27,7 +27,7 @@
     "id": "173",
     "category": "kotlin",
     "level": "facil",
-    "question": "En Kotlin, println y la función pint hacen lo mismo.",
+    "question": "En Kotlin, println y la función print hacen lo mismo.",
     "answers": {
       "answer_a": "Verdadero",
       "answer_b": "Falso"
@@ -198,7 +198,7 @@
   {
     "id": "187",
     "category": "kotlin",
-    "level": "facil",
+    "level": "normal",
     "question": "¿Cuál de las siguientes no es una palabra clave reservada en Kotlin?",
     "answers": {
       "answer_a": "super",
@@ -243,6 +243,55 @@
       "answer_b": ":",
       "answer_c": "\"\"",
       "answer_d": "()"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "362",
+    "category": "kotlin",
+    "level": "normal",
+    "question": "Puede mostrar u ocultar una vista en su aplicación configurando su visibilidad. ¿Cuáles de los siguientes son valores de visibilidad válidos?",
+    "answers": {
+      "answer_a": "Visible",
+      "answer_b": "Clear",
+      "answer_c": "None"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "363",
+    "category": "kotlin",
+    "level": "normal",
+    "question": "¿Qué parámetro especifica el nivel de la API de Android que debe usar Gradle para compilar su aplicación?",
+    "answers": {
+      "answer_a": "minSdkVersion",
+      "answer_b": "compileSdkVersion",
+      "answer_c": "targetSdkVersion",
+      "answer_d": "testSdkVersion"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "364",
+    "category": "kotlin",
+    "level": "normal",
+    "question": "_______ es una forma de restringir el acceso directo a algunos de los campos de un objeto.",
+    "answers": {
+      "answer_a": "LiveData",
+      "answer_b": "Encapsulation",
+      "answer_c": "Target"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "365",
+    "category": "kotlin",
+    "level": "normal",
+    "question": "¿Cuáles de los siguientes es un método de los ciclos de vida de activity y fragment?",
+    "answers": {
+      "answer_a": "onDraw()",
+      "answer_b": "onCreate()",
+      "answer_c": "onClick()"
     },
     "correct_answer": "answer_b"
   }
