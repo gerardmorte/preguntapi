@@ -16,10 +16,10 @@
     "id": "232",
     "category": "cpp",
     "level": "facil",
-    "question": "¿Cuál es la prefijo correcto para invocar al namespace standar de C++?",
+    "question": "¿Cuál es la prefijo correcto para invocar al namespace standard de C++?",
     "answers": {
       "answer_a": "std::",
-      "answer_b": "standar::",
+      "answer_b": "standard::",
       "answer_d": "stdio::"
     },
     "correct_answer": "answer_a"
@@ -28,7 +28,7 @@
     "id": "233",
     "category": "cpp",
     "level": "facil",
-    "question": "Qué debe de retornar la función principal cuando el programa termina sin ningún problema",
+    "question": "¿Qué debe de retornar la función principal cuando el programa termina sin ningún problema?",
     "answers": {
       "answer_a": "200",
       "answer_b": "success",
@@ -54,7 +54,7 @@
     "id": "235",
     "category": "cpp",
     "level": "facil",
-    "question": "¿Qué tipo de dato es util para representar el numero 3.1416?",
+    "question": "¿Qué tipo de dato es útil para representar el número 3.1416?",
     "answers": {
       "answer_a": "float",
       "answer_b": "double",
@@ -93,7 +93,7 @@
     "id": "238",
     "category": "cpp",
     "level": "normal",
-    "question": "¿Cuál de estos ejemplos representa una asignacion de valor?",
+    "question": "¿Cuál de estos ejemplos representa una asignación de valor?",
     "answers": {
       "answer_a": "int x = 1;",
       "answer_b": "x = 1;",
@@ -106,7 +106,7 @@
     "id": "239",
     "category": "cpp",
     "level": "normal",
-    "question": "¿Cuál de estos ejemplos representa una definicion de variable?",
+    "question": "¿Cuál de estos ejemplos representa una definición de variable?",
     "answers": {
       "answer_a": "int x;",
       "answer_b": "int x = 1;",
@@ -119,7 +119,7 @@
     "id": "240",
     "category": "cpp",
     "level": "normal",
-    "question": "¿Cuál de estos ejemplos representa una inicializacion de variable?",
+    "question": "¿Cuál de estos ejemplos inicializa de variable?",
     "answers": {
       "answer_a": "int x = 1;",
       "answer_b": "int x( 1 );",
@@ -134,31 +134,18 @@
     "level": "dificil",
     "question": "¿Cuál es la manera moderna y recomendada de inicializar una variable?",
     "answers": {
-      "answer_a": "inicializacion por copia int x = 1;",
-      "answer_b": "inicializacion directa int x ( 1 ) ",
-      "answer_c": "inicializacion en llaves int x { 1 }",
+      "answer_a": "Inicialización por copia int x = 1;",
+      "answer_b": "Inicialización directa int x ( 1 ) ",
+      "answer_c": "Inicialización en llaves int x { 1 }",
       "answer_d": "Todas las anteriores son correctas"
     },
     "correct_answer": "answer_c"
   },
   {
-    "id": "242",
-    "category": "cpp",
-    "level": "dificil",
-    "question": "¿Cuál de estas clases es padre de todas las otras clases?",
-    "answers": {
-      "answer_a": "java.Lang.Object",
-      "answer_b": "java.util.Object",
-      "answer_c": "java.util.Class",
-      "answer_d": "java.lang.Class"
-    },
-    "correct_answer": "answer_a"
-  },
-  {
     "id": "243",
     "category": "cpp",
     "level": "facil",
-    "question": "¿Cuál es el paradigma de programacion de C++?",
+    "question": "¿Cuál es el paradigma de programación de C++?",
     "answers": {
       "answer_a": "Funcional",
       "answer_b": "Logico funcional",
@@ -171,12 +158,12 @@
     "id": "244",
     "category": "cpp",
     "level": "facil",
-    "question": "¿Podemos usar librerias de C en C++?",
+    "question": "¿Podemos usar librerías de C en C++?",
     "answers": {
       "answer_a": "No",
       "answer_b": "Sí",
-      "answer_c": "Sí, solo las standar",
-      "answer_d": "No, no se puede usar librerias de lenguages diferentes"
+      "answer_c": "Sí, solo las standard",
+      "answer_d": "No, no se puede usar librerías de lenguajes diferentes"
     },
     "correct_answer": "answer_b"
   },
@@ -184,12 +171,12 @@
     "id": "245",
     "category": "cpp",
     "level": "facil",
-    "question": "¿Cuál es un ejemplo de macro en C++",
+    "question": "¿Cuál es un ejemplo de macro en C++?",
     "answers": {
       "answer_a": "#define MY_LIB",
       "answer_b": "const pi { 3.1416 }",
       "answer_c": "#if GTEST ... #endif",
-      "answer_d": "Opcion a y c"
+      "answer_d": "Opción a y c"
     },
     "correct_answer": "answer_d"
   },
@@ -200,8 +187,8 @@
     "question": "¿Para qué se usan las macros?",
     "answers": {
       "answer_a": "Trabajar constantes durante la ejecución",
-      "answer_b": "Trabajar constantes durante la compilacion",
-      "answer_c": "Comentar el codigo",
+      "answer_b": "Trabajar constantes durante la compilación",
+      "answer_c": "Comentar el código",
       "answer_d": "Trabajar con el linker"
     },
     "correct_answer": "answer_b"
@@ -214,7 +201,7 @@
     "answers": {
       "answer_a": "El kernel de Linux",
       "answer_b": "Minecraft",
-      "answer_c": "La mayoria de proyectos de Videojuegos",
+      "answer_c": "La mayoría de proyectos de Videojuegos",
       "answer_d": "Todos los anteriores"
     },
     "correct_answer": "answer_c"
@@ -223,7 +210,7 @@
     "id": "248",
     "category": "cpp",
     "level": "normal",
-    "question": "¿Cuál de estos métodos puedo saber el valo del tamaño de un tipo de dato?",
+    "question": "¿Cuál de estos métodos puedo saber el valor del tamaño de un tipo de dato?",
     "answers": {
       "answer_a": "SifeOf()",
       "answer_b": "size_of()",
@@ -249,10 +236,10 @@
     "id": "250",
     "category": "cpp",
     "level": "normal",
-    "question": "¿Cuál es la diferencia entre un signed integer y un unsigner integer?",
+    "question": "¿Cuál es la diferencia entre un signed integer y un unsigned integer?",
     "answers": {
       "answer_a": "El rango de bits que pueden tener las variables en memoria",
-      "answer_b": "Los valores unsigner no pueden ser negativos",
+      "answer_b": "Los valores unsigned no pueden ser negativos",
       "answer_c": "Las dos anteriores",
       "answer_d": "No tiene diferencia alguna"
     },
@@ -267,7 +254,7 @@
       "answer_a": "No",
       "answer_b": "Sí, solo en algunos compiladores",
       "answer_c": "Sí",
-      "answer_d": "No, en todas los estandares"
+      "answer_d": "No, en todos los estándares"
     },
     "correct_answer": "answer_c"
   },
@@ -277,10 +264,10 @@
     "level": "normal",
     "question": "¿Qué es un puntero?",
     "answers": {
-      "answer_a": "Un tipo de dato que puede apuntar a una direccion en memoria",
-      "answer_b": "Un objecto",
+      "answer_a": "Un tipo de dato que puede apuntar a una dirección en memoria",
+      "answer_b": "Un objeto",
       "answer_c": "Una estructura de dato",
-      "answer_d": "Una funcion"
+      "answer_d": "Una función"
     },
     "correct_answer": "answer_a"
   },
@@ -290,9 +277,9 @@
     "level": "normal",
     "question": "¿Qué es un desborde de datos?",
     "answers": {
-      "answer_a": "No existe ese termino",
-      "answer_b": "Los datos se convierten en 0 en caso de que el maximo tamaño de tipo de dato sea alcanzado",
-      "answer_c": "Los datos se convierten en el primer valor de bit en caso de que el maximo tamaño de tipo de dato se alcanzado.",
+      "answer_a": "No existe ese término",
+      "answer_b": "Los datos se convierten en 0 en caso de que el máximo tamaño de tipo de dato sea alcanzado",
+      "answer_c": "Los datos se convierten en el primer valor de bit en caso de que el máximo tamaño de tipo de dato se alcanzado",
       "answer_d": "Ninguna de las anteriores"
     },
     "correct_answer": "answer_c"
@@ -301,7 +288,7 @@
     "id": "254",
     "category": "cpp",
     "level": "normal",
-    "question": "¿Qué suit de pruebas unitarias estan disponibles en C++?",
+    "question": "¿Qué suite de pruebas unitarias están disponibles en C++?",
     "answers": {
       "answer_a": "Google test",
       "answer_b": "Jest",
@@ -327,11 +314,11 @@
     "id": "256",
     "category": "cpp",
     "level": "normal",
-    "question": "Con el manejo de memoria de C++ ¿Es posible probocar un error en todo el equipo donde se esta programando?",
+    "question": "Con el manejo de memoria de C++ ¿Es posible provocar un error en todo el equipo donde se esta programando?",
     "answers": {
       "answer_a": "No",
-      "answer_b": "Sí si es que usas un equipo Windows",
-      "answer_c": "Sí en todos los equipos"
+      "answer_b": "Sí, si es que usas un equipo Windows",
+      "answer_c": "Sí, en todos los equipos"
     },
     "correct_answer": "answer_b"
   },
@@ -339,10 +326,10 @@
     "id": "257",
     "category": "cpp",
     "level": "normal",
-    "question": "¿Un software construido en C++ en equipo Linux puede ser corrido en Windows?",
+    "question": "¿Un software construido en C++ en equipo Linux puede ser ejecutado en Windows?",
     "answers": {
-      "answer_a": "No. las arquitecturas son diferentes",
-      "answer_b": "Sí. con una correcta configuracion ",
+      "answer_a": "No, las arquitecturas son diferentes",
+      "answer_b": "Sí, con una correcta configuración",
       "answer_c": "Solo con un transpilador"
     },
     "correct_answer": "answer_b"
@@ -353,7 +340,7 @@
     "level": "normal",
     "question": "¿Cuál es la ventaja de C++ contra Java, Kotlin, Javascript, Python?",
     "answers": {
-      "answer_a": "El manejo de apuntadores",
+      "answer_a": "El manejo de punteros",
       "answer_b": "El nivel que puedes manipular el hardware",
       "answer_c": "El manejo de memoria",
       "answer_d": "Todas las anteriores"
@@ -376,11 +363,11 @@
     "id": "260",
     "category": "cpp",
     "level": "normal",
-    "question": "¿Cuál es sistema de versionado en el lenguages C++",
+    "question": "¿Cuál es sistema de versionado en el lenguaje C++",
     "answers": {
-      "answer_a": "versionado tradicional",
-      "answer_b": "estandar ISO",
-      "answer_c": "estandar propio",
+      "answer_a": "Versionado tradicional",
+      "answer_b": "Estándar ISO",
+      "answer_c": "Estándar propio",
       "answer_d": "Es rolling release"
     },
     "correct_answer": "answer_b"
