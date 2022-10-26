@@ -1,12 +1,12 @@
 const { Router } = require('express')
 const router = Router()
-const data = require('../../utils/languages')
+const data = require("../../utils/languages")
 
 router.get('/:category?', (req, res) => {
   const category = req.params.category
 
   if (!category) {
-    const link = getUrl(req)
+    const link = getUrl(req);
     let countQuestions = 0
     const categories = Object.entries(data).map(([language, _data]) => {
       countQuestions += _data.length
@@ -28,10 +28,10 @@ module.exports = router
 
 /**
  * Response quizzes API path
- *
+ * 
  * @param category Category filter
  * @param {limit, level} - Query string from URL
- * @returns
+ * @returns 
  */
 const quizzes = (category, { limit, level }) => {
   let quizzes = data[category]
@@ -61,10 +61,10 @@ const quizzes = (category, { limit, level }) => {
 }
 
 const getUrl = (req) => {
-  const protocol = req.protocol
-  const host = req.hostname
-  const url = req.originalUrl
-  const port = host === 'localhost' ? ':' + (process.env.PORT || 5000) : ''
+  const protocol = req.protocol;
+  const host = req.hostname;
+  const url = req.originalUrl;
+  const port = host === "localhost" ? ":" + (process.env.PORT || 5000) : "";
 
   return `${protocol}://${host}${port}${url}/`
 }

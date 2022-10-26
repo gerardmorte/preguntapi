@@ -12,24 +12,24 @@ const resolvers = {
       if (!category) {
         return { message: 'Debe de ingresar una categoria' }
       }
-
+    
       let filteredQuizzes = quizzes[category]
-
+    
       if (level) {
         const filteredQuizzesLevel = filteredQuizzes
           .filter((quiz) => level === 'aleatorio' || quiz.level === level)
-
+    
         if (filteredQuizzesLevel.length <= 0) {
           return { message: 'Por favor ingrese un nivel valido' }
         }
-
+    
         filteredQuizzes = filteredQuizzesLevel.sort(() => Math.random() - 0.5)
       }
-
+    
       if (limit && !isNaN(limit)) {
         filteredQuizzes = filteredQuizzes.slice(0, limit)
       }
-
+    
       return filteredQuizzes
     }
   }
