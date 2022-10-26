@@ -5,10 +5,10 @@ const Link = ({ to, external, children, className }) => {
 
   return (
     <LinkTag
-      rel={external && 'noopener noreferrer'}
-      target={external && '_blank'}
+      rel={external ? 'noopener noreferrer' : undefined}
+      target={external ? '_blank' : undefined}
       className={className}
-      to={!external && to}
+      to={!external ? to : undefined}
       href={to}
     >
       {children}
