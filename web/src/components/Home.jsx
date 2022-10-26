@@ -73,12 +73,12 @@ export default function Home () {
         <div className='w-11/12 sm:w-3/6'>
           <div className='flex flex-col'>
             <h1 className='text-4xl sm:text-5xl font-bold'>
-              Preguntas de programación!
+              ¡Preguntas de programación!
             </h1>
             <p className='py-6'>
               Integra nuestra API en tus proyectos o pon a prueba tus conocimientos.
               <br />
-              Actualmente <b>{totalQuizzes}</b> preguntas sobre <b>{categories.length}</b> lenguajes de programación.
+              Dispones de un total de <b>{totalQuizzes}</b> preguntas y <b>{categories.length}</b> lenguajes de programación.
             </p>
             <ul className='flex gap-2 mb-3 flex-wrap'>
               {categories.map((c) => (
