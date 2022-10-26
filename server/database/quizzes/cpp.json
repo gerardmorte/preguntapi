@@ -134,9 +134,9 @@
     "level": "dificil",
     "question": "¿Cuál es la manera moderna y recomendada de inicializar una variable?",
     "answers": {
-      "answer_a": "inicializacion por copia int x = 1;",
-      "answer_b": "inicializacion directa int x ( 1 ) ",
-      "answer_c": "inicializacion en llaves int x { 1 }",
+      "answer_a": "Inicialización por copia int x = 1;",
+      "answer_b": "Inicialización directa int x ( 1 ) ",
+      "answer_c": "Inicialización en llaves int x { 1 }",
       "answer_d": "Todas las anteriores son correctas"
     },
     "correct_answer": "answer_c"
@@ -330,8 +330,8 @@
     "question": "Con el manejo de memoria de C++ ¿Es posible provocar un error en todo el equipo donde se esta programando?",
     "answers": {
       "answer_a": "No",
-      "answer_b": "Sí si es que usas un equipo Windows",
-      "answer_c": "Sí en todos los equipos"
+      "answer_b": "Sí, si es que usas un equipo Windows",
+      "answer_c": "Sí, en todos los equipos"
     },
     "correct_answer": "answer_b"
   },
@@ -341,8 +341,8 @@
     "level": "normal",
     "question": "¿Un software construido en C++ en equipo Linux puede ser ejecutado en Windows?",
     "answers": {
-      "answer_a": "No. las arquitecturas son diferentes",
-      "answer_b": "Sí. con una correcta configuración",
+      "answer_a": "No, las arquitecturas son diferentes",
+      "answer_b": "Sí, con una correcta configuración",
       "answer_c": "Solo con un transpilador"
     },
     "correct_answer": "answer_b"
@@ -378,9 +378,9 @@
     "level": "normal",
     "question": "¿Cuál es sistema de versionado en el lenguaje C++",
     "answers": {
-      "answer_a": "versionado tradicional",
-      "answer_b": "estándar ISO",
-      "answer_c": "estándar propio",
+      "answer_a": "Versionado tradicional",
+      "answer_b": "Estándar ISO",
+      "answer_c": "Estándar propio",
       "answer_d": "Es rolling release"
     },
     "correct_answer": "answer_b"
