@@ -22,7 +22,7 @@ const Navigation = () => {
                       to='/'
                       className='hover:bg-white hover:text-black text-white no-underline'
                     >
-                      Empieza un Quiz!
+                      ¡Empieza un Quiz!
                     </Link>
                   </li>
                   <li>
@@ -49,7 +49,7 @@ const Navigation = () => {
                     to='/'
                     className='hover:bg-white hover:text-black text-white no-underline'
                   >
-                    Empieza un Quiz!
+                    ¡Empieza un Quiz!
                   </Link>
                 </li>
                 <li>
