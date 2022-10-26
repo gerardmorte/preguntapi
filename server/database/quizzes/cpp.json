@@ -93,7 +93,7 @@
     "id": "238",
     "category": "cpp",
     "level": "normal",
-    "question": "¿Cuál de estos ejemplos representa una asignacion de valor?",
+    "question": "¿Cuál de estos ejemplos representa una asignación de valor?",
     "answers": {
       "answer_a": "int x = 1;",
       "answer_b": "x = 1;",
