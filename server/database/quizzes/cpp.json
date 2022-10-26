@@ -184,12 +184,12 @@
     "id": "245",
     "category": "cpp",
     "level": "facil",
-    "question": "¿Cuál es un ejemplo de macro en C++",
+    "question": "¿Cuál es un ejemplo de macro en C++?",
     "answers": {
       "answer_a": "#define MY_LIB",
       "answer_b": "const pi { 3.1416 }",
       "answer_c": "#if GTEST ... #endif",
-      "answer_d": "Opcion a y c"
+      "answer_d": "Opción a y c"
     },
     "correct_answer": "answer_d"
   },
