@@ -54,7 +54,7 @@
     "id": "235",
     "category": "cpp",
     "level": "facil",
-    "question": "¿Qué tipo de dato es util para representar el numero 3.1416?",
+    "question": "¿Qué tipo de dato es útil para representar el número 3.1416?",
     "answers": {
       "answer_a": "float",
       "answer_b": "double",
