@@ -238,7 +238,7 @@
     "id": "230",
     "category": "cobol",
     "level": "dificil",
-    "question": "¿Cuál es el valor editado de la siguiente sentencia... PICTURE Value Internal Representation $$$$$ 009",
+    "question": "¿Cuál es el valor editado de la siguiente sentencia... PICTURE Value Internal Representation $$$$$ 009?",
     "answers": {
       "answer_a": "Bbb$9",
       "answer_b": "$9",

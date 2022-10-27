@@ -3,7 +3,7 @@
     "id": "191",
     "category": "typescript",
     "level": "normal",
-    "question": "Las declaraciones ambientales permiten usar de forma segura las bibliotecas JS populares existentes",
+    "question": "Las declaraciones ambientales permiten usar de forma segura las bibliotecas JavaScript populares existentes.",
     "answers": {
       "answer_a": "Verdadero",
       "answer_b": "Falso"
@@ -14,7 +14,7 @@
     "id": "192",
     "category": "typescript",
     "level": "normal",
-    "question": "¿Cuál de estas no es un tipo incorporado en Typescript?",
+    "question": "¿Cuál de estas no es un tipo incorporado en TypeScript?",
     "answers": {
       "answer_a": "Integer",
       "answer_b": "String",
@@ -26,7 +26,7 @@
     "id": "193",
     "category": "typescript",
     "level": "normal",
-    "question": "¿Qué categoría describe mejor Typescript?",
+    "question": "¿Qué categoría describe mejor TypeScript?",
     "answers": {
       "answer_a": "Framework",
       "answer_b": "Library",
@@ -38,7 +38,7 @@
     "id": "194",
     "category": "typescript",
     "level": "facil",
-    "question": "Los programas Javascript existentes también son programas Typescript válidos",
+    "question": "Los programas JavaScript existentes también son programas TypeScript válidos.",
     "answers": {
       "answer_a": "Verdadero",
       "answer_b": "Falso"
@@ -49,7 +49,7 @@
     "id": "195",
     "category": "typescript",
     "level": "normal",
-    "question": "Qué comando se usa para compilar un archivo TS a JS",
+    "question": "¿Qué comando se usa para compilar un archivo TypeScript a JavaScript?",
     "answers": {
       "answer_a": "tsc file.js",
       "answer_b": "typescript file.ts",
@@ -61,7 +61,7 @@
     "id": "196",
     "category": "typescript",
     "level": "facil",
-    "question": "Qué archivo de configuración se requiere para compilar todo el proyecto Typescript",
+    "question": "¿Qué archivo de configuración se requiere para compilar todo el proyecto TypeScript?",
     "answers": {
       "answer_a": "app.js",
       "answer_b": "tsconfig.js",
@@ -85,7 +85,7 @@
     "id": "198",
     "category": "typescript",
     "level": "facil",
-    "question": "Qué empresa desarrolla y mantiene Typescript",
+    "question": "¿Qué empresa desarrolla y mantiene TypeScript?",
     "answers": {
       "answer_a": "Google",
       "answer_b": "Microsoft",
@@ -97,10 +97,10 @@
     "id": "199",
     "category": "typescript",
     "level": "normal",
-    "question": "¿Cuál de las siguientes respuestas no es cierta sobre TS?",
+    "question": "¿Cuál de las siguientes respuestas no es cierta sobre TypeScript?",
     "answers": {
       "answer_a": "Fuertemente tipado",
-      "answer_b": "Debilmente tipado"
+      "answer_b": "Débilmente tipado"
     },
     "correct_answer": "answer_b"
   },
@@ -119,7 +119,7 @@
     "id": "201",
     "category": "typescript",
     "level": "normal",
-    "question": "Qué palabra clave se utiliza para definir una interfaz",
+    "question": "¿Qué palabra clave se utiliza para definir una interfaz?",
     "answers": {
       "answer_a": "set",
       "answer_b": "define",
@@ -131,7 +131,7 @@
     "id": "202",
     "category": "typescript",
     "level": "facil",
-    "question": "Un \"namespace\" es una forma de agrupar lógicamente el código relacionado",
+    "question": "Un \"namespace\" es una forma de agrupar lógicamente el código relacionado.",
     "answers": {
       "answer_a": "Verdadero",
       "answer_b": "Falso"
@@ -142,7 +142,7 @@
     "id": "203",
     "category": "typescript",
     "level": "facil",
-    "question": "TS se originó a partir de las deficiencias de JS para el desarrollo de aplicaciones a gran escala",
+    "question": "TypeScript se originó a partir de las deficiencias de JavaScript para el desarrollo de aplicaciones a gran escala.",
     "answers": {
       "answer_a": "Verdadero",
       "answer_b": "Falso"
@@ -153,7 +153,7 @@
     "id": "204",
     "category": "typescript",
     "level": "dificil",
-    "question": "¿Qué \"flaf\" se utiliza para observar los cambios en los archivos y volver a compilarlos sobre la marcha?",
+    "question": "¿Qué \"flag\" se utiliza para observar los cambios en los archivos y volver a compilarlos sobre la marcha?",
     "answers": {
       "answer_a": "--compile",
       "answer_b": "-re-comp",
@@ -165,7 +165,7 @@
     "id": "205",
     "category": "typescript",
     "level": "facil",
-    "question": "Los puntos y comas son obligatorios en Typescript",
+    "question": "Los puntos y comas son obligatorios en TypeScript.",
     "answers": {
       "answer_a": "Verdadero",
       "answer_b": "Falso"
@@ -176,7 +176,7 @@
     "id": "206",
     "category": "typescript",
     "level": "normal",
-    "question": "¿Cuál de estas es una forma válida de establecer un tipo para la variable",
+    "question": "¿Cuál de estas opciones es una forma válida de establecer un tipo para la variable?",
     "answers": {
       "answer_a": "let name:string = 'Jhon'",
       "answer_b": "let name type:string = 'Jhon'",
@@ -188,7 +188,7 @@
     "id": "207",
     "category": "typescript",
     "level": "facil",
-    "question": "Typescript admite conceptos como clases, interfaces y herencia",
+    "question": "TypeScript admite conceptos como clases, interfaces y herencia.",
     "answers": {
       "answer_a": "Verdadero",
       "answer_b": "Falso"
@@ -223,7 +223,7 @@
     "id": "210",
     "category": "typescript",
     "level": "facil",
-    "question": "Typescript no ignora los espacios, tabulaciones y saltos de línea que aparecen en los programas.",
+    "question": "TypeScript no ignora los espacios, tabulaciones y saltos de línea que aparecen en los programas.",
     "answers": {
       "answer_a": "Verdadero",
       "answer_b": "Falso"

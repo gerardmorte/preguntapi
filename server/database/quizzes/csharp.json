@@ -16,7 +16,7 @@
     "id": "283",
     "category": "csharp",
     "level": "facil",
-    "question": "C# es un alias de C++",
+    "question": "C# es un alias de C++.",
     "answers": {
       "answer_a": "Falso",
       "answer_b": "Verdadero"
@@ -103,7 +103,7 @@
     "id": "290",
     "category": "csharp",
     "level": "facil",
-    "question": "El valor de una variable de cadena puede estar encerrado entre comillas simples",
+    "question": "El valor de una variable de cadena puede estar encerrado entre comillas simples.",
     "answers": {
       "answer_a": "Verdadero",
       "answer_b": "Falso"
@@ -114,7 +114,7 @@
     "id": "291",
     "category": "csharp",
     "level": "normal",
-    "question": "El casting de tipos es cuando se asigna un valor de un tipo de datos a otro tipo",
+    "question": "El casting de tipos es cuando se asigna un valor de un tipo de datos a otro tipo.",
     "answers": {
       "answer_a": "Verdadero",
       "answer_b": "Falso"
@@ -216,7 +216,7 @@
     "id": "299",
     "category": "csharp",
     "level": "normal",
-    "question": "En C#, es posible heredar campos y métodos de una clase a otra",
+    "question": "En C#, es posible heredar campos y métodos de una clase a otra.",
     "answers": {
       "answer_a": "Verdadero",
       "answer_b": "Falso"

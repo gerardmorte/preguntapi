@@ -31,9 +31,9 @@
     "level": "dificil",
     "question": "¿Qué define el atributo \"action\" en el elemento <form>?",
     "answers": {
-      "answer_a": "El método http para enviar los datos del formulario.",
+      "answer_a": "El método http para enviar los datos del formulario",
       "answer_b": "Dónde enviar los datos del formulario cuando se envían",
-      "answer_c": "El tipo mime utilizado para codificar el contenido."
+      "answer_c": "El tipo mime utilizado para codificar el contenido"
     },
     "correct_answer": "answer_b",
     "feedback": "El atributo action indica la página a la que se envían los datos del formulario. Si este atributo está vacío, es la página que contiene el formulario la que se recargará con los datos como parámetros."
@@ -42,7 +42,7 @@
     "id": "4",
     "category": "html",
     "level": "facil",
-    "question": "¿Cuál es la sinstaxis válida de los comentarios en html?",
+    "question": "¿Cuál es la sintaxis válida de los comentarios en HTML?",
     "answers": {
       "answer_a": "<!-- Comentario -->",
       "answer_b": "/* Comentario */",
@@ -54,7 +54,7 @@
     "id": "5",
     "category": "html",
     "level": "normal",
-    "question": "¿Qué significa html?",
+    "question": "¿Qué significa HTML?",
     "answers": {
       "answer_a": "Hypertext Markdown Language",
       "answer_b": "Hypertext Machine Language",
@@ -104,7 +104,7 @@
     "id": "9",
     "category": "html",
     "level": "facil",
-    "question": "¿Tanto '.html' como '.htm' son extensiones html válidas?",
+    "question": "¿Tanto '.html' como '.htm' son extensiones HTML válidas?",
     "answers": {
       "answer_a": "Verdadero",
       "answer_b": "Falso"
@@ -141,7 +141,7 @@
     "id": "12",
     "category": "html",
     "level": "normal",
-    "question": "¿Cuántas etiquetas <heading> hay en html?",
+    "question": "¿Cuántas etiquetas <heading> hay en HTML?",
     "answers": {
       "answer_a": "2",
       "answer_b": "4",
@@ -158,10 +158,10 @@
     "answers": {
       "answer_a": "Para incrustar contenido",
       "answer_b": "Para dibujar gráficos",
-      "answer_c": "Para enmarcar un grupo de elementos."
+      "answer_c": "Para enmarcar un grupo de elementos"
     },
     "correct_answer": "answer_a",
-    "feedback": "El elemento HTML <iframe> (de inline frame) representa un contexto de navegación anidado, el cual permite incrustrar otra página HTML en la página actual."
+    "feedback": "El elemento HTML <iframe> (de inline frame) representa un contexto de navegación anidado, el cual permite incrustar otra página HTML en la página actual."
   },
   {
     "id": "14",
@@ -169,8 +169,8 @@
     "level": "facil",
     "question": "¿Qué define el atributo 'alt' dentro de la etiqueta <img/>",
     "answers": {
-      "answer_a": "La descripción de una imagen para cuando esta no se pueda mostrar.",
-      "answer_b": "Una imagen alternativa a la imagen principal."
+      "answer_a": "La descripción de una imagen para cuando esta no se pueda mostrar",
+      "answer_b": "Una imagen alternativa a la imagen principal"
     },
     "correct_answer": "answer_a",
     "feedback": "Este atributo define el texto alternativo que describe la imagen, texto que los usuarios verán si la URL de la imagen es errónea o la imagen tiene un formato no soportado o si la imagen aún no se ha descargado."
@@ -179,7 +179,7 @@
     "id": "15",
     "category": "html",
     "level": "facil",
-    "question": "¿Qué etiqueta html se usa para definir texto importante?",
+    "question": "¿Qué etiqueta HTML se usa para definir texto importante?",
     "answers": {
       "answer_a": "<i>",
       "answer_b": "<b>",
@@ -319,7 +319,7 @@
     "id": "26",
     "category": "html",
     "level": "facil",
-    "question": "¿Cuál es el elemento raíz de html?",
+    "question": "¿Cuál es el elemento raíz de HTML?",
     "answers": {
       "answer_a": "<body>",
       "answer_b": "<html>",
@@ -396,10 +396,10 @@
     "level": "dificil",
     "question": "¿Cuál es el propósito principal de la etiqueta <canvas>?",
     "answers": {
-      "answer_a": "Permite representar imágenes rasterizadas en la página web.",
-      "answer_b": "Muestra imágenes con anotaciones.",
-      "answer_c": "Permite dibujar sobre un mapa de bits a través de JavaScript.",
-      "answer_d": "Permite representar imágenes vectoriales en la página web."
+      "answer_a": "Permite representar imágenes rasterizadas en la página web",
+      "answer_b": "Muestra imágenes con anotaciones",
+      "answer_c": "Permite dibujar sobre un mapa de bits a través de JavaScript",
+      "answer_d": "Permite representar imágenes vectoriales en la página web"
     },
     "correct_answer": "answer_c"
   },
@@ -407,7 +407,7 @@
     "id": "309",
     "category": "html",
     "level": "normal",
-    "question": "Como se escribiria una entrada que permita al usuario seleccionar entre un rango de valores enteros entre 0 y 100 (inclusive) en incrementos de 5.",
+    "question": "¿Cómo se escribiría una entrada que permita al usuario seleccionar entre un rango de valores enteros entre 0 y 100 (inclusive) en incrementos de 5?",
     "answers": {
       "answer_a": "<input type=\"range\" min=\"0\" max=\"100\" by=\"5\" />",
       "answer_b": "<input type=\"range\" min=\"0\" max=\"100\" step=\"5\" />",
@@ -422,10 +422,10 @@
     "level": "normal",
     "question": "¿Cuál es la diferencia entre <svg> y <canvas>?",
     "answers": {
-      "answer_a": "<svg> produce gráficos vectoriales, mientras que <canvas> produce gráficos rasterizados.",
-      "answer_b": "<svg> se integra con JavaScript, mientras que <canvas> no.",
-      "answer_c": "<svg> produce gráficos de trama, mientras que <canvas> produce gráficos vectoriales.",
-      "answer_d": "<svg> no se puede usar como imagen de fondo, mientras que <canvas> se puede usar como fondo."
+      "answer_a": "<svg> produce gráficos vectoriales, mientras que <canvas> produce gráficos rasterizados",
+      "answer_b": "<svg> se integra con JavaScript, mientras que <canvas> no",
+      "answer_c": "<svg> produce gráficos de trama, mientras que <canvas> produce gráficos vectoriales",
+      "answer_d": "<svg> no se puede usar como imagen de fondo, mientras que <canvas> se puede usar como fondo"
     },
     "correct_answer": "answer_a"
   },
@@ -435,10 +435,10 @@
     "level": "normal",
     "question": "¿Para qué sirve el atributo class?",
     "answers": {
-      "answer_a": "Las clases permiten a CSS seleccionar elementos específicos en la página. En el atributo class se pueden incluir tantos nombres de clase como se desee, separados por espacios.",
-      "answer_b": "Las clases permiten a CSS y JavaScript seleccionar elementos específicos en la página. Sólo puede enumerar un nombre de clase por atributo de clase.",
-      "answer_c": "Las clases permiten a CSS seleccionar elementos específicos en la página. Sólo puede enumerar un nombre de clase por atributo de clase.",
-      "answer_d": "Las clases permiten que CSS y JavaScript seleccionen elementos específicos en la página. Puede enumerar tantos nombres de clase dentro del atributo class como desee, separados por espacios."
+      "answer_a": "Las clases permiten a CSS seleccionar elementos específicos en la página. En el atributo class se pueden incluir tantos nombres de clase como se desee, separados por espacios",
+      "answer_b": "Las clases permiten a CSS y JavaScript seleccionar elementos específicos en la página. Solo puede enumerar un nombre de clase por atributo de clase",
+      "answer_c": "Las clases permiten a CSS seleccionar elementos específicos en la página. Solo puede enumerar un nombre de clase por atributo de clase",
+      "answer_d": "Las clases permiten que CSS y JavaScript seleccionen elementos específicos en la página. Puede enumerar tantos nombres de clase dentro del atributo class como desee, separados por espacios"
     },
     "correct_answer": "answer_d"
   }

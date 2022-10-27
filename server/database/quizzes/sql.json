@@ -192,7 +192,7 @@
     "id": "137",
     "category": "sql",
     "level": "facil",
-    "question": "¿Cómo seleccionar varias columnas de la tabla Productos?",
+    "question": "¿Cómo seleccionar varias columnas de la tabla Products?",
     "answers": {
       "answer_a": "SELECT Name, Surname FROM Products",
       "answer_b": "SELECT Name Surname FROM Products"
@@ -203,7 +203,7 @@
     "id": "138",
     "category": "sql",
     "level": "facil",
-    "question": "Qué palabra clave de SQL se utiliza para ordenar un conjunto de resultados",
+    "question": "¿Qué palabra clave de SQL se utiliza para ordenar un conjunto de resultados?",
     "answers": {
       "answer_a": "SORT",
       "answer_b": "ORDER",
@@ -227,7 +227,7 @@
     "id": "140",
     "category": "sql",
     "level": "normal",
-    "question": "¿Cómo seleccionar todos los registros de la tabla \"Productos\" donde el valor de \"Nombre\" comienza con \"z\"?",
+    "question": "¿Cómo seleccionar todos los registros de la tabla \"Products\" donde el valor de \"Nombre\" comienza con \"z\"?",
     "answers": {
       "answer_a": "SELECT * FROM Products WHERE Name is 'z%'",
       "answer_b": "SELECT * FROM Products WHERE Name Like 'z%'"
@@ -325,7 +325,7 @@
     "id": "148",
     "category": "sql",
     "level": "dificil",
-    "question": "¿Cuál de las siguientes respuestas es cierta acerca de una vista",
+    "question": "¿Cuál de las siguientes respuestas es cierta acerca de una vista?",
     "answers": {
       "answer_a": "La vista se elimina automáticamente después de que se completa la sesión",
       "answer_b": "Las vistas no se pueden actualizar una vez creadas",
@@ -376,7 +376,7 @@
     "id": "351",
     "category": "sql",
     "level": "dificil",
-    "question": "¿Cuales de los siguientes tipos de PROCEDURES es correcto?",
+    "question": "¿Cuáles de los siguientes tipos de PROCEDURES es correcto?",
     "answers": {
       "answer_a": "Procedure with CALL parameter",
       "answer_b": "Procedure with IN-OUT parameter",

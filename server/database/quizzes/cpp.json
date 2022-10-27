@@ -338,7 +338,7 @@
     "id": "258",
     "category": "cpp",
     "level": "normal",
-    "question": "¿Cuál es la ventaja de C++ contra Java, Kotlin, Javascript, Python?",
+    "question": "¿Cuál es la ventaja de C++ contra Java, Kotlin, JavaScript, Python?",
     "answers": {
       "answer_a": "El manejo de punteros",
       "answer_b": "El nivel que puedes manipular el hardware",
@@ -363,7 +363,7 @@
     "id": "260",
     "category": "cpp",
     "level": "normal",
-    "question": "¿Cuál es sistema de versionado en el lenguaje C++",
+    "question": "¿Cuál es sistema de versionado en el lenguaje C++?",
     "answers": {
       "answer_a": "Versionado tradicional",
       "answer_b": "Estándar ISO",

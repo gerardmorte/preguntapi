@@ -85,7 +85,7 @@
       "answer_a": "El programa no compilará",
       "answer_b": "El programa compila pero no se ejecuta",
       "answer_c": "El programa lanzará una excepción en tiempo de ejecución",
-      "answer_d": "El programa compila y se ejecuta correctamente."
+      "answer_d": "El programa compila y se ejecuta correctamente"
     },
     "correct_answer": "answer_d"
   },
@@ -106,9 +106,9 @@
     "id": "99",
     "category": "java",
     "level": "normal",
-    "question": "El constructor se utiliza para?",
+    "question": "El constructor se utiliza para:",
     "answers": {
-      "answer_a": "Inicializar el estado de una clase.",
+      "answer_a": "Inicializar el estado de una clase",
       "answer_b": "Inicializar el estado de todas las variables miembro",
       "answer_c": "Inicializar el estado de un objeto",
       "answer_d": "Ninguna es correcta"
@@ -160,8 +160,8 @@
     "level": "normal",
     "question": "¿Qué es la clonación de objetos?",
     "answers": {
-      "answer_a": "La clonación de objetos se utiliza para crear una nueva copia de un objeto con diferentes valores.",
-      "answer_b": "La clonación de objetos se utiliza para crear una copia exacta de una clase.",
+      "answer_a": "La clonación de objetos se utiliza para crear una nueva copia de un objeto con diferentes valores",
+      "answer_b": "La clonación de objetos se utiliza para crear una copia exacta de una clase",
       "answer_c": "Todas las anteriores",
       "answer_d": "La clonación de objetos se utiliza para crear la copia exacta de un objeto"
     },
@@ -186,9 +186,9 @@
     "level": "dificil",
     "question": "¿Cuál es el valor predeterminado para una variable de instancia?",
     "answers": {
-      "answer_a": "Las referencias a objetos no se inicializan con ningún valor predeterminado.",
+      "answer_a": "Las referencias a objetos no se inicializan con ningún valor predeterminado",
       "answer_b": "Ninguna es correcta",
-      "answer_c": "Depende del tipo de variable.",
+      "answer_c": "Depende del tipo de variable",
       "answer_d": "null"
     },
     "correct_answer": "answer_d"
@@ -239,8 +239,8 @@
     "question": "¿Puedes hacer un constructor \"final\"?",
     "answers": {
       "answer_a": "Sí",
-      "answer_b": "Lo podemos hacer final para la clase heredada solamente.",
-      "answer_c": "No, el constructor no puede ser final.",
+      "answer_b": "Lo podemos hacer \"final\" para la clase heredada solamente",
+      "answer_c": "No, el constructor no puede ser \"final\"",
       "answer_d": "Siempre es \"final\""
     },
     "correct_answer": "answer_c"
@@ -251,10 +251,10 @@
     "level": "normal",
     "question": "¿Qué sucederá si se elimina el modificador estático de la firma del método principal?",
     "answers": {
-      "answer_a": "La JVM la agregará de nuevo automáticamente.",
-      "answer_b": "El programa no compilará compilaciones y arrojará un error \"NoSuchMethodError\".",
-      "answer_c": "El programa compilará y se ejecutará sin errores.",
-      "answer_d": "El programa compilará. Pero en tiempo de ejecución arroja un error \"NoSuchMethodError\"."
+      "answer_a": "La JVM la agregará de nuevo automáticamente",
+      "answer_b": "El programa no compilará compilaciones y arrojará un error \"NoSuchMethodError\"",
+      "answer_c": "El programa compilará y se ejecutará sin errores",
+      "answer_d": "El programa compilará. Pero en tiempo de ejecución arroja un error \"NoSuchMethodError\""
     },
     "correct_answer": "answer_d"
   },
@@ -264,10 +264,10 @@
     "level": "facil",
     "question": "¿Se hereda un constructor?",
     "answers": {
-      "answer_a": "Se hereda de un Método.",
-      "answer_b": "Se hereda de un Objeto.",
-      "answer_c": "Sí, el constructor se hereda de otra clase.",
-      "answer_d": "No, el constructor no se hereda."
+      "answer_a": "Se hereda de un método",
+      "answer_b": "Se hereda de un objeto",
+      "answer_c": "Sí, el constructor se hereda de otra clase",
+      "answer_d": "No, el constructor no se hereda"
     },
     "correct_answer": "answer_d"
   },
@@ -290,9 +290,9 @@
     "level": "facil",
     "question": "¿Cuál es el valor predeterminado para una variable local?",
     "answers": {
-      "answer_a": "Depende del tipo de variable.",
+      "answer_a": "Depende del tipo de variable",
       "answer_b": "null",
-      "answer_c": "Las variables locales no se inicializan a ningún valor predeterminado.",
+      "answer_c": "Las variables locales no se inicializan a ningún valor predeterminado",
       "answer_d": "Ninguna de las anteriores"
     },
     "correct_answer": "answer_c"
@@ -367,7 +367,7 @@
     "id": "119",
     "category": "java",
     "level": "normal",
-    "question": "Para que las subclases de cualquier paquete tengan acceso a los miembros de una superclase. ¿Cuál es el acceso más restrictivo que cumple este objetivo?",
+    "question": "Para que las subclases de cualquier paquete tengan acceso a los miembros de una superclase, ¿cuál es el acceso más restrictivo que cumple este objetivo?",
     "answers": {
       "answer_a": "public",
       "answer_b": "private",
@@ -406,7 +406,7 @@
     "id": "318",
     "category": "java",
     "level": "normal",
-    "question": "Cual de las siguientes expresiones es la mas fiable para comprobar si dos variables de tipo String son iguales?",
+    "question": "¿Cuál de las siguientes expresiones es la mas fiable para comprobar si dos variables de tipo String son iguales?",
     "answers": {
       "answer_a": "string1 == string2",
       "answer_b": "string1 = string2",
@@ -419,7 +419,7 @@
     "id": "319",
     "category": "java",
     "level": "facil",
-    "question": "¿Qué tipo de variable mantiene un valor constante una vez asigando?",
+    "question": "¿Qué tipo de variable mantiene un valor constante una vez asignado?",
     "answers": {
       "answer_a": "static",
       "answer_b": "final",
