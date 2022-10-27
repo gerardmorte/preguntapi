@@ -76,7 +76,7 @@
     "id": "37",
     "category": "css",
     "level": "dificil",
-    "question": "¿Qué selector combinador no se usa en css?",
+    "question": "¿Qué selector de combinación no se usa en CSS?",
     "answers": {
       "answer_a": ">",
       "answer_b": "+",
@@ -114,7 +114,7 @@
     "id": "40",
     "category": "css",
     "level": "dificil",
-    "question": "Un elemento con \"position: fixed\" se coloca en relación al \"viewport\"",
+    "question": "Un elemento con \"position: fixed\" se coloca en relación al \"viewport\".",
     "answers": {
       "answer_a": "Verdadero",
       "answer_b": "Falso"
@@ -160,7 +160,7 @@
     "id": "44",
     "category": "css",
     "level": "normal",
-    "question": "La regla '!important!' se usa para dar mas importancia a una propiedad/valor",
+    "question": "La regla '!important' se usa para dar más importancia a una propiedad/valor.",
     "answers": {
       "answer_a": "Verdadero",
       "answer_b": "Falso"
@@ -205,7 +205,7 @@
     "id": "48",
     "category": "css",
     "level": "normal",
-    "question": "¿Los media queries se pueden utilizar para comprobar qué?",
+    "question": "¿Qué se puede comprobar con las media queries?",
     "answers": {
       "answer_a": "Orientación",
       "answer_b": "Resolución",
@@ -242,7 +242,7 @@
     "id": "51",
     "category": "css",
     "level": "dificil",
-    "question": "El valor por defecto de 'overflow' es 'visible'",
+    "question": "El valor por defecto de 'overflow' es 'visible'.",
     "answers": {
       "answer_a": "Verdadero",
       "answer_b": "Falso"
@@ -253,7 +253,7 @@
     "id": "52",
     "category": "css",
     "level": "normal",
-    "question": "Los elementos con 'position:absolute' se eliminan del flujo normal y pueden superponerse a los elementos",
+    "question": "Los elementos con 'position:absolute' se eliminan del flujo normal y pueden superponerse a los elementos.",
     "answers": {
       "answer_a": "Verdadero",
       "answer_b": "Falso"
@@ -266,7 +266,7 @@
     "level": "normal",
     "question": "¿Cuál de estas es una pseudo-clase?",
     "answers": {
-      "answer_a": ".wrappe > a",
+      "answer_a": ".wrapper > a",
       "answer_b": "div + p",
       "answer_c": "p:first-child"
     },
@@ -276,7 +276,7 @@
     "id": "54",
     "category": "css",
     "level": "dificil",
-    "question": "¿Cuál de estos no es un selector de pseudoelemento válido?",
+    "question": "¿Cuál de estos no es un selector de pseudo-elemento válido?",
     "answers": {
       "answer_a": "::first-line",
       "answer_b": "::before",
@@ -312,7 +312,7 @@
     "id": "57",
     "category": "css",
     "level": "facil",
-    "question": "'position:sticky' establece que el elemento permanezca siempre en el mismo lugar si se desplaza la página",
+    "question": "'position:sticky' establece que el elemento permanezca siempre en el mismo lugar si se desplaza la página.",
     "answers": {
       "answer_a": "True",
       "answer_b": "False"
@@ -347,9 +347,9 @@
     "id": "60",
     "category": "css",
     "level": "dificil",
-    "question": "¿Cuál es la diferencia entre 'display:none' y 'visibilty:hidden'?",
+    "question": "¿Cuál es la diferencia entre 'display:none' y 'visibility:hidden'?",
     "answers": {
-      "answer_a": "'visibilty:hidden' ocupará el mismo espacio que antes",
+      "answer_a": "'visibility:hidden' ocupará el mismo espacio que antes",
       "answer_b": "display:none ocupará el mismo espacio que antes",
       "answer_c": "No hay diferencia entre los dos"
     },
@@ -361,10 +361,10 @@
     "level": "facil",
     "question": "¿Cuál es la ventaja de utilizar CSS en línea?",
     "answers": {
-      "answer_a": "Es más fácil de manejar.",
-      "answer_b": "Es más fácil añadir múltiples estilos a través de él.",
-      "answer_c": "Se puede utilizar para probar rápidamente las anulaciones locales de CSS.",
-      "answer_d": "Reduce los conflictos con otros métodos de definición de CSS."
+      "answer_a": "Es más fácil de manejar",
+      "answer_b": "Es más fácil añadir múltiples estilos a través de él",
+      "answer_c": "Se puede utilizar para probar rápidamente las anulaciones locales de CSS",
+      "answer_d": "Reduce los conflictos con otros métodos de definición de CSS"
     },
     "correct_answer": "answer_b"
   },
@@ -398,7 +398,7 @@
     "id": "315",
     "category": "css",
     "level": "normal",
-    "question": "¿Qué opción utiliza la sintaxis correcta para añadir una pseudoclase hover a un elemento?",
+    "question": "¿Qué opción utiliza la sintaxis correcta para añadir una pseudo-clase hover a un elemento?",
     "answers": {
       "answer_a": "a:hover {...}",
       "answer_b": "a :hover {...}",
@@ -411,7 +411,7 @@
     "id": "316",
     "category": "css",
     "level": "facil",
-    "question": "¿Cual de los siguients es un valor NO valido para la propiedad font-size?",
+    "question": "¿Cual de los siguientes es un valor NO válido para la propiedad font-size?",
     "answers": {
       "answer_a": "font-size: xsmall",
       "answer_b": "font-size: 50%",
@@ -436,7 +436,7 @@
     "id": "354",
     "category": "css",
     "level": "normal",
-    "question": "¿Con que pseudo selector se puede seleccionar el primer hijo, sin tener class name o id?",
+    "question": "¿Con que pseudo-selector se puede seleccionar el primer hijo, sin tener class name o id?",
     "answers": {
       "answer_a": "nth-child(0)",
       "answer_b": "nth-child(1)",
@@ -448,7 +448,7 @@
     "id": "355",
     "category": "css",
     "level": "dificil",
-    "question": "¿Qué selector utilizarias para seleccionar un elemento que en el atributo título contenga la palabra \"container\"?",
+    "question": "¿Qué selector utilizarías para seleccionar un elemento que en el atributo título contenga la palabra \"container\"?",
     "answers": {
       "answer_a": "[title~=container]",
       "answer_b": "[title^=container]",

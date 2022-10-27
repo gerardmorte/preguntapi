@@ -3,7 +3,7 @@
     "id": "61",
     "category": "javascript",
     "level": "facil",
-    "question": "¿Javascript distingue entre mayúsculas y minúsculas?",
+    "question": "¿JavasScript distingue entre mayúsculas y minúsculas?",
     "answers": {
       "answer_a": "Verdadero",
       "answer_b": "Falso"
@@ -35,7 +35,7 @@
       "answer_c": "onkeydown"
     },
     "correct_answer": "answer_b",
-    "feedback": "El evento onclick en JavaScript te permite ejecutar una función cuando se hace clic en un elemento.."
+    "feedback": "El evento onclick en JavaScript te permite ejecutar una función cuando se hace clic en un elemento."
   },
   {
     "id": "64",
@@ -67,7 +67,7 @@
     "id": "66",
     "category": "javascript",
     "level": "facil",
-    "question": "Cómo insertar un comentario que tiene más de una línea?",
+    "question": "¿Cómo insertar un comentario que tiene más de una línea?",
     "answers": {
       "answer_a": "/*Este comentario tiene más de una línea.*/",
       "answer_b": "<!--Este comentario tiene más de una línea.-->",
@@ -80,7 +80,7 @@
     "id": "67",
     "category": "javascript",
     "level": "dificil",
-    "question": "¿Quién creó el lenguaje de programación Javascript?",
+    "question": "¿Quién creó el lenguaje de programación JavaScript?",
     "answers": {
       "answer_a": "Tim Berners-Lee",
       "answer_b": "Brendan Eich",
@@ -93,7 +93,7 @@
     "id": "68",
     "category": "javascript",
     "level": "dificil",
-    "question": "Si proporciona solo un parámetro como un valor entero para el objeto Fecha, ¿se tratará como milisegundos?",
+    "question": "Si proporciona solo un parámetro como un valor entero para el objeto Date, ¿se tratará como milisegundos?",
     "answers": {
       "answer_a": "Verdadero",
       "answer_b": "Falso"
@@ -112,19 +112,19 @@
       "answer_c": "Math.trunc"
     },
     "correct_answer": "answer_b",
-    "feedback": "La función Math.pow() devuelve la base elevada al exponente , esto es, baseexponente."
+    "feedback": "La función Math.pow() devuelve la base elevada al exponente."
   },
   {
     "id": "70",
     "category": "javascript",
     "level": "normal",
-    "question": "console.log(3 > 2 > 1 === false) ... ¿Cuál es la salida de la consola? ",
+    "question": "console.log(3 > 2 > 1 === false) ... ¿Cuál es la salida de la consola?",
     "answers": {
-      "answer_a": "True",
-      "answer_b": "False"
+      "answer_a": "true",
+      "answer_b": "false"
     },
     "correct_answer": "answer_a",
-    "feedback": "Arroja True porque 3 > 2 es igual a true, entonces true > 1 es igual a false porque true no es mayor que 1. Por consiguiente false es igual a false, esta condición es true."
+    "feedback": "Arroja true porque 3 > 2 es igual a true, entonces true > 1 es igual a false porque true no es mayor que 1. Por consiguiente false es igual a false, esta condición es true."
   },
   {
     "id": "71",
@@ -189,7 +189,7 @@
       "answer_c": "execute function ejemplo()"
     },
     "correct_answer": "answer_a",
-    "feedback": "La palabra 'function' es exclusiva de la definición de la función, no se usa en la llamada. Execute no existe en javascript."
+    "feedback": "La palabra 'function' es exclusiva de la definición de la función, no se usa en la llamada. Execute no existe en JavaScript."
   },
   {
     "id": "76",
@@ -211,16 +211,16 @@
     "question": "¿Que es el 'hoisting'?",
     "answers": {
       "answer_a": "Comportamiento predeterminado de mover declaraciones a la parte superior",
-      "answer_b": "Eliminación automática de variables no utilizadas en todo el código."
+      "answer_b": "Eliminación automática de variables no utilizadas en todo el código"
     },
     "correct_answer": "answer_a",
-    "feedback": "Esto permite a javascript acceder a variables aunque estén creadas líneas más abajo."
+    "feedback": "Esto permite a JavaScript acceder a variables aunque estén creadas líneas más abajo."
   },
   {
     "id": "78",
     "category": "javascript",
     "level": "facil",
-    "question": "¿Cuál es la forma correcta de incluir un archivo JS externo en HTML?",
+    "question": "¿Cuál es la forma correcta de incluir un archivo JavaScript externo en HTML?",
     "answers": {
       "answer_a": "<script src=\"main.js\">",
       "answer_b": "<script href=\"main.js\">",
@@ -233,14 +233,14 @@
     "id": "79",
     "category": "javascript",
     "level": "facil",
-    "question": "<p id=\"demo\">My awesome text</p> ... ¿Cuál es la sintaxis JS correcta para cambiar el contenido?",
+    "question": "<p id=\"demo\">My awesome text</p> ... ¿Cuál es la sintaxis JavaScript correcta para cambiar el contenido?",
     "answers": {
       "answer_a": "#demo.innerHTML = \"Edited!\"",
-      "answer_b": "document.getElementById(\"demo\").innerHTML = \"Edited!\".",
+      "answer_b": "document.getElementById(\"demo\").innerHTML = \"Edited!\"",
       "answer_c": "document.getElementByName(\"p\").innerHTML = \"Edited!\""
     },
     "correct_answer": "answer_b",
-    "feedback": "Al definir un id en el elemento podemos seleccionarlo facilmente con 'getElementById'. # es un selector por id de CSS y 'getElementByName' no existe."
+    "feedback": "Al definir un id en el elemento podemos seleccionarlo fácilmente con 'getElementById'. # es un selector por id de CSS y 'getElementByName' no existe."
   },
   {
     "id": "80",
@@ -266,7 +266,7 @@
       "answer_c": "toLocaleLowerCase()"
     },
     "correct_answer": "answer_b",
-    "feedback": "Los demás métodos nombrados no existen en javascript."
+    "feedback": "Los demás métodos nombrados no existen en JavaScript."
   },
   {
     "id": "82",
@@ -293,7 +293,7 @@
       "answer_c": "Cualquier número"
     },
     "correct_answer": "answer_c",
-    "feedback": "El nombre de la variable no puede empezar por un número o caracter especial, debe empezar por una letra (Aa-Zz), un subrayado (_) o el signo de dolar ($)."
+    "feedback": "El nombre de la variable no puede empezar por un número o carácter especial, debe empezar por una letra (Aa-Zz), un subrayado (_) o el signo de dólar ($)."
   },
   {
     "id": "84",
@@ -338,7 +338,7 @@
     "id": "87",
     "category": "javascript",
     "level": "normal",
-    "question": "¿Cuál es la sintaxis correcta para no igual?",
+    "question": "¿Cuál es la sintaxis correcta para 'no es igual'?",
     "answers": {
       "answer_a": "!==",
       "answer_b": "==!"
@@ -376,13 +376,13 @@
     "id": "90",
     "category": "javascript",
     "level": "normal",
-    "question": "Los scripts se pueden colocar en la sección <body>, o en la <head> de una página HTML, o en ambas",
+    "question": "Los scripts se pueden colocar en la sección <body>, o en la <head> de una página HTML, o en ambas.",
     "answers": {
       "answer_a": "Verdadero",
       "answer_b": "Falso"
     },
     "correct_answer": "answer_a",
-    "feedback": "Aunque lo recomendable es ponerlo al final del body para que JS sea lo último que cargue. Haciendo más eficiente la web."
+    "feedback": "Aunque lo recomendable es ponerlo al final del body para que JavaScript sea lo último que cargue, haciendo más eficiente la web."
   },
   {
     "id": "322",
@@ -467,7 +467,7 @@
     "level": "dificil",
     "question": "¿Cuál es la definición de Clousure?",
     "answers": {
-      "answer_a": "Es la combinación de una función agrupada (encerrada) con referencias a su estado circundante (el entorno dislexico)",
+      "answer_a": "Es la combinación de una función agrupada (encerrada) con referencias a su estado circundante (el entorno disléxico)",
       "answer_b": "Es la combinación de una función desagrupada (encerrada) con referencias a su estado circundante (el entorno léxico)",
       "answer_c": "Es la combinación de una función agrupada (encerrada) con referencias a su estado circundante (el entorno léxico)"
     },

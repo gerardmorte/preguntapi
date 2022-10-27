@@ -107,12 +107,12 @@
     "id": "159",
     "category": "swift",
     "level": "normal",
-    "question": "¿Todas las clases de Swift deben heredar de qué clase raíz?",
+    "question": "¿De qué clase raíz deben heredar todas las clases de Swift?",
     "answers": {
       "answer_a": "Root",
       "answer_b": "@ObjC",
       "answer_c": "NSObject",
-      "answer_d": "Las clases Swift no requieren una clase raíz."
+      "answer_d": "Las clases Swift no requieren una clase raíz"
     },
     "correct_answer": "answer_d"
   },
@@ -122,8 +122,8 @@
     "level": "normal",
     "question": "¿Cuál es correcta sobre las enumeraciones?",
     "answers": {
-      "answer_a": "Las enumeraciones no pueden ajustarse a los protocolos.",
-      "answer_b": "Las enumeraciones pueden definir inicializadores."
+      "answer_a": "Las enumeraciones no pueden ajustarse a los protocolos",
+      "answer_b": "Las enumeraciones pueden definir inicializadores"
     },
     "correct_answer": "answer_b"
   },
@@ -222,7 +222,7 @@
     "id": "168",
     "category": "swift",
     "level": "dificil",
-    "question": "_____________ es un proceso de consulta y llamada de propiedades",
+    "question": "_____________ es un proceso de consulta y llamada de propiedades.",
     "answers": {
       "answer_a": "Lazy Chaining",
       "answer_b": "Swift Chaining",
@@ -235,7 +235,7 @@
     "id": "169",
     "category": "swift",
     "level": "dificil",
-    "question": "Dado lo siguiente... var stringValue:String = \"Jane Doe\". ¿Cuál es el resultado de realizar... stringValue = nil?",
+    "question": "Dado lo siguiente... var stringValue:String = \"Jane Doe\", ¿cuál es el resultado de realizar... stringValue = nil?",
     "answers": {
       "answer_a": "stringValue == nil",
       "answer_b": "stringValue == \"Jane Doe\"",

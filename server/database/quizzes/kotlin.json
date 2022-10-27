@@ -38,7 +38,7 @@
     "id": "174",
     "category": "kotlin",
     "level": "facil",
-    "question": "No se puede restablecer el valor de una variable \"val\"",
+    "question": "No se puede restablecer el valor de una variable \"val\".",
     "answers": {
       "answer_a": "Verdadero",
       "answer_b": "Falso"
@@ -49,7 +49,7 @@
     "id": "175",
     "category": "kotlin",
     "level": "facil",
-    "question": "Kotlin es desarrollado por ...",
+    "question": "Kotlin es desarrollado por:",
     "answers": {
       "answer_a": "Google",
       "answer_b": "IBM",
@@ -90,7 +90,7 @@
     "level": "facil",
     "question": "¿Podemos usar Kotlin en el lenguaje de programación Java?",
     "answers": {
-      "answer_a": "Si",
+      "answer_a": "Sí",
       "answer_b": "No"
     },
     "correct_answer": "answer_a"
@@ -125,7 +125,7 @@
     "id": "181",
     "category": "kotlin",
     "level": "facil",
-    "question": "La visibilidad predeterminada de una clase en Kotlin es...",
+    "question": "La visibilidad predeterminada de una clase en Kotlin es:",
     "answers": {
       "answer_a": "public",
       "answer_b": "private",
@@ -175,7 +175,7 @@
     "id": "185",
     "category": "kotlin",
     "level": "facil",
-    "question": "El lenguaje Kotlin es ___",
+    "question": "El lenguaje Kotlin es:",
     "answers": {
       "answer_a": "OOP",
       "answer_b": "Procedural Programming",
@@ -212,7 +212,7 @@
     "id": "188",
     "category": "kotlin",
     "level": "facil",
-    "question": "En Kotlin, la especificación del paquete debe realizarse en ___",
+    "question": "En Kotlin, la especificación del paquete debe realizarse:",
     "answers": {
       "answer_a": "Al inicio del archivo",
       "answer_b": "Al final del archivo",
@@ -224,11 +224,11 @@
     "id": "189",
     "category": "kotlin",
     "level": "facil",
-    "question": "En Kotlin un programa comienza a ejecutarse desde ___",
+    "question": "En Kotlin un programa comienza a ejecutarse desde:",
     "answers": {
       "answer_a": "Parte superior del archivo",
       "answer_b": "Primera clase  del archivo",
-      "answer_c": "Desde el metodo main",
+      "answer_c": "Desde el método main",
       "answer_d": "Ninguna de las anteriores"
     },
     "correct_answer": "answer_c"
@@ -237,7 +237,7 @@
     "id": "190",
     "category": "kotlin",
     "level": "normal",
-    "question": "En Kotlin, la herencia entre clases se declara mediante un símbolo ___",
+    "question": "En Kotlin, la herencia entre clases se declara mediante un símbolo:",
     "answers": {
       "answer_a": "?",
       "answer_b": ":",
