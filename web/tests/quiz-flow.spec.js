@@ -42,7 +42,7 @@ test.describe('Quiz flow', async () => {
     await page.locator('select').nth(1).selectOption({ label: limit.toString() })
 
     // Check that the link generated to start the quiz is correct
-    const startQuizBtn = page.getByRole('link', { name: 'Iniciar Quiz!' }).first()
+    const startQuizBtn = page.getByRole('link', { name: '¡Iniciar Quiz!' }).first()
     expect(startQuizBtn).toHaveCount(1)
     const startQuizPath = await startQuizBtn.getAttribute('href')
     expect(startQuizPath).toEqual(`/startQuiz?category=${category}&level=${level}&limit=${limit}`)
@@ -62,7 +62,7 @@ test.describe('Quiz flow', async () => {
       await page.locator('select').first().selectOption({ label: 'ALEATORIO' })
 
       // Click and wait for redirection
-      const startQuizBtn = page.getByRole('link', { name: 'Iniciar Quiz!' })
+      const startQuizBtn = page.getByRole('link', { name: '¡Iniciar Quiz!' })
       await startQuizBtn.click()
 
       // Check that it has been redirected to the correct path
