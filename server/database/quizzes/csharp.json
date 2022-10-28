@@ -312,5 +312,136 @@
       "answer_d": "return"
     },
     "correct_answer": "answer_c"
+  },
+  {
+    "id": "366",
+    "category": "csharp",
+    "level": "dificil",
+    "question": "¿Cuál de las siguientes afirmaciones no es válida para crear un nuevo objeto en C#?",
+    "answers": {
+      "answer_a": "var a = new Int32();",
+      "answer_b": "var a = new String();",
+      "answer_c": "var a = new IComparable();",
+      "answer_d": "var a = new []{0};"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "367",
+    "category": "csharp",
+    "level": "dificil",
+    "question": "Si ejecuta el archivo ejecutable de C# varias veces, se crean varios procesos. Si desea tener un solo proceso de solicitud, incluso si lo inicia varias veces, ¿qué puede usar?",
+    "answers": {
+      "answer_a": "Semaphore",
+      "answer_b": "Mutex",
+      "answer_c": "Critical Section",
+      "answer_d": "C# lock"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "368",
+    "category": "csharp",
+    "level": "dificil",
+    "question": "¿Cuál de los siguientes operadores no puede utilizar la sobrecarga de operadores?",
+    "answers": {
+      "answer_a": "++",
+      "answer_b": "&",
+      "answer_c": "||",
+      "answer_d": "true"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "369",
+    "category": "csharp",
+    "level": "dificil",
+    "question": "En la programación multihilo, ¿cuál de los siguientes no utiliza Thread Pool?",
+    "answers": {
+      "answer_a": "BackgroundWorker class",
+      "answer_b": "Asynchronous delegate",
+      "answer_c": "Thread class",
+      "answer_d": "Task class"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "370",
+    "category": "csharp",
+    "level": "dificil",
+    "question": "La clase A tiene el atributo [Serializable()]. ¿Cuándo se comprueba [Serializable]?",
+    "answers": {
+      "answer_a": "En tiempo de compilación de C#",
+      "answer_b": "En tiempo de ejecución de CLR",
+      "answer_c": "En tiempo de compilación JIT",
+      "answer_d": "En la vinculación"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "371",
+    "category": "csharp",
+    "level": "dificil",
+    "question": "Los siguientes son algunos ejemplos de arrays de enteros. ¿Qué expresión no es válida en C#?",
+    "answers": {
+      "answer_a": "int[] a = new int[10];",
+      "answer_b": "int[][] c = new int[10][];",
+      "answer_c": "int[][][] cc = new int[10][2][];",
+      "answer_d": "int[,] b = new int[10, 2];",
+      "answer_e": "int[, , ,] d = new int[10,2,2,2]"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "372",
+    "category": "csharp",
+    "level": "dificil",
+    "question": "¿Cuál de las siguientes afirmaciones es verdadera sobre el tipo anónimo de C#?",
+    "answers": {
+      "answer_a": "El tipo anónimo puede agregar una nueva propiedad una vez que se crea",
+      "answer_b": "El tipo anónimo puede agregar un evento",
+      "answer_c": "Puede usar un delegado para un método en tipo anónimo",
+      "answer_d": "El tipo anónimo es un tipo inmutable."
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "373",
+    "category": "csharp",
+    "level": "dificil",
+    "question": "¿Cuál es el resultado de las variables a y b? var a = 5L == 5.0F; var b = 24L / 5 == 24 / 5d;",
+    "answers": {
+      "answer_a": "a=true, b=true",
+      "answer_b": "a=true, b=false",
+      "answer_c": "a=false, b=true",
+      "answer_d": "a=false, b=false"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "374",
+    "category": "csharp",
+    "level": "dificil",
+    "question": "Al definir una clase con C# Generics, ¿Cuál de las siguientes no es válida?",
+    "answers": {
+      "answer_a": "class MyClass where T : struct",
+      "answer_b": "class MyClass where T : class",
+      "answer_c": "class MyClass where T : IComparable",
+      "answer_d": "Todas son correctas"
+    },
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "375",
+    "category": "csharp",
+    "level": "dificil",
+    "question": "¿Cuál de las siguientes afirmaciones es incorrecta sobre el delegado de C#?",
+    "answers": {
+      "answer_a": "Admite multicast",
+      "answer_b": "Se considera una base técnica del evento de C#",
+      "answer_c": "Se puede usar al pasar unaEl delegado de C # no referencia a un método",
+      "answer_d": "No puede usar operadores + =, - ="
+    },
+    "correct_answer": "answer_d"
   }
 ]
