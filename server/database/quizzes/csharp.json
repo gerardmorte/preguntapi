@@ -427,7 +427,7 @@
       "answer_a": "class MyClass where T : struct",
       "answer_b": "class MyClass where T : class",
       "answer_c": "class MyClass where T : IComparable",
-      "answer_d": "Todas son correctas"
+      "answer_d": "Todas"
     },
     "correct_answer": "answer_d"
   },
