@@ -9,10 +9,6 @@ const resolvers = {
       const limit = args.limit
       const level = args.level
 
-      if (!category) {
-        return { message: 'Debe de ingresar una categoria' }
-      }
-
       let filteredQuizzes = quizzes[category]
 
       if (level) {
