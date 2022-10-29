@@ -10,7 +10,7 @@ const resolvers = {
       const limit = args.limit
       const level = args.level
 
-      let filteredQuizzes = quizzes[category]
+      let filteredQuizzes = quizzes[category] ?? []
 
       if (level) {
         const filteredQuizzesLevel = filteredQuizzes
