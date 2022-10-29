@@ -1,3 +1,4 @@
+const { GraphQLError } = require('graphql')
 const quizzes = require('../utils/languages')
 const categories = require('../database/categories.json')
 
@@ -16,7 +17,7 @@ const resolvers = {
           .filter((quiz) => level === 'aleatorio' || quiz.level === level)
 
         if (filteredQuizzesLevel.length <= 0) {
-          return { message: 'Por favor ingrese un nivel valido' }
+          throw BadUserInputException('Invalid level')
         }
 
         filteredQuizzes = filteredQuizzesLevel.sort(() => Math.random() - 0.5)
@@ -29,6 +30,14 @@ const resolvers = {
       return filteredQuizzes
     }
   }
+}
+
+function BadUserInputException (message = '') {
+  return new GraphQLError(message, {
+    extensions: {
+      code: 'BAD_USER_INPUT'
+    }
+  })
 }
 
 module.exports = resolvers
