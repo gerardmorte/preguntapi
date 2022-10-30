@@ -1,13 +1,14 @@
 import { useState, useEffect, useCallback } from 'react'
 import { Player } from '@lottiefiles/react-lottie-player'
-
 import Link from '@/components/Link'
+
+import { getAllCategories, getCategory, LEVEL } from '../services/quizzes'
 
 export default function Home () {
   const [categories, setCategories] = useState([])
   const [category, setCategory] = useState('html')
   const [limit, setLimit] = useState(10)
-  const [level, setLevel] = useState('aleatorio')
+  const [level, setLevel] = useState(LEVEL.RANDOM)
   const [totalLevelQuestions, setTotalLevelQuestions] = useState(0)
   const [randomQuiz, setRandomQuiz] = useState(true)
   const [totalQuizzes, setTotalQuizzes] = useState(0)
@@ -15,8 +16,7 @@ export default function Home () {
   const quizURL = `/startQuiz?category=${category}&level=${level}&limit=${limit}`
 
   useEffect(() => {
-    fetch('/api/v2/categories')
-      .then((res) => res.json())
+    getAllCategories()
       .then((data) => {
         setCategories(data.categories)
         setTotalQuizzes(data.totalQuestions)
@@ -25,11 +25,10 @@ export default function Home () {
   }, [])
 
   useEffect(() => {
-    fetch(`/api/v2/categories/${category}?level=${level}`)
-      .then((res) => res.json())
+    getCategory({ category, level })
       .then((data) => {
         setTotalLevelQuestions(data.length)
-        if (level !== 'aleatorio' && data.length < 10) {
+        if (level !== LEVEL.RANDOM && data.length < 10) {
           setLimit(data.length)
         }
       })
@@ -37,13 +36,13 @@ export default function Home () {
 
   const handleLevel = (e) => {
     setLevel(e.target.value)
-    setRandomQuiz(e.target.value === 'aleatorio')
+    setRandomQuiz(e.target.value === LEVEL.RANDOM)
   }
 
   const handleSelectCategory = (e) => {
     const categorySelected = e.target.getAttribute('data-category')
     setCategory(categorySelected)
-    setLevel('aleatorio')
+    setLevel(LEVEL.RANDOM)
     setLimit(10)
   }
 
@@ -104,10 +103,10 @@ export default function Home () {
                       onChange={handleLevel}
                       value={level}
                     >
-                      <option value='aleatorio'>ALEATORIO</option>
-                      <option value='facil'>FÁCIL</option>
-                      <option value='normal'>NORMAL</option>
-                      <option value='dificil'>DIFÍCIL</option>
+                      <option value={LEVEL.RANDOM}>ALEATORIO</option>
+                      <option value={LEVEL.EASY}>FÁCIL</option>
+                      <option value={LEVEL.NORMAL}>NORMAL</option>
+                      <option value={LEVEL.HARD}>DIFÍCIL</option>
                     </select>
                   </div>
                   <div className='btn no-animation bg-white border-2 border-sky-900 gap-2 cursor-default text-black hover:bg-transparent'>
