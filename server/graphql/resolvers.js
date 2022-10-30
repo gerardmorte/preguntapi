@@ -1,6 +1,5 @@
 const { GraphQLError } = require('graphql')
-const quizzes = require('../utils/languages')
-const categories = require('../database/categories.json')
+const { quizzes, categories } = require('../repository')
 
 const resolvers = {
   Query: {

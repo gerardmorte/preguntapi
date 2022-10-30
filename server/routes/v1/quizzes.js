@@ -1,12 +1,12 @@
 const { Router } = require('express')
 const router = Router()
-const quizzes = require('../../utils/languages')
+const { quizzes } = require('../../repository')
 
 router.get('/', (req, res) => {
   const { category, limit, level } = req.query
 
   if (!category) {
-    return res.status(500).json({ message: 'Debe de ingresar una categoria' })
+    return res.status(500).json({ message: 'Debe de ingresar una categoría' })
   }
 
   if (category === 'all') {
@@ -20,7 +20,7 @@ router.get('/', (req, res) => {
       .filter((quiz) => level === 'aleatorio' || quiz.level === level)
 
     if (filteredQuizzes.length <= 0) {
-      return res.status(500).json({ message: 'Por favor ingrese un nivel valido' })
+      return res.status(500).json({ message: 'Por favor ingrese un nivel válido' })
     }
 
     filteredQuizzes.sort(() => Math.random() - 0.5)
