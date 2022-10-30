@@ -1,15 +1,15 @@
 export const categories = [
-  'html',
-  'css',
-  'javascript',
-  'java',
-  'sql',
-  'swift',
-  'kotlin',
-  'typescript',
   'cobol',
   'cpp',
-  'python',
   'csharp',
-  'php'
+  'css',
+  'html',
+  'java',
+  'javascript',
+  'kotlin',
+  'php',
+  'python',
+  'sql',
+  'swift',
+  'typescript'
 ]
