@@ -33,10 +33,6 @@
       "link": "https://www.preguntapi.dev/api/v1/quizzes?category=typescript"
     },
     {
-      "name": "cobol",
-      "link": "https://www.preguntapi.dev/api/v1/quizzes?category=cobol"
-    },
-    {
       "name": "cpp",
       "link": "https://www.preguntapi.dev/api/v1/quizzes?category=cpp"
     },

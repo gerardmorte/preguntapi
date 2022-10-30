@@ -1,5 +1,4 @@
 export const categories = [
-  'cobol',
   'cpp',
   'csharp',
   'css',
