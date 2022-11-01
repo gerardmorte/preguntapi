@@ -110,13 +110,13 @@ function Doc () {
             </h2>
             <p>
               Actualmente nuestra API solo cuenta con un método para consultar
-              datos por el método GET, Pero tenemos las puertas abiertas para
-              que puedas contribuir a nuestro proyecto y agregar más perguntas y
+              datos por el método GET, pero tenemos las puertas abiertas para
+              que puedas contribuir a nuestro proyecto y agregar más preguntas y
               respuestas.
             </p>
             <p>
               No requiere autenticación, y todos los recursos están
-              compconstamente abiertos y disponibles.
+              constantemente abiertos y disponibles.
             </p>
             <br />
             <h2 className='text-2xl'>
@@ -162,8 +162,8 @@ function Doc () {
               <b>URL base</b>
             </h2>
             <p>
-              La URL base contiene información sobre todas las categorias
-              disponibles, el número total de categorias, de preguntas por categoria y de preguntas de la API.
+              La URL base contiene información sobre todas las categorías
+              disponibles, el número total de categorías, de preguntas por categoría y de preguntas de la API.
             </p>
             <br />
 
@@ -173,7 +173,7 @@ function Doc () {
 
             <br />
             <p>
-              Para obtener las preguntas concretas de una categoria, hay que añadir el nombre de la misma en la ruta y esta
+              Para obtener las preguntas concretas de una categoría, hay que añadir el nombre de la misma en la ruta y esta
               puede recibir los siguientes parámetros: "limit" y "level". <br />
               <br />
               Level puede recibir los valores: facil, normal o dificil. <br />
