@@ -131,7 +131,7 @@ export default function StartQuiz () {
             )
           : (
             <button
-              className='btn btn-block btn-primary text-xl text-white disabled:btn-active disabled:text-white disabled:opacity-50 disabled:cursor-not-allowed'
+              className='btn btn-block btn-primary text-xl text-white disabled:btn-active disabled:text-white disabled:opacity-50 disabled:cursor-not-allowed mb-5'
               disabled={btnNextDisabled}
               onClick={() => {
                 setActualQuestion(quizzes[actualQuizIndex + 1])

@@ -58,7 +58,7 @@ export default function Home () {
   }, [randomQuiz, totalLevelQuestions])
 
   return (
-    <div className='hero min-h-[calc(100vh-121px)] container mx-auto justify-start'>
+    <div className='hero min-h-[calc(100vh-121px)] container mx-auto justify-start mt-2'>
       <div className='hero-content flex-col lg:flex-row'>
         <div className='w-3/6'>
           <Player
@@ -94,7 +94,7 @@ export default function Home () {
                   </li>
                 ))}
               </ul>
-              <div className='flex flex-row gap-4 mb-3 flex-wrap'>
+              <div className='flex flex-row gap-4 flex-wrap'>
                 <div className='flex gap-2 mb-3 flex-wrap'>
                   <div className='btn no-animation bg-white border-2 border-sky-900 gap-2 cursor-default text-black hover:bg-transparent'>
                     <p>Dificultad:</p>

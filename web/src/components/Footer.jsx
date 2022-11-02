@@ -4,7 +4,7 @@ import IconGithub from '@/components/icons/IconGithub'
 const Footer = () => {
   return (
     <footer className='container mx-auto'>
-      <div className='grid-flow-col p-4 border-t-[1px] border-gray-200 mt-5'>
+      <div className='grid-flow-col p-4 border-t-[1px] border-gray-200'>
         <Link
           external
           to='https://github.com/gerardmorte/preguntapi'
