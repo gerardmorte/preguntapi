@@ -100,7 +100,7 @@ function Doc () {
     <>
       <div className='min-h-[calc(100vh-121px)] container mx-auto justify-start p-4'>
         <div className='flex flex-col pt-12 gap-6'>
-          <h1 className='mb-10 text-3xl'>
+          <h1 className='mb-5 text-3xl'>
             <b>Documentación</b>
           </h1>
 
@@ -109,15 +109,12 @@ function Doc () {
               <b>Información</b>
             </h2>
             <p>
-              Actualmente nuestra API solo cuenta con un método para consultar
-              datos por el método GET, pero tenemos las puertas abiertas para
-              que puedas contribuir a nuestro proyecto y agregar más preguntas y
-              respuestas.
+              ¡Bienvenido a preguntAPI! Una API de preguntas de programación.
             </p>
             <p>
-              No requiere autenticación, y todos los recursos están
-              constantemente abiertos y disponibles.
+              Esta es una API solo de consumo, solo el método GET está disponible en los recursos.
             </p>
+            <p>No se requiere autenticación y todos los recursos están completamente abiertos y disponibles.</p>
             <br />
             <h2 className='text-2xl'>
               <b>¿Por qué?</b>
