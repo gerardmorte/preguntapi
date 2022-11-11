@@ -11,7 +11,7 @@ const Footer = () => {
           className='flex items-center  gap-2 text-decoration-none font-bold text-gray-700'
         >
           <IconGithub className='h-6 w-6' />
-          Contribuye con nuestro proyecto en GitHub
+          preguntAPI by Gerard Morte
         </Link>
       </div>
     </footer>
