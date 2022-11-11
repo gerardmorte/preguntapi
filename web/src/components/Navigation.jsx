@@ -1,5 +1,4 @@
 import Link from '@/components/Link'
-import IconGithub from '@/components/icons/IconGithub'
 import IconHamburguer from '@/components/icons/IconHamburguer'
 
 const Navigation = () => {
@@ -58,15 +57,6 @@ const Navigation = () => {
                     className='hover:bg-white hover:text-black text-white no-underline'
                   >
                     Documentación
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    external
-                    to='https://github.com/gerardmorte/preguntapi'
-                    className='hover:bg-white hover:fill-black border-0 gap-2 fill-white'
-                  >
-                    <IconGithub />
                   </Link>
                 </li>
               </ul>
