@@ -88,7 +88,7 @@ export default function Home () {
                       className={`btn bg-sky-900 gap-2 border-none btn-category ${category === c.name ? 'bg-sky-600' : ''}`}
                       onClick={handleSelectCategory}
                     >
-                      {c.name.toUpperCase()}
+                      {c.name.toUpperCase()} ({c.count_questions})
                       <div className='badge bg-white text-black hidden'>+99</div>
                     </button>
                   </li>
