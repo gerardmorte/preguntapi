@@ -18,7 +18,7 @@
     "apollo-server-express": "^3.11.1",
     "dotenv": "^16.0.3",
     "express": "^4.18.1",
-    "graphql": "^16.6.0"
+    "graphql": "^16.6.0",
     "qs": "^6.9.7"
   },
   "devDependencies": {
