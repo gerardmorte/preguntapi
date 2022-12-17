@@ -22,7 +22,7 @@ export default function StartQuiz () {
   const [btnNextDisabled, setBtnNextDisabled] = useState(true)
 
   useEffect(() => {
-    fetch(`/api/v2/categories/${category}?level=${level}&limit=${limit}`)
+    fetch(`/api/categories/${category}?level=${level}&limit=${limit}`)
       .then((res) => res.json())
       .then((data) => {
         setQuizzes(data)

@@ -1,6 +1,6 @@
 const { Router } = require('express')
 const router = Router()
-const { quizzes: data } = require('../../repository')
+const { quizzes: data } = require('../repository')
 
 router.get('/:category?', (req, res) => {
   const category = req.params.category

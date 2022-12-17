@@ -7,17 +7,17 @@ function Doc () {
       {
         "name": "html",
         "count_questions": 35,
-        "link": "http://www.preguntapi.dev/api/v2/categories/html"
+        "link": "http://www.preguntapi.dev/api/categories/html"
       },
       {
         "name": "css",
         "count_questions": 38,
-        "link": "http://www.preguntapi.dev/api/v2/categories/css"
+        "link": "http://www.preguntapi.dev/api/categories/css"
       },
       {
         "name": "javascript",
         "count_questions": 40,
-        "link": "http://www.preguntapi.dev/api/v2/categories/javascript"
+        "link": "http://www.preguntapi.dev/api/categories/javascript"
       },
       .
       .
@@ -164,7 +164,7 @@ function Doc () {
             </p>
             <br />
 
-            <PreCode code='https://www.preguntapi.dev/api/v2/categories' />
+            <PreCode code='https://www.preguntapi.dev/api/categories' />
             <br />
             <PreCode code={texto1} copy={false} />
 
@@ -184,7 +184,7 @@ function Doc () {
               <b>Ejemplo:</b>
             </p>
 
-            <PreCode code='https://www.preguntapi.dev/api/v2/categories/javascript?level=facil&limit=5' />
+            <PreCode code='https://www.preguntapi.dev/api/categories/javascript?level=facil&limit=5' />
             <br />
             <PreCode code={texto2} copy={false} />
 

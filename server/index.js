@@ -13,8 +13,7 @@ app.use(express.json())
 // routes
 const buildPath = path.join(__dirname, '../web', 'dist')
 app.use(express.static(buildPath))
-app.use('/api/v1', require('./routes/v1/index'))
-app.use('/api/v2', require('./routes/v2/index'))
+app.use('/api/', require('./routes/index'))
 app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, '../web/dist', 'index.html'))
 })

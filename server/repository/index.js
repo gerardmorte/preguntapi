@@ -9,14 +9,4 @@ for (const quizJsonFileName of quizzesJsonFileNames) {
   quizzes[fileName] = require(path.join(QUIZZES_PATH, quizJsonFileName))
 }
 
-const categories = {
-  categories: Object.keys(quizzes).map(name => ({
-    name,
-    link: `https://www.preguntapi.dev/api/v1/quizzes?category=${name}`
-  }))
-}
-
-module.exports = {
-  categories,
-  quizzes
-}
+module.exports = { quizzes }
