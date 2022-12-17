@@ -188,16 +188,6 @@ function Doc () {
             <br />
             <PreCode code={texto2} copy={false} />
 
-            <br />
-            <h2 className='text-2xl'>
-              <b>GraphQL</b>
-            </h2>
-            <p>
-              También contamos con un endpoint para hacer consultas con GraphQL,
-              no dudes en probarlo.
-            </p>
-            <br />
-            <PreCode code='https://www.preguntapi.dev/graphql' />
           </div>
         </div>
       </div>
