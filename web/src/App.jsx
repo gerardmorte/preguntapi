@@ -8,7 +8,7 @@ import Navigation from '@/components/Navigation'
 
 export default function App () {
   return (
-    <div className='min-h-screen flex flex-col'>
+    <div className='min-h-screen flex flex-col lightBackground'>
       <Navigation />
       <Routes>
         <Route path='/' element={<Home />} />
